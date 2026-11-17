@@ -1,0 +1,23 @@
+{
+  "name": "weakness-control-map",
+  "displayName": "Weakness → Control Map",
+  "version": "1.0.0",
+  "description": "Map CWE weaknesses and CAPEC attack patterns to NIST SP 800-53 Rev 5 controls and NIST SSDF 1.1 tasks (and back), with evidence labels; compact offline lookups for low token use.",
+  "author": {
+    "name": "Arunktr123",
+    "url": "https://github.com/Arunktr123"
+  },
+  "homepage": "https://github.com/Arunktr123/weakness-control-map",
+  "repository": "https://github.com/Arunktr123/weakness-control-map",
+  "license": "MIT",
+  "keywords": [
+    "cwe",
+    "capec",
+    "nist-800-53",
+    "ssdf",
+    "secure-development",
+    "compliance",
+    "threat-modeling",
+    "security"
+  ]
+}

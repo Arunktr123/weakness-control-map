@@ -1,0 +1,65 @@
+{
+ "schema": "wcm-bundle-v2",
+ "built_utc": "2026-11-17T09:14:39.907137+00:00",
+ "sources": {
+  "SP 800-53": "Rev 5 (5.2.0, OSCAL 2026-10-22)",
+  "SSDF": "SP 800-218 v1.1 (2022)",
+  "CWE": "5.0",
+  "CAPEC": "3.9",
+  "ATT&CK->800-53": "CTID Mappings Explorer, ATT&CK 16.1 (updated 04/16/2025)",
+  "CAPEC->ATT&CK": "CAPEC 3.9 taxonomy mappings (historical, ATT&CK 12.0)"
+ },
+ "rules_version": "rules-v2",
+ "inferred_version": "inferred-v1",
+ "baseline": {
+  "nist": [
+   "SA-8",
+   "SA-11",
+   "SA-15",
+   "SI-2",
+   "RA-5"
+  ],
+  "ssdf": [
+   "RV.1.2",
+   "RV.2.2",
+   "RV.3.1",
+   "RV.3.3"
+  ],
+  "why": "engineering principles, developer testing, development process, flaw remediation, vulnerability scanning; SSDF root-cause analysis (RV.3) is exactly CWE classification"
+ },
+ "legend": {
+  "rel": {
+   "m": "mitigates",
+   "d": "detects/verifies",
+   "g": "governs (process)"
+  },
+  "ev": {
+   "o": "official (SSDF 1.1 References)",
+   "r": "rule: CWE mitigation strategy",
+   "t": "rule: CWE detection method",
+   "p": "rule: CWE mitigation phase (SSDF)",
+   "x": "rule: mitigation text",
+   "ia": "inferred, reviewer-accepted",
+   "iu": "inferred, NOT yet reviewed",
+   "b": "baseline (all software weaknesses)"
+  }
+ },
+ "counts": {
+  "cwe": 956,
+  "cwe_with_nist": 699,
+  "cwe_with_ssdf": 851,
+  "cwe_inferred": 119,
+  "capec": 558,
+  "capec_with_attack": 140,
+  "capec_inferred": 49
+ },
+ "attribution": "Derived from MITRE CWE/CAPEC/ATT&CK (CTID) and NIST SP 800-53 / SP 800-218; not endorsed by MITRE or NIST.",
+ "packs": {
+  "cwe": 13,
+  "capec": 4,
+  "ctl": 4,
+  "ssdf": 2,
+  "att": 2
+ },
+ "content_sha256": "d068c9c986c9a785ce4bf397adaa1221f7fcfeaf117118726593522479c399f2"
+}
