@@ -1,5 +1,9 @@
 # Changelog
 
+## 1.0.2 (2026-11-17)
+
+- Re-release with no content changes, to refresh the directory scan now that the repository is public.
+
 ## 1.0.1 (2026-11-17)
 
 - The public edition is now script-free (Markdown, JSON and text files only), as the plugin directory requires of

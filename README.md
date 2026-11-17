@@ -9,7 +9,7 @@ It is built for agents that work with security findings. When a scanner report, 
 names a CWE or CAPEC, the agent can answer "which controls and SSDF practices apply?" in a few lines, without loading
 large reference documents into the conversation.
 
-Version 1.0.1 · Claude Code, claude.ai and GitHub Copilot CLI · offline · MIT licensed
+Version 1.0.2 · Claude Code, claude.ai and GitHub Copilot CLI · offline · MIT licensed
 
 ## Example
 
