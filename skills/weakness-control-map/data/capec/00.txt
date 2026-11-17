@@ -1,0 +1,558 @@
+{"id":"CAPEC-1","n":"Accessing Functionality Not Properly Constrained by ACLs","ab":"Standard","st":"Draft","sv":"High","K":["CWE-1191","CWE-1193","CWE-1220","CWE-1297","CWE-1311","CWE-1314","CWE-1315","CWE-1318","CWE-1320","CWE-1321","CWE-1327","CWE-276","CWE-285","CWE-434","CWE-693","CWE-732"],"A":["T1574.010"],"N":[["AC-3","m","iu"],["AC-6(10)","m","iu"]],"S":[["PW.1.3","m","iu"]]}
+{"id":"CAPEC-2","n":"Inducing Account Lockout","ab":"Standard","st":"Draft","sv":"Medium","K":["CWE-645"],"A":[],"N":[],"S":[]}
+{"id":"CAPEC-3","n":"Using Leading 'Ghost' Character Sequences to Bypass Input Filters","ab":"Detailed","st":"Draft","sv":"Medium","K":["CWE-172","CWE-173","CWE-179","CWE-180","CWE-181","CWE-183","CWE-184","CWE-20","CWE-41","CWE-697","CWE-707","CWE-74"],"A":[],"N":[],"S":[]}
+{"id":"CAPEC-4","n":"Using Alternative IP Address Encodings","ab":"Detailed","st":"Draft","sv":"High","K":["CWE-173","CWE-291"],"A":[],"N":[],"S":[]}
+{"id":"CAPEC-6","n":"Argument Injection","ab":"Standard","st":"Draft","sv":"High","K":["CWE-146","CWE-184","CWE-185","CWE-697","CWE-74","CWE-78"],"A":[],"N":[["AC-6","m","iu"],["SI-10","m","iu"],["SI-10(6)","m","iu"]],"S":[["PW.5.1","m","iu"]]}
+{"id":"CAPEC-7","n":"Blind SQL Injection","ab":"Detailed","st":"Draft","sv":"High","K":["CWE-20","CWE-209","CWE-697","CWE-707","CWE-74","CWE-89"],"A":[],"N":[],"S":[]}
+{"id":"CAPEC-8","n":"Buffer Overflow in an API Call","ab":"Detailed","st":"Draft","sv":"High","K":["CWE-118","CWE-119","CWE-120","CWE-20","CWE-680","CWE-697","CWE-733","CWE-74"],"A":[],"N":[],"S":[]}
+{"id":"CAPEC-9","n":"Buffer Overflow in Local Command-Line Utilities","ab":"Detailed","st":"Draft","sv":"High","K":["CWE-118","CWE-119","CWE-120","CWE-20","CWE-680","CWE-697","CWE-733","CWE-74"],"A":[],"N":[],"S":[]}
+{"id":"CAPEC-10","n":"Buffer Overflow via Environment Variables","ab":"Detailed","st":"Draft","sv":"High","K":["CWE-118","CWE-119","CWE-120","CWE-20","CWE-302","CWE-680","CWE-697","CWE-733","CWE-74","CWE-99"],"A":[],"N":[],"S":[]}
+{"id":"CAPEC-11","n":"Cause Web Server Misclassification","ab":"Detailed","st":"Draft","sv":"High","K":["CWE-430"],"A":[],"N":[],"S":[]}
+{"id":"CAPEC-12","n":"Choosing Message Identifier","ab":"Standard","st":"Draft","sv":"High","K":["CWE-201","CWE-306"],"A":[],"N":[],"S":[]}
+{"id":"CAPEC-13","n":"Subverting Environment Variable Values","ab":"Detailed","st":"Stable","sv":"Very High","K":["CWE-15","CWE-20","CWE-200","CWE-285","CWE-302","CWE-353","CWE-73","CWE-74"],"A":["T1562.003","T1574.006","T1574.007"],"N":[],"S":[]}
+{"id":"CAPEC-14","n":"Client-side Injection-induced Buffer Overflow","ab":"Detailed","st":"Draft","sv":"High","K":["CWE-118","CWE-119","CWE-120","CWE-20","CWE-353","CWE-680","CWE-697","CWE-74"],"A":[],"N":[],"S":[]}
+{"id":"CAPEC-15","n":"Command Delimiters","ab":"Standard","st":"Draft","sv":"High","K":["CWE-138","CWE-140","CWE-146","CWE-154","CWE-157","CWE-184","CWE-185","CWE-697","CWE-77","CWE-78","CWE-93"],"A":[],"N":[["AC-6","m","iu"],["SI-10","m","iu"],["SI-10(6)","m","iu"]],"S":[["PW.5.1","m","iu"]]}
+{"id":"CAPEC-16","n":"Dictionary-based Password Attack","ab":"Detailed","st":"Draft","sv":"High","K":["CWE-262","CWE-263","CWE-307","CWE-308","CWE-309","CWE-521","CWE-654"],"A":[],"N":[],"S":[]}
+{"id":"CAPEC-17","n":"Using Malicious Files","ab":"Standard","st":"Draft","sv":"Very High","K":["CWE-270","CWE-272","CWE-282","CWE-285","CWE-59","CWE-693","CWE-732"],"A":["T1574.005","T1574.010"],"N":[["AC-3","m","iu"],["AC-6","m","iu"],["CM-7(2)","m","iu"],["SC-39","m","iu"]],"S":[]}
+{"id":"CAPEC-18","n":"XSS Targeting Non-Script Elements","ab":"Detailed","st":"Draft","sv":"Very High","K":["CWE-80"],"A":[],"N":[],"S":[]}
+{"id":"CAPEC-19","n":"Embedding Scripts within Scripts","ab":"Standard","st":"Stable","sv":"High","K":["CWE-284"],"A":["T1027.009","T1546.004","T1546.016"],"N":[],"S":[]}
+{"id":"CAPEC-20","n":"Encryption Brute Forcing","ab":"Standard","st":"Draft","sv":"Low","K":["CWE-1204","CWE-326","CWE-327","CWE-693"],"A":[],"N":[["SC-12","m","iu"],["SC-13","m","iu"]],"S":[]}
+{"id":"CAPEC-21","n":"Exploitation of Trusted Identifiers","ab":"Meta","st":"Stable","sv":"High","K":["CWE-290","CWE-302","CWE-346","CWE-384","CWE-539","CWE-6","CWE-602","CWE-642","CWE-664"],"A":["T1134","T1528","T1539"],"N":[["IA-13(3)","m","iu"],["SC-23","m","iu"],["SC-23(1)","m","iu"],["SC-23(3)","m","iu"],["SC-8(1)","m","iu"]],"S":[]}
+{"id":"CAPEC-22","n":"Exploiting Trust in Client","ab":"Meta","st":"Draft","sv":"High","K":["CWE-20","CWE-200","CWE-287","CWE-290","CWE-693"],"A":[],"N":[["SC-23","m","iu"],["SC-8(1)","m","iu"],["SI-10","m","iu"]],"S":[]}
+{"id":"CAPEC-23","n":"File Content Injection","ab":"Standard","st":"Draft","sv":"Very High","K":["CWE-20"],"A":[],"N":[],"S":[]}
+{"id":"CAPEC-24","n":"Filter Failure through Buffer Overflow","ab":"Detailed","st":"Draft","sv":"High","K":["CWE-118","CWE-119","CWE-120","CWE-20","CWE-680","CWE-697","CWE-733","CWE-74"],"A":[],"N":[],"S":[]}
+{"id":"CAPEC-25","n":"Forced Deadlock","ab":"Meta","st":"Stable","sv":"High","K":["CWE-1322","CWE-412","CWE-567","CWE-662","CWE-667","CWE-833"],"A":["T1499.004"],"N":[],"S":[]}
+{"id":"CAPEC-26","n":"Leveraging Race Conditions","ab":"Meta","st":"Stable","sv":"High","K":["CWE-1223","CWE-1254","CWE-1298","CWE-362","CWE-363","CWE-366","CWE-368","CWE-370","CWE-662","CWE-665","CWE-667","CWE-689"],"A":[],"N":[["SA-8(6)","m","iu"],["SA-11(1)","d","iu"]],"S":[["PW.5.1","m","iu"]]}
+{"id":"CAPEC-27","n":"Leveraging Race Conditions via Symbolic Links","ab":"Detailed","st":"Draft","sv":"High","K":["CWE-367","CWE-61","CWE-662","CWE-667","CWE-689"],"A":[],"N":[],"S":[]}
+{"id":"CAPEC-28","n":"Fuzzing","ab":"Meta","st":"Draft","sv":"Medium","K":["CWE-20","CWE-74"],"A":[],"N":[["SI-10","m","iu"],["SI-11","m","iu"],["SA-11(8)","d","iu"],["SI-4","d","iu"]],"S":[["PW.8.2","d","iu"]]}
+{"id":"CAPEC-29","n":"Leveraging Time-of-Check and Time-of-Use (TOCTOU) Race Conditions","ab":"Standard","st":"Draft","sv":"High","K":["CWE-362","CWE-366","CWE-367","CWE-368","CWE-370","CWE-662","CWE-663","CWE-665","CWE-691"],"A":[],"N":[["SA-8(19)","m","iu"],["SA-8(6)","m","iu"],["SA-11(1)","d","iu"]],"S":[["PW.5.1","m","iu"]]}
+{"id":"CAPEC-30","n":"Hijacking a Privileged Thread of Execution","ab":"Standard","st":"Draft","sv":"Very High","K":["CWE-270"],"A":["T1055.003"],"N":[],"S":[]}
+{"id":"CAPEC-31","n":"Accessing/Intercepting/Modifying HTTP Cookies","ab":"Detailed","st":"Draft","sv":"High","K":["CWE-113","CWE-20","CWE-302","CWE-311","CWE-315","CWE-384","CWE-472","CWE-539","CWE-565","CWE-602","CWE-642"],"A":["T1539"],"N":[],"S":[]}
+{"id":"CAPEC-32","n":"XSS Through HTTP Query Strings","ab":"Detailed","st":"Draft","sv":"High","K":["CWE-80"],"A":[],"N":[],"S":[]}
+{"id":"CAPEC-33","n":"HTTP Request Smuggling","ab":"Detailed","st":"Stable","sv":"High","K":["CWE-444"],"A":[],"N":[],"S":[]}
+{"id":"CAPEC-34","n":"HTTP Response Splitting","ab":"Detailed","st":"Stable","sv":"High","K":["CWE-113","CWE-138","CWE-436","CWE-74"],"A":[],"N":[],"S":[]}
+{"id":"CAPEC-35","n":"Leverage Executable Code in Non-Executable Files","ab":"Detailed","st":"Draft","sv":"Very High","K":["CWE-270","CWE-272","CWE-282","CWE-59","CWE-94","CWE-95","CWE-96","CWE-97"],"A":["T1027.009","T1564.009"],"N":[],"S":[]}
+{"id":"CAPEC-36","n":"Using Unpublished Interfaces or Functionality","ab":"Standard","st":"Draft","sv":"High","K":["CWE-1242","CWE-306","CWE-693","CWE-695"],"A":[],"N":[["AC-3","m","iu"],["CM-7","m","iu"],["IA-9","m","iu"],["SA-15(5)","m","iu"],["SA-4(9)","g","iu"]],"S":[]}
+{"id":"CAPEC-37","n":"Retrieve Embedded Sensitive Data","ab":"Detailed","st":"Draft","sv":"Very High","K":["CWE-1239","CWE-1258","CWE-1266","CWE-1272","CWE-1278","CWE-1301","CWE-1330","CWE-226","CWE-311","CWE-312","CWE-314","CWE-315","CWE-318","CWE-525"],"A":["T1005","T1552.004"],"N":[],"S":[]}
+{"id":"CAPEC-38","n":"Leveraging/Manipulating Configuration File Search Paths","ab":"Detailed","st":"Draft","sv":"Very High","K":["CWE-426","CWE-427"],"A":["T1574.007","T1574.009"],"N":[],"S":[]}
+{"id":"CAPEC-39","n":"Manipulating Opaque Client-based Data Tokens","ab":"Standard","st":"Draft","sv":"Medium","K":["CWE-233","CWE-285","CWE-302","CWE-315","CWE-353","CWE-384","CWE-472","CWE-539","CWE-565"],"A":[],"N":[],"S":[]}
+{"id":"CAPEC-40","n":"Manipulating Writeable Terminal Devices","ab":"Standard","st":"Draft","sv":"Very High","K":["CWE-77"],"A":[],"N":[],"S":[]}
+{"id":"CAPEC-41","n":"Using Meta-characters in E-mail Headers to Inject Malicious Payloads","ab":"Detailed","st":"Draft","sv":"High","K":["CWE-150","CWE-697","CWE-88"],"A":[],"N":[],"S":[]}
+{"id":"CAPEC-42","n":"MIME Conversion","ab":"Detailed","st":"Draft","sv":"High","K":["CWE-119","CWE-120","CWE-20","CWE-74"],"A":[],"N":[],"S":[]}
+{"id":"CAPEC-43","n":"Exploiting Multiple Input Interpretation Layers","ab":"Detailed","st":"Draft","sv":"High","K":["CWE-179","CWE-181","CWE-183","CWE-184","CWE-20","CWE-697","CWE-707","CWE-74","CWE-77","CWE-78"],"A":[],"N":[],"S":[]}
+{"id":"CAPEC-44","n":"Overflow Binary Resource File","ab":"Detailed","st":"Draft","sv":"Very High","K":["CWE-119","CWE-120","CWE-697"],"A":[],"N":[],"S":[]}
+{"id":"CAPEC-45","n":"Buffer Overflow via Symbolic Links","ab":"Detailed","st":"Draft","sv":"High","K":["CWE-118","CWE-119","CWE-120","CWE-20","CWE-285","CWE-302","CWE-680","CWE-697","CWE-74"],"A":[],"N":[],"S":[]}
+{"id":"CAPEC-46","n":"Overflow Variables and Tags","ab":"Detailed","st":"Draft","sv":"High","K":["CWE-118","CWE-119","CWE-120","CWE-20","CWE-680","CWE-697","CWE-733","CWE-74"],"A":[],"N":[],"S":[]}
+{"id":"CAPEC-47","n":"Buffer Overflow via Parameter Expansion","ab":"Detailed","st":"Draft","sv":"High","K":["CWE-118","CWE-119","CWE-120","CWE-130","CWE-131","CWE-20","CWE-680","CWE-697","CWE-74"],"A":[],"N":[],"S":[]}
+{"id":"CAPEC-48","n":"Passing Local Filenames to Functions That Expect a URL","ab":"Standard","st":"Draft","sv":"High","K":["CWE-241","CWE-706"],"A":[],"N":[],"S":[]}
+{"id":"CAPEC-49","n":"Password Brute Forcing","ab":"Standard","st":"Draft","sv":"High","K":["CWE-257","CWE-262","CWE-263","CWE-307","CWE-308","CWE-309","CWE-521","CWE-654"],"A":["T1110.001"],"N":[],"S":[]}
+{"id":"CAPEC-50","n":"Password Recovery Exploitation","ab":"Standard","st":"Draft","sv":"High","K":["CWE-522","CWE-640"],"A":[],"N":[],"S":[]}
+{"id":"CAPEC-51","n":"Poison Web Service Registry","ab":"Detailed","st":"Draft","sv":"Very High","K":["CWE-285","CWE-693","CWE-74"],"A":[],"N":[],"S":[]}
+{"id":"CAPEC-52","n":"Embedding NULL Bytes","ab":"Detailed","st":"Draft","sv":"High","K":["CWE-158","CWE-172","CWE-173","CWE-20","CWE-697","CWE-707","CWE-74"],"A":[],"N":[],"S":[]}
+{"id":"CAPEC-53","n":"Postfix, Null Terminate, and Backslash","ab":"Detailed","st":"Draft","sv":"High","K":["CWE-158","CWE-172","CWE-173","CWE-20","CWE-697","CWE-707","CWE-74"],"A":[],"N":[],"S":[]}
+{"id":"CAPEC-54","n":"Query System for Information","ab":"Standard","st":"Draft","sv":"Low","K":["CWE-209"],"A":[],"N":[],"S":[]}
+{"id":"CAPEC-55","n":"Rainbow Table Password Cracking","ab":"Detailed","st":"Draft","sv":"Medium","K":["CWE-261","CWE-262","CWE-263","CWE-308","CWE-309","CWE-521","CWE-654","CWE-916"],"A":["T1110.002"],"N":[],"S":[]}
+{"id":"CAPEC-57","n":"Utilizing REST's Trust in the System Resource to Obtain Sensitive Data","ab":"Detailed","st":"Draft","sv":"Very High","K":["CWE-287","CWE-300","CWE-693"],"A":["T1040"],"N":[],"S":[]}
+{"id":"CAPEC-58","n":"Restful Privilege Elevation","ab":"Detailed","st":"Draft","sv":"High","K":["CWE-267","CWE-269"],"A":[],"N":[],"S":[]}
+{"id":"CAPEC-59","n":"Session Credential Falsification through Prediction","ab":"Detailed","st":"Draft","sv":"High","K":["CWE-200","CWE-285","CWE-290","CWE-330","CWE-331","CWE-346","CWE-384","CWE-488","CWE-539","CWE-6","CWE-693"],"A":[],"N":[],"S":[]}
+{"id":"CAPEC-60","n":"Reusing Session IDs (aka Session Replay)","ab":"Detailed","st":"Draft","sv":"High","K":["CWE-200","CWE-285","CWE-290","CWE-294","CWE-346","CWE-384","CWE-488","CWE-539","CWE-664","CWE-732"],"A":["T1134.001","T1550.004"],"N":[],"S":[]}
+{"id":"CAPEC-61","n":"Session Fixation","ab":"Detailed","st":"Draft","sv":"High","K":["CWE-384","CWE-664","CWE-732"],"A":[],"N":[],"S":[]}
+{"id":"CAPEC-62","n":"Cross Site Request Forgery","ab":"Standard","st":"Draft","sv":"Very High","K":["CWE-1275","CWE-306","CWE-352","CWE-664","CWE-732"],"A":[],"N":[["IA-11","m","iu"],["SC-23","m","iu"]],"S":[["PW.1.3","m","iu"]]}
+{"id":"CAPEC-63","n":"Cross-Site Scripting (XSS)","ab":"Standard","st":"Draft","sv":"Very High","K":["CWE-20","CWE-79"],"A":[],"N":[["SC-18","m","iu"],["SI-10","m","iu"],["SI-10(6)","m","iu"],["SI-15","m","iu"]],"S":[["PW.5.1","m","iu"]]}
+{"id":"CAPEC-64","n":"Using Slashes and URL Encoding Combined to Bypass Validation Logic","ab":"Detailed","st":"Draft","sv":"High","K":["CWE-172","CWE-173","CWE-177","CWE-20","CWE-22","CWE-697","CWE-707","CWE-73","CWE-74"],"A":[],"N":[],"S":[]}
+{"id":"CAPEC-65","n":"Sniff Application Code","ab":"Detailed","st":"Draft","sv":"High","K":["CWE-311","CWE-318","CWE-319","CWE-693"],"A":["T1040"],"N":[],"S":[]}
+{"id":"CAPEC-66","n":"SQL Injection","ab":"Standard","st":"Draft","sv":"High","K":["CWE-1286","CWE-89"],"A":[],"N":[["AC-6","m","iu"],["SI-10","m","iu"],["SI-10(6)","m","iu"],["SI-11","m","iu"]],"S":[["PW.5.1","m","iu"]]}
+{"id":"CAPEC-67","n":"String Format Overflow in syslog()","ab":"Detailed","st":"Draft","sv":"Very High","K":["CWE-120","CWE-134","CWE-20","CWE-680","CWE-697","CWE-74"],"A":[],"N":[],"S":[]}
+{"id":"CAPEC-68","n":"Subvert Code-signing Facilities","ab":"Standard","st":"Draft","sv":"Very High","K":["CWE-1326","CWE-325","CWE-328"],"A":[],"N":[],"S":[]}
+{"id":"CAPEC-69","n":"Target Programs with Elevated Privileges","ab":"Standard","st":"Draft","sv":"Very High","K":["CWE-15","CWE-250"],"A":[],"N":[],"S":[]}
+{"id":"CAPEC-70","n":"Try Common or Default Usernames and Passwords","ab":"Detailed","st":"Draft","sv":"High","K":["CWE-262","CWE-263","CWE-308","CWE-309","CWE-521","CWE-654","CWE-798"],"A":["T1078.001"],"N":[],"S":[]}
+{"id":"CAPEC-71","n":"Using Unicode Encoding to Bypass Validation Logic","ab":"Detailed","st":"Draft","sv":"High","K":["CWE-172","CWE-173","CWE-176","CWE-179","CWE-180","CWE-183","CWE-184","CWE-20","CWE-692","CWE-697","CWE-74"],"A":[],"N":[],"S":[]}
+{"id":"CAPEC-72","n":"URL Encoding","ab":"Detailed","st":"Draft","sv":"High","K":["CWE-172","CWE-173","CWE-177","CWE-20","CWE-73","CWE-74"],"A":[],"N":[],"S":[]}
+{"id":"CAPEC-73","n":"User-Controlled Filename","ab":"Standard","st":"Draft","sv":"High","K":["CWE-116","CWE-184","CWE-20","CWE-348","CWE-350","CWE-697","CWE-86","CWE-96"],"A":[],"N":[["SI-10","m","iu"],["SI-15","m","iu"]],"S":[["PW.5.1","m","iu"]]}
+{"id":"CAPEC-74","n":"Manipulating State","ab":"Meta","st":"Stable","sv":"High","K":["CWE-1245","CWE-1253","CWE-1265","CWE-1271","CWE-315","CWE-353","CWE-372","CWE-693"],"A":[],"N":[],"S":[]}
+{"id":"CAPEC-75","n":"Manipulating Writeable Configuration Files","ab":"Standard","st":"Draft","sv":"Very High","K":["CWE-346","CWE-349","CWE-353","CWE-354","CWE-77","CWE-99"],"A":[],"N":[["AC-3","m","iu"],["CM-5","m","iu"],["CP-9","m","iu"],["SI-7","d","iu"]],"S":[]}
+{"id":"CAPEC-76","n":"Manipulating Web Input to File System Calls","ab":"Detailed","st":"Draft","sv":"Very High","K":["CWE-15","CWE-22","CWE-23","CWE-272","CWE-285","CWE-346","CWE-348","CWE-59","CWE-73","CWE-74","CWE-77"],"A":[],"N":[],"S":[]}
+{"id":"CAPEC-77","n":"Manipulating User-Controlled Variables","ab":"Standard","st":"Draft","sv":"Very High","K":["CWE-1321","CWE-15","CWE-285","CWE-302","CWE-473","CWE-94","CWE-96"],"A":[],"N":[["CM-6","m","iu"],["SI-10","m","iu"],["SI-10(5)","m","iu"]],"S":[]}
+{"id":"CAPEC-78","n":"Using Escaped Slashes in Alternate Encoding","ab":"Detailed","st":"Draft","sv":"High","K":["CWE-172","CWE-173","CWE-180","CWE-181","CWE-20","CWE-22","CWE-697","CWE-707","CWE-73","CWE-74"],"A":[],"N":[],"S":[]}
+{"id":"CAPEC-79","n":"Using Slashes in Alternate Encoding","ab":"Detailed","st":"Draft","sv":"High","K":["CWE-173","CWE-180","CWE-181","CWE-185","CWE-20","CWE-200","CWE-22","CWE-697","CWE-707","CWE-73","CWE-74"],"A":[],"N":[],"S":[]}
+{"id":"CAPEC-80","n":"Using UTF-8 Encoding to Bypass Validation Logic","ab":"Detailed","st":"Draft","sv":"High","K":["CWE-172","CWE-173","CWE-180","CWE-181","CWE-20","CWE-692","CWE-697","CWE-73","CWE-74"],"A":[],"N":[],"S":[]}
+{"id":"CAPEC-81","n":"Web Server Logs Tampering","ab":"Detailed","st":"Draft","sv":"High","K":["CWE-116","CWE-117","CWE-150","CWE-20","CWE-221","CWE-276","CWE-279","CWE-75","CWE-93","CWE-96"],"A":[],"N":[],"S":[]}
+{"id":"CAPEC-83","n":"XPath Injection","ab":"Detailed","st":"Draft","sv":"High","K":["CWE-20","CWE-707","CWE-74","CWE-91"],"A":[],"N":[],"S":[]}
+{"id":"CAPEC-84","n":"XQuery Injection","ab":"Detailed","st":"Draft","sv":"Very High","K":["CWE-707","CWE-74"],"A":[],"N":[],"S":[]}
+{"id":"CAPEC-85","n":"AJAX Footprinting","ab":"Detailed","st":"Draft","sv":"Low","K":["CWE-113","CWE-116","CWE-184","CWE-20","CWE-348","CWE-692","CWE-79","CWE-86","CWE-96"],"A":[],"N":[],"S":[]}
+{"id":"CAPEC-86","n":"XSS Through HTTP Headers","ab":"Detailed","st":"Draft","sv":"Very High","K":["CWE-80"],"A":[],"N":[],"S":[]}
+{"id":"CAPEC-87","n":"Forceful Browsing","ab":"Standard","st":"Draft","sv":"High","K":["CWE-285","CWE-425","CWE-693"],"A":[],"N":[["AC-3","m","iu"],["AC-14","g","iu"]],"S":[]}
+{"id":"CAPEC-88","n":"OS Command Injection","ab":"Standard","st":"Draft","sv":"High","K":["CWE-20","CWE-697","CWE-78","CWE-88"],"A":[],"N":[["AC-6","m","iu"],["SI-10","m","iu"],["SI-10(6)","m","iu"],["SI-3(8)","d","iu"]],"S":[["PW.5.1","m","iu"]]}
+{"id":"CAPEC-89","n":"Pharming","ab":"Standard","st":"Draft","sv":"Very High","K":["CWE-346","CWE-350"],"A":[],"N":[],"S":[]}
+{"id":"CAPEC-90","n":"Reflection Attack in Authentication Protocol","ab":"Standard","st":"Draft","sv":"High","K":["CWE-301","CWE-303"],"A":[],"N":[],"S":[]}
+{"id":"CAPEC-92","n":"Forced Integer Overflow","ab":"Detailed","st":"Draft","sv":"High","K":["CWE-120","CWE-122","CWE-128","CWE-190","CWE-196","CWE-680","CWE-697"],"A":[],"N":[],"S":[]}
+{"id":"CAPEC-93","n":"Log Injection-Tampering-Forging","ab":"Detailed","st":"Draft","sv":"High","K":["CWE-117","CWE-150","CWE-75"],"A":[],"N":[],"S":[]}
+{"id":"CAPEC-94","n":"Adversary in the Middle (AiTM)","ab":"Meta","st":"Stable","sv":"Very High","K":["CWE-287","CWE-290","CWE-294","CWE-300","CWE-593"],"A":["T1557"],"N":[["SC-17","m","iu"],["SC-23","m","iu"],["SC-23(5)","m","iu"],["SC-8(1)","m","iu"]],"S":[]}
+{"id":"CAPEC-95","n":"WSDL Scanning","ab":"Detailed","st":"Draft","sv":"High","K":["CWE-538"],"A":[],"N":[],"S":[]}
+{"id":"CAPEC-96","n":"Block Access to Libraries","ab":"Detailed","st":"Draft","sv":"Medium","K":["CWE-589"],"A":[],"N":[],"S":[]}
+{"id":"CAPEC-97","n":"Cryptanalysis","ab":"Standard","st":"Draft","sv":"Very High","K":["CWE-1204","CWE-1240","CWE-1241","CWE-1279","CWE-327"],"A":[],"N":[],"S":[]}
+{"id":"CAPEC-98","n":"Phishing","ab":"Standard","st":"Draft","sv":"Very High","K":["CWE-451"],"A":["T1566","T1598"],"N":[],"S":[]}
+{"id":"CAPEC-100","n":"Overflow Buffers","ab":"Standard","st":"Draft","sv":"Very High","K":["CWE-119","CWE-120","CWE-129","CWE-131","CWE-680","CWE-805"],"A":[],"N":[["SA-15","m","iu"],["SI-16","m","iu"],["SA-11(1)","d","iu"],["SA-11(8)","d","iu"]],"S":[["PW.5.1","m","iu"],["PW.6.2","m","iu"]]}
+{"id":"CAPEC-101","n":"Server Side Include (SSI) Injection","ab":"Detailed","st":"Draft","sv":"High","K":["CWE-20","CWE-74","CWE-97"],"A":[],"N":[],"S":[]}
+{"id":"CAPEC-102","n":"Session Sidejacking","ab":"Detailed","st":"Draft","sv":"High","K":["CWE-294","CWE-319","CWE-522","CWE-523","CWE-614"],"A":[],"N":[],"S":[]}
+{"id":"CAPEC-103","n":"Clickjacking","ab":"Standard","st":"Draft","sv":"High","K":["CWE-1021"],"A":[],"N":[],"S":[]}
+{"id":"CAPEC-104","n":"Cross Zone Scripting","ab":"Standard","st":"Draft","sv":"High","K":["CWE-116","CWE-20","CWE-250","CWE-285","CWE-638"],"A":[],"N":[["AC-6(8)","m","iu"],["SC-18","m","iu"],["SI-10","m","iu"],["SI-15","m","iu"]],"S":[]}
+{"id":"CAPEC-105","n":"HTTP Request Splitting","ab":"Detailed","st":"Stable","sv":"High","K":["CWE-113","CWE-138","CWE-436","CWE-74"],"A":[],"N":[],"S":[]}
+{"id":"CAPEC-107","n":"Cross Site Tracing","ab":"Detailed","st":"Draft","sv":"Very High","K":["CWE-648","CWE-693"],"A":[],"N":[],"S":[]}
+{"id":"CAPEC-108","n":"Command Line Execution through SQL Injection","ab":"Detailed","st":"Draft","sv":"Very High","K":["CWE-114","CWE-20","CWE-74","CWE-78","CWE-89"],"A":[],"N":[],"S":[]}
+{"id":"CAPEC-109","n":"Object Relational Mapping Injection","ab":"Detailed","st":"Draft","sv":"High","K":["CWE-20","CWE-564","CWE-89"],"A":[],"N":[],"S":[]}
+{"id":"CAPEC-110","n":"SQL Injection through SOAP Parameter Tampering","ab":"Detailed","st":"Draft","sv":"Very High","K":["CWE-20","CWE-89"],"A":[],"N":[],"S":[]}
+{"id":"CAPEC-111","n":"JSON Hijacking (aka JavaScript Hijacking)","ab":"Standard","st":"Draft","sv":"High","K":["CWE-345","CWE-346","CWE-352"],"A":[],"N":[["SC-23","m","iu"]],"S":[["PW.5.1","m","iu"]]}
+{"id":"CAPEC-112","n":"Brute Force","ab":"Meta","st":"Draft","sv":"High","K":["CWE-326","CWE-330","CWE-521"],"A":["T1110"],"N":[],"S":[]}
+{"id":"CAPEC-113","n":"Interface Manipulation","ab":"Meta","st":"Draft","sv":"Medium","K":["CWE-1192"],"A":[],"N":[],"S":[]}
+{"id":"CAPEC-114","n":"Authentication Abuse","ab":"Meta","st":"Draft","sv":"Medium","K":["CWE-1244","CWE-287"],"A":["T1548"],"N":[],"S":[]}
+{"id":"CAPEC-115","n":"Authentication Bypass","ab":"Meta","st":"Draft","sv":"Medium","K":["CWE-287"],"A":["T1548"],"N":[],"S":[]}
+{"id":"CAPEC-116","n":"Excavation","ab":"Meta","st":"Stable","sv":"Medium","K":["CWE-1243","CWE-200"],"A":[],"N":[],"S":[]}
+{"id":"CAPEC-117","n":"Interception","ab":"Meta","st":"Stable","sv":"Medium","K":["CWE-319"],"A":[],"N":[],"S":[]}
+{"id":"CAPEC-120","n":"Double Encoding","ab":"Detailed","st":"Draft","sv":"Medium","K":["CWE-172","CWE-173","CWE-177","CWE-181","CWE-183","CWE-184","CWE-20","CWE-692","CWE-697","CWE-74"],"A":[],"N":[],"S":[]}
+{"id":"CAPEC-121","n":"Exploit Non-Production Interfaces","ab":"Standard","st":"Stable","sv":"High","K":["CWE-1209","CWE-1259","CWE-1267","CWE-1270","CWE-1294","CWE-1295","CWE-1296","CWE-1302","CWE-1313","CWE-489"],"A":[],"N":[],"S":[]}
+{"id":"CAPEC-122","n":"Privilege Abuse","ab":"Meta","st":"Draft","sv":"Medium","K":["CWE-1317","CWE-269","CWE-732"],"A":["T1548"],"N":[["AC-6","m","iu"],["AC-6(10)","m","iu"],["AC-6(5)","m","iu"],["AC-6(9)","d","iu"]],"S":[]}
+{"id":"CAPEC-123","n":"Buffer Manipulation","ab":"Meta","st":"Draft","sv":"Very High","K":["CWE-119"],"A":[],"N":[],"S":[]}
+{"id":"CAPEC-124","n":"Shared Resource Manipulation","ab":"Meta","st":"Draft","sv":"Medium","K":["CWE-1189","CWE-1331"],"A":[],"N":[],"S":[]}
+{"id":"CAPEC-125","n":"Flooding","ab":"Meta","st":"Stable","sv":"Medium","K":["CWE-404","CWE-770"],"A":["T1498.001","T1499"],"N":[["SC-5","m","iu"],["SC-5(2)","m","iu"],["SC-5(3)","d","iu"]],"S":[]}
+{"id":"CAPEC-126","n":"Path Traversal","ab":"Standard","st":"Draft","sv":"Very High","K":["CWE-22"],"A":[],"N":[],"S":[]}
+{"id":"CAPEC-127","n":"Directory Indexing","ab":"Detailed","st":"Draft","sv":"Medium","K":["CWE-276","CWE-285","CWE-288","CWE-424","CWE-425","CWE-693","CWE-732"],"A":[],"N":[],"S":[]}
+{"id":"CAPEC-128","n":"Integer Attacks","ab":"Standard","st":"Draft","sv":"Medium","K":["CWE-682"],"A":[],"N":[],"S":[]}
+{"id":"CAPEC-129","n":"Pointer Manipulation","ab":"Meta","st":"Draft","sv":"Medium","K":["CWE-682","CWE-822","CWE-823"],"A":[],"N":[],"S":[]}
+{"id":"CAPEC-130","n":"Excessive Allocation","ab":"Meta","st":"Stable","sv":"Medium","K":["CWE-1325","CWE-404","CWE-770"],"A":["T1499.003"],"N":[["SC-5","m","iu"],["SC-6","m","iu"],["SI-10","m","iu"]],"S":[]}
+{"id":"CAPEC-131","n":"Resource Leak Exposure","ab":"Meta","st":"Stable","sv":"Medium","K":["CWE-404"],"A":["T1499"],"N":[],"S":[]}
+{"id":"CAPEC-132","n":"Symlink Attack","ab":"Detailed","st":"Draft","sv":"High","K":["CWE-59"],"A":["T1547.009"],"N":[],"S":[]}
+{"id":"CAPEC-133","n":"Try All Common Switches","ab":"Standard","st":"Draft","sv":"Medium","K":["CWE-912"],"A":[],"N":[],"S":[]}
+{"id":"CAPEC-134","n":"Email Injection","ab":"Standard","st":"Draft","sv":"Medium","K":["CWE-150"],"A":[],"N":[],"S":[]}
+{"id":"CAPEC-135","n":"Format String Injection","ab":"Standard","st":"Draft","sv":"High","K":["CWE-134","CWE-20","CWE-74"],"A":[],"N":[["SI-10","m","iu"],["SI-16","m","iu"],["SA-11(1)","d","iu"]],"S":[["PW.5.1","m","iu"]]}
+{"id":"CAPEC-136","n":"LDAP Injection","ab":"Standard","st":"Draft","sv":"High","K":["CWE-20","CWE-77","CWE-90"],"A":[],"N":[["SI-10","m","iu"],["SI-10(6)","m","iu"],["SI-11","m","iu"]],"S":[["PW.5.1","m","iu"]]}
+{"id":"CAPEC-137","n":"Parameter Injection","ab":"Meta","st":"Stable","sv":"Medium","K":["CWE-88"],"A":[],"N":[],"S":[]}
+{"id":"CAPEC-138","n":"Reflection Injection","ab":"Standard","st":"Draft","sv":"Very High","K":["CWE-470"],"A":[],"N":[],"S":[]}
+{"id":"CAPEC-139","n":"Relative Path Traversal","ab":"Detailed","st":"Draft","sv":"High","K":["CWE-23"],"A":[],"N":[],"S":[]}
+{"id":"CAPEC-140","n":"Bypassing of Intermediate Forms in Multiple-Form Sets","ab":"Standard","st":"Draft","sv":"Medium","K":["CWE-372"],"A":[],"N":[],"S":[]}
+{"id":"CAPEC-141","n":"Cache Poisoning","ab":"Standard","st":"Draft","sv":"High","K":["CWE-345","CWE-346","CWE-348","CWE-349"],"A":["T1557.002"],"N":[["CM-6","m","iu"],["SC-21","m","iu"],["SI-4","d","iu"]],"S":[]}
+{"id":"CAPEC-142","n":"DNS Cache Poisoning","ab":"Detailed","st":"Draft","sv":"High","K":["CWE-345","CWE-346","CWE-348","CWE-349","CWE-350"],"A":[],"N":[],"S":[]}
+{"id":"CAPEC-143","n":"Detect Unpublicized Web Pages","ab":"Detailed","st":"Draft","sv":"Low","K":["CWE-425"],"A":[],"N":[],"S":[]}
+{"id":"CAPEC-144","n":"Detect Unpublicized Web Services","ab":"Detailed","st":"Draft","sv":"Low","K":["CWE-425"],"A":[],"N":[],"S":[]}
+{"id":"CAPEC-145","n":"Checksum Spoofing","ab":"Detailed","st":"Draft","sv":"Medium","K":["CWE-354"],"A":[],"N":[],"S":[]}
+{"id":"CAPEC-146","n":"XML Schema Poisoning","ab":"Detailed","st":"Stable","sv":"High","K":["CWE-15","CWE-472"],"A":[],"N":[],"S":[]}
+{"id":"CAPEC-147","n":"XML Ping of the Death","ab":"Detailed","st":"Draft","sv":"Medium","K":["CWE-400","CWE-770"],"A":[],"N":[],"S":[]}
+{"id":"CAPEC-148","n":"Content Spoofing","ab":"Meta","st":"Stable","sv":"Medium","K":["CWE-345"],"A":["T1491"],"N":[],"S":[]}
+{"id":"CAPEC-149","n":"Explore for Predictable Temporary File Names","ab":"Detailed","st":"Draft","sv":"Medium","A":[],"N":[],"S":[]}
+{"id":"CAPEC-150","n":"Collect Data from Common Resource Locations","ab":"Standard","st":"Draft","sv":"Medium","K":["CWE-1239","CWE-1258","CWE-1266","CWE-1272","CWE-1323","CWE-1330","CWE-552"],"A":["T1003","T1119","T1213","T1530","T1555","T1602"],"N":[],"S":[]}
+{"id":"CAPEC-151","n":"Identity Spoofing","ab":"Meta","st":"Stable","sv":"Medium","K":["CWE-287"],"A":[],"N":[],"S":[]}
+{"id":"CAPEC-153","n":"Input Data Manipulation","ab":"Meta","st":"Draft","sv":"Medium","K":["CWE-20"],"A":[],"N":[],"S":[]}
+{"id":"CAPEC-154","n":"Resource Location Spoofing","ab":"Meta","st":"Stable","sv":"Medium","K":["CWE-451"],"A":[],"N":[],"S":[]}
+{"id":"CAPEC-155","n":"Screen Temporary Files for Sensitive Information","ab":"Detailed","st":"Draft","sv":"Medium","A":[],"N":[],"S":[]}
+{"id":"CAPEC-157","n":"Sniffing Attacks","ab":"Standard","st":"Draft","sv":"Medium","K":["CWE-311"],"A":[],"N":[],"S":[]}
+{"id":"CAPEC-158","n":"Sniffing Network Traffic","ab":"Detailed","st":"Draft","sv":"Medium","K":["CWE-311"],"A":["T1040","T1111"],"N":[],"S":[]}
+{"id":"CAPEC-159","n":"Redirect Access to Libraries","ab":"Standard","st":"Stable","sv":"Very High","K":["CWE-706"],"A":["T1574.008"],"N":[],"S":[]}
+{"id":"CAPEC-160","n":"Exploit Script-Based APIs","ab":"Standard","st":"Draft","sv":"Medium","K":["CWE-346"],"A":[],"N":[],"S":[]}
+{"id":"CAPEC-161","n":"Infrastructure Manipulation","ab":"Meta","st":"Draft","sv":"High","K":["CWE-923"],"A":[],"N":[],"S":[]}
+{"id":"CAPEC-162","n":"Manipulating Hidden Fields","ab":"Detailed","st":"Draft","sv":"High","K":["CWE-602"],"A":[],"N":[],"S":[]}
+{"id":"CAPEC-163","n":"Spear Phishing","ab":"Detailed","st":"Draft","sv":"High","K":["CWE-451"],"A":["T1566.001","T1566.002","T1566.003","T1598.001","T1598.002","T1598.003"],"N":[],"S":[]}
+{"id":"CAPEC-164","n":"Mobile Phishing","ab":"Detailed","st":"Stable","sv":"High","K":["CWE-451"],"A":[],"N":[],"S":[]}
+{"id":"CAPEC-165","n":"File Manipulation","ab":"Meta","st":"Draft","sv":"Medium","A":["T1036.003"],"N":[],"S":[]}
+{"id":"CAPEC-166","n":"Force the System to Reset Values","ab":"Standard","st":"Draft","sv":"Medium","K":["CWE-1221","CWE-1232","CWE-306"],"A":[],"N":[],"S":[]}
+{"id":"CAPEC-167","n":"White Box Reverse Engineering","ab":"Standard","st":"Draft","sv":"Medium","K":["CWE-1323"],"A":[],"N":[],"S":[]}
+{"id":"CAPEC-168","n":"Windows ::DATA Alternate Data Stream","ab":"Detailed","st":"Draft","sv":"Medium","K":["CWE-212","CWE-69"],"A":[],"N":[],"S":[]}
+{"id":"CAPEC-169","n":"Footprinting","ab":"Meta","st":"Stable","sv":"Very Low","K":["CWE-200"],"A":[],"N":[],"S":[]}
+{"id":"CAPEC-170","n":"Web Application Fingerprinting","ab":"Detailed","st":"Draft","sv":"Low","K":["CWE-497"],"A":[],"N":[],"S":[]}
+{"id":"CAPEC-173","n":"Action Spoofing","ab":"Meta","st":"Stable","sv":"Very High","K":["CWE-451"],"A":[],"N":[],"S":[]}
+{"id":"CAPEC-174","n":"Flash Parameter Injection","ab":"Detailed","st":"Draft","sv":"Medium","K":["CWE-88"],"A":[],"N":[],"S":[]}
+{"id":"CAPEC-175","n":"Code Inclusion","ab":"Meta","st":"Stable","sv":"Very High","K":["CWE-829"],"A":[],"N":[],"S":[]}
+{"id":"CAPEC-176","n":"Configuration/Environment Manipulation","ab":"Meta","st":"Draft","sv":"Medium","K":["CWE-1233","CWE-1234","CWE-1304","CWE-1328","CWE-15"],"A":[],"N":[],"S":[]}
+{"id":"CAPEC-177","n":"Create files with the same name as files protected with a higher classification","ab":"Detailed","st":"Draft","sv":"Very High","K":["CWE-706"],"A":["T1036"],"N":[],"S":[]}
+{"id":"CAPEC-178","n":"Cross-Site Flashing","ab":"Detailed","st":"Draft","sv":"Medium","K":["CWE-601"],"A":[],"N":[],"S":[]}
+{"id":"CAPEC-179","n":"Calling Micro-Services Directly","ab":"Standard","st":"Draft","sv":"Medium","A":[],"N":[],"S":[]}
+{"id":"CAPEC-180","n":"Exploiting Incorrectly Configured Access Control Security Levels","ab":"Standard","st":"Draft","sv":"Medium","K":["CWE-1190","CWE-1191","CWE-1193","CWE-1220","CWE-1268","CWE-1280","CWE-1297","CWE-1311","CWE-1315","CWE-1318","CWE-1320","CWE-1321","CWE-732"],"A":["T1574.010"],"N":[["AC-3","m","iu"],["AC-6(1)","m","iu"],["CM-6","m","iu"]],"S":[]}
+{"id":"CAPEC-181","n":"Flash File Overlay","ab":"Detailed","st":"Draft","sv":"Medium","K":["CWE-1021"],"A":[],"N":[],"S":[]}
+{"id":"CAPEC-182","n":"Flash Injection","ab":"Standard","st":"Draft","sv":"Medium","K":["CWE-184","CWE-20","CWE-697"],"A":[],"N":[["SC-18","m","iu"],["SC-18(3)","m","iu"],["SI-10","m","iu"]],"S":[]}
+{"id":"CAPEC-183","n":"IMAP/SMTP Command Injection","ab":"Standard","st":"Draft","sv":"Medium","K":["CWE-77"],"A":[],"N":[],"S":[]}
+{"id":"CAPEC-184","n":"Software Integrity Attack","ab":"Meta","st":"Draft","sv":"Low","K":["CWE-494"],"A":[],"N":[],"S":[]}
+{"id":"CAPEC-185","n":"Malicious Software Download","ab":"Standard","st":"Draft","sv":"Very High","K":["CWE-494"],"A":[],"N":[],"S":[]}
+{"id":"CAPEC-186","n":"Malicious Software Update","ab":"Standard","st":"Draft","sv":"High","K":["CWE-494"],"A":["T1195.002"],"N":[],"S":[]}
+{"id":"CAPEC-187","n":"Malicious Automated Software Update via Redirection","ab":"Detailed","st":"Draft","sv":"High","K":["CWE-494"],"A":["T1072"],"N":[],"S":[]}
+{"id":"CAPEC-188","n":"Reverse Engineering","ab":"Meta","st":"Stable","sv":"Low","K":["CWE-1278"],"A":[],"N":[],"S":[]}
+{"id":"CAPEC-189","n":"Black Box Reverse Engineering","ab":"Standard","st":"Draft","sv":"Low","K":["CWE-1255","CWE-1300","CWE-203"],"A":[],"N":[],"S":[]}
+{"id":"CAPEC-190","n":"Reverse Engineer an Executable to Expose Assumed Hidden Functionality","ab":"Detailed","st":"Draft","sv":"Low","K":["CWE-912"],"A":[],"N":[],"S":[]}
+{"id":"CAPEC-191","n":"Read Sensitive Constants Within an Executable","ab":"Detailed","st":"Draft","sv":"Low","K":["CWE-798"],"A":["T1552.001"],"N":[],"S":[]}
+{"id":"CAPEC-192","n":"Protocol Analysis","ab":"Meta","st":"Stable","sv":"Low","K":["CWE-326"],"A":[],"N":[],"S":[]}
+{"id":"CAPEC-193","n":"PHP Remote File Inclusion","ab":"Detailed","st":"Draft","sv":"High","K":["CWE-80","CWE-98"],"A":[],"N":[],"S":[]}
+{"id":"CAPEC-194","n":"Fake the Source of Data","ab":"Standard","st":"Stable","sv":"Medium","K":["CWE-287"],"A":[],"N":[],"S":[]}
+{"id":"CAPEC-195","n":"Principal Spoof","ab":"Standard","st":"Draft","sv":"Medium","A":[],"N":[],"S":[]}
+{"id":"CAPEC-196","n":"Session Credential Falsification through Forging","ab":"Standard","st":"Draft","sv":"Medium","K":["CWE-384","CWE-664"],"A":["T1134.002","T1134.003","T1606"],"N":[],"S":[]}
+{"id":"CAPEC-197","n":"Exponential Data Expansion","ab":"Detailed","st":"Draft","sv":"Medium","K":["CWE-770","CWE-776"],"A":[],"N":[],"S":[]}
+{"id":"CAPEC-198","n":"XSS Targeting Error Pages","ab":"Detailed","st":"Draft","sv":"Medium","K":["CWE-81"],"A":[],"N":[],"S":[]}
+{"id":"CAPEC-199","n":"XSS Using Alternate Syntax","ab":"Detailed","st":"Draft","sv":"High","K":["CWE-87"],"A":[],"N":[],"S":[]}
+{"id":"CAPEC-200","n":"Removal of filters: Input filters, output filters, data masking","ab":"Detailed","st":"Draft","sv":"Medium","A":[],"N":[],"S":[]}
+{"id":"CAPEC-201","n":"Serialized Data External Linking","ab":"Detailed","st":"Draft","sv":"High","K":["CWE-829"],"A":[],"N":[],"S":[]}
+{"id":"CAPEC-202","n":"Create Malicious Client","ab":"Standard","st":"Draft","sv":"Medium","K":["CWE-602"],"A":[],"N":[],"S":[]}
+{"id":"CAPEC-203","n":"Manipulate Registry Information","ab":"Standard","st":"Stable","sv":"Medium","K":["CWE-15"],"A":["T1112","T1647"],"N":[],"S":[]}
+{"id":"CAPEC-204","n":"Lifting Sensitive Data Embedded in Cache","ab":"Detailed","st":"Draft","sv":"Medium","K":["CWE-1239","CWE-1258","CWE-311","CWE-524"],"A":["T1005"],"N":[],"S":[]}
+{"id":"CAPEC-206","n":"Signing Malicious Code","ab":"Detailed","st":"Draft","sv":"Very High","K":["CWE-732"],"A":[],"N":[],"S":[]}
+{"id":"CAPEC-207","n":"Removing Important Client Functionality","ab":"Standard","st":"Draft","sv":"High","K":["CWE-602"],"A":[],"N":[],"S":[]}
+{"id":"CAPEC-208","n":"Removing/short-circuiting 'Purse' logic: removing/mutating 'cash' decrements","ab":"Detailed","st":"Draft","sv":"Medium","K":["CWE-602"],"A":[],"N":[],"S":[]}
+{"id":"CAPEC-209","n":"XSS Using MIME Type Mismatch","ab":"Detailed","st":"Draft","sv":"Medium","K":["CWE-20","CWE-646","CWE-79"],"A":[],"N":[],"S":[]}
+{"id":"CAPEC-212","n":"Functionality Misuse","ab":"Meta","st":"Stable","sv":"Medium","K":["CWE-1242","CWE-1246","CWE-1281"],"A":[],"N":[],"S":[]}
+{"id":"CAPEC-215","n":"Fuzzing for application mapping","ab":"Detailed","st":"Draft","sv":"Low","K":["CWE-209","CWE-532"],"A":[],"N":[],"S":[]}
+{"id":"CAPEC-216","n":"Communication Channel Manipulation","ab":"Meta","st":"Stable","sv":null,"K":["CWE-306"],"A":[],"N":[],"S":[]}
+{"id":"CAPEC-217","n":"Exploiting Incorrectly Configured SSL/TLS","ab":"Standard","st":"Draft","sv":null,"K":["CWE-201"],"A":[],"N":[],"S":[]}
+{"id":"CAPEC-218","n":"Spoofing of UDDI/ebXML Messages","ab":"Detailed","st":"Draft","sv":"Medium","K":["CWE-345"],"A":[],"N":[],"S":[]}
+{"id":"CAPEC-219","n":"XML Routing Detour Attacks","ab":"Standard","st":"Draft","sv":"Medium","K":["CWE-441","CWE-610"],"A":[],"N":[["AC-4","m","iu"],["IA-9","m","iu"],["SC-8(1)","m","iu"]],"S":[]}
+{"id":"CAPEC-220","n":"Client-Server Protocol Manipulation","ab":"Standard","st":"Draft","sv":"Medium","K":["CWE-757"],"A":[],"N":[],"S":[]}
+{"id":"CAPEC-221","n":"Data Serialization External Entities Blowup","ab":"Detailed","st":"Draft","sv":null,"K":["CWE-611"],"A":[],"N":[],"S":[]}
+{"id":"CAPEC-222","n":"iFrame Overlay","ab":"Detailed","st":"Draft","sv":"High","K":["CWE-1021"],"A":[],"N":[],"S":[]}
+{"id":"CAPEC-224","n":"Fingerprinting","ab":"Meta","st":"Stable","sv":"Very Low","K":["CWE-200"],"A":[],"N":[],"S":[]}
+{"id":"CAPEC-226","n":"Session Credential Falsification through Manipulation","ab":"Detailed","st":"Draft","sv":"Medium","K":["CWE-472","CWE-565"],"A":[],"N":[],"S":[]}
+{"id":"CAPEC-227","n":"Sustained Client Engagement","ab":"Meta","st":"Draft","sv":null,"K":["CWE-400"],"A":["T1499"],"N":[],"S":[]}
+{"id":"CAPEC-228","n":"DTD Injection","ab":"Detailed","st":"Draft","sv":"Medium","K":["CWE-829"],"A":[],"N":[],"S":[]}
+{"id":"CAPEC-229","n":"Serialized Data Parameter Blowup","ab":"Detailed","st":"Draft","sv":"High","K":["CWE-770"],"A":[],"N":[],"S":[]}
+{"id":"CAPEC-230","n":"Serialized Data with Nested Payloads","ab":"Standard","st":"Draft","sv":"High","K":["CWE-112","CWE-20","CWE-674","CWE-770"],"A":[],"N":[["AC-4(5)","m","iu"],["SC-6","m","iu"],["SI-10","m","iu"]],"S":[]}
+{"id":"CAPEC-231","n":"Oversized Serialized Data Payloads","ab":"Standard","st":"Draft","sv":"High","K":["CWE-112","CWE-20","CWE-674","CWE-770"],"A":[],"N":[["SC-5","m","iu"],["SC-6","m","iu"],["SI-10","m","iu"]],"S":[]}
+{"id":"CAPEC-233","n":"Privilege Escalation","ab":"Meta","st":"Draft","sv":null,"K":["CWE-1264","CWE-1311","CWE-269"],"A":["T1548"],"N":[],"S":[]}
+{"id":"CAPEC-234","n":"Hijacking a privileged process","ab":"Standard","st":"Draft","sv":"Medium","K":["CWE-648","CWE-732"],"A":[],"N":[],"S":[]}
+{"id":"CAPEC-237","n":"Escaping a Sandbox by Calling Code in Another Language","ab":"Detailed","st":"Draft","sv":"Very High","K":["CWE-693"],"A":[],"N":[],"S":[]}
+{"id":"CAPEC-240","n":"Resource Injection","ab":"Meta","st":"Stable","sv":"High","K":["CWE-99"],"A":[],"N":[],"S":[]}
+{"id":"CAPEC-242","n":"Code Injection","ab":"Meta","st":"Stable","sv":"High","K":["CWE-94"],"A":[],"N":[],"S":[]}
+{"id":"CAPEC-243","n":"XSS Targeting HTML Attributes","ab":"Detailed","st":"Draft","sv":"Medium","K":["CWE-83"],"A":[],"N":[],"S":[]}
+{"id":"CAPEC-244","n":"XSS Targeting URI Placeholders","ab":"Detailed","st":"Draft","sv":"High","K":["CWE-83"],"A":[],"N":[],"S":[]}
+{"id":"CAPEC-245","n":"XSS Using Doubled Characters","ab":"Detailed","st":"Draft","sv":"Medium","K":["CWE-85"],"A":[],"N":[],"S":[]}
+{"id":"CAPEC-247","n":"XSS Using Invalid Characters","ab":"Detailed","st":"Draft","sv":"Medium","K":["CWE-86"],"A":[],"N":[],"S":[]}
+{"id":"CAPEC-248","n":"Command Injection","ab":"Meta","st":"Stable","sv":"High","K":["CWE-77"],"A":[],"N":[],"S":[]}
+{"id":"CAPEC-250","n":"XML Injection","ab":"Standard","st":"Draft","sv":null,"K":["CWE-20","CWE-707","CWE-74","CWE-91"],"A":[],"N":[["SI-10","m","iu"],["SI-10(6)","m","iu"],["SI-11","m","iu"]],"S":[["PW.5.1","m","iu"]]}
+{"id":"CAPEC-251","n":"Local Code Inclusion","ab":"Standard","st":"Stable","sv":"Medium","K":["CWE-829"],"A":["T1055"],"N":[],"S":[]}
+{"id":"CAPEC-252","n":"PHP Local File Inclusion","ab":"Detailed","st":"Draft","sv":"Medium","K":["CWE-829"],"A":[],"N":[],"S":[]}
+{"id":"CAPEC-253","n":"Remote Code Inclusion","ab":"Standard","st":"Draft","sv":null,"K":["CWE-829"],"A":[],"N":[],"S":[]}
+{"id":"CAPEC-256","n":"SOAP Array Overflow","ab":"Detailed","st":"Draft","sv":"High","K":["CWE-805"],"A":[],"N":[],"S":[]}
+{"id":"CAPEC-261","n":"Fuzzing for garnering other adjacent user/sensitive data","ab":"Detailed","st":"Draft","sv":"Medium","K":["CWE-20"],"A":[],"N":[],"S":[]}
+{"id":"CAPEC-263","n":"Force Use of Corrupted Files","ab":"Detailed","st":"Draft","sv":"Medium","K":["CWE-829"],"A":[],"N":[],"S":[]}
+{"id":"CAPEC-267","n":"Leverage Alternate Encoding","ab":"Standard","st":"Draft","sv":"High","K":["CWE-172","CWE-173","CWE-180","CWE-181","CWE-20","CWE-692","CWE-697","CWE-73","CWE-74"],"A":["T1027"],"N":[["AC-4(24)","m","iu"],["SI-10","m","iu"],["SI-10(6)","m","iu"]],"S":[["PW.5.1","m","iu"]]}
+{"id":"CAPEC-268","n":"Audit Log Manipulation","ab":"Standard","st":"Draft","sv":null,"K":["CWE-117"],"A":["T1070","T1562.002","T1562.003","T1562.008"],"N":[],"S":[]}
+{"id":"CAPEC-270","n":"Modification of Registry Run Keys","ab":"Detailed","st":"Stable","sv":"Medium","K":["CWE-15"],"A":[],"N":[],"S":[]}
+{"id":"CAPEC-271","n":"Schema Poisoning","ab":"Standard","st":"Draft","sv":"High","K":["CWE-15"],"A":[],"N":[],"S":[]}
+{"id":"CAPEC-272","n":"Protocol Manipulation","ab":"Meta","st":"Draft","sv":"Medium","A":[],"N":[],"S":[]}
+{"id":"CAPEC-273","n":"HTTP Response Smuggling","ab":"Detailed","st":"Stable","sv":"High","K":["CWE-436","CWE-444","CWE-74"],"A":[],"N":[],"S":[]}
+{"id":"CAPEC-274","n":"HTTP Verb Tampering","ab":"Detailed","st":"Draft","sv":"Medium","K":["CWE-302","CWE-654"],"A":[],"N":[],"S":[]}
+{"id":"CAPEC-275","n":"DNS Rebinding","ab":"Detailed","st":"Draft","sv":"Very High","K":["CWE-350"],"A":[],"N":[],"S":[]}
+{"id":"CAPEC-276","n":"Inter-component Protocol Manipulation","ab":"Standard","st":"Draft","sv":null,"K":["CWE-707"],"A":[],"N":[],"S":[]}
+{"id":"CAPEC-277","n":"Data Interchange Protocol Manipulation","ab":"Standard","st":"Draft","sv":null,"K":["CWE-707"],"A":[],"N":[],"S":[]}
+{"id":"CAPEC-278","n":"Web Services Protocol Manipulation","ab":"Standard","st":"Draft","sv":null,"K":["CWE-707"],"A":[],"N":[],"S":[]}
+{"id":"CAPEC-279","n":"SOAP Manipulation","ab":"Detailed","st":"Draft","sv":"High","K":["CWE-707"],"A":[],"N":[],"S":[]}
+{"id":"CAPEC-285","n":"ICMP Echo Request Ping","ab":"Detailed","st":"Stable","sv":"Low","K":["CWE-200"],"A":[],"N":[],"S":[]}
+{"id":"CAPEC-287","n":"TCP SYN Scan","ab":"Detailed","st":"Stable","sv":"Low","K":["CWE-200"],"A":[],"N":[],"S":[]}
+{"id":"CAPEC-290","n":"Enumerate Mail Exchange (MX) Records","ab":"Detailed","st":"Stable","sv":"Low","K":["CWE-200"],"A":[],"N":[],"S":[]}
+{"id":"CAPEC-291","n":"DNS Zone Transfers","ab":"Detailed","st":"Stable","sv":"Low","K":["CWE-200"],"A":[],"N":[],"S":[]}
+{"id":"CAPEC-292","n":"Host Discovery","ab":"Standard","st":"Stable","sv":"Low","K":["CWE-200"],"A":[],"N":[],"S":[]}
+{"id":"CAPEC-293","n":"Traceroute Route Enumeration","ab":"Detailed","st":"Stable","sv":"Low","K":["CWE-200"],"A":[],"N":[],"S":[]}
+{"id":"CAPEC-294","n":"ICMP Address Mask Request","ab":"Detailed","st":"Stable","sv":"Low","K":["CWE-200"],"A":[],"N":[],"S":[]}
+{"id":"CAPEC-295","n":"Timestamp Request","ab":"Detailed","st":"Stable","sv":"Low","K":["CWE-200"],"A":[],"N":[],"S":[]}
+{"id":"CAPEC-296","n":"ICMP Information Request","ab":"Detailed","st":"Stable","sv":"Low","K":["CWE-200"],"A":[],"N":[],"S":[]}
+{"id":"CAPEC-297","n":"TCP ACK Ping","ab":"Detailed","st":"Stable","sv":"Low","K":["CWE-200"],"A":[],"N":[],"S":[]}
+{"id":"CAPEC-298","n":"UDP Ping","ab":"Detailed","st":"Stable","sv":"Low","K":["CWE-200"],"A":[],"N":[],"S":[]}
+{"id":"CAPEC-299","n":"TCP SYN Ping","ab":"Detailed","st":"Stable","sv":"Low","K":["CWE-200"],"A":[],"N":[],"S":[]}
+{"id":"CAPEC-300","n":"Port Scanning","ab":"Standard","st":"Stable","sv":"Low","K":["CWE-200"],"A":["T1046"],"N":[],"S":[]}
+{"id":"CAPEC-301","n":"TCP Connect Scan","ab":"Detailed","st":"Stable","sv":"Low","K":["CWE-200"],"A":[],"N":[],"S":[]}
+{"id":"CAPEC-302","n":"TCP FIN Scan","ab":"Detailed","st":"Stable","sv":"Low","K":["CWE-200"],"A":[],"N":[],"S":[]}
+{"id":"CAPEC-303","n":"TCP Xmas Scan","ab":"Detailed","st":"Stable","sv":"Low","K":["CWE-200"],"A":[],"N":[],"S":[]}
+{"id":"CAPEC-304","n":"TCP Null Scan","ab":"Detailed","st":"Stable","sv":"Low","K":["CWE-200"],"A":[],"N":[],"S":[]}
+{"id":"CAPEC-305","n":"TCP ACK Scan","ab":"Detailed","st":"Stable","sv":"Low","K":["CWE-200"],"A":[],"N":[],"S":[]}
+{"id":"CAPEC-306","n":"TCP Window Scan","ab":"Detailed","st":"Stable","sv":"Low","K":["CWE-200"],"A":[],"N":[],"S":[]}
+{"id":"CAPEC-307","n":"TCP RPC Scan","ab":"Detailed","st":"Stable","sv":"Low","K":["CWE-200"],"A":[],"N":[],"S":[]}
+{"id":"CAPEC-308","n":"UDP Scan","ab":"Detailed","st":"Stable","sv":"Low","K":["CWE-200"],"A":[],"N":[],"S":[]}
+{"id":"CAPEC-309","n":"Network Topology Mapping","ab":"Standard","st":"Draft","sv":"Low","K":["CWE-200"],"A":[],"N":[],"S":[]}
+{"id":"CAPEC-310","n":"Scanning for Vulnerable Software","ab":"Detailed","st":"Draft","sv":"Low","K":["CWE-200"],"A":[],"N":[],"S":[]}
+{"id":"CAPEC-312","n":"Active OS Fingerprinting","ab":"Standard","st":"Stable","sv":"Low","K":["CWE-200"],"A":[],"N":[],"S":[]}
+{"id":"CAPEC-313","n":"Passive OS Fingerprinting","ab":"Standard","st":"Stable","sv":"Low","K":["CWE-200"],"A":[],"N":[],"S":[]}
+{"id":"CAPEC-317","n":"IP ID Sequencing Probe","ab":"Detailed","st":"Stable","sv":"Low","K":["CWE-200"],"A":[],"N":[],"S":[]}
+{"id":"CAPEC-318","n":"IP 'ID' Echoed Byte-Order Probe","ab":"Detailed","st":"Stable","sv":"Low","K":["CWE-200"],"A":[],"N":[],"S":[]}
+{"id":"CAPEC-319","n":"IP (DF) 'Don't Fragment Bit' Echoing Probe","ab":"Detailed","st":"Stable","sv":"Low","K":["CWE-200"],"A":[],"N":[],"S":[]}
+{"id":"CAPEC-320","n":"TCP Timestamp Probe","ab":"Detailed","st":"Stable","sv":"Low","K":["CWE-200"],"A":[],"N":[],"S":[]}
+{"id":"CAPEC-321","n":"TCP Sequence Number Probe","ab":"Detailed","st":"Stable","sv":"Low","K":["CWE-200"],"A":[],"N":[],"S":[]}
+{"id":"CAPEC-322","n":"TCP (ISN) Greatest Common Divisor Probe","ab":"Detailed","st":"Stable","sv":"Low","K":["CWE-200"],"A":[],"N":[],"S":[]}
+{"id":"CAPEC-323","n":"TCP (ISN) Counter Rate Probe","ab":"Detailed","st":"Stable","sv":"Low","K":["CWE-200"],"A":[],"N":[],"S":[]}
+{"id":"CAPEC-324","n":"TCP (ISN) Sequence Predictability Probe","ab":"Detailed","st":"Stable","sv":"Low","K":["CWE-200"],"A":[],"N":[],"S":[]}
+{"id":"CAPEC-325","n":"TCP Congestion Control Flag (ECN) Probe","ab":"Detailed","st":"Stable","sv":"Low","K":["CWE-200"],"A":[],"N":[],"S":[]}
+{"id":"CAPEC-326","n":"TCP Initial Window Size Probe","ab":"Detailed","st":"Stable","sv":"Low","K":["CWE-200"],"A":[],"N":[],"S":[]}
+{"id":"CAPEC-327","n":"TCP Options Probe","ab":"Detailed","st":"Stable","sv":"Low","K":["CWE-200"],"A":[],"N":[],"S":[]}
+{"id":"CAPEC-328","n":"TCP 'RST' Flag Checksum Probe","ab":"Detailed","st":"Stable","sv":"Low","K":["CWE-200"],"A":[],"N":[],"S":[]}
+{"id":"CAPEC-329","n":"ICMP Error Message Quoting Probe","ab":"Detailed","st":"Stable","sv":"Low","K":["CWE-200"],"A":[],"N":[],"S":[]}
+{"id":"CAPEC-330","n":"ICMP Error Message Echoing Integrity Probe","ab":"Detailed","st":"Stable","sv":"Low","K":["CWE-200"],"A":[],"N":[],"S":[]}
+{"id":"CAPEC-331","n":"ICMP IP Total Length Field Probe","ab":"Detailed","st":"Stable","sv":"Low","K":["CWE-204"],"A":[],"N":[],"S":[]}
+{"id":"CAPEC-332","n":"ICMP IP 'ID' Field Error Message Probe","ab":"Detailed","st":"Stable","sv":"Low","K":["CWE-204"],"A":[],"N":[],"S":[]}
+{"id":"CAPEC-383","n":"Harvesting Information via API Event Monitoring","ab":"Detailed","st":"Draft","sv":"Low","K":["CWE-311","CWE-319","CWE-419","CWE-602"],"A":[],"N":[],"S":[]}
+{"id":"CAPEC-384","n":"Application API Message Manipulation via Man-in-the-Middle","ab":"Standard","st":"Draft","sv":"Low","K":["CWE-311","CWE-345","CWE-346","CWE-471","CWE-602"],"A":[],"N":[["SC-23","m","iu"],["SC-8(1)","m","iu"],["SI-10","m","iu"]],"S":[]}
+{"id":"CAPEC-385","n":"Transaction or Event Tampering via Application API Manipulation","ab":"Detailed","st":"Draft","sv":"Medium","K":["CWE-311","CWE-345","CWE-346","CWE-471","CWE-602"],"A":[],"N":[],"S":[]}
+{"id":"CAPEC-386","n":"Application API Navigation Remapping","ab":"Standard","st":"Draft","sv":"Medium","K":["CWE-311","CWE-345","CWE-346","CWE-471","CWE-602"],"A":[],"N":[["SC-23","m","iu"],["SC-8(1)","m","iu"],["SI-10","m","iu"]],"S":[]}
+{"id":"CAPEC-387","n":"Navigation Remapping To Propagate Malicious Content","ab":"Detailed","st":"Draft","sv":"Medium","K":["CWE-311","CWE-345","CWE-346","CWE-471","CWE-602"],"A":[],"N":[],"S":[]}
+{"id":"CAPEC-388","n":"Application API Button Hijacking","ab":"Detailed","st":"Draft","sv":"Medium","K":["CWE-311","CWE-345","CWE-346","CWE-471","CWE-602"],"A":[],"N":[],"S":[]}
+{"id":"CAPEC-389","n":"Content Spoofing Via Application API Manipulation","ab":"Detailed","st":"Draft","sv":"Low","K":["CWE-353"],"A":[],"N":[],"S":[]}
+{"id":"CAPEC-390","n":"Bypassing Physical Security","ab":"Meta","st":"Draft","sv":null,"A":[],"N":[],"S":[]}
+{"id":"CAPEC-391","n":"Bypassing Physical Locks","ab":"Standard","st":"Draft","sv":null,"A":[],"N":[],"S":[]}
+{"id":"CAPEC-392","n":"Lock Bumping","ab":"Detailed","st":"Draft","sv":null,"A":[],"N":[],"S":[]}
+{"id":"CAPEC-393","n":"Lock Picking","ab":"Detailed","st":"Draft","sv":null,"A":[],"N":[],"S":[]}
+{"id":"CAPEC-394","n":"Using a Snap Gun Lock to Force a Lock","ab":"Detailed","st":"Draft","sv":null,"A":[],"N":[],"S":[]}
+{"id":"CAPEC-395","n":"Bypassing Electronic Locks and Access Controls","ab":"Standard","st":"Draft","sv":null,"A":[],"N":[],"S":[]}
+{"id":"CAPEC-397","n":"Cloning Magnetic Strip Cards","ab":"Detailed","st":"Draft","sv":null,"A":[],"N":[],"S":[]}
+{"id":"CAPEC-398","n":"Magnetic Strip Card Brute Force Attacks","ab":"Detailed","st":"Draft","sv":null,"A":[],"N":[],"S":[]}
+{"id":"CAPEC-399","n":"Cloning RFID Cards or Chips","ab":"Detailed","st":"Draft","sv":null,"A":[],"N":[],"S":[]}
+{"id":"CAPEC-400","n":"RFID Chip Deactivation or Destruction","ab":"Detailed","st":"Draft","sv":null,"A":[],"N":[],"S":[]}
+{"id":"CAPEC-401","n":"Physically Hacking Hardware","ab":"Standard","st":"Stable","sv":"High","K":["CWE-1263"],"A":[],"N":[],"S":[]}
+{"id":"CAPEC-402","n":"Bypassing ATA Password Security","ab":"Detailed","st":"Draft","sv":null,"K":["CWE-285"],"A":[],"N":[],"S":[]}
+{"id":"CAPEC-406","n":"Dumpster Diving","ab":"Detailed","st":"Stable","sv":"Low","A":[],"N":[],"S":[]}
+{"id":"CAPEC-407","n":"Pretexting","ab":"Standard","st":"Draft","sv":"Low","A":[],"N":[],"S":[]}
+{"id":"CAPEC-410","n":"Information Elicitation","ab":"Meta","st":"Draft","sv":"Low","A":[],"N":[],"S":[]}
+{"id":"CAPEC-412","n":"Pretexting via Customer Service","ab":"Detailed","st":"Draft","sv":"Low","A":[],"N":[],"S":[]}
+{"id":"CAPEC-413","n":"Pretexting via Tech Support","ab":"Detailed","st":"Draft","sv":"Low","A":[],"N":[],"S":[]}
+{"id":"CAPEC-414","n":"Pretexting via Delivery Person","ab":"Detailed","st":"Draft","sv":"Low","A":[],"N":[],"S":[]}
+{"id":"CAPEC-415","n":"Pretexting via Phone","ab":"Detailed","st":"Draft","sv":"Low","A":[],"N":[],"S":[]}
+{"id":"CAPEC-416","n":"Manipulate Human Behavior","ab":"Meta","st":"Stable","sv":"Medium","A":[],"N":[],"S":[]}
+{"id":"CAPEC-417","n":"Influence Perception","ab":"Standard","st":"Stable","sv":"Low","A":[],"N":[],"S":[]}
+{"id":"CAPEC-418","n":"Influence Perception of Reciprocation","ab":"Detailed","st":"Draft","sv":"Medium","A":[],"N":[],"S":[]}
+{"id":"CAPEC-420","n":"Influence Perception of Scarcity","ab":"Detailed","st":"Stable","sv":"Low","A":[],"N":[],"S":[]}
+{"id":"CAPEC-421","n":"Influence Perception of Authority","ab":"Detailed","st":"Stable","sv":"Low","A":[],"N":[],"S":[]}
+{"id":"CAPEC-422","n":"Influence Perception of Commitment and Consistency","ab":"Detailed","st":"Stable","sv":"Low","A":[],"N":[],"S":[]}
+{"id":"CAPEC-423","n":"Influence Perception of Liking","ab":"Detailed","st":"Stable","sv":"Low","A":[],"N":[],"S":[]}
+{"id":"CAPEC-424","n":"Influence Perception of Consensus or Social Proof","ab":"Detailed","st":"Draft","sv":"Low","A":[],"N":[],"S":[]}
+{"id":"CAPEC-425","n":"Target Influence via Framing","ab":"Standard","st":"Draft","sv":"Low","A":[],"N":[],"S":[]}
+{"id":"CAPEC-426","n":"Influence via Incentives","ab":"Standard","st":"Stable","sv":"Low","A":[],"N":[],"S":[]}
+{"id":"CAPEC-427","n":"Influence via Psychological Principles","ab":"Standard","st":"Draft","sv":"Low","A":[],"N":[],"S":[]}
+{"id":"CAPEC-428","n":"Influence via Modes of Thinking","ab":"Detailed","st":"Draft","sv":"Low","A":[],"N":[],"S":[]}
+{"id":"CAPEC-429","n":"Target Influence via Eye Cues","ab":"Detailed","st":"Draft","sv":"Low","A":[],"N":[],"S":[]}
+{"id":"CAPEC-433","n":"Target Influence via The Human Buffer Overflow","ab":"Detailed","st":"Draft","sv":"Low","A":[],"N":[],"S":[]}
+{"id":"CAPEC-434","n":"Target Influence via Interview and Interrogation","ab":"Detailed","st":"Draft","sv":"Low","A":[],"N":[],"S":[]}
+{"id":"CAPEC-435","n":"Target Influence via Instant Rapport","ab":"Detailed","st":"Draft","sv":"Low","A":[],"N":[],"S":[]}
+{"id":"CAPEC-438","n":"Modification During Manufacture","ab":"Meta","st":"Draft","sv":null,"A":["T1195"],"N":[],"S":[]}
+{"id":"CAPEC-439","n":"Manipulation During Distribution","ab":"Meta","st":"Draft","sv":null,"K":["CWE-1269"],"A":["T1195"],"N":[],"S":[]}
+{"id":"CAPEC-440","n":"Hardware Integrity Attack","ab":"Meta","st":"Stable","sv":"High","A":["T1195.003","T1200"],"N":[],"S":[]}
+{"id":"CAPEC-441","n":"Malicious Logic Insertion","ab":"Meta","st":"Stable","sv":"High","K":["CWE-284"],"A":[],"N":[],"S":[]}
+{"id":"CAPEC-442","n":"Infected Software","ab":"Standard","st":"Stable","sv":"High","K":["CWE-506"],"A":["T1195.001","T1195.002"],"N":[],"S":[]}
+{"id":"CAPEC-443","n":"Malicious Logic Inserted Into Product by Authorized Developer","ab":"Detailed","st":"Stable","sv":"High","A":["T1195.002","T1195.003"],"N":[],"S":[]}
+{"id":"CAPEC-444","n":"Development Alteration","ab":"Standard","st":"Stable","sv":"High","A":[],"N":[],"S":[]}
+{"id":"CAPEC-445","n":"Malicious Logic Insertion into Product Software via Configuration Management Manipulation","ab":"Detailed","st":"Stable","sv":"High","A":["T1195.001"],"N":[],"S":[]}
+{"id":"CAPEC-446","n":"Malicious Logic Insertion into Product via Inclusion of Third-Party Component","ab":"Detailed","st":"Stable","sv":"High","A":["T1195"],"N":[],"S":[]}
+{"id":"CAPEC-447","n":"Design Alteration","ab":"Standard","st":"Stable","sv":"High","A":[],"N":[],"S":[]}
+{"id":"CAPEC-448","n":"Embed Virus into DLL","ab":"Detailed","st":"Stable","sv":"High","K":["CWE-506"],"A":["T1027.009"],"N":[],"S":[]}
+{"id":"CAPEC-452","n":"Infected Hardware","ab":"Standard","st":"Stable","sv":"High","A":[],"N":[],"S":[]}
+{"id":"CAPEC-456","n":"Infected Memory","ab":"Standard","st":"Stable","sv":"High","K":["CWE-1257","CWE-1260","CWE-1274","CWE-1312","CWE-1316"],"A":[],"N":[],"S":[]}
+{"id":"CAPEC-457","n":"USB Memory Attacks","ab":"Detailed","st":"Draft","sv":"High","K":["CWE-1299"],"A":["T1091","T1092"],"N":[],"S":[]}
+{"id":"CAPEC-458","n":"Flash Memory Attacks","ab":"Detailed","st":"Draft","sv":null,"K":["CWE-1282"],"A":[],"N":[],"S":[]}
+{"id":"CAPEC-459","n":"Creating a Rogue Certification Authority Certificate","ab":"Detailed","st":"Draft","sv":"Very High","K":["CWE-290","CWE-295","CWE-327"],"A":[],"N":[],"S":[]}
+{"id":"CAPEC-460","n":"HTTP Parameter Pollution (HPP)","ab":"Detailed","st":"Draft","sv":"Medium","K":["CWE-147","CWE-235","CWE-88"],"A":[],"N":[],"S":[]}
+{"id":"CAPEC-461","n":"Web Services API Signature Forgery Leveraging Hash Function Extension Weakness","ab":"Standard","st":"Draft","sv":"High","K":["CWE-290","CWE-328"],"A":[],"N":[],"S":[]}
+{"id":"CAPEC-462","n":"Cross-Domain Search Timing","ab":"Detailed","st":"Draft","sv":"Medium","K":["CWE-208","CWE-352","CWE-385"],"A":[],"N":[],"S":[]}
+{"id":"CAPEC-463","n":"Padding Oracle Crypto Attack","ab":"Detailed","st":"Draft","sv":"High","K":["CWE-209","CWE-347","CWE-354","CWE-514","CWE-649","CWE-696"],"A":[],"N":[],"S":[]}
+{"id":"CAPEC-464","n":"Evercookie","ab":"Standard","st":"Draft","sv":"Medium","K":["CWE-359"],"A":["T1606.001"],"N":[],"S":[]}
+{"id":"CAPEC-465","n":"Transparent Proxy Abuse","ab":"Standard","st":"Draft","sv":"Medium","K":["CWE-441"],"A":["T1090.001"],"N":[],"S":[]}
+{"id":"CAPEC-466","n":"Leveraging Active Adversary in the Middle Attacks to Bypass Same Origin Policy","ab":"Standard","st":"Draft","sv":"Medium","K":["CWE-300"],"A":[],"N":[],"S":[]}
+{"id":"CAPEC-467","n":"Cross Site Identification","ab":"Detailed","st":"Draft","sv":"Low","K":["CWE-352","CWE-359"],"A":[],"N":[],"S":[]}
+{"id":"CAPEC-468","n":"Generic Cross-Browser Cross-Domain Theft","ab":"Standard","st":"Draft","sv":"Medium","K":["CWE-149","CWE-177","CWE-707","CWE-838"],"A":[],"N":[],"S":[]}
+{"id":"CAPEC-469","n":"HTTP DoS","ab":"Standard","st":"Draft","sv":"Low","K":["CWE-770","CWE-772"],"A":["T1499.002"],"N":[["SC-10","m","iu"],["SC-5","m","iu"],["SC-5(2)","m","iu"]],"S":[]}
+{"id":"CAPEC-470","n":"Expanding Control over the Operating System from the Database","ab":"Detailed","st":"Draft","sv":"Very High","K":["CWE-250","CWE-89"],"A":[],"N":[],"S":[]}
+{"id":"CAPEC-471","n":"Search Order Hijacking","ab":"Detailed","st":"Stable","sv":"Medium","K":["CWE-427"],"A":["T1574.001","T1574.004","T1574.008"],"N":[],"S":[]}
+{"id":"CAPEC-472","n":"Browser Fingerprinting","ab":"Detailed","st":"Draft","sv":"Low","K":["CWE-200"],"A":[],"N":[],"S":[]}
+{"id":"CAPEC-473","n":"Signature Spoof","ab":"Standard","st":"Draft","sv":null,"K":["CWE-20","CWE-290","CWE-327"],"A":["T1036.001"],"N":[["SC-13","m","iu"],["SC-17","m","iu"],["SI-7(15)","m","iu"],["SI-7(6)","m","iu"]],"S":[]}
+{"id":"CAPEC-474","n":"Signature Spoofing by Key Theft","ab":"Detailed","st":"Draft","sv":"High","K":["CWE-522"],"A":["T1552.004"],"N":[],"S":[]}
+{"id":"CAPEC-475","n":"Signature Spoofing by Improper Validation","ab":"Detailed","st":"Draft","sv":"High","K":["CWE-295","CWE-327","CWE-347"],"A":[],"N":[],"S":[]}
+{"id":"CAPEC-476","n":"Signature Spoofing by Misrepresentation","ab":"Detailed","st":"Draft","sv":"High","K":["CWE-290"],"A":[],"N":[],"S":[]}
+{"id":"CAPEC-477","n":"Signature Spoofing by Mixing Signed and Unsigned Content","ab":"Detailed","st":"Draft","sv":"High","K":["CWE-311","CWE-319","CWE-693"],"A":[],"N":[],"S":[]}
+{"id":"CAPEC-478","n":"Modification of Windows Service Configuration","ab":"Detailed","st":"Usable","sv":"High","K":["CWE-284"],"A":["T1543.003","T1574.011"],"N":[],"S":[]}
+{"id":"CAPEC-479","n":"Malicious Root Certificate","ab":"Detailed","st":"Stable","sv":"Low","K":["CWE-284"],"A":["T1553.004"],"N":[],"S":[]}
+{"id":"CAPEC-480","n":"Escaping Virtualization","ab":"Standard","st":"Draft","sv":"Very High","K":["CWE-693"],"A":["T1611"],"N":[],"S":[]}
+{"id":"CAPEC-481","n":"Contradictory Destinations in Traffic Routing Schemes","ab":"Standard","st":"Draft","sv":"High","K":["CWE-923"],"A":["T1090.004"],"N":[],"S":[]}
+{"id":"CAPEC-482","n":"TCP Flood","ab":"Standard","st":"Draft","sv":null,"K":["CWE-770"],"A":["T1498.001","T1499.001","T1499.002"],"N":[],"S":[]}
+{"id":"CAPEC-485","n":"Signature Spoofing by Key Recreation","ab":"Detailed","st":"Draft","sv":"High","K":["CWE-330"],"A":["T1552.004"],"N":[],"S":[]}
+{"id":"CAPEC-486","n":"UDP Flood","ab":"Standard","st":"Draft","sv":null,"K":["CWE-770"],"A":[],"N":[],"S":[]}
+{"id":"CAPEC-487","n":"ICMP Flood","ab":"Standard","st":"Draft","sv":null,"K":["CWE-770"],"A":[],"N":[],"S":[]}
+{"id":"CAPEC-488","n":"HTTP Flood","ab":"Standard","st":"Draft","sv":null,"K":["CWE-770"],"A":["T1499.002"],"N":[],"S":[]}
+{"id":"CAPEC-489","n":"SSL Flood","ab":"Standard","st":"Draft","sv":null,"K":["CWE-770"],"A":["T1499.002"],"N":[],"S":[]}
+{"id":"CAPEC-490","n":"Amplification","ab":"Standard","st":"Draft","sv":null,"K":["CWE-770"],"A":["T1498.002"],"N":[],"S":[]}
+{"id":"CAPEC-491","n":"Quadratic Data Expansion","ab":"Detailed","st":"Draft","sv":null,"K":["CWE-770"],"A":[],"N":[],"S":[]}
+{"id":"CAPEC-492","n":"Regular Expression Exponential Blowup","ab":"Standard","st":"Draft","sv":null,"K":["CWE-1333","CWE-400"],"A":[],"N":[["SC-6","m","iu"],["SA-11(1)","d","iu"],["SA-11(8)","d","iu"]],"S":[["PW.5.1","m","iu"]]}
+{"id":"CAPEC-493","n":"SOAP Array Blowup","ab":"Standard","st":"Draft","sv":null,"K":["CWE-770"],"A":[],"N":[],"S":[]}
+{"id":"CAPEC-494","n":"TCP Fragmentation","ab":"Standard","st":"Draft","sv":null,"K":["CWE-404","CWE-770"],"A":[],"N":[["SC-7","m","iu"],["SC-7(17)","m","iu"],["SI-4","d","iu"]],"S":[]}
+{"id":"CAPEC-495","n":"UDP Fragmentation","ab":"Standard","st":"Draft","sv":null,"K":["CWE-404","CWE-770"],"A":[],"N":[["SC-5","m","iu"],["SC-7(17)","m","iu"],["SC-5(3)","d","iu"]],"S":[]}
+{"id":"CAPEC-496","n":"ICMP Fragmentation","ab":"Standard","st":"Draft","sv":null,"K":["CWE-404","CWE-770"],"A":[],"N":[["SC-5","m","iu"],["SC-7","m","iu"],["SC-7(17)","m","iu"]],"S":[]}
+{"id":"CAPEC-497","n":"File Discovery","ab":"Standard","st":"Draft","sv":"Very Low","K":["CWE-200"],"A":[],"N":[],"S":[]}
+{"id":"CAPEC-498","n":"Probe iOS Screenshots","ab":"Detailed","st":"Draft","sv":null,"K":["CWE-359"],"A":[],"N":[],"S":[]}
+{"id":"CAPEC-499","n":"Android Intent Intercept","ab":"Standard","st":"Draft","sv":null,"K":["CWE-925"],"A":[],"N":[],"S":[]}
+{"id":"CAPEC-500","n":"WebView Injection","ab":"Detailed","st":"Draft","sv":null,"K":["CWE-749","CWE-940"],"A":[],"N":[],"S":[]}
+{"id":"CAPEC-501","n":"Android Activity Hijack","ab":"Detailed","st":"Draft","sv":"Medium","K":["CWE-923"],"A":[],"N":[],"S":[]}
+{"id":"CAPEC-502","n":"Intent Spoof","ab":"Standard","st":"Draft","sv":null,"K":["CWE-284"],"A":[],"N":[],"S":[]}
+{"id":"CAPEC-503","n":"WebView Exposure","ab":"Standard","st":"Draft","sv":null,"K":["CWE-284"],"A":[],"N":[],"S":[]}
+{"id":"CAPEC-504","n":"Task Impersonation","ab":"Standard","st":"Stable","sv":"High","K":["CWE-1021"],"A":[],"N":[],"S":[]}
+{"id":"CAPEC-505","n":"Scheme Squatting","ab":"Detailed","st":"Draft","sv":null,"A":[],"N":[],"S":[]}
+{"id":"CAPEC-506","n":"Tapjacking","ab":"Standard","st":"Draft","sv":"Low","K":["CWE-1021"],"A":[],"N":[],"S":[]}
+{"id":"CAPEC-507","n":"Physical Theft","ab":"Meta","st":"Draft","sv":null,"A":[],"N":[],"S":[]}
+{"id":"CAPEC-508","n":"Shoulder Surfing","ab":"Detailed","st":"Draft","sv":"High","K":["CWE-200","CWE-359"],"A":[],"N":[],"S":[]}
+{"id":"CAPEC-509","n":"Kerberoasting","ab":"Detailed","st":"Stable","sv":"High","K":["CWE-262","CWE-263","CWE-294","CWE-308","CWE-309","CWE-521","CWE-522"],"A":["T1558.003"],"N":[],"S":[]}
+{"id":"CAPEC-510","n":"SaaS User Request Forgery","ab":"Standard","st":"Draft","sv":"Medium","K":["CWE-346"],"A":[],"N":[],"S":[]}
+{"id":"CAPEC-511","n":"Infiltration of Software Development Environment","ab":"Detailed","st":"Draft","sv":"High","A":["T1195.001"],"N":[],"S":[]}
+{"id":"CAPEC-516","n":"Hardware Component Substitution During Baselining","ab":"Detailed","st":"Draft","sv":"High","A":["T1195.003"],"N":[],"S":[]}
+{"id":"CAPEC-517","n":"Documentation Alteration to Circumvent Dial-down","ab":"Detailed","st":"Draft","sv":"High","A":[],"N":[],"S":[]}
+{"id":"CAPEC-518","n":"Documentation Alteration to Produce Under-performing Systems","ab":"Detailed","st":"Draft","sv":"High","A":[],"N":[],"S":[]}
+{"id":"CAPEC-519","n":"Documentation Alteration to Cause Errors in System Design","ab":"Detailed","st":"Draft","sv":"High","A":[],"N":[],"S":[]}
+{"id":"CAPEC-520","n":"Counterfeit Hardware Component Inserted During Product Assembly","ab":"Detailed","st":"Draft","sv":"High","A":["T1195.003"],"N":[],"S":[]}
+{"id":"CAPEC-521","n":"Hardware Design Specifications Are Altered","ab":"Detailed","st":"Draft","sv":"High","A":[],"N":[],"S":[]}
+{"id":"CAPEC-522","n":"Malicious Hardware Component Replacement","ab":"Standard","st":"Draft","sv":"High","A":["T1195.003"],"N":[],"S":[]}
+{"id":"CAPEC-523","n":"Malicious Software Implanted","ab":"Standard","st":"Draft","sv":"High","A":["T1195.002"],"N":[],"S":[]}
+{"id":"CAPEC-524","n":"Rogue Integration Procedures","ab":"Standard","st":"Draft","sv":"High","A":[],"N":[],"S":[]}
+{"id":"CAPEC-528","n":"XML Flood","ab":"Standard","st":"Draft","sv":"Medium","K":["CWE-770"],"A":["T1498.001","T1499.002"],"N":[],"S":[]}
+{"id":"CAPEC-529","n":"Malware-Directed Internal Reconnaissance","ab":"Standard","st":"Stable","sv":"Medium","A":[],"N":[],"S":[]}
+{"id":"CAPEC-530","n":"Provide Counterfeit Component","ab":"Detailed","st":"Draft","sv":"High","A":[],"N":[],"S":[]}
+{"id":"CAPEC-531","n":"Hardware Component Substitution","ab":"Detailed","st":"Draft","sv":"High","A":["T1195.003"],"N":[],"S":[]}
+{"id":"CAPEC-532","n":"Altered Installed BIOS","ab":"Detailed","st":"Stable","sv":"High","A":["T1495","T1542.001"],"N":[],"S":[]}
+{"id":"CAPEC-533","n":"Malicious Manual Software Update","ab":"Detailed","st":"Draft","sv":"High","K":["CWE-494"],"A":[],"N":[],"S":[]}
+{"id":"CAPEC-534","n":"Malicious Hardware Update","ab":"Standard","st":"Stable","sv":"High","A":[],"N":[],"S":[]}
+{"id":"CAPEC-535","n":"Malicious Gray Market Hardware","ab":"Detailed","st":"Draft","sv":"High","A":[],"N":[],"S":[]}
+{"id":"CAPEC-536","n":"Data Injected During Configuration","ab":"Standard","st":"Stable","sv":"High","K":["CWE-284"],"A":[],"N":[],"S":[]}
+{"id":"CAPEC-537","n":"Infiltration of Hardware Development Environment","ab":"Detailed","st":"Draft","sv":"High","A":["T1195.003"],"N":[],"S":[]}
+{"id":"CAPEC-538","n":"Open-Source Library Manipulation","ab":"Detailed","st":"Stable","sv":"High","K":["CWE-494","CWE-829"],"A":["T1195.001"],"N":[],"S":[]}
+{"id":"CAPEC-539","n":"ASIC With Malicious Functionality","ab":"Detailed","st":"Draft","sv":"High","A":["T1195.003"],"N":[],"S":[]}
+{"id":"CAPEC-540","n":"Overread Buffers","ab":"Standard","st":"Draft","sv":"High","K":["CWE-125"],"A":[],"N":[],"S":[]}
+{"id":"CAPEC-541","n":"Application Fingerprinting","ab":"Standard","st":"Draft","sv":"Low","K":["CWE-204","CWE-205","CWE-208"],"A":[],"N":[],"S":[]}
+{"id":"CAPEC-542","n":"Targeted Malware","ab":"Standard","st":"Draft","sv":null,"A":["T1027"],"N":[],"S":[]}
+{"id":"CAPEC-543","n":"Counterfeit Websites","ab":"Detailed","st":"Draft","sv":"High","A":["T1036.005"],"N":[],"S":[]}
+{"id":"CAPEC-544","n":"Counterfeit Organizations","ab":"Detailed","st":"Draft","sv":"High","A":[],"N":[],"S":[]}
+{"id":"CAPEC-545","n":"Pull Data from System Resources","ab":"Standard","st":"Draft","sv":null,"K":["CWE-1239","CWE-1243","CWE-1258","CWE-1266","CWE-1272","CWE-1278","CWE-1323","CWE-1330"],"A":["T1005","T1555.001"],"N":[],"S":[]}
+{"id":"CAPEC-546","n":"Incomplete Data Deletion in a Multi-Tenant Environment","ab":"Detailed","st":"Draft","sv":"Medium","K":["CWE-1266","CWE-1272","CWE-284"],"A":[],"N":[],"S":[]}
+{"id":"CAPEC-547","n":"Physical Destruction of Device or Component","ab":"Standard","st":"Draft","sv":null,"A":[],"N":[],"S":[]}
+{"id":"CAPEC-548","n":"Contaminate Resource","ab":"Meta","st":"Draft","sv":"High","A":[],"N":[],"S":[]}
+{"id":"CAPEC-549","n":"Local Execution of Code","ab":"Meta","st":"Stable","sv":"High","K":["CWE-829"],"A":[],"N":[],"S":[]}
+{"id":"CAPEC-550","n":"Install New Service","ab":"Detailed","st":"Draft","sv":null,"K":["CWE-284"],"A":["T1543"],"N":[],"S":[]}
+{"id":"CAPEC-551","n":"Modify Existing Service","ab":"Detailed","st":"Draft","sv":null,"K":["CWE-284","CWE-522"],"A":["T1543"],"N":[],"S":[]}
+{"id":"CAPEC-552","n":"Install Rootkit ","ab":"Detailed","st":"Draft","sv":"High","K":["CWE-284"],"A":["T1542.003","T1547.006"],"N":[],"S":[]}
+{"id":"CAPEC-554","n":"Functionality Bypass","ab":"Meta","st":"Draft","sv":"High","K":["CWE-1299","CWE-424"],"A":[],"N":[],"S":[]}
+{"id":"CAPEC-555","n":"Remote Services with Stolen Credentials","ab":"Standard","st":"Stable","sv":"Very High","K":["CWE-262","CWE-263","CWE-294","CWE-308","CWE-309","CWE-521","CWE-522"],"A":["T1021","T1114.002","T1133"],"N":[["AC-17","m","iu"],["CM-7","m","iu"],["IA-2(1)","m","iu"],["IA-2(2)","m","iu"],["AC-17(1)","d","iu"]],"S":[]}
+{"id":"CAPEC-556","n":"Replace File Extension Handlers","ab":"Detailed","st":"Draft","sv":null,"K":["CWE-284"],"A":[],"N":[],"S":[]}
+{"id":"CAPEC-558","n":"Replace Trusted Executable","ab":"Detailed","st":"Stable","sv":"High","K":["CWE-284"],"A":["T1505.005","T1546.008"],"N":[],"S":[]}
+{"id":"CAPEC-559","n":"Orbital Jamming","ab":"Detailed","st":"Draft","sv":"High","A":[],"N":[],"S":[]}
+{"id":"CAPEC-560","n":"Use of Known Domain Credentials","ab":"Meta","st":"Stable","sv":"High","K":["CWE-1273","CWE-262","CWE-263","CWE-307","CWE-308","CWE-309","CWE-522","CWE-654"],"A":["T1078"],"N":[],"S":[]}
+{"id":"CAPEC-561","n":"Windows Admin Shares with Stolen Credentials","ab":"Detailed","st":"Draft","sv":null,"K":["CWE-262","CWE-263","CWE-294","CWE-308","CWE-309","CWE-521","CWE-522"],"A":["T1021.002"],"N":[],"S":[]}
+{"id":"CAPEC-562","n":"Modify Shared File","ab":"Detailed","st":"Draft","sv":null,"K":["CWE-284"],"A":["T1080"],"N":[],"S":[]}
+{"id":"CAPEC-563","n":"Add Malicious File to Shared Webroot","ab":"Detailed","st":"Draft","sv":null,"K":["CWE-284"],"A":[],"N":[],"S":[]}
+{"id":"CAPEC-564","n":"Run Software at Logon","ab":"Detailed","st":"Draft","sv":null,"K":["CWE-284"],"A":["T1037","T1543.001","T1543.004"],"N":[],"S":[]}
+{"id":"CAPEC-565","n":"Password Spraying","ab":"Detailed","st":"Draft","sv":"High","K":["CWE-262","CWE-263","CWE-307","CWE-308","CWE-309","CWE-521","CWE-654"],"A":["T1110.003"],"N":[],"S":[]}
+{"id":"CAPEC-568","n":"Capture Credentials via Keylogger","ab":"Detailed","st":"Draft","sv":"High","A":[],"N":[],"S":[]}
+{"id":"CAPEC-569","n":"Collect Data as Provided by Users","ab":"Standard","st":"Draft","sv":null,"A":[],"N":[],"S":[]}
+{"id":"CAPEC-571","n":"Block Logging to Central Repository","ab":"Standard","st":"Draft","sv":"Low","A":["T1562.002","T1562.006","T1562.008"],"N":[],"S":[]}
+{"id":"CAPEC-572","n":"Artificially Inflate File Sizes","ab":"Standard","st":"Draft","sv":"Medium","A":[],"N":[],"S":[]}
+{"id":"CAPEC-573","n":"Process Footprinting","ab":"Standard","st":"Stable","sv":"Low","K":["CWE-200"],"A":[],"N":[],"S":[]}
+{"id":"CAPEC-574","n":"Services Footprinting","ab":"Standard","st":"Stable","sv":"Low","K":["CWE-200"],"A":[],"N":[],"S":[]}
+{"id":"CAPEC-575","n":"Account Footprinting","ab":"Standard","st":"Stable","sv":"Low","K":["CWE-200"],"A":["T1087"],"N":[],"S":[]}
+{"id":"CAPEC-576","n":"Group Permission Footprinting","ab":"Standard","st":"Stable","sv":"Low","K":["CWE-200"],"A":[],"N":[],"S":[]}
+{"id":"CAPEC-577","n":"Owner Footprinting","ab":"Standard","st":"Draft","sv":"Low","K":["CWE-200"],"A":[],"N":[],"S":[]}
+{"id":"CAPEC-578","n":"Disable Security Software","ab":"Standard","st":"Usable","sv":"Medium","K":["CWE-284"],"A":["T1556.006","T1562.001","T1562.002","T1562.004","T1562.007","T1562.008","T1562.009"],"N":[],"S":[]}
+{"id":"CAPEC-579","n":"Replace Winlogon Helper DLL","ab":"Detailed","st":"Draft","sv":null,"K":["CWE-15"],"A":["T1547.004"],"N":[],"S":[]}
+{"id":"CAPEC-580","n":"System Footprinting","ab":"Standard","st":"Stable","sv":"Low","K":["CWE-204","CWE-205","CWE-208"],"A":[],"N":[],"S":[]}
+{"id":"CAPEC-581","n":"Security Software Footprinting","ab":"Detailed","st":"Draft","sv":null,"A":[],"N":[],"S":[]}
+{"id":"CAPEC-582","n":"Route Disabling","ab":"Standard","st":"Draft","sv":"High","A":[],"N":[],"S":[]}
+{"id":"CAPEC-583","n":"Disabling Network Hardware","ab":"Detailed","st":"Draft","sv":null,"A":[],"N":[],"S":[]}
+{"id":"CAPEC-584","n":"BGP Route Disabling","ab":"Detailed","st":"Draft","sv":null,"A":[],"N":[],"S":[]}
+{"id":"CAPEC-585","n":"DNS Domain Seizure","ab":"Detailed","st":"Draft","sv":null,"A":[],"N":[],"S":[]}
+{"id":"CAPEC-586","n":"Object Injection","ab":"Meta","st":"Draft","sv":"High","K":["CWE-502"],"A":[],"N":[],"S":[]}
+{"id":"CAPEC-587","n":"Cross Frame Scripting (XFS)","ab":"Detailed","st":"Draft","sv":"High","K":["CWE-1021"],"A":[],"N":[],"S":[]}
+{"id":"CAPEC-588","n":"DOM-Based XSS","ab":"Detailed","st":"Stable","sv":"Very High","K":["CWE-20","CWE-79","CWE-83"],"A":[],"N":[],"S":[]}
+{"id":"CAPEC-589","n":"DNS Blocking","ab":"Detailed","st":"Draft","sv":null,"K":["CWE-300"],"A":[],"N":[],"S":[]}
+{"id":"CAPEC-590","n":"IP Address Blocking","ab":"Detailed","st":"Draft","sv":"High","K":["CWE-300"],"A":[],"N":[],"S":[]}
+{"id":"CAPEC-591","n":"Reflected XSS","ab":"Detailed","st":"Stable","sv":"Very High","K":["CWE-79"],"A":[],"N":[],"S":[]}
+{"id":"CAPEC-592","n":"Stored XSS","ab":"Detailed","st":"Stable","sv":"Very High","K":["CWE-79"],"A":[],"N":[],"S":[]}
+{"id":"CAPEC-593","n":"Session Hijacking","ab":"Standard","st":"Stable","sv":"Very High","K":["CWE-287"],"A":["T1185","T1550.001","T1563"],"N":[],"S":[]}
+{"id":"CAPEC-594","n":"Traffic Injection","ab":"Meta","st":"Stable","sv":null,"K":["CWE-940"],"A":[],"N":[],"S":[]}
+{"id":"CAPEC-595","n":"Connection Reset","ab":"Standard","st":"Draft","sv":null,"K":["CWE-940"],"A":[],"N":[],"S":[]}
+{"id":"CAPEC-596","n":"TCP RST Injection","ab":"Detailed","st":"Draft","sv":null,"K":["CWE-940"],"A":[],"N":[],"S":[]}
+{"id":"CAPEC-597","n":"Absolute Path Traversal","ab":"Detailed","st":"Draft","sv":null,"K":["CWE-36"],"A":[],"N":[],"S":[]}
+{"id":"CAPEC-598","n":"DNS Spoofing","ab":"Detailed","st":"Draft","sv":null,"A":[],"N":[],"S":[]}
+{"id":"CAPEC-599","n":"Terrestrial Jamming","ab":"Detailed","st":"Draft","sv":"High","A":[],"N":[],"S":[]}
+{"id":"CAPEC-600","n":"Credential Stuffing","ab":"Standard","st":"Stable","sv":"High","K":["CWE-262","CWE-263","CWE-307","CWE-308","CWE-309","CWE-522","CWE-654"],"A":["T1110.004"],"N":[],"S":[]}
+{"id":"CAPEC-601","n":"Jamming","ab":"Standard","st":"Draft","sv":"High","A":[],"N":[],"S":[]}
+{"id":"CAPEC-603","n":"Blockage","ab":"Standard","st":"Draft","sv":"High","A":[],"N":[],"S":[]}
+{"id":"CAPEC-604","n":"Wi-Fi Jamming","ab":"Detailed","st":"Draft","sv":"High","A":[],"N":[],"S":[]}
+{"id":"CAPEC-605","n":"Cellular Jamming","ab":"Detailed","st":"Draft","sv":"Low","A":[],"N":[],"S":[]}
+{"id":"CAPEC-606","n":"Weakening of Cellular Encryption","ab":"Detailed","st":"Draft","sv":"High","K":["CWE-757"],"A":[],"N":[],"S":[]}
+{"id":"CAPEC-607","n":"Obstruction","ab":"Meta","st":"Draft","sv":null,"A":[],"N":[],"S":[]}
+{"id":"CAPEC-608","n":"Cryptanalysis of Cellular Encryption","ab":"Detailed","st":"Draft","sv":"High","K":["CWE-327"],"A":[],"N":[],"S":[]}
+{"id":"CAPEC-609","n":"Cellular Traffic Intercept","ab":"Detailed","st":"Draft","sv":"Low","K":["CWE-311"],"A":["T1111"],"N":[],"S":[]}
+{"id":"CAPEC-610","n":"Cellular Data Injection","ab":"Standard","st":"Stable","sv":"High","A":[],"N":[],"S":[]}
+{"id":"CAPEC-611","n":"BitSquatting","ab":"Detailed","st":"Draft","sv":"Medium","A":[],"N":[],"S":[]}
+{"id":"CAPEC-612","n":"WiFi MAC Address Tracking","ab":"Detailed","st":"Draft","sv":"Low","K":["CWE-201","CWE-300"],"A":[],"N":[],"S":[]}
+{"id":"CAPEC-613","n":"WiFi SSID Tracking","ab":"Detailed","st":"Draft","sv":"Low","K":["CWE-201","CWE-300"],"A":[],"N":[],"S":[]}
+{"id":"CAPEC-614","n":"Rooting SIM Cards","ab":"Detailed","st":"Draft","sv":"High","K":["CWE-327"],"A":[],"N":[],"S":[]}
+{"id":"CAPEC-615","n":"Evil Twin Wi-Fi Attack","ab":"Detailed","st":"Draft","sv":"Low","K":["CWE-300"],"A":[],"N":[],"S":[]}
+{"id":"CAPEC-616","n":"Establish Rogue Location","ab":"Standard","st":"Stable","sv":"Medium","K":["CWE-200"],"A":["T1036.005"],"N":[],"S":[]}
+{"id":"CAPEC-617","n":"Cellular Rogue Base Station","ab":"Detailed","st":"Draft","sv":"Low","A":[],"N":[],"S":[]}
+{"id":"CAPEC-618","n":"Cellular Broadcast Message Request","ab":"Detailed","st":"Draft","sv":"Low","K":["CWE-201"],"A":[],"N":[],"S":[]}
+{"id":"CAPEC-619","n":"Signal Strength Tracking","ab":"Detailed","st":"Draft","sv":"Low","K":["CWE-201"],"A":[],"N":[],"S":[]}
+{"id":"CAPEC-620","n":"Drop Encryption Level","ab":"Standard","st":"Draft","sv":"High","K":["CWE-757"],"A":[],"N":[],"S":[]}
+{"id":"CAPEC-621","n":"Analysis of Packet Timing and Sizes","ab":"Detailed","st":"Draft","sv":"Low","K":["CWE-201"],"A":[],"N":[],"S":[]}
+{"id":"CAPEC-622","n":"Electromagnetic Side-Channel Attack","ab":"Detailed","st":"Draft","sv":"Low","K":["CWE-201"],"A":[],"N":[],"S":[]}
+{"id":"CAPEC-623","n":"Compromising Emanations Attack","ab":"Detailed","st":"Draft","sv":"Low","K":["CWE-201"],"A":[],"N":[],"S":[]}
+{"id":"CAPEC-624","n":"Hardware Fault Injection","ab":"Meta","st":"Stable","sv":"High","K":["CWE-1247","CWE-1248","CWE-1256","CWE-1319","CWE-1332","CWE-1334","CWE-1338","CWE-1351"],"A":[],"N":[],"S":[]}
+{"id":"CAPEC-625","n":"Mobile Device Fault Injection","ab":"Standard","st":"Draft","sv":null,"K":["CWE-1247","CWE-1248","CWE-1256","CWE-1319","CWE-1332","CWE-1334","CWE-1338","CWE-1351"],"A":[],"N":[],"S":[]}
+{"id":"CAPEC-626","n":"Smudge Attack","ab":"Detailed","st":"Draft","sv":null,"A":[],"N":[],"S":[]}
+{"id":"CAPEC-627","n":"Counterfeit GPS Signals","ab":"Standard","st":"Draft","sv":"High","A":[],"N":[],"S":[]}
+{"id":"CAPEC-628","n":"Carry-Off GPS Attack","ab":"Detailed","st":"Draft","sv":"High","A":[],"N":[],"S":[]}
+{"id":"CAPEC-630","n":"TypoSquatting","ab":"Detailed","st":"Draft","sv":"Medium","A":[],"N":[],"S":[]}
+{"id":"CAPEC-631","n":"SoundSquatting","ab":"Detailed","st":"Draft","sv":"Medium","A":[],"N":[],"S":[]}
+{"id":"CAPEC-632","n":"Homograph Attack via Homoglyphs","ab":"Detailed","st":"Draft","sv":"Medium","K":["CWE-1007"],"A":[],"N":[],"S":[]}
+{"id":"CAPEC-633","n":"Token Impersonation","ab":"Detailed","st":"Stable","sv":"Medium","K":["CWE-1270","CWE-287"],"A":["T1134"],"N":[],"S":[]}
+{"id":"CAPEC-634","n":"Probe Audio and Video Peripherals","ab":"Detailed","st":"Stable","sv":"High","K":["CWE-267"],"A":[],"N":[],"S":[]}
+{"id":"CAPEC-635","n":"Alternative Execution Due to Deceptive Filenames","ab":"Standard","st":"Draft","sv":"High","K":["CWE-162"],"A":["T1036.007"],"N":[],"S":[]}
+{"id":"CAPEC-636","n":"Hiding Malicious Data or Code within Files","ab":"Standard","st":"Draft","sv":"High","K":["CWE-506"],"A":["T1001.002","T1218.001","T1221"],"N":[],"S":[]}
+{"id":"CAPEC-637","n":"Collect Data from Clipboard","ab":"Detailed","st":"Stable","sv":"Low","K":["CWE-267"],"A":[],"N":[],"S":[]}
+{"id":"CAPEC-638","n":"Altered Component Firmware","ab":"Detailed","st":"Stable","sv":"Very High","A":[],"N":[],"S":[]}
+{"id":"CAPEC-639","n":"Probe System Files","ab":"Detailed","st":"Stable","sv":"Medium","K":["CWE-552"],"A":["T1552.001","T1552.003","T1552.004","T1552.006"],"N":[],"S":[]}
+{"id":"CAPEC-640","n":"Inclusion of Code in Existing Process","ab":"Detailed","st":"Stable","sv":"High","K":["CWE-114","CWE-829"],"A":["T1505.005","T1574.006","T1574.013"],"N":[],"S":[]}
+{"id":"CAPEC-641","n":"DLL Side-Loading","ab":"Detailed","st":"Stable","sv":"High","K":["CWE-706"],"A":["T1574.002"],"N":[],"S":[]}
+{"id":"CAPEC-642","n":"Replace Binaries","ab":"Detailed","st":"Draft","sv":"High","K":["CWE-732"],"A":["T1505.005","T1554","T1574.005"],"N":[],"S":[]}
+{"id":"CAPEC-643","n":"Identify Shared Files/Directories on System","ab":"Detailed","st":"Draft","sv":"Medium","K":["CWE-200","CWE-267"],"A":["T1135"],"N":[],"S":[]}
+{"id":"CAPEC-644","n":"Use of Captured Hashes (Pass The Hash)","ab":"Detailed","st":"Stable","sv":"High","K":["CWE-294","CWE-308","CWE-522","CWE-836"],"A":["T1550.002"],"N":[],"S":[]}
+{"id":"CAPEC-645","n":"Use of Captured Tickets (Pass The Ticket)","ab":"Detailed","st":"Stable","sv":"High","K":["CWE-294","CWE-308","CWE-522"],"A":["T1550.003"],"N":[],"S":[]}
+{"id":"CAPEC-646","n":"Peripheral Footprinting","ab":"Standard","st":"Stable","sv":"Medium","K":["CWE-200"],"A":[],"N":[],"S":[]}
+{"id":"CAPEC-647","n":"Collect Data from Registries","ab":"Detailed","st":"Draft","sv":"Medium","K":["CWE-285"],"A":["T1005","T1552.002"],"N":[],"S":[]}
+{"id":"CAPEC-648","n":"Collect Data from Screen Capture","ab":"Detailed","st":"Draft","sv":"Medium","K":["CWE-267"],"A":[],"N":[],"S":[]}
+{"id":"CAPEC-649","n":"Adding a Space to a File Extension","ab":"Detailed","st":"Draft","sv":"Medium","K":["CWE-46"],"A":[],"N":[],"S":[]}
+{"id":"CAPEC-650","n":"Upload a Web Shell to a Web Server","ab":"Detailed","st":"Draft","sv":"High","K":["CWE-287","CWE-553"],"A":["T1505.003"],"N":[],"S":[]}
+{"id":"CAPEC-651","n":"Eavesdropping","ab":"Standard","st":"Draft","sv":"Medium","K":["CWE-200"],"A":["T1111"],"N":[],"S":[]}
+{"id":"CAPEC-652","n":"Use of Known Kerberos Credentials","ab":"Standard","st":"Draft","sv":"High","K":["CWE-262","CWE-263","CWE-294","CWE-307","CWE-308","CWE-309","CWE-522","CWE-654","CWE-836"],"A":["T1558"],"N":[["AC-6(5)","m","iu"],["IA-5","m","iu"],["IA-5(1)","m","iu"],["IA-5(13)","m","iu"],["SI-4","d","iu"]],"S":[]}
+{"id":"CAPEC-653","n":"Use of Known Operating System Credentials","ab":"Standard","st":"Draft","sv":"High","K":["CWE-262","CWE-263","CWE-307","CWE-308","CWE-309","CWE-522","CWE-654"],"A":[],"N":[],"S":[]}
+{"id":"CAPEC-654","n":"Credential Prompt Impersonation","ab":"Detailed","st":"Stable","sv":"High","K":["CWE-1021"],"A":["T1548.004"],"N":[],"S":[]}
+{"id":"CAPEC-655","n":"Avoid Security Tool Identification by Adding Data","ab":"Detailed","st":"Draft","sv":"High","A":[],"N":[],"S":[]}
+{"id":"CAPEC-656","n":"Voice Phishing","ab":"Detailed","st":"Stable","sv":"High","A":[],"N":[],"S":[]}
+{"id":"CAPEC-657","n":"Malicious Automated Software Update via Spoofing","ab":"Detailed","st":"Draft","sv":"High","K":["CWE-494"],"A":["T1072"],"N":[],"S":[]}
+{"id":"CAPEC-660","n":"Root/Jailbreak Detection Evasion via Hooking","ab":"Detailed","st":"Stable","sv":"Very High","K":["CWE-829"],"A":["T1055"],"N":[],"S":[]}
+{"id":"CAPEC-661","n":"Root/Jailbreak Detection Evasion via Debugging","ab":"Detailed","st":"Stable","sv":"Very High","K":["CWE-489"],"A":[],"N":[],"S":[]}
+{"id":"CAPEC-662","n":"Adversary in the Browser (AiTB)","ab":"Standard","st":"Stable","sv":"Very High","K":["CWE-300","CWE-494"],"A":["T1185"],"N":[],"S":[]}
+{"id":"CAPEC-663","n":"Exploitation of Transient Instruction Execution","ab":"Standard","st":"Stable","sv":"Very High","K":["CWE-1037","CWE-1264","CWE-1303"],"A":[],"N":[],"S":[]}
+{"id":"CAPEC-664","n":"Server Side Request Forgery","ab":"Standard","st":"Stable","sv":"High","K":["CWE-20","CWE-918"],"A":[],"N":[["AC-4","m","iu"],["SC-7","m","iu"],["SC-7(5)","m","iu"],["SI-10","m","iu"]],"S":[]}
+{"id":"CAPEC-665","n":"Exploitation of Thunderbolt Protection Flaws","ab":"Detailed","st":"Stable","sv":"Very High","K":["CWE-1188","CWE-288","CWE-345","CWE-353","CWE-862"],"A":["T1211","T1556"],"N":[],"S":[]}
+{"id":"CAPEC-666","n":"BlueSmacking","ab":"Standard","st":"Draft","sv":"Medium","K":["CWE-404"],"A":["T1498.001","T1499.001"],"N":[],"S":[]}
+{"id":"CAPEC-667","n":"Bluetooth Impersonation AttackS (BIAS)","ab":"Detailed","st":"Draft","sv":"High","K":["CWE-290"],"A":[],"N":[],"S":[]}
+{"id":"CAPEC-668","n":"Key Negotiation of Bluetooth Attack (KNOB)","ab":"Standard","st":"Draft","sv":"High","K":["CWE-285","CWE-425","CWE-693"],"A":["T1565.002"],"N":[["AC-18(1)","m","iu"],["SC-12","m","iu"],["SC-13","m","iu"]],"S":[]}
+{"id":"CAPEC-669","n":"Alteration of a Software Update","ab":"Standard","st":"Draft","sv":"High","A":["T1195.002"],"N":[],"S":[]}
+{"id":"CAPEC-670","n":"Software Development Tools Maliciously Altered","ab":"Detailed","st":"Draft","sv":"High","A":["T1127","T1195.001"],"N":[],"S":[]}
+{"id":"CAPEC-671","n":"Requirements for ASIC Functionality Maliciously Altered","ab":"Detailed","st":"Draft","sv":"High","A":["T1195.003"],"N":[],"S":[]}
+{"id":"CAPEC-672","n":"Malicious Code Implanted During Chip Programming","ab":"Detailed","st":"Draft","sv":"High","A":["T1195.003"],"N":[],"S":[]}
+{"id":"CAPEC-673","n":"Developer Signing Maliciously Altered Software","ab":"Detailed","st":"Draft","sv":"High","A":["T1195.002"],"N":[],"S":[]}
+{"id":"CAPEC-674","n":"Design for FPGA Maliciously Altered","ab":"Detailed","st":"Stable","sv":"High","A":["T1195.003"],"N":[],"S":[]}
+{"id":"CAPEC-675","n":"Retrieve Data from Decommissioned Devices","ab":"Standard","st":"Stable","sv":"Medium","K":["CWE-1266"],"A":["T1052"],"N":[],"S":[]}
+{"id":"CAPEC-676","n":"NoSQL Injection","ab":"Standard","st":"Stable","sv":"High","K":["CWE-1286","CWE-943"],"A":[],"N":[],"S":[]}
+{"id":"CAPEC-677","n":"Server Motherboard Compromise","ab":"Detailed","st":"Draft","sv":"High","A":["T1195.003"],"N":[],"S":[]}
+{"id":"CAPEC-678","n":"System Build Data Maliciously Altered","ab":"Detailed","st":"Draft","sv":"High","A":["T1195.002"],"N":[],"S":[]}
+{"id":"CAPEC-679","n":"Exploitation of Improperly Configured or Implemented Memory Protections","ab":"Detailed","st":"Draft","sv":"Very High","K":["CWE-1222","CWE-1252","CWE-1257","CWE-1260","CWE-1274","CWE-1282","CWE-1312","CWE-1316","CWE-1326"],"A":[],"N":[],"S":[]}
+{"id":"CAPEC-680","n":"Exploitation of Improperly Controlled Registers","ab":"Detailed","st":"Draft","sv":"High","K":["CWE-1224","CWE-1231","CWE-1233","CWE-1262","CWE-1283"],"A":[],"N":[],"S":[]}
+{"id":"CAPEC-681","n":"Exploitation of Improperly Controlled Hardware Security Identifiers","ab":"Detailed","st":"Draft","sv":"Very High","K":["CWE-1259","CWE-1267","CWE-1270","CWE-1294","CWE-1302"],"A":[],"N":[],"S":[]}
+{"id":"CAPEC-682","n":"Exploitation of Firmware or ROM Code with Unpatchable Vulnerabilities","ab":"Standard","st":"Draft","sv":"High","K":["CWE-1277","CWE-1310"],"A":[],"N":[],"S":[]}
+{"id":"CAPEC-690","n":"Metadata Spoofing","ab":"Meta","st":"Stable","sv":"High","A":[],"N":[],"S":[]}
+{"id":"CAPEC-691","n":"Spoof Open-Source Software Metadata","ab":"Standard","st":"Stable","sv":"High","K":["CWE-494"],"A":["T1195.001","T1195.002"],"N":[],"S":[]}
+{"id":"CAPEC-692","n":"Spoof Version Control System Commit Metadata","ab":"Detailed","st":"Stable","sv":"High","K":["CWE-494"],"A":[],"N":[],"S":[]}
+{"id":"CAPEC-693","n":"StarJacking","ab":"Detailed","st":"Stable","sv":"High","K":["CWE-494"],"A":[],"N":[],"S":[]}
+{"id":"CAPEC-694","n":"System Location Discovery","ab":"Standard","st":"Stable","sv":"Very Low","K":["CWE-497"],"A":[],"N":[],"S":[]}
+{"id":"CAPEC-695","n":"Repo Jacking","ab":"Detailed","st":"Stable","sv":"High","K":["CWE-494","CWE-829"],"A":["T1195.001"],"N":[],"S":[]}
+{"id":"CAPEC-696","n":"Load Value Injection","ab":"Detailed","st":"Draft","sv":"Very High","K":["CWE-1342"],"A":[],"N":[],"S":[]}
+{"id":"CAPEC-697","n":"DHCP Spoofing","ab":"Standard","st":"Stable","sv":"High","K":["CWE-923"],"A":["T1557.003"],"N":[],"S":[]}
+{"id":"CAPEC-698","n":"Install Malicious Extension","ab":"Detailed","st":"Stable","sv":"High","K":["CWE-507","CWE-829"],"A":["T1176","T1505.004"],"N":[],"S":[]}
+{"id":"CAPEC-699","n":"Eavesdropping on a Monitor","ab":"Meta","st":"Draft","sv":"High","K":["CWE-1300"],"A":[],"N":[],"S":[]}
+{"id":"CAPEC-700","n":"Network Boundary Bridging","ab":"Standard","st":"Draft","sv":"High","A":["T1599"],"N":[],"S":[]}
+{"id":"CAPEC-701","n":"Browser in the Middle (BiTM)","ab":"Standard","st":"Draft","sv":"High","K":["CWE-294","CWE-345"],"A":[],"N":[["IA-3(1)","m","iu"],["SC-23","m","iu"],["AT-2(3)","g","iu"]],"S":[]}
+{"id":"CAPEC-702","n":"Exploiting Incorrect Chaining or Granularity of Hardware Debug Components","ab":"Detailed","st":"Draft","sv":"Medium","K":["CWE-1296"],"A":[],"N":[],"S":[]}

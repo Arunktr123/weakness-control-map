@@ -1,0 +1,2570 @@
+CWE-5 | J2EE Misconfiguration: Data Transmission Without Encryption
+CWE-6 | J2EE Misconfiguration: Insufficient Session-ID Length
+CWE-7 | J2EE Misconfiguration: Missing Custom Error Page
+CWE-8 | J2EE Misconfiguration: Entity Bean Declared Remote
+CWE-9 | J2EE Misconfiguration: Weak Access Permissions for EJB Methods
+CWE-11 | ASP.NET Misconfiguration: Creating Debug Binary
+CWE-12 | ASP.NET Misconfiguration: Missing Custom Error Page
+CWE-13 | ASP.NET Misconfiguration: Password in Configuration File
+CWE-14 | Compiler Removal of Code to Clear Buffers
+CWE-15 | External Control of System or Configuration Setting
+CWE-20 | Improper Input Validation
+CWE-22 | Improper Limitation of a Pathname to a Restricted Directory | aka: Path traversal; Directory traversal; Path transversal
+CWE-23 | Relative Path Traversal | aka: Zip Slip
+CWE-24 | Path Traversal: '../filedir'
+CWE-25 | Path Traversal: '/../filedir'
+CWE-26 | Path Traversal: '/dir/../filename'
+CWE-27 | Path Traversal: 'dir/../../filename'
+CWE-28 | Path Traversal: '..\filedir'
+CWE-29 | Path Traversal: '\..\filename'
+CWE-30 | Path Traversal: '\dir\..\filename'
+CWE-31 | Path Traversal: 'dir\..\..\filename'
+CWE-32 | Path Traversal: '...' (Triple Dot)
+CWE-33 | Path Traversal: '....' (Multiple Dot)
+CWE-34 | Path Traversal: '....//'
+CWE-35 | Path Traversal: '.../...//'
+CWE-36 | Absolute Path Traversal
+CWE-37 | Path Traversal: '/absolute/pathname/here'
+CWE-38 | Path Traversal: '\absolute\pathname\here'
+CWE-39 | Path Traversal: 'C:dirname'
+CWE-40 | Path Traversal: '\\UNC\share\name\' (Windows UNC Share)
+CWE-41 | Improper Resolution of Path Equivalence
+CWE-42 | Path Equivalence: 'filename.' (Trailing Dot)
+CWE-43 | Path Equivalence: 'filename....' (Multiple Trailing Dot)
+CWE-44 | Path Equivalence: 'file.name' (Internal Dot)
+CWE-45 | Path Equivalence: 'file...name' (Multiple Internal Dot)
+CWE-46 | Path Equivalence: 'filename ' (Trailing Space)
+CWE-47 | Path Equivalence: ' filename' (Leading Space)
+CWE-48 | Path Equivalence: 'file name' (Internal Whitespace)
+CWE-49 | Path Equivalence: 'filename/' (Trailing Slash)
+CWE-50 | Path Equivalence: '//multiple/leading/slash'
+CWE-51 | Path Equivalence: '/multiple//internal/slash'
+CWE-52 | Path Equivalence: '/multiple/trailing/slash//'
+CWE-53 | Path Equivalence: '\multiple\\internal\backslash'
+CWE-54 | Path Equivalence: 'filedir\' (Trailing Backslash)
+CWE-55 | Path Equivalence: '/./' (Single Dot Directory)
+CWE-56 | Path Equivalence: 'filedir*' (Wildcard)
+CWE-57 | Path Equivalence: 'fakedir/../realdir/filename'
+CWE-58 | Path Equivalence: Windows 8.3 Filename
+CWE-59 | Improper Link Resolution Before File Access | aka: insecure temporary file; Zip Slip; Link Following
+CWE-61 | UNIX Symbolic Link (Symlink) Following | aka: Symlink following; symlink vulnerability
+CWE-62 | UNIX Hard Link
+CWE-64 | Windows Shortcut Following (.LNK) | aka: Windows symbolic link following; symlink
+CWE-65 | Windows Hard Link
+CWE-66 | Improper Handling of File Names that Identify Virtual Resources
+CWE-67 | Improper Handling of Windows Device Names
+CWE-69 | Improper Handling of Windows ::DATA Alternate Data Stream
+CWE-72 | Improper Handling of Apple HFS+ Alternate Data Stream Path
+CWE-73 | External Control of File Name or Path
+CWE-74 | Improper Neutralization of Special Elements in Output Used by a Downstream Component | aka: Injection
+CWE-75 | Failure to Sanitize Special Elements into a Different Plane | aka: Special Element Injection
+CWE-76 | Improper Neutralization of Equivalent Special Elements
+CWE-77 | Improper Neutralization of Special Elements used in a Command | aka: Command injection
+CWE-78 | Improper Neutralization of Special Elements used in an OS Command | aka: Shell injection; Shell metacharacters; OS Command Injection
+CWE-79 | Improper Neutralization of Input During Web Page Generation | aka: Cross-site Scripting; XSS; HTML Injection; Reflected XSS / Non-Persistent XSS / Type 1 XSS; Stored XSS / Persistent XSS / Type 2 XSS; DOM-Based XSS / Type 0 XSS; CSS
+CWE-80 | Improper Neutralization of Script-Related HTML Tags in a Web Page | aka: Basic XSS
+CWE-81 | Improper Neutralization of Script in an Error Message Web Page
+CWE-82 | Improper Neutralization of Script in Attributes of IMG Tags in a Web Page
+CWE-83 | Improper Neutralization of Script in Attributes in a Web Page
+CWE-84 | Improper Neutralization of Encoded URI Schemes in a Web Page
+CWE-85 | Doubled Character XSS Manipulations
+CWE-86 | Improper Neutralization of Invalid Characters in Identifiers in Web Pages
+CWE-87 | Improper Neutralization of Alternate XSS Syntax
+CWE-88 | Improper Neutralization of Argument Delimiters in a Command | aka: Argument Injection
+CWE-89 | Improper Neutralization of Special Elements used in an SQL Command | aka: SQL Injection; SQLi
+CWE-90 | Improper Neutralization of Special Elements used in an LDAP Query | aka: LDAP Injection
+CWE-91 | XML Injection | aka: Blind XPath Injection
+CWE-93 | Improper Neutralization of CRLF Sequences | aka: CRLF Injection
+CWE-94 | Improper Control of Generation of Code | aka: Code Injection
+CWE-95 | Improper Neutralization of Directives in Dynamically Evaluated Code | aka: Eval Injection
+CWE-96 | Improper Neutralization of Directives in Statically Saved Code | aka: Static Code Injection
+CWE-97 | Improper Neutralization of Server-Side Includes (SSI) Within a Web Page
+CWE-98 | Improper Control of Filename for Include/Require Statement in PHP Program | aka: Remote file include; RFI; Local file inclusion; PHP Remote File Inclusion
+CWE-99 | Improper Control of Resource Identifiers | aka: Insecure Direct Object Reference; Resource Injection
+CWE-102 | Struts: Duplicate Validation Forms
+CWE-103 | Struts: Incomplete validate() Method Definition
+CWE-104 | Struts: Form Bean Does Not Extend Validation Class
+CWE-105 | Struts: Form Field Without Validator
+CWE-106 | Struts: Plug-in Framework not in Use
+CWE-107 | Struts: Unused Validation Form
+CWE-108 | Struts: Unvalidated Action Form
+CWE-109 | Struts: Validator Turned Off
+CWE-110 | Struts: Validator Without Form Field
+CWE-111 | Direct Use of Unsafe JNI
+CWE-112 | Missing XML Validation
+CWE-113 | Improper Neutralization of CRLF Sequences in HTTP Headers | aka: HTTP Request Splitting; HTTP Response Splitting
+CWE-114 | Process Control
+CWE-115 | Misinterpretation of Input
+CWE-116 | Improper Encoding or Escaping of Output | aka: Output Sanitization; Output Validation; Output Encoding
+CWE-117 | Improper Output Neutralization for Logs | aka: Log forging
+CWE-118 | Incorrect Access of Indexable Resource | aka: Range Error
+CWE-119 | Improper Restriction of Operations within the Bounds of a Memory Buffer | aka: Buffer Overflow; buffer overrun; memory safety
+CWE-120 | Buffer Copy without Checking Size of Input | aka: Classic Buffer Overflow; Unbounded Transfer
+CWE-121 | Stack-based Buffer Overflow | aka: Stack Overflow; Stack Buffer Overflow
+CWE-122 | Heap-based Buffer Overflow | aka: Heap Overflow; Heap Buffer Overflow
+CWE-123 | Write-what-where Condition
+CWE-124 | Buffer Underwrite | aka: Buffer Underrun; Buffer Underflow
+CWE-125 | Out-of-bounds Read | aka: OOB read
+CWE-126 | Buffer Over-read
+CWE-127 | Buffer Under-read
+CWE-128 | Wrap-around Error
+CWE-129 | Improper Validation of Array Index | aka: out-of-bounds array index; index-out-of-range; array index underflow
+CWE-130 | Improper Handling of Length Parameter Inconsistency | aka: length manipulation; length tampering
+CWE-131 | Incorrect Calculation of Buffer Size
+CWE-134 | Use of Externally-Controlled Format String
+CWE-135 | Incorrect Calculation of Multi-Byte String Length
+CWE-138 | Improper Neutralization of Special Elements
+CWE-140 | Improper Neutralization of Delimiters
+CWE-141 | Improper Neutralization of Parameter/Argument Delimiters
+CWE-142 | Improper Neutralization of Value Delimiters
+CWE-143 | Improper Neutralization of Record Delimiters
+CWE-144 | Improper Neutralization of Line Delimiters
+CWE-145 | Improper Neutralization of Section Delimiters
+CWE-146 | Improper Neutralization of Expression/Command Delimiters
+CWE-147 | Improper Neutralization of Input Terminators
+CWE-148 | Improper Neutralization of Input Leaders
+CWE-149 | Improper Neutralization of Quoting Syntax
+CWE-150 | Improper Neutralization of Escape, Meta, or Control Sequences | aka: ANSI injection
+CWE-151 | Improper Neutralization of Comment Delimiters
+CWE-152 | Improper Neutralization of Macro Symbols
+CWE-153 | Improper Neutralization of Substitution Characters
+CWE-154 | Improper Neutralization of Variable Name Delimiters
+CWE-155 | Improper Neutralization of Wildcards or Matching Symbols
+CWE-156 | Improper Neutralization of Whitespace | aka: White space
+CWE-157 | Failure to Sanitize Paired Delimiters
+CWE-158 | Improper Neutralization of Null Byte or NUL Character
+CWE-159 | Improper Handling of Invalid Use of Special Elements
+CWE-160 | Improper Neutralization of Leading Special Elements
+CWE-161 | Improper Neutralization of Multiple Leading Special Elements
+CWE-162 | Improper Neutralization of Trailing Special Elements
+CWE-163 | Improper Neutralization of Multiple Trailing Special Elements
+CWE-164 | Improper Neutralization of Internal Special Elements
+CWE-165 | Improper Neutralization of Multiple Internal Special Elements
+CWE-166 | Improper Handling of Missing Special Element
+CWE-167 | Improper Handling of Additional Special Element
+CWE-168 | Improper Handling of Inconsistent Special Elements
+CWE-170 | Improper Null Termination
+CWE-172 | Improper Encoding or Decoding of Data
+CWE-173 | Improper Handling of Alternate Encoding
+CWE-174 | Double Decoding of the Same Data
+CWE-175 | Improper Handling of Mixed Encoding
+CWE-176 | Improper Handling of Unicode Encoding
+CWE-177 | Improper Handling of URL Encoding (Hex Encoding)
+CWE-178 | Improper Handling of Case Sensitivity
+CWE-179 | Incorrect Behavior Order: Early Validation
+CWE-180 | Incorrect Behavior Order: Validate Before Canonicalize
+CWE-181 | Incorrect Behavior Order: Validate Before Filter | aka: Validate-before-cleanse
+CWE-182 | Collapse of Data into Unsafe Value
+CWE-183 | Permissive List of Allowed Inputs | aka: Allowlist / Allow List; Safelist / Safe List; Whitelist / White List
+CWE-184 | Incomplete List of Disallowed Inputs | aka: Denylist / Deny List; Blocklist / Block List; Blacklist / Black List
+CWE-185 | Incorrect Regular Expression
+CWE-186 | Overly Restrictive Regular Expression
+CWE-187 | Partial String Comparison
+CWE-188 | Reliance on Data/Memory Layout
+CWE-190 | Integer Overflow or Wraparound | aka: Overflow; Wraparound; wrap, wrap-around, wrap around; Year 2038 problem, Y2K38, Y2038, Epochalypse
+CWE-191 | Integer Underflow (Wrap or Wraparound) | aka: Integer underflow
+CWE-192 | Integer Coercion Error
+CWE-193 | Off-by-one Error | aka: off-by-five
+CWE-194 | Unexpected Sign Extension
+CWE-195 | Signed to Unsigned Conversion Error
+CWE-196 | Unsigned to Signed Conversion Error
+CWE-197 | Numeric Truncation Error
+CWE-198 | Use of Incorrect Byte Ordering
+CWE-200 | Exposure of Sensitive Information to an Unauthorized Actor | aka: Information Disclosure; Information Leak
+CWE-201 | Insertion of Sensitive Information Into Sent Data
+CWE-202 | Exposure of Sensitive Information Through Data Queries
+CWE-203 | Observable Discrepancy | aka: Side Channel Attack
+CWE-204 | Observable Response Discrepancy
+CWE-205 | Observable Behavioral Discrepancy
+CWE-206 | Observable Internal Behavioral Discrepancy
+CWE-207 | Observable Behavioral Discrepancy With Equivalent Products
+CWE-208 | Observable Timing Discrepancy
+CWE-209 | Generation of Error Message Containing Sensitive Information
+CWE-210 | Self-generated Error Message Containing Sensitive Information
+CWE-211 | Externally-Generated Error Message Containing Sensitive Information
+CWE-212 | Improper Removal of Sensitive Information Before Storage or Transfer
+CWE-213 | Exposure of Sensitive Information Due to Incompatible Policies
+CWE-214 | Invocation of Process Using Visible Sensitive Information
+CWE-215 | Insertion of Sensitive Information Into Debugging Code
+CWE-219 | Storage of File with Sensitive Data Under Web Root
+CWE-220 | Storage of File With Sensitive Data Under FTP Root
+CWE-221 | Information Loss or Omission
+CWE-222 | Truncation of Security-relevant Information
+CWE-223 | Omission of Security-relevant Information
+CWE-224 | Obscured Security-relevant Information by Alternate Name
+CWE-226 | Sensitive Information in Resource Not Removed Before Reuse
+CWE-228 | Improper Handling of Syntactically Invalid Structure
+CWE-229 | Improper Handling of Values
+CWE-230 | Improper Handling of Missing Values
+CWE-231 | Improper Handling of Extra Values
+CWE-232 | Improper Handling of Undefined Values
+CWE-233 | Improper Handling of Parameters
+CWE-234 | Failure to Handle Missing Parameter
+CWE-235 | Improper Handling of Extra Parameters
+CWE-236 | Improper Handling of Undefined Parameters
+CWE-237 | Improper Handling of Structural Elements
+CWE-238 | Improper Handling of Incomplete Structural Elements
+CWE-239 | Failure to Handle Incomplete Element
+CWE-240 | Improper Handling of Inconsistent Structural Elements
+CWE-241 | Improper Handling of Unexpected Data Type
+CWE-242 | Use of Inherently Dangerous Function
+CWE-243 | Creation of chroot Jail Without Changing Working Directory
+CWE-244 | Improper Clearing of Heap Memory Before Release | aka: Heap Inspection
+CWE-245 | J2EE Bad Practices: Direct Management of Connections
+CWE-246 | J2EE Bad Practices: Direct Use of Sockets
+CWE-248 | Uncaught Exception
+CWE-250 | Execution with Unnecessary Privileges | aka: Excessive Agency
+CWE-252 | Unchecked Return Value
+CWE-253 | Incorrect Check of Function Return Value
+CWE-256 | Plaintext Storage of a Password
+CWE-257 | Storing Passwords in a Recoverable Format
+CWE-258 | Empty Password in Configuration File
+CWE-259 | Use of Hard-coded Password
+CWE-260 | Password in Configuration File
+CWE-261 | Weak Encoding for Password
+CWE-262 | Not Using Password Aging
+CWE-263 | Password Aging with Long Expiration
+CWE-266 | Incorrect Privilege Assignment
+CWE-267 | Privilege Defined With Unsafe Actions
+CWE-268 | Privilege Chaining
+CWE-269 | Improper Privilege Management
+CWE-270 | Privilege Context Switching Error
+CWE-271 | Privilege Dropping / Lowering Errors
+CWE-272 | Least Privilege Violation
+CWE-273 | Improper Check for Dropped Privileges
+CWE-274 | Improper Handling of Insufficient Privileges
+CWE-276 | Incorrect Default Permissions
+CWE-277 | Insecure Inherited Permissions
+CWE-278 | Insecure Preserved Inherited Permissions
+CWE-279 | Incorrect Execution-Assigned Permissions
+CWE-280 | Improper Handling of Insufficient Permissions or Privileges
+CWE-281 | Improper Preservation of Permissions
+CWE-282 | Improper Ownership Management
+CWE-283 | Unverified Ownership
+CWE-284 | Improper Access Control | aka: Authorization
+CWE-285 | Improper Authorization | aka: AuthZ
+CWE-286 | Incorrect User Management
+CWE-287 | Improper Authentication | aka: authentification; AuthN; AuthC
+CWE-288 | Authentication Bypass Using an Alternate Path or Channel
+CWE-289 | Authentication Bypass by Alternate Name
+CWE-290 | Authentication Bypass by Spoofing
+CWE-291 | Reliance on IP Address for Authentication
+CWE-293 | Using Referer Field for Authentication | aka: referrer
+CWE-294 | Authentication Bypass by Capture-replay
+CWE-295 | Improper Certificate Validation
+CWE-296 | Improper Following of a Certificate's Chain of Trust
+CWE-297 | Improper Validation of Certificate with Host Mismatch
+CWE-298 | Improper Validation of Certificate Expiration
+CWE-299 | Improper Check for Certificate Revocation
+CWE-300 | Channel Accessible by Non-Endpoint | aka: Adversary-in-the-Middle / AITM; Attacker-in-the-Middle / AITM; Man-in-the-Middle / MITM; Person-in-the-Middle / PITM; Monkey-in-the-Middle; Monster-in-the-Middle; Manipulator-in-the-Middle; On-path attack; Interception attack
+CWE-301 | Reflection Attack in an Authentication Protocol
+CWE-302 | Authentication Bypass by Assumed-Immutable Data
+CWE-303 | Incorrect Implementation of Authentication Algorithm
+CWE-304 | Missing Critical Step in Authentication
+CWE-305 | Authentication Bypass by Primary Weakness
+CWE-306 | Missing Authentication for Critical Functionality
+CWE-307 | Improper Restriction of Excessive Authentication Attempts
+CWE-308 | Use of Single-factor Authentication
+CWE-309 | Use of Password System for Primary Authentication
+CWE-311 | Missing Encryption of Sensitive Data
+CWE-312 | Cleartext Storage of Sensitive Information
+CWE-313 | Cleartext Storage in a File or on Disk
+CWE-314 | Cleartext Storage in the Registry
+CWE-315 | Cleartext Storage of Sensitive Information in a Cookie
+CWE-316 | Cleartext Storage of Sensitive Information in Memory
+CWE-317 | Cleartext Storage of Sensitive Information in GUI
+CWE-318 | Cleartext Storage of Sensitive Information in Executable
+CWE-319 | Cleartext Transmission of Sensitive Information
+CWE-321 | Use of Hard-coded Cryptographic Key
+CWE-322 | Key Exchange without Entity Authentication
+CWE-323 | Reusing a Nonce, Key Pair in Encryption
+CWE-324 | Use of a Key Past its Expiration Date
+CWE-325 | Missing Cryptographic Step
+CWE-326 | Inadequate Encryption Strength
+CWE-327 | Use of a Broken or Risky Cryptographic Algorithm
+CWE-328 | Use of Weak Hash
+CWE-329 | Generation of Predictable IV with CBC Mode
+CWE-330 | Use of Insufficiently Random Values
+CWE-331 | Insufficient Entropy
+CWE-332 | Insufficient Entropy in PRNG
+CWE-333 | Improper Handling of Insufficient Entropy in TRNG
+CWE-334 | Small Space of Random Values
+CWE-335 | Incorrect Usage of Seeds in Pseudo-Random Number Generator (PRNG)
+CWE-336 | Same Seed in Pseudo-Random Number Generator (PRNG)
+CWE-337 | Predictable Seed in Pseudo-Random Number Generator (PRNG)
+CWE-338 | Use of Cryptographically Weak Pseudo-Random Number Generator (PRNG)
+CWE-339 | Small Seed Space in PRNG
+CWE-340 | Generation of Predictable Numbers or Identifiers
+CWE-341 | Predictable from Observable State
+CWE-342 | Predictable Exact Value from Previous Values
+CWE-343 | Predictable Value Range from Previous Values
+CWE-344 | Use of Invariant Value in Dynamically Changing Context
+CWE-345 | Insufficient Verification of Data Authenticity
+CWE-346 | Origin Validation Error
+CWE-347 | Improper Verification of Cryptographic Signature
+CWE-348 | Use of Less Trusted Source
+CWE-349 | Acceptance of Extraneous Untrusted Data With Trusted Data
+CWE-350 | Reliance on Reverse DNS Resolution for a Security-Critical Action
+CWE-351 | Insufficient Type Distinction
+CWE-352 | Cross-Site Request Forgery | aka: Session Riding; Cross Site Reference Forgery; XSRF; CSRF
+CWE-353 | Missing Support for Integrity Check
+CWE-354 | Improper Validation of Integrity Check Value
+CWE-356 | Missing User Interaction for Potentially Unsafe Action | aka: Human-in-the-Loop; HITL
+CWE-357 | Insufficient UI Warning of Dangerous Operations
+CWE-358 | Improperly Implemented Security Check for Standard
+CWE-359 | Exposure of Private Personal Information to an Unauthorized Actor | aka: Privacy violation; Privacy leak / Privacy leakage; PPI; PII; PHI
+CWE-360 | Trust of System Event Data
+CWE-362 | Concurrent Execution using Shared Resource with Improper Synchronization | aka: Race Condition
+CWE-363 | Race Condition Enabling Link Following
+CWE-364 | Signal Handler Race Condition
+CWE-366 | Race Condition within a Thread
+CWE-367 | Time-of-check Time-of-use (TOCTOU) Race Condition | aka: TOCTTOU; TOCCTOU
+CWE-368 | Context Switching Race Condition
+CWE-369 | Divide By Zero
+CWE-370 | Missing Check for Certificate Revocation after Initial Check
+CWE-372 | Incomplete Internal State Distinction
+CWE-374 | Passing Mutable Objects to an Untrusted Method
+CWE-375 | Returning a Mutable Object to an Untrusted Caller
+CWE-378 | Creation of Temporary File With Insecure Permissions
+CWE-379 | Creation of Temporary File in Directory with Insecure Permissions
+CWE-382 | J2EE Bad Practices: Use of System.exit()
+CWE-383 | J2EE Bad Practices: Direct Use of Threads
+CWE-384 | Session Fixation
+CWE-385 | Covert Timing Channel
+CWE-386 | Symbolic Name not Mapping to Correct Object
+CWE-390 | Detection of Error Condition Without Action
+CWE-392 | Missing Report of Error Condition
+CWE-393 | Return of Wrong Status Code
+CWE-394 | Unexpected Status Code or Return Value
+CWE-395 | Use of NullPointerException Catch to Detect NULL Pointer Dereference
+CWE-396 | Declaration of Catch for Generic Exception
+CWE-397 | Declaration of Throws for Generic Exception
+CWE-400 | Uncontrolled Resource Consumption | aka: Resource Exhaustion
+CWE-401 | Missing Release of Memory after Effective Lifetime | aka: Memory Leak
+CWE-402 | Transmission of Private Resources into a New Sphere | aka: Resource Leak
+CWE-403 | Exposure of File Descriptor to Unintended Control Sphere | aka: File descriptor leak
+CWE-404 | Improper Resource Shutdown or Release
+CWE-405 | Asymmetric Resource Consumption (Amplification)
+CWE-406 | Insufficient Control of Network Message Volume (Network Amplification)
+CWE-407 | Inefficient Algorithmic Complexity | aka: Quadratic Complexity
+CWE-408 | Incorrect Behavior Order: Early Amplification
+CWE-409 | Improper Handling of Highly Compressed Data (Data Amplification)
+CWE-410 | Insufficient Resource Pool
+CWE-412 | Unrestricted Externally Accessible Lock
+CWE-413 | Improper Resource Locking
+CWE-414 | Missing Lock Check
+CWE-415 | Double Free | aka: Double-free
+CWE-416 | Use After Free | aka: Dangling pointer; UAF; Use-After-Free
+CWE-419 | Unprotected Primary Channel
+CWE-420 | Unprotected Alternate Channel
+CWE-421 | Race Condition During Access to Alternate Channel
+CWE-422 | Unprotected Windows Messaging Channel | aka: Shatter
+CWE-424 | Improper Protection of Alternate Path
+CWE-425 | Direct Request | aka: Forced Browsing
+CWE-426 | Untrusted Search Path | aka: Untrusted Path
+CWE-427 | Uncontrolled Search Path Element | aka: DLL preloading; Binary planting; Insecure library loading; Dependency confusion
+CWE-428 | Unquoted Search Path or Element
+CWE-430 | Deployment of Wrong Handler
+CWE-431 | Missing Handler
+CWE-432 | Dangerous Signal Handler not Disabled During Sensitive Operations
+CWE-433 | Unparsed Raw Web Content Delivery
+CWE-434 | Unrestricted Upload of File with Dangerous Type | aka: Unrestricted File Upload
+CWE-435 | Improper Interaction Between Multiple Correctly-Behaving Entities | aka: Interaction Error; Emergent Fault
+CWE-436 | Interpretation Conflict
+CWE-437 | Incomplete Model of Endpoint Features
+CWE-439 | Behavioral Change in New Version or Environment | aka: Functional change
+CWE-440 | Expected Behavior Violation
+CWE-441 | Unintended Proxy or Intermediary | aka: Confused Deputy
+CWE-444 | Inconsistent Interpretation of HTTP Requests | aka: HTTP Request Smuggling; HTTP Response Smuggling; HTTP Smuggling
+CWE-446 | UI Discrepancy for Security Feature
+CWE-447 | Unimplemented or Unsupported Feature in UI
+CWE-448 | Obsolete Feature in UI
+CWE-449 | The UI Performs the Wrong Action
+CWE-450 | Multiple Interpretations of UI Input
+CWE-451 | User Interface (UI) Misrepresentation of Critical Information
+CWE-453 | Insecure Default Variable Initialization
+CWE-454 | External Initialization of Trusted Variables or Data Stores
+CWE-455 | Non-exit on Failed Initialization
+CWE-456 | Missing Initialization of a Variable
+CWE-457 | Use of Uninitialized Variable
+CWE-459 | Incomplete Cleanup | aka: Insufficient Cleanup
+CWE-460 | Improper Cleanup on Thrown Exception
+CWE-462 | Duplicate Key in Associative List (Alist)
+CWE-463 | Deletion of Data Structure Sentinel
+CWE-464 | Addition of Data Structure Sentinel
+CWE-466 | Return of Pointer Value Outside of Expected Range
+CWE-467 | Use of sizeof() on a Pointer Type
+CWE-468 | Incorrect Pointer Scaling
+CWE-469 | Use of Pointer Subtraction to Determine Size
+CWE-470 | Use of Externally-Controlled Input to Select Classes or Code | aka: Reflection Injection; Unsafe Reflection
+CWE-471 | Modification of Assumed-Immutable Data (MAID)
+CWE-472 | External Control of Assumed-Immutable Web Parameter | aka: Assumed-Immutable Parameter Tampering
+CWE-473 | PHP External Variable Modification
+CWE-474 | Use of Function with Inconsistent Implementations
+CWE-475 | Undefined Behavior for Input to API
+CWE-476 | NULL Pointer Dereference | aka: NPD; null deref; NPE; nil pointer dereference
+CWE-477 | Use of Obsolete Function
+CWE-478 | Missing Default Case in Multiple Condition Expression
+CWE-479 | Signal Handler Use of a Non-reentrant Function
+CWE-480 | Use of Incorrect Operator
+CWE-481 | Assigning instead of Comparing
+CWE-482 | Comparing instead of Assigning
+CWE-483 | Incorrect Block Delimitation
+CWE-484 | Omitted Break Statement in Switch
+CWE-486 | Comparison of Classes by Name
+CWE-487 | Reliance on Package-level Scope
+CWE-488 | Exposure of Data Element to Wrong Session
+CWE-489 | Active Debug Code | aka: Leftover debug code
+CWE-491 | Public cloneable() Method Without Final | aka: Object Hijack
+CWE-492 | Use of Inner Class Containing Sensitive Data
+CWE-493 | Critical Public Variable Without Final Modifier
+CWE-494 | Download of Code Without Integrity Check
+CWE-495 | Private Data Structure Returned From A Public Method
+CWE-496 | Public Data Assigned to Private Array-Typed Field
+CWE-497 | Exposure of Sensitive System Information to an Unauthorized Control Sphere
+CWE-498 | Cloneable Class Containing Sensitive Information
+CWE-499 | Serializable Class Containing Sensitive Data
+CWE-500 | Public Static Field Not Marked Final
+CWE-501 | Trust Boundary Violation
+CWE-502 | Deserialization of Untrusted Data | aka: Marshaling/Marshalling, Unmarshaling/Unmarshalling; Pickling, Unpickling; PHP Object Injection
+CWE-506 | Embedded Malicious Code
+CWE-507 | Trojan Horse
+CWE-508 | Non-Replicating Malicious Code
+CWE-509 | Replicating Malicious Code (Virus or Worm)
+CWE-510 | Trapdoor
+CWE-511 | Logic/Time Bomb
+CWE-512 | Spyware | aka: Spyware
+CWE-514 | Covert Channel
+CWE-515 | Covert Storage Channel
+CWE-520 | .NET Misconfiguration: Use of Impersonation
+CWE-521 | Weak Password Requirements
+CWE-522 | Insufficiently Protected Credentials
+CWE-523 | Unprotected Transport of Credentials
+CWE-524 | Use of Cache Containing Sensitive Information
+CWE-525 | Use of Web Browser Cache Containing Sensitive Information
+CWE-526 | Cleartext Storage of Sensitive Information in an Environment Variable
+CWE-527 | Exposure of Version-Control Repository to an Unauthorized Control Sphere
+CWE-528 | Exposure of Core Dump File to an Unauthorized Control Sphere
+CWE-529 | Exposure of Access Control List Files to an Unauthorized Control Sphere
+CWE-530 | Exposure of Backup File to an Unauthorized Control Sphere
+CWE-531 | Inclusion of Sensitive Information in Test Code
+CWE-532 | Insertion of Sensitive Information into Log File
+CWE-535 | Exposure of Information Through Shell Error Message
+CWE-536 | Servlet Runtime Error Message Containing Sensitive Information
+CWE-537 | Java Runtime Error Message Containing Sensitive Information
+CWE-538 | Insertion of Sensitive Information into Externally-Accessible File or Directory
+CWE-539 | Use of Persistent Cookies Containing Sensitive Information
+CWE-540 | Inclusion of Sensitive Information in Source Code
+CWE-541 | Inclusion of Sensitive Information in an Include File
+CWE-543 | Use of Singleton Pattern Without Synchronization in a Multithreaded Context
+CWE-544 | Missing Standardized Error Handling Mechanism
+CWE-546 | Suspicious Comment
+CWE-547 | Use of Hard-coded, Security-relevant Constants
+CWE-548 | Exposure of Information Through Directory Listing
+CWE-549 | Missing Password Field Masking
+CWE-550 | Server-generated Error Message Containing Sensitive Information
+CWE-551 | Incorrect Behavior Order: Authorization Before Parsing and Canonicalization
+CWE-552 | Files or Directories Accessible to External Parties
+CWE-553 | Command Shell in Externally Accessible Directory
+CWE-554 | ASP.NET Misconfiguration: Not Using Input Validation Framework
+CWE-555 | J2EE Misconfiguration: Plaintext Password in Configuration File
+CWE-556 | ASP.NET Misconfiguration: Use of Identity Impersonation
+CWE-558 | Use of getlogin() in Multithreaded Application
+CWE-560 | Use of umask() with chmod-style Argument
+CWE-561 | Dead Code
+CWE-562 | Return of Stack Variable Address
+CWE-563 | Assignment to Variable without Use | aka: Unused Variable
+CWE-564 | Use of Hibernate with HQL/SQL Query String Containing External Input | aka: HQL Injection
+CWE-565 | Reliance on Cookies without Validation and Integrity Checking
+CWE-566 | Authorization Bypass Through User-Controlled SQL Primary Key
+CWE-567 | Unsynchronized Access to Shared Data in a Multithreaded Context
+CWE-568 | finalize() Method Without super.finalize()
+CWE-570 | Expression is Always False
+CWE-571 | Expression is Always True
+CWE-572 | Call to Thread run() instead of start()
+CWE-573 | Improper Following of Specification by Caller
+CWE-574 | EJB Bad Practices: Use of Synchronization Primitives
+CWE-575 | EJB Bad Practices: Use of AWT Swing
+CWE-576 | EJB Bad Practices: Use of Java I/O
+CWE-577 | EJB Bad Practices: Use of Sockets
+CWE-578 | EJB Bad Practices: Use of Class Loader
+CWE-579 | J2EE Bad Practices: Non-serializable Object Stored in Session
+CWE-580 | clone() Method Without super.clone()
+CWE-581 | Object Model Violation: Just One of Equals and Hashcode Defined
+CWE-582 | Array Declared Public, Final, and Static
+CWE-583 | finalize() Method Declared Public
+CWE-584 | Return Inside Finally Block
+CWE-585 | Empty Synchronized Block
+CWE-586 | Explicit Call to Finalize()
+CWE-587 | Assignment of a Fixed Address to a Pointer
+CWE-588 | Attempt to Access Child of a Non-structure Pointer
+CWE-589 | Call to Non-ubiquitous API
+CWE-590 | Free of Memory not on the Heap
+CWE-591 | Sensitive Data Storage in Improperly Locked Memory
+CWE-593 | Authentication Bypass: OpenSSL CTX Object Modified after SSL Objects are Created
+CWE-594 | J2EE Framework: Saving Unserializable Objects to Disk
+CWE-595 | Comparison of Object References Instead of Object Contents
+CWE-597 | Use of Wrong Operator in String Comparison
+CWE-598 | Use of HTTP Request With Sensitive Query String
+CWE-599 | Missing Validation of OpenSSL Certificate
+CWE-600 | Uncaught Exception in Servlet | aka: Missing Catch Block
+CWE-601 | URL Redirection to Untrusted Site | aka: Open Redirect; Cross-site Redirect; Cross-domain Redirect; Unvalidated Redirect; Drive-by download
+CWE-602 | Client-Side Enforcement of Server-Side Security
+CWE-603 | Use of Client-Side Authentication
+CWE-605 | Multiple Binds to the Same Port
+CWE-606 | Unchecked Input for Loop Condition
+CWE-607 | Public Static Final Field References Mutable Object
+CWE-608 | Struts: Non-private Field in ActionForm Class
+CWE-609 | Double-Checked Locking
+CWE-610 | Externally Controlled Reference to a Resource in Another Sphere
+CWE-611 | Improper Restriction of XML External Entity Reference | aka: XXE
+CWE-612 | Improper Authorization of Index Containing Sensitive Information
+CWE-614 | Sensitive Cookie in HTTPS Session Without 'Secure' Attribute
+CWE-615 | Inclusion of Sensitive Information in Source Code Comments
+CWE-616 | Incomplete Identification of Uploaded File Variables (PHP)
+CWE-617 | Reachable Assertion | aka: assertion failure
+CWE-618 | Exposed Unsafe ActiveX Method
+CWE-619 | Dangling Database Cursor | aka: Cursor Injection
+CWE-620 | Unverified Password Change
+CWE-621 | Variable Extraction Error | aka: Variable overwrite
+CWE-622 | Improper Validation of Function Hook Arguments
+CWE-623 | Unsafe ActiveX Control Marked Safe For Scripting
+CWE-624 | Executable Regular Expression Error
+CWE-625 | Permissive Regular Expression
+CWE-626 | Null Byte Interaction Error (Poison Null Byte)
+CWE-627 | Dynamic Variable Evaluation | aka: Dynamic evaluation
+CWE-628 | Function Call with Incorrectly Specified Arguments
+CWE-636 | Not Failing Securely | aka: Failing Open
+CWE-637 | Unnecessary Complexity in Protection Mechanism (Not Using 'Economy of Mechanism') | aka: Unnecessary Complexity
+CWE-638 | Not Using Complete Mediation
+CWE-639 | Authorization Bypass Through User-Controlled Key | aka: Insecure Direct Object Reference / IDOR; Broken Object Level Authorization / BOLA; Horizontal Authorization
+CWE-640 | Weak Password Recovery Mechanism for Forgotten Password
+CWE-641 | Improper Restriction of Names for Files and Other Resources
+CWE-642 | External Control of Critical State Data
+CWE-643 | Improper Neutralization of Data within XPath Expressions | aka: XPath Injection
+CWE-644 | Improper Neutralization of HTTP Headers for Scripting Syntax
+CWE-645 | Overly Restrictive Account Lockout Mechanism
+CWE-646 | Reliance on File Name or Extension of Externally-Supplied File
+CWE-647 | Use of Non-Canonical URL Paths for Authorization Decisions
+CWE-648 | Incorrect Use of Privileged APIs
+CWE-649 | Reliance on Obfuscation or Encryption of Security-Relevant Inputs without Integrity Checking
+CWE-650 | Trusting HTTP Permission Methods on the Server Side
+CWE-651 | Exposure of WSDL File Containing Sensitive Information
+CWE-652 | Improper Neutralization of Data within XQuery Expressions | aka: XQuery Injection
+CWE-653 | Improper Isolation or Compartmentalization | aka: Separation of Privilege
+CWE-654 | Reliance on a Single Factor in a Security Decision | aka: Separation of Privilege
+CWE-655 | Insufficient Psychological Acceptability
+CWE-656 | Reliance on Security Through Obscurity | aka: Never Assuming your secrets are safe
+CWE-657 | Violation of Secure Design Principles
+CWE-662 | Improper Synchronization
+CWE-663 | Use of a Non-reentrant Function in a Concurrent Context
+CWE-664 | Improper Control of a Resource Through its Lifetime
+CWE-665 | Improper Initialization
+CWE-666 | Operation on Resource in Wrong Phase of Lifetime
+CWE-667 | Improper Locking
+CWE-668 | Exposure of Resource to Wrong Sphere
+CWE-669 | Incorrect Resource Transfer Between Spheres
+CWE-670 | Always-Incorrect Control Flow Implementation
+CWE-671 | Lack of Administrator Control over Security
+CWE-672 | Operation on a Resource after Expiration or Release
+CWE-673 | External Influence of Sphere Definition
+CWE-674 | Uncontrolled Recursion | aka: Stack Exhaustion
+CWE-675 | Multiple Operations on Resource in Single-Operation Context
+CWE-676 | Use of Potentially Dangerous Function
+CWE-680 | Integer Overflow to Buffer Overflow
+CWE-681 | Incorrect Conversion between Numeric Types
+CWE-682 | Incorrect Calculation
+CWE-683 | Function Call With Incorrect Order of Arguments
+CWE-684 | Incorrect Provision of Specified Functionality
+CWE-685 | Function Call With Incorrect Number of Arguments
+CWE-686 | Function Call With Incorrect Argument Type
+CWE-687 | Function Call With Incorrectly Specified Argument Value
+CWE-688 | Function Call With Incorrect Variable or Reference as Argument
+CWE-689 | Permission Race Condition During Resource Copy
+CWE-690 | Unchecked Return Value to NULL Pointer Dereference
+CWE-691 | Insufficient Control Flow Management
+CWE-692 | Incomplete Denylist to Cross-Site Scripting
+CWE-693 | Protection Mechanism Failure
+CWE-694 | Use of Multiple Resources with Duplicate Identifier
+CWE-695 | Use of Low-Level Functionality
+CWE-696 | Incorrect Behavior Order
+CWE-697 | Incorrect Comparison
+CWE-698 | Execution After Redirect (EAR) | aka: Redirect Without Exit
+CWE-703 | Improper Check or Handling of Exceptional Conditions
+CWE-704 | Incorrect Type Conversion or Cast
+CWE-705 | Incorrect Control Flow Scoping
+CWE-706 | Use of Incorrectly-Resolved Name or Reference
+CWE-707 | Improper Neutralization
+CWE-708 | Incorrect Ownership Assignment
+CWE-710 | Improper Adherence to Coding Standards
+CWE-732 | Incorrect Permission Assignment for Critical Resource
+CWE-733 | Compiler Optimization Removal or Modification of Security-critical Code
+CWE-749 | Exposed Dangerous Method or Function
+CWE-754 | Improper Check for Unusual or Exceptional Conditions
+CWE-755 | Improper Handling of Exceptional Conditions
+CWE-756 | Missing Custom Error Page
+CWE-757 | Selection of Less-Secure Algorithm During Negotiation | aka: Algorithm Downgrade
+CWE-758 | Reliance on Undefined, Unspecified, or Implementation-Defined Behavior
+CWE-759 | Use of a One-Way Hash without a Salt
+CWE-760 | Use of a One-Way Hash with a Predictable Salt
+CWE-761 | Free of Pointer not at Start of Buffer
+CWE-762 | Mismatched Memory Management Routines
+CWE-763 | Release of Invalid Pointer or Reference
+CWE-764 | Multiple Locks of a Critical Resource
+CWE-765 | Multiple Unlocks of a Critical Resource
+CWE-766 | Critical Data Element Declared Public
+CWE-767 | Access to Critical Private Variable via Public Method
+CWE-768 | Incorrect Short Circuit Evaluation
+CWE-770 | Allocation of Resources Without Limits or Throttling
+CWE-771 | Missing Reference to Active Allocated Resource
+CWE-772 | Missing Release of Resource after Effective Lifetime
+CWE-773 | Missing Reference to Active File Descriptor or Handle
+CWE-774 | Allocation of File Descriptors or Handles Without Limits or Throttling | aka: File Descriptor Exhaustion
+CWE-775 | Missing Release of File Descriptor or Handle after Effective Lifetime
+CWE-776 | Improper Restriction of Recursive Entity References in DTDs | aka: XEE; Billion Laughs Attack; XML Bomb
+CWE-777 | Regular Expression without Anchors
+CWE-778 | Insufficient Logging
+CWE-779 | Logging of Excessive Data
+CWE-780 | Use of RSA Algorithm without OAEP
+CWE-781 | Improper Address Validation in IOCTL with METHOD_NEITHER I/O Control Code
+CWE-782 | Exposed IOCTL with Insufficient Access Control
+CWE-783 | Operator Precedence Logic Error
+CWE-784 | Reliance on Cookies without Validation and Integrity Checking in a Security Decision
+CWE-785 | Use of Path Manipulation Function without Maximum-sized Buffer
+CWE-786 | Access of Memory Location Before Start of Buffer
+CWE-787 | Out-of-bounds Write | aka: Memory Corruption
+CWE-788 | Access of Memory Location After End of Buffer
+CWE-789 | Memory Allocation with Excessive Size Value | aka: Stack Exhaustion
+CWE-790 | Improper Filtering of Special Elements
+CWE-791 | Incomplete Filtering of Special Elements
+CWE-792 | Incomplete Filtering of One or More Instances of Special Elements
+CWE-793 | Only Filtering One Instance of a Special Element
+CWE-794 | Incomplete Filtering of Multiple Instances of Special Elements
+CWE-795 | Only Filtering Special Elements at a Specified Location
+CWE-796 | Only Filtering Special Elements Relative to a Marker
+CWE-797 | Only Filtering Special Elements at an Absolute Position
+CWE-798 | Use of Hard-coded Credentials
+CWE-799 | Improper Control of Interaction Frequency | aka: Insufficient anti-automation; Brute force
+CWE-804 | Guessable CAPTCHA
+CWE-805 | Buffer Access with Incorrect Length Value
+CWE-806 | Buffer Access Using Size of Source Buffer
+CWE-807 | Reliance on Untrusted Inputs in a Security Decision
+CWE-820 | Missing Synchronization
+CWE-821 | Incorrect Synchronization
+CWE-822 | Untrusted Pointer Dereference
+CWE-823 | Use of Out-of-range Pointer Offset | aka: Untrusted pointer offset
+CWE-824 | Access of Uninitialized Pointer
+CWE-825 | Expired Pointer Dereference | aka: Dangling pointer
+CWE-826 | Premature Release of Resource During Expected Lifetime
+CWE-827 | Improper Control of Document Type Definition
+CWE-828 | Signal Handler with Functionality that is not Asynchronous-Safe
+CWE-829 | Inclusion of Functionality from Untrusted Control Sphere
+CWE-830 | Inclusion of Web Functionality from an Untrusted Source
+CWE-831 | Signal Handler Function Associated with Multiple Signals
+CWE-832 | Unlock of a Resource that is not Locked
+CWE-833 | Deadlock
+CWE-834 | Excessive Iteration
+CWE-835 | Loop with Unreachable Exit Condition | aka: Infinite Loop
+CWE-836 | Use of Password Hash Instead of Password for Authentication
+CWE-837 | Improper Enforcement of a Single, Unique Action
+CWE-838 | Inappropriate Encoding for Output Context
+CWE-839 | Numeric Range Comparison Without Minimum Check | aka: Signed comparison
+CWE-841 | Improper Enforcement of Behavioral Workflow
+CWE-842 | Placement of User into Incorrect Group
+CWE-843 | Access of Resource Using Incompatible Type | aka: Type Confusion; Object Type Confusion
+CWE-862 | Missing Authorization | aka: AuthZ
+CWE-863 | Incorrect Authorization | aka: AuthZ
+CWE-908 | Use of Uninitialized Resource
+CWE-909 | Missing Initialization of Resource
+CWE-910 | Use of Expired File Descriptor | aka: Stale file descriptor
+CWE-911 | Improper Update of Reference Count
+CWE-912 | Hidden Functionality
+CWE-913 | Improper Control of Dynamically-Managed Code Resources
+CWE-914 | Improper Control of Dynamically-Identified Variables
+CWE-915 | Improperly Controlled Modification of Dynamically-Determined Object Attributes | aka: Mass Assignment; AutoBinding; PHP Object Injection
+CWE-916 | Use of Password Hash With Insufficient Computational Effort
+CWE-917 | Improper Neutralization of Special Elements used in an Expression Language Statement | aka: EL Injection; Expression Language Injection
+CWE-918 | Server-Side Request Forgery | aka: XSPA; SSRF
+CWE-920 | Improper Restriction of Power Consumption
+CWE-921 | Storage of Sensitive Data in a Mechanism without Access Control
+CWE-922 | Insecure Storage of Sensitive Information
+CWE-923 | Improper Restriction of Communication Channel to Intended Endpoints
+CWE-924 | Improper Enforcement of Message Integrity During Transmission in a Communication Channel
+CWE-925 | Improper Verification of Intent by Broadcast Receiver | aka: Intent Spoofing
+CWE-926 | Improper Export of Android Application Components
+CWE-927 | Use of Implicit Intent for Sensitive Communication
+CWE-939 | Improper Authorization in Handler for Custom URL Scheme
+CWE-940 | Improper Verification of Source of a Communication Channel
+CWE-941 | Incorrectly Specified Destination in a Communication Channel
+CWE-942 | Permissive Cross-domain Security Policy with Untrusted Domains
+CWE-943 | Improper Neutralization of Special Elements in Data Query Logic | aka: NoSQL Injection, NoSQLi
+CWE-1004 | Sensitive Cookie Without 'HttpOnly' Flag
+CWE-1007 | Insufficient Visual Distinction of Homoglyphs Presented to User | aka: Homograph Attack
+CWE-1021 | Improper Restriction of Rendered UI Layers or Frames | aka: Clickjacking; UI Redress Attack; Tapjacking
+CWE-1022 | Use of Web Link to Untrusted Target with window.opener Access | aka: tabnabbing
+CWE-1023 | Incomplete Comparison with Missing Factors
+CWE-1024 | Comparison of Incompatible Types
+CWE-1025 | Comparison Using Wrong Factors
+CWE-1037 | Processor Optimization Removal or Modification of Security-critical Code
+CWE-1038 | Insecure Automated Optimizations
+CWE-1039 | Inadequate Detection or Handling of Adversarial Input Perturbations in Automated Recognition Mechanism
+CWE-1041 | Use of Redundant Code
+CWE-1042 | Static Member Data Element outside of a Singleton Class Element
+CWE-1043 | Data Element Aggregating an Excessively Large Number of Non-Primitive Elements
+CWE-1044 | Architecture with Number of Horizontal Layers Outside of Expected Range
+CWE-1045 | Parent Class with a Virtual Destructor and a Child Class without a Virtual Destructor
+CWE-1046 | Creation of Immutable Text Using String Concatenation
+CWE-1047 | Modules with Circular Dependencies
+CWE-1048 | Invokable Control Element with Large Number of Outward Calls
+CWE-1049 | Excessive Data Query Operations in a Large Data Table
+CWE-1050 | Excessive Platform Resource Consumption within a Loop
+CWE-1051 | Initialization with Hard-Coded Network Resource Configuration Data
+CWE-1052 | Excessive Use of Hard-Coded Literals in Initialization
+CWE-1053 | Missing Documentation for Design
+CWE-1054 | Invocation of a Control Element at an Unnecessarily Deep Horizontal Layer
+CWE-1055 | Multiple Inheritance from Concrete Classes
+CWE-1056 | Invokable Control Element with Variadic Parameters
+CWE-1057 | Data Access Operations Outside of Expected Data Manager Component
+CWE-1058 | Invokable Control Element in Multi-Thread Context with non-Final Static Storable or Member Element
+CWE-1059 | Insufficient Technical Documentation
+CWE-1060 | Excessive Number of Inefficient Server-Side Data Accesses
+CWE-1061 | Insufficient Encapsulation
+CWE-1062 | Parent Class with References to Child Class
+CWE-1063 | Creation of Class Instance within a Static Code Block
+CWE-1064 | Invokable Control Element with Signature Containing an Excessive Number of Parameters
+CWE-1065 | Runtime Resource Management Control Element in a Component Built to Run on Application Servers
+CWE-1066 | Missing Serialization Control Element
+CWE-1067 | Excessive Execution of Sequential Searches of Data Resource
+CWE-1068 | Inconsistency Between Implementation and Documented Design
+CWE-1069 | Empty Exception Block
+CWE-1070 | Serializable Data Element Containing non-Serializable Item Elements
+CWE-1071 | Empty Code Block
+CWE-1072 | Data Resource Access without Use of Connection Pooling
+CWE-1073 | Non-SQL Invokable Control Element with Excessive Number of Data Resource Accesses
+CWE-1074 | Class with Excessively Deep Inheritance
+CWE-1075 | Unconditional Control Flow Transfer outside of Switch Block
+CWE-1076 | Insufficient Adherence to Expected Conventions
+CWE-1077 | Floating Point Comparison with Incorrect Operator
+CWE-1078 | Inappropriate Source Code Style or Formatting
+CWE-1079 | Parent Class without Virtual Destructor Method
+CWE-1080 | Source Code File with Excessive Number of Lines of Code
+CWE-1082 | Class Instance Self Destruction Control Element
+CWE-1083 | Data Access from Outside Expected Data Manager Component
+CWE-1084 | Invokable Control Element with Excessive File or Data Access Operations
+CWE-1085 | Invokable Control Element with Excessive Volume of Commented-out Code
+CWE-1086 | Class with Excessive Number of Child Classes
+CWE-1087 | Class with Virtual Method without a Virtual Destructor
+CWE-1088 | Synchronous Access of Remote Resource without Timeout
+CWE-1089 | Large Data Table with Excessive Number of Indices
+CWE-1090 | Method Containing Access of a Member Element from Another Class
+CWE-1091 | Use of Object without Invoking Destructor Method
+CWE-1092 | Use of Same Invokable Control Element in Multiple Architectural Layers
+CWE-1093 | Excessively Complex Data Representation
+CWE-1094 | Excessive Index Range Scan for a Data Resource
+CWE-1095 | Loop Condition Value Update within the Loop
+CWE-1096 | Singleton Class Instance Creation without Proper Locking or Synchronization
+CWE-1097 | Persistent Storable Data Element without Associated Comparison Control Element
+CWE-1098 | Data Element containing Pointer Item without Proper Copy Control Element
+CWE-1099 | Inconsistent Naming Conventions for Identifiers
+CWE-1100 | Insufficient Isolation of System-Dependent Functions
+CWE-1101 | Reliance on Runtime Component in Generated Code
+CWE-1102 | Reliance on Machine-Dependent Data Representation
+CWE-1103 | Use of Platform-Dependent Third Party Components
+CWE-1104 | Use of Unmaintained Third Party Components
+CWE-1105 | Insufficient Encapsulation of Machine-Dependent Functionality
+CWE-1106 | Insufficient Use of Symbolic Constants
+CWE-1107 | Insufficient Isolation of Symbolic Constant Definitions
+CWE-1108 | Excessive Reliance on Global Variables
+CWE-1109 | Use of Same Variable for Multiple Purposes
+CWE-1110 | Incomplete Design Documentation
+CWE-1111 | Incomplete I/O Documentation
+CWE-1112 | Incomplete Documentation of Program Execution
+CWE-1113 | Inappropriate Comment Style
+CWE-1114 | Inappropriate Whitespace Style
+CWE-1115 | Source Code Element without Standard Prologue
+CWE-1116 | Inaccurate Source Code Comments
+CWE-1117 | Callable with Insufficient Behavioral Summary
+CWE-1118 | Insufficient Documentation of Error Handling Techniques
+CWE-1119 | Excessive Use of Unconditional Branching | aka: Spaghetti code
+CWE-1120 | Excessive Code Complexity
+CWE-1121 | Excessive McCabe Cyclomatic Complexity
+CWE-1122 | Excessive Halstead Complexity
+CWE-1123 | Excessive Use of Self-Modifying Code
+CWE-1124 | Excessively Deep Nesting
+CWE-1125 | Excessive Attack Surface
+CWE-1126 | Declaration of Variable with Unnecessarily Wide Scope
+CWE-1127 | Compilation with Insufficient Warnings or Errors
+CWE-1164 | Irrelevant Code
+CWE-1173 | Improper Use of Validation Framework
+CWE-1174 | ASP.NET Misconfiguration: Improper Model Validation
+CWE-1176 | Inefficient CPU Computation
+CWE-1177 | Use of Prohibited Code
+CWE-1188 | Initialization of a Resource with an Insecure Default
+CWE-1189 | Improper Isolation of Shared Resources on System-on-a-Chip (SoC)
+CWE-1190 | DMA Device Enabled Too Early in Boot Phase
+CWE-1191 | On-Chip Debug and Test Interface With Improper Access Control
+CWE-1192 | Improper Identifier for IP Block used in System-On-Chip (SOC)
+CWE-1193 | Power-On of Untrusted Execution Core Before Enabling Fabric Access Control
+CWE-1204 | Generation of Weak Initialization Vector (IV)
+CWE-1209 | Failure to Disable Reserved Bits
+CWE-1220 | Insufficient Granularity of Access Control
+CWE-1221 | Incorrect Register Defaults or Module Parameters
+CWE-1222 | Insufficient Granularity of Address Regions Protected by Register Locks
+CWE-1223 | Race Condition for Write-Once Attributes
+CWE-1224 | Improper Restriction of Write-Once Bit Fields
+CWE-1229 | Creation of Emergent Resource
+CWE-1230 | Exposure of Sensitive Information Through Metadata
+CWE-1231 | Improper Prevention of Lock Bit Modification
+CWE-1232 | Improper Lock Behavior After Power State Transition
+CWE-1233 | Security-Sensitive Hardware Controls with Missing Lock Bit Protection
+CWE-1234 | Hardware Internal or Debug Modes Allow Override of Locks
+CWE-1235 | Incorrect Use of Autoboxing and Unboxing for Performance Critical Operations
+CWE-1236 | Improper Neutralization of Formula Elements in a CSV File | aka: CSV Injection; Formula Injection; Excel Macro Injection
+CWE-1239 | Improper Zeroization of Hardware Register
+CWE-1240 | Use of a Cryptographic Primitive with a Risky Implementation
+CWE-1241 | Use of Predictable Algorithm in Random Number Generator
+CWE-1242 | Inclusion of Undocumented Features or Chicken Bits
+CWE-1243 | Sensitive Non-Volatile Information Not Protected During Debug
+CWE-1244 | Internal Asset Exposed to Unsafe Debug Access Level or State
+CWE-1245 | Improper Finite State Machines (FSMs) in Hardware Logic
+CWE-1246 | Improper Write Handling in Limited-write Non-Volatile Memories
+CWE-1247 | Improper Protection Against Voltage and Clock Glitches
+CWE-1248 | Semiconductor Defects in Hardware Logic with Security-Sensitive Implications
+CWE-1249 | Application-Level Admin Tool with Inconsistent View of Underlying Operating System | aka: Ghost in the Shell
+CWE-1250 | Improper Preservation of Consistency Between Independent Representations of Shared State
+CWE-1251 | Mirrored Regions with Different Values
+CWE-1252 | CPU Hardware Not Configured to Support Exclusivity of Write and Execute Operations
+CWE-1253 | Incorrect Selection of Fuse Values
+CWE-1254 | Incorrect Comparison Logic Granularity
+CWE-1255 | Comparison Logic is Vulnerable to Power Side-Channel Attacks
+CWE-1256 | Improper Restriction of Software Interfaces to Hardware Features
+CWE-1257 | Improper Access Control Applied to Mirrored or Aliased Memory Regions
+CWE-1258 | Exposure of Sensitive System Information Due to Uncleared Debug Information
+CWE-1259 | Improper Restriction of Security Token Assignment
+CWE-1260 | Improper Handling of Overlap Between Protected Memory Ranges
+CWE-1261 | Improper Handling of Single Event Upsets
+CWE-1262 | Improper Access Control for Register Interface
+CWE-1263 | Improper Physical Access Control
+CWE-1264 | Hardware Logic with Insecure De-Synchronization between Control and Data Channels
+CWE-1265 | Unintended Reentrant Invocation of Non-reentrant Code Via Nested Calls
+CWE-1266 | Improper Scrubbing of Sensitive Data from Decommissioned Device
+CWE-1267 | Policy Uses Obsolete Encoding
+CWE-1268 | Policy Privileges are not Assigned Consistently Between Control and Data Agents
+CWE-1269 | Product Released in Non-Release Configuration
+CWE-1270 | Generation of Incorrect Security Tokens
+CWE-1271 | Uninitialized Value on Reset for Registers Holding Security Settings
+CWE-1272 | Sensitive Information Uncleared Before Debug/Power State Transition
+CWE-1273 | Device Unlock Credential Sharing
+CWE-1274 | Improper Access Control for Volatile Memory Containing Boot Code
+CWE-1275 | Sensitive Cookie with Improper SameSite Attribute
+CWE-1276 | Hardware Child Block Incorrectly Connected to Parent System
+CWE-1277 | Firmware Not Updateable
+CWE-1278 | Missing Protection Against Hardware Reverse Engineering Using Integrated Circuit (IC) Imaging Techniques
+CWE-1279 | Cryptographic Operations are Run Before Supporting Units are Ready
+CWE-1280 | Access Control Check Implemented After Asset is Accessed
+CWE-1281 | Sequence of Processor Instructions Leads to Unexpected Behavior
+CWE-1282 | Assumed-Immutable Data is Stored in Writable Memory
+CWE-1283 | Mutable Attestation or Measurement Reporting Data
+CWE-1284 | Improper Validation of Specified Quantity in Input
+CWE-1285 | Improper Validation of Specified Index, Position, or Offset in Input
+CWE-1286 | Improper Validation of Syntactic Correctness of Input
+CWE-1287 | Improper Validation of Specified Type of Input
+CWE-1288 | Improper Validation of Consistency within Input
+CWE-1289 | Improper Validation of Unsafe Equivalence in Input
+CWE-1290 | Incorrect Decoding of Security Identifiers
+CWE-1291 | Public Key Re-Use for Signing both Debug and Production Code
+CWE-1292 | Incorrect Conversion of Security Identifiers
+CWE-1293 | Missing Source Correlation of Multiple Independent Data
+CWE-1294 | Insecure Security Identifier Mechanism
+CWE-1295 | Debug Messages Revealing Unnecessary Information
+CWE-1296 | Incorrect Chaining or Granularity of Debug Components
+CWE-1297 | Unprotected Confidential Information on Device is Accessible by OSAT Vendors
+CWE-1298 | Hardware Logic Contains Race Conditions
+CWE-1299 | Missing Protection Mechanism for Alternate Hardware Interface
+CWE-1300 | Improper Protection of Physical Side Channels
+CWE-1301 | Insufficient or Incomplete Data Removal within Hardware Component
+CWE-1302 | Missing Source Identifier in Entity Transactions on a System-On-Chip (SOC)
+CWE-1303 | Non-Transparent Sharing of Microarchitectural Resources
+CWE-1304 | Improperly Preserved Integrity of Hardware Configuration State During a Power Save/Restore Operation
+CWE-1310 | Missing Ability to Patch ROM Code
+CWE-1311 | Improper Translation of Security Attributes by Fabric Bridge
+CWE-1312 | Missing Protection for Mirrored Regions in On-Chip Fabric Firewall
+CWE-1313 | Hardware Allows Activation of Test or Debug Logic at Runtime
+CWE-1314 | Missing Write Protection for Parametric Data Values
+CWE-1315 | Improper Setting of Bus Controlling Capability in Fabric End-point
+CWE-1316 | Fabric-Address Map Allows Programming of Unwarranted Overlaps of Protected and Unprotected Ranges
+CWE-1317 | Improper Access Control in Fabric Bridge
+CWE-1318 | Missing Support for Security Features in On-chip Fabrics or Buses
+CWE-1319 | Improper Protection against Electromagnetic Fault Injection (EM-FI)
+CWE-1320 | Improper Protection for Outbound Error Messages and Alert Signals
+CWE-1321 | Improperly Controlled Modification of Object Prototype Attributes | aka: Prototype Pollution
+CWE-1322 | Use of Blocking Code in Single-threaded, Non-blocking Context
+CWE-1323 | Improper Management of Sensitive Trace Data
+CWE-1325 | Improperly Controlled Sequential Memory Allocation | aka: Stack Exhaustion
+CWE-1326 | Missing Immutable Root of Trust in Hardware
+CWE-1327 | Binding to an Unrestricted IP Address
+CWE-1328 | Security Version Number Mutable to Older Versions
+CWE-1329 | Reliance on Component That is Not Updateable
+CWE-1330 | Remanent Data Readable after Memory Erase
+CWE-1331 | Improper Isolation of Shared Resources in Network On Chip (NoC)
+CWE-1332 | Improper Handling of Faults that Lead to Instruction Skips
+CWE-1333 | Inefficient Regular Expression Complexity | aka: ReDoS; Regular Expression Denial of Service; Catastrophic backtracking
+CWE-1334 | Unauthorized Error Injection Can Degrade Hardware Redundancy
+CWE-1335 | Incorrect Bitwise Shift of Integer
+CWE-1336 | Improper Neutralization of Special Elements Used in a Template Engine | aka: Server-Side Template Injection / SSTI; Client-Side Template Injection / CSTI
+CWE-1338 | Improper Protections Against Hardware Overheating
+CWE-1339 | Insufficient Precision or Accuracy of a Real Number
+CWE-1341 | Multiple Releases of Same Resource or Handle
+CWE-1342 | Information Exposure through Microarchitectural State after Transient Execution
+CWE-1351 | Improper Handling of Hardware Behavior in Exceptionally Cold Environments
+CWE-1357 | Reliance on Insufficiently Trustworthy Component
+CWE-1384 | Improper Handling of Physical or Environmental Conditions
+CWE-1385 | Missing Origin Validation in WebSockets | aka: Cross-Site WebSocket hijacking (CSWSH)
+CWE-1386 | Insecure Operation on Windows Junction / Mount Point
+CWE-1389 | Incorrect Parsing of Numbers with Different Radices
+CWE-1390 | Weak Authentication
+CWE-1391 | Use of Weak Credentials
+CWE-1392 | Use of Default Credentials
+CWE-1393 | Use of Default Password
+CWE-1394 | Use of Default Cryptographic Key
+CWE-1395 | Dependency on Vulnerable Third-Party Component
+CWE-1419 | Incorrect Initialization of Resource
+CWE-1420 | Exposure of Sensitive Information during Transient Execution
+CWE-1421 | Exposure of Sensitive Information in Shared Microarchitectural Structures during Transient Execution
+CWE-1422 | Exposure of Sensitive Information caused by Incorrect Data Forwarding during Transient Execution
+CWE-1423 | Exposure of Sensitive Information caused by Shared Microarchitectural Predictor State that Influences Transient Execution
+CWE-1426 | Improper Validation of Generative AI Output
+CWE-1427 | Improper Neutralization of Input Used for LLM Prompting | aka: prompt injection
+CWE-1428 | Reliance on HTTP instead of HTTPS
+CWE-1429 | Missing Security-Relevant Feedback for Unexecuted Operations in Hardware Interface
+CWE-1431 | Driving Intermediate Cryptographic State/Results to Hardware Module Outputs
+CWE-1434 | Insecure Setting of Generative AI/ML Model Inference Parameters
+CWE-1461 | Hardware Simulation / Synthesis Mismatch
+CWE-1462 | Improper Session Management
+CWE-1463 | Insufficient Session Timeout Value
+CWE-1464 | Improper Session Invalidation
+CWE-1465 | Improper Session Invalidation after User Logout
+CWE-1466 | Improper Session Invalidation after Authentication Credential Change
+CWE-1467 | Use of Singular Authentication Artifact for Multiple User Sessions
+CWE-1469 | Improper Check for Credential Expiration
+CWE-1470 | Improper External Identity Verification
+CWE-1471 | Insufficiently Controlled Parser Differential
+CWE-1472 | Generation of Credential with Long Expiration
+CWE-1473 | Improper Expiration of Cached Data
+CWE-1474 | Non-Equivalent Data Transformation
+CWE-1475 | Incomplete Data/State Propagation
+CWE-1476 | Improper Request Propagation before Data Reception in Write Transactions in a Bus Architecture
+CAPEC-1 | Accessing Functionality Not Properly Constrained by ACLs
+CAPEC-2 | Inducing Account Lockout
+CAPEC-3 | Using Leading 'Ghost' Character Sequences to Bypass Input Filters
+CAPEC-4 | Using Alternative IP Address Encodings
+CAPEC-6 | Argument Injection
+CAPEC-7 | Blind SQL Injection
+CAPEC-8 | Buffer Overflow in an API Call
+CAPEC-9 | Buffer Overflow in Local Command-Line Utilities
+CAPEC-10 | Buffer Overflow via Environment Variables
+CAPEC-11 | Cause Web Server Misclassification
+CAPEC-12 | Choosing Message Identifier
+CAPEC-13 | Subverting Environment Variable Values
+CAPEC-14 | Client-side Injection-induced Buffer Overflow
+CAPEC-15 | Command Delimiters
+CAPEC-16 | Dictionary-based Password Attack
+CAPEC-17 | Using Malicious Files
+CAPEC-18 | XSS Targeting Non-Script Elements
+CAPEC-19 | Embedding Scripts within Scripts
+CAPEC-20 | Encryption Brute Forcing
+CAPEC-21 | Exploitation of Trusted Identifiers
+CAPEC-22 | Exploiting Trust in Client
+CAPEC-23 | File Content Injection
+CAPEC-24 | Filter Failure through Buffer Overflow
+CAPEC-25 | Forced Deadlock
+CAPEC-26 | Leveraging Race Conditions
+CAPEC-27 | Leveraging Race Conditions via Symbolic Links
+CAPEC-28 | Fuzzing
+CAPEC-29 | Leveraging Time-of-Check and Time-of-Use (TOCTOU) Race Conditions
+CAPEC-30 | Hijacking a Privileged Thread of Execution
+CAPEC-31 | Accessing/Intercepting/Modifying HTTP Cookies
+CAPEC-32 | XSS Through HTTP Query Strings
+CAPEC-33 | HTTP Request Smuggling | aka: HTTP Desync
+CAPEC-34 | HTTP Response Splitting
+CAPEC-35 | Leverage Executable Code in Non-Executable Files
+CAPEC-36 | Using Unpublished Interfaces or Functionality
+CAPEC-37 | Retrieve Embedded Sensitive Data
+CAPEC-38 | Leveraging/Manipulating Configuration File Search Paths
+CAPEC-39 | Manipulating Opaque Client-based Data Tokens
+CAPEC-40 | Manipulating Writeable Terminal Devices
+CAPEC-41 | Using Meta-characters in E-mail Headers to Inject Malicious Payloads
+CAPEC-42 | MIME Conversion
+CAPEC-43 | Exploiting Multiple Input Interpretation Layers
+CAPEC-44 | Overflow Binary Resource File
+CAPEC-45 | Buffer Overflow via Symbolic Links
+CAPEC-46 | Overflow Variables and Tags
+CAPEC-47 | Buffer Overflow via Parameter Expansion
+CAPEC-48 | Passing Local Filenames to Functions That Expect a URL
+CAPEC-49 | Password Brute Forcing
+CAPEC-50 | Password Recovery Exploitation
+CAPEC-51 | Poison Web Service Registry
+CAPEC-52 | Embedding NULL Bytes
+CAPEC-53 | Postfix, Null Terminate, and Backslash
+CAPEC-54 | Query System for Information
+CAPEC-55 | Rainbow Table Password Cracking
+CAPEC-57 | Utilizing REST's Trust in the System Resource to Obtain Sensitive Data
+CAPEC-58 | Restful Privilege Elevation
+CAPEC-59 | Session Credential Falsification through Prediction
+CAPEC-60 | Reusing Session IDs (aka Session Replay)
+CAPEC-61 | Session Fixation
+CAPEC-62 | Cross Site Request Forgery | aka: Session Riding
+CAPEC-63 | Cross-Site Scripting (XSS)
+CAPEC-64 | Using Slashes and URL Encoding Combined to Bypass Validation Logic
+CAPEC-65 | Sniff Application Code
+CAPEC-66 | SQL Injection
+CAPEC-67 | String Format Overflow in syslog()
+CAPEC-68 | Subvert Code-signing Facilities
+CAPEC-69 | Target Programs with Elevated Privileges
+CAPEC-70 | Try Common or Default Usernames and Passwords
+CAPEC-71 | Using Unicode Encoding to Bypass Validation Logic
+CAPEC-72 | URL Encoding
+CAPEC-73 | User-Controlled Filename
+CAPEC-74 | Manipulating State
+CAPEC-75 | Manipulating Writeable Configuration Files
+CAPEC-76 | Manipulating Web Input to File System Calls
+CAPEC-77 | Manipulating User-Controlled Variables
+CAPEC-78 | Using Escaped Slashes in Alternate Encoding
+CAPEC-79 | Using Slashes in Alternate Encoding
+CAPEC-80 | Using UTF-8 Encoding to Bypass Validation Logic
+CAPEC-81 | Web Server Logs Tampering
+CAPEC-83 | XPath Injection
+CAPEC-84 | XQuery Injection
+CAPEC-85 | AJAX Footprinting
+CAPEC-86 | XSS Through HTTP Headers
+CAPEC-87 | Forceful Browsing
+CAPEC-88 | OS Command Injection
+CAPEC-89 | Pharming
+CAPEC-90 | Reflection Attack in Authentication Protocol
+CAPEC-92 | Forced Integer Overflow
+CAPEC-93 | Log Injection-Tampering-Forging
+CAPEC-94 | Adversary in the Middle (AiTM) | aka: Man-in-the-Middle / MITM; Person-in-the-Middle / PiTM; Monkey-in-the-Middle; Monster-in-the-Middle; On-path Attacker
+CAPEC-95 | WSDL Scanning
+CAPEC-96 | Block Access to Libraries
+CAPEC-97 | Cryptanalysis
+CAPEC-98 | Phishing
+CAPEC-100 | Overflow Buffers
+CAPEC-101 | Server Side Include (SSI) Injection
+CAPEC-102 | Session Sidejacking
+CAPEC-103 | Clickjacking
+CAPEC-104 | Cross Zone Scripting
+CAPEC-105 | HTTP Request Splitting
+CAPEC-107 | Cross Site Tracing
+CAPEC-108 | Command Line Execution through SQL Injection
+CAPEC-109 | Object Relational Mapping Injection
+CAPEC-110 | SQL Injection through SOAP Parameter Tampering
+CAPEC-111 | JSON Hijacking (aka JavaScript Hijacking)
+CAPEC-112 | Brute Force
+CAPEC-113 | Interface Manipulation
+CAPEC-114 | Authentication Abuse
+CAPEC-115 | Authentication Bypass
+CAPEC-116 | Excavation
+CAPEC-117 | Interception
+CAPEC-120 | Double Encoding
+CAPEC-121 | Exploit Non-Production Interfaces
+CAPEC-122 | Privilege Abuse
+CAPEC-123 | Buffer Manipulation
+CAPEC-124 | Shared Resource Manipulation
+CAPEC-125 | Flooding
+CAPEC-126 | Path Traversal | aka: Directory Traversal
+CAPEC-127 | Directory Indexing
+CAPEC-128 | Integer Attacks
+CAPEC-129 | Pointer Manipulation
+CAPEC-130 | Excessive Allocation
+CAPEC-131 | Resource Leak Exposure
+CAPEC-132 | Symlink Attack
+CAPEC-133 | Try All Common Switches
+CAPEC-134 | Email Injection
+CAPEC-135 | Format String Injection
+CAPEC-136 | LDAP Injection
+CAPEC-137 | Parameter Injection
+CAPEC-138 | Reflection Injection
+CAPEC-139 | Relative Path Traversal
+CAPEC-140 | Bypassing of Intermediate Forms in Multiple-Form Sets
+CAPEC-141 | Cache Poisoning
+CAPEC-142 | DNS Cache Poisoning
+CAPEC-143 | Detect Unpublicized Web Pages
+CAPEC-144 | Detect Unpublicized Web Services
+CAPEC-145 | Checksum Spoofing
+CAPEC-146 | XML Schema Poisoning
+CAPEC-147 | XML Ping of the Death
+CAPEC-148 | Content Spoofing
+CAPEC-149 | Explore for Predictable Temporary File Names
+CAPEC-150 | Collect Data from Common Resource Locations
+CAPEC-151 | Identity Spoofing
+CAPEC-153 | Input Data Manipulation
+CAPEC-154 | Resource Location Spoofing
+CAPEC-155 | Screen Temporary Files for Sensitive Information
+CAPEC-157 | Sniffing Attacks
+CAPEC-158 | Sniffing Network Traffic
+CAPEC-159 | Redirect Access to Libraries
+CAPEC-160 | Exploit Script-Based APIs
+CAPEC-161 | Infrastructure Manipulation
+CAPEC-162 | Manipulating Hidden Fields
+CAPEC-163 | Spear Phishing
+CAPEC-164 | Mobile Phishing | aka: Smishing; MobPhishing
+CAPEC-165 | File Manipulation
+CAPEC-166 | Force the System to Reset Values
+CAPEC-167 | White Box Reverse Engineering
+CAPEC-168 | Windows ::DATA Alternate Data Stream
+CAPEC-169 | Footprinting
+CAPEC-170 | Web Application Fingerprinting
+CAPEC-173 | Action Spoofing
+CAPEC-174 | Flash Parameter Injection
+CAPEC-175 | Code Inclusion
+CAPEC-176 | Configuration/Environment Manipulation
+CAPEC-177 | Create files with the same name as files protected with a higher classification
+CAPEC-178 | Cross-Site Flashing
+CAPEC-179 | Calling Micro-Services Directly
+CAPEC-180 | Exploiting Incorrectly Configured Access Control Security Levels
+CAPEC-181 | Flash File Overlay
+CAPEC-182 | Flash Injection
+CAPEC-183 | IMAP/SMTP Command Injection
+CAPEC-184 | Software Integrity Attack
+CAPEC-185 | Malicious Software Download
+CAPEC-186 | Malicious Software Update
+CAPEC-187 | Malicious Automated Software Update via Redirection
+CAPEC-188 | Reverse Engineering
+CAPEC-189 | Black Box Reverse Engineering
+CAPEC-190 | Reverse Engineer an Executable to Expose Assumed Hidden Functionality
+CAPEC-191 | Read Sensitive Constants Within an Executable
+CAPEC-192 | Protocol Analysis
+CAPEC-193 | PHP Remote File Inclusion
+CAPEC-194 | Fake the Source of Data
+CAPEC-195 | Principal Spoof
+CAPEC-196 | Session Credential Falsification through Forging
+CAPEC-197 | Exponential Data Expansion | aka: Billion Laughs Attack; XML Bomb; XML Entity Expansion (XEE)
+CAPEC-198 | XSS Targeting Error Pages
+CAPEC-199 | XSS Using Alternate Syntax
+CAPEC-200 | Removal of filters: Input filters, output filters, data masking
+CAPEC-201 | Serialized Data External Linking
+CAPEC-202 | Create Malicious Client
+CAPEC-203 | Manipulate Registry Information
+CAPEC-204 | Lifting Sensitive Data Embedded in Cache
+CAPEC-206 | Signing Malicious Code
+CAPEC-207 | Removing Important Client Functionality
+CAPEC-208 | Removing/short-circuiting 'Purse' logic: removing/mutating 'cash' decrements
+CAPEC-209 | XSS Using MIME Type Mismatch
+CAPEC-212 | Functionality Misuse
+CAPEC-215 | Fuzzing for application mapping
+CAPEC-216 | Communication Channel Manipulation
+CAPEC-217 | Exploiting Incorrectly Configured SSL/TLS
+CAPEC-218 | Spoofing of UDDI/ebXML Messages
+CAPEC-219 | XML Routing Detour Attacks
+CAPEC-220 | Client-Server Protocol Manipulation
+CAPEC-221 | Data Serialization External Entities Blowup
+CAPEC-222 | iFrame Overlay
+CAPEC-224 | Fingerprinting
+CAPEC-226 | Session Credential Falsification through Manipulation
+CAPEC-227 | Sustained Client Engagement
+CAPEC-228 | DTD Injection
+CAPEC-229 | Serialized Data Parameter Blowup
+CAPEC-230 | Serialized Data with Nested Payloads | aka: XML Denial of Service (XML DoS)
+CAPEC-231 | Oversized Serialized Data Payloads | aka: XML Denial of Service (XML DoS)
+CAPEC-233 | Privilege Escalation
+CAPEC-234 | Hijacking a privileged process
+CAPEC-237 | Escaping a Sandbox by Calling Code in Another Language
+CAPEC-240 | Resource Injection
+CAPEC-242 | Code Injection
+CAPEC-243 | XSS Targeting HTML Attributes
+CAPEC-244 | XSS Targeting URI Placeholders
+CAPEC-245 | XSS Using Doubled Characters
+CAPEC-247 | XSS Using Invalid Characters
+CAPEC-248 | Command Injection
+CAPEC-250 | XML Injection
+CAPEC-251 | Local Code Inclusion
+CAPEC-252 | PHP Local File Inclusion
+CAPEC-253 | Remote Code Inclusion
+CAPEC-256 | SOAP Array Overflow
+CAPEC-261 | Fuzzing for garnering other adjacent user/sensitive data
+CAPEC-263 | Force Use of Corrupted Files
+CAPEC-267 | Leverage Alternate Encoding
+CAPEC-268 | Audit Log Manipulation
+CAPEC-270 | Modification of Registry Run Keys
+CAPEC-271 | Schema Poisoning
+CAPEC-272 | Protocol Manipulation
+CAPEC-273 | HTTP Response Smuggling | aka: HTTP Desync
+CAPEC-274 | HTTP Verb Tampering
+CAPEC-275 | DNS Rebinding
+CAPEC-276 | Inter-component Protocol Manipulation
+CAPEC-277 | Data Interchange Protocol Manipulation
+CAPEC-278 | Web Services Protocol Manipulation
+CAPEC-279 | SOAP Manipulation
+CAPEC-285 | ICMP Echo Request Ping
+CAPEC-287 | TCP SYN Scan
+CAPEC-290 | Enumerate Mail Exchange (MX) Records
+CAPEC-291 | DNS Zone Transfers
+CAPEC-292 | Host Discovery
+CAPEC-293 | Traceroute Route Enumeration
+CAPEC-294 | ICMP Address Mask Request
+CAPEC-295 | Timestamp Request
+CAPEC-296 | ICMP Information Request
+CAPEC-297 | TCP ACK Ping
+CAPEC-298 | UDP Ping
+CAPEC-299 | TCP SYN Ping
+CAPEC-300 | Port Scanning
+CAPEC-301 | TCP Connect Scan
+CAPEC-302 | TCP FIN Scan
+CAPEC-303 | TCP Xmas Scan
+CAPEC-304 | TCP Null Scan
+CAPEC-305 | TCP ACK Scan
+CAPEC-306 | TCP Window Scan
+CAPEC-307 | TCP RPC Scan
+CAPEC-308 | UDP Scan
+CAPEC-309 | Network Topology Mapping
+CAPEC-310 | Scanning for Vulnerable Software
+CAPEC-312 | Active OS Fingerprinting
+CAPEC-313 | Passive OS Fingerprinting
+CAPEC-317 | IP ID Sequencing Probe
+CAPEC-318 | IP 'ID' Echoed Byte-Order Probe
+CAPEC-319 | IP (DF) 'Don't Fragment Bit' Echoing Probe
+CAPEC-320 | TCP Timestamp Probe
+CAPEC-321 | TCP Sequence Number Probe
+CAPEC-322 | TCP (ISN) Greatest Common Divisor Probe
+CAPEC-323 | TCP (ISN) Counter Rate Probe
+CAPEC-324 | TCP (ISN) Sequence Predictability Probe
+CAPEC-325 | TCP Congestion Control Flag (ECN) Probe
+CAPEC-326 | TCP Initial Window Size Probe
+CAPEC-327 | TCP Options Probe
+CAPEC-328 | TCP 'RST' Flag Checksum Probe
+CAPEC-329 | ICMP Error Message Quoting Probe
+CAPEC-330 | ICMP Error Message Echoing Integrity Probe
+CAPEC-331 | ICMP IP Total Length Field Probe
+CAPEC-332 | ICMP IP 'ID' Field Error Message Probe
+CAPEC-383 | Harvesting Information via API Event Monitoring
+CAPEC-384 | Application API Message Manipulation via Man-in-the-Middle
+CAPEC-385 | Transaction or Event Tampering via Application API Manipulation
+CAPEC-386 | Application API Navigation Remapping
+CAPEC-387 | Navigation Remapping To Propagate Malicious Content
+CAPEC-388 | Application API Button Hijacking
+CAPEC-389 | Content Spoofing Via Application API Manipulation
+CAPEC-390 | Bypassing Physical Security
+CAPEC-391 | Bypassing Physical Locks
+CAPEC-392 | Lock Bumping
+CAPEC-393 | Lock Picking
+CAPEC-394 | Using a Snap Gun Lock to Force a Lock
+CAPEC-395 | Bypassing Electronic Locks and Access Controls
+CAPEC-397 | Cloning Magnetic Strip Cards
+CAPEC-398 | Magnetic Strip Card Brute Force Attacks
+CAPEC-399 | Cloning RFID Cards or Chips
+CAPEC-400 | RFID Chip Deactivation or Destruction
+CAPEC-401 | Physically Hacking Hardware
+CAPEC-402 | Bypassing ATA Password Security
+CAPEC-406 | Dumpster Diving
+CAPEC-407 | Pretexting
+CAPEC-410 | Information Elicitation
+CAPEC-412 | Pretexting via Customer Service
+CAPEC-413 | Pretexting via Tech Support
+CAPEC-414 | Pretexting via Delivery Person
+CAPEC-415 | Pretexting via Phone
+CAPEC-416 | Manipulate Human Behavior
+CAPEC-417 | Influence Perception
+CAPEC-418 | Influence Perception of Reciprocation
+CAPEC-420 | Influence Perception of Scarcity
+CAPEC-421 | Influence Perception of Authority
+CAPEC-422 | Influence Perception of Commitment and Consistency
+CAPEC-423 | Influence Perception of Liking
+CAPEC-424 | Influence Perception of Consensus or Social Proof
+CAPEC-425 | Target Influence via Framing
+CAPEC-426 | Influence via Incentives
+CAPEC-427 | Influence via Psychological Principles
+CAPEC-428 | Influence via Modes of Thinking
+CAPEC-429 | Target Influence via Eye Cues
+CAPEC-433 | Target Influence via The Human Buffer Overflow
+CAPEC-434 | Target Influence via Interview and Interrogation
+CAPEC-435 | Target Influence via Instant Rapport
+CAPEC-438 | Modification During Manufacture
+CAPEC-439 | Manipulation During Distribution
+CAPEC-440 | Hardware Integrity Attack
+CAPEC-441 | Malicious Logic Insertion
+CAPEC-442 | Infected Software
+CAPEC-443 | Malicious Logic Inserted Into Product by Authorized Developer
+CAPEC-444 | Development Alteration
+CAPEC-445 | Malicious Logic Insertion into Product Software via Configuration Management Manipulation
+CAPEC-446 | Malicious Logic Insertion into Product via Inclusion of Third-Party Component
+CAPEC-447 | Design Alteration
+CAPEC-448 | Embed Virus into DLL
+CAPEC-452 | Infected Hardware
+CAPEC-456 | Infected Memory
+CAPEC-457 | USB Memory Attacks
+CAPEC-458 | Flash Memory Attacks
+CAPEC-459 | Creating a Rogue Certification Authority Certificate
+CAPEC-460 | HTTP Parameter Pollution (HPP)
+CAPEC-461 | Web Services API Signature Forgery Leveraging Hash Function Extension Weakness
+CAPEC-462 | Cross-Domain Search Timing
+CAPEC-463 | Padding Oracle Crypto Attack
+CAPEC-464 | Evercookie
+CAPEC-465 | Transparent Proxy Abuse
+CAPEC-466 | Leveraging Active Adversary in the Middle Attacks to Bypass Same Origin Policy
+CAPEC-467 | Cross Site Identification
+CAPEC-468 | Generic Cross-Browser Cross-Domain Theft
+CAPEC-469 | HTTP DoS
+CAPEC-470 | Expanding Control over the Operating System from the Database
+CAPEC-471 | Search Order Hijacking
+CAPEC-472 | Browser Fingerprinting
+CAPEC-473 | Signature Spoof
+CAPEC-474 | Signature Spoofing by Key Theft
+CAPEC-475 | Signature Spoofing by Improper Validation
+CAPEC-476 | Signature Spoofing by Misrepresentation
+CAPEC-477 | Signature Spoofing by Mixing Signed and Unsigned Content
+CAPEC-478 | Modification of Windows Service Configuration
+CAPEC-479 | Malicious Root Certificate
+CAPEC-480 | Escaping Virtualization
+CAPEC-481 | Contradictory Destinations in Traffic Routing Schemes
+CAPEC-482 | TCP Flood
+CAPEC-485 | Signature Spoofing by Key Recreation
+CAPEC-486 | UDP Flood
+CAPEC-487 | ICMP Flood
+CAPEC-488 | HTTP Flood
+CAPEC-489 | SSL Flood
+CAPEC-490 | Amplification
+CAPEC-491 | Quadratic Data Expansion | aka: XML Entity Expansion (XEE)
+CAPEC-492 | Regular Expression Exponential Blowup
+CAPEC-493 | SOAP Array Blowup
+CAPEC-494 | TCP Fragmentation
+CAPEC-495 | UDP Fragmentation
+CAPEC-496 | ICMP Fragmentation
+CAPEC-497 | File Discovery
+CAPEC-498 | Probe iOS Screenshots
+CAPEC-499 | Android Intent Intercept
+CAPEC-500 | WebView Injection
+CAPEC-501 | Android Activity Hijack
+CAPEC-502 | Intent Spoof
+CAPEC-503 | WebView Exposure
+CAPEC-504 | Task Impersonation
+CAPEC-505 | Scheme Squatting
+CAPEC-506 | Tapjacking
+CAPEC-507 | Physical Theft
+CAPEC-508 | Shoulder Surfing
+CAPEC-509 | Kerberoasting
+CAPEC-510 | SaaS User Request Forgery
+CAPEC-511 | Infiltration of Software Development Environment
+CAPEC-516 | Hardware Component Substitution During Baselining
+CAPEC-517 | Documentation Alteration to Circumvent Dial-down
+CAPEC-518 | Documentation Alteration to Produce Under-performing Systems
+CAPEC-519 | Documentation Alteration to Cause Errors in System Design
+CAPEC-520 | Counterfeit Hardware Component Inserted During Product Assembly
+CAPEC-521 | Hardware Design Specifications Are Altered
+CAPEC-522 | Malicious Hardware Component Replacement
+CAPEC-523 | Malicious Software Implanted
+CAPEC-524 | Rogue Integration Procedures
+CAPEC-528 | XML Flood | aka: XML Denial of Service (XML DoS)
+CAPEC-529 | Malware-Directed Internal Reconnaissance
+CAPEC-530 | Provide Counterfeit Component
+CAPEC-531 | Hardware Component Substitution
+CAPEC-532 | Altered Installed BIOS
+CAPEC-533 | Malicious Manual Software Update
+CAPEC-534 | Malicious Hardware Update
+CAPEC-535 | Malicious Gray Market Hardware
+CAPEC-536 | Data Injected During Configuration
+CAPEC-537 | Infiltration of Hardware Development Environment
+CAPEC-538 | Open-Source Library Manipulation
+CAPEC-539 | ASIC With Malicious Functionality
+CAPEC-540 | Overread Buffers
+CAPEC-541 | Application Fingerprinting
+CAPEC-542 | Targeted Malware
+CAPEC-543 | Counterfeit Websites
+CAPEC-544 | Counterfeit Organizations
+CAPEC-545 | Pull Data from System Resources
+CAPEC-546 | Incomplete Data Deletion in a Multi-Tenant Environment
+CAPEC-547 | Physical Destruction of Device or Component
+CAPEC-548 | Contaminate Resource | aka: Data Spill
+CAPEC-549 | Local Execution of Code
+CAPEC-550 | Install New Service
+CAPEC-551 | Modify Existing Service
+CAPEC-552 | Install Rootkit 
+CAPEC-554 | Functionality Bypass
+CAPEC-555 | Remote Services with Stolen Credentials
+CAPEC-556 | Replace File Extension Handlers
+CAPEC-558 | Replace Trusted Executable
+CAPEC-559 | Orbital Jamming
+CAPEC-560 | Use of Known Domain Credentials
+CAPEC-561 | Windows Admin Shares with Stolen Credentials
+CAPEC-562 | Modify Shared File
+CAPEC-563 | Add Malicious File to Shared Webroot
+CAPEC-564 | Run Software at Logon
+CAPEC-565 | Password Spraying
+CAPEC-568 | Capture Credentials via Keylogger
+CAPEC-569 | Collect Data as Provided by Users
+CAPEC-571 | Block Logging to Central Repository
+CAPEC-572 | Artificially Inflate File Sizes
+CAPEC-573 | Process Footprinting
+CAPEC-574 | Services Footprinting
+CAPEC-575 | Account Footprinting
+CAPEC-576 | Group Permission Footprinting
+CAPEC-577 | Owner Footprinting
+CAPEC-578 | Disable Security Software
+CAPEC-579 | Replace Winlogon Helper DLL
+CAPEC-580 | System Footprinting
+CAPEC-581 | Security Software Footprinting
+CAPEC-582 | Route Disabling
+CAPEC-583 | Disabling Network Hardware
+CAPEC-584 | BGP Route Disabling
+CAPEC-585 | DNS Domain Seizure
+CAPEC-586 | Object Injection
+CAPEC-587 | Cross Frame Scripting (XFS)
+CAPEC-588 | DOM-Based XSS
+CAPEC-589 | DNS Blocking
+CAPEC-590 | IP Address Blocking
+CAPEC-591 | Reflected XSS
+CAPEC-592 | Stored XSS
+CAPEC-593 | Session Hijacking
+CAPEC-594 | Traffic Injection
+CAPEC-595 | Connection Reset
+CAPEC-596 | TCP RST Injection
+CAPEC-597 | Absolute Path Traversal
+CAPEC-598 | DNS Spoofing
+CAPEC-599 | Terrestrial Jamming
+CAPEC-600 | Credential Stuffing
+CAPEC-601 | Jamming
+CAPEC-603 | Blockage
+CAPEC-604 | Wi-Fi Jamming
+CAPEC-605 | Cellular Jamming
+CAPEC-606 | Weakening of Cellular Encryption
+CAPEC-607 | Obstruction
+CAPEC-608 | Cryptanalysis of Cellular Encryption
+CAPEC-609 | Cellular Traffic Intercept
+CAPEC-610 | Cellular Data Injection
+CAPEC-611 | BitSquatting
+CAPEC-612 | WiFi MAC Address Tracking
+CAPEC-613 | WiFi SSID Tracking
+CAPEC-614 | Rooting SIM Cards
+CAPEC-615 | Evil Twin Wi-Fi Attack
+CAPEC-616 | Establish Rogue Location
+CAPEC-617 | Cellular Rogue Base Station
+CAPEC-618 | Cellular Broadcast Message Request
+CAPEC-619 | Signal Strength Tracking
+CAPEC-620 | Drop Encryption Level
+CAPEC-621 | Analysis of Packet Timing and Sizes
+CAPEC-622 | Electromagnetic Side-Channel Attack
+CAPEC-623 | Compromising Emanations Attack
+CAPEC-624 | Hardware Fault Injection | aka: Side-Channel Attack
+CAPEC-625 | Mobile Device Fault Injection
+CAPEC-626 | Smudge Attack
+CAPEC-627 | Counterfeit GPS Signals
+CAPEC-628 | Carry-Off GPS Attack
+CAPEC-630 | TypoSquatting
+CAPEC-631 | SoundSquatting | aka: Homophone Attack
+CAPEC-632 | Homograph Attack via Homoglyphs | aka: Homoglyph Attack
+CAPEC-633 | Token Impersonation
+CAPEC-634 | Probe Audio and Video Peripherals
+CAPEC-635 | Alternative Execution Due to Deceptive Filenames
+CAPEC-636 | Hiding Malicious Data or Code within Files
+CAPEC-637 | Collect Data from Clipboard
+CAPEC-638 | Altered Component Firmware
+CAPEC-639 | Probe System Files
+CAPEC-640 | Inclusion of Code in Existing Process
+CAPEC-641 | DLL Side-Loading
+CAPEC-642 | Replace Binaries
+CAPEC-643 | Identify Shared Files/Directories on System
+CAPEC-644 | Use of Captured Hashes (Pass The Hash)
+CAPEC-645 | Use of Captured Tickets (Pass The Ticket)
+CAPEC-646 | Peripheral Footprinting
+CAPEC-647 | Collect Data from Registries
+CAPEC-648 | Collect Data from Screen Capture
+CAPEC-649 | Adding a Space to a File Extension
+CAPEC-650 | Upload a Web Shell to a Web Server
+CAPEC-651 | Eavesdropping
+CAPEC-652 | Use of Known Kerberos Credentials
+CAPEC-653 | Use of Known Operating System Credentials
+CAPEC-654 | Credential Prompt Impersonation
+CAPEC-655 | Avoid Security Tool Identification by Adding Data
+CAPEC-656 | Voice Phishing | aka: Vishing; VoIP Phishing
+CAPEC-657 | Malicious Automated Software Update via Spoofing
+CAPEC-660 | Root/Jailbreak Detection Evasion via Hooking
+CAPEC-661 | Root/Jailbreak Detection Evasion via Debugging
+CAPEC-662 | Adversary in the Browser (AiTB) | aka: Man in the Browser; Boy in the Browser; Man in the Mobile
+CAPEC-663 | Exploitation of Transient Instruction Execution
+CAPEC-664 | Server Side Request Forgery
+CAPEC-665 | Exploitation of Thunderbolt Protection Flaws
+CAPEC-666 | BlueSmacking
+CAPEC-667 | Bluetooth Impersonation AttackS (BIAS)
+CAPEC-668 | Key Negotiation of Bluetooth Attack (KNOB)
+CAPEC-669 | Alteration of a Software Update
+CAPEC-670 | Software Development Tools Maliciously Altered
+CAPEC-671 | Requirements for ASIC Functionality Maliciously Altered
+CAPEC-672 | Malicious Code Implanted During Chip Programming
+CAPEC-673 | Developer Signing Maliciously Altered Software
+CAPEC-674 | Design for FPGA Maliciously Altered
+CAPEC-675 | Retrieve Data from Decommissioned Devices
+CAPEC-676 | NoSQL Injection
+CAPEC-677 | Server Motherboard Compromise
+CAPEC-678 | System Build Data Maliciously Altered
+CAPEC-679 | Exploitation of Improperly Configured or Implemented Memory Protections
+CAPEC-680 | Exploitation of Improperly Controlled Registers
+CAPEC-681 | Exploitation of Improperly Controlled Hardware Security Identifiers
+CAPEC-682 | Exploitation of Firmware or ROM Code with Unpatchable Vulnerabilities
+CAPEC-690 | Metadata Spoofing
+CAPEC-691 | Spoof Open-Source Software Metadata
+CAPEC-692 | Spoof Version Control System Commit Metadata
+CAPEC-693 | StarJacking
+CAPEC-694 | System Location Discovery
+CAPEC-695 | Repo Jacking
+CAPEC-696 | Load Value Injection
+CAPEC-697 | DHCP Spoofing
+CAPEC-698 | Install Malicious Extension
+CAPEC-699 | Eavesdropping on a Monitor
+CAPEC-700 | Network Boundary Bridging
+CAPEC-701 | Browser in the Middle (BiTM)
+CAPEC-702 | Exploiting Incorrect Chaining or Granularity of Hardware Debug Components
+AC-1 | Policy and Procedures
+AC-2 | Account Management
+AC-2(1) | Automated System Account Management
+AC-2(2) | Automated Temporary and Emergency Account Management
+AC-2(3) | Disable Accounts
+AC-2(4) | Automated Audit Actions
+AC-2(5) | Inactivity Logout
+AC-2(6) | Dynamic Privilege Management
+AC-2(7) | Privileged User Accounts
+AC-2(8) | Dynamic Account Management
+AC-2(9) | Restrictions on Use of Shared and Group Accounts
+AC-2(11) | Usage Conditions
+AC-2(12) | Account Monitoring for Atypical Usage
+AC-2(13) | Disable Accounts for High-risk Individuals
+AC-3 | Access Enforcement
+AC-3(2) | Dual Authorization
+AC-3(3) | Mandatory Access Control
+AC-3(4) | Discretionary Access Control
+AC-3(5) | Security-relevant Information
+AC-3(7) | Role-based Access Control
+AC-3(8) | Revocation of Access Authorizations
+AC-3(9) | Controlled Release
+AC-3(10) | Audited Override of Access Control Mechanisms
+AC-3(11) | Restrict Access to Specific Information Types
+AC-3(12) | Assert and Enforce Application Access
+AC-3(13) | Attribute-based Access Control
+AC-3(14) | Individual Access
+AC-3(15) | Discretionary and Mandatory Access Control
+AC-4 | Information Flow Enforcement
+AC-4(1) | Object Security and Privacy Attributes
+AC-4(2) | Processing Domains
+AC-4(3) | Dynamic Information Flow Control
+AC-4(4) | Flow Control of Encrypted Information
+AC-4(5) | Embedded Data Types
+AC-4(6) | Metadata
+AC-4(7) | One-way Flow Mechanisms
+AC-4(8) | Security and Privacy Policy Filters
+AC-4(9) | Human Reviews
+AC-4(10) | Enable and Disable Security or Privacy Policy Filters
+AC-4(11) | Configuration of Security or Privacy Policy Filters
+AC-4(12) | Data Type Identifiers
+AC-4(13) | Decomposition into Policy-relevant Subcomponents
+AC-4(14) | Security or Privacy Policy Filter Constraints
+AC-4(15) | Detection of Unsanctioned Information
+AC-4(17) | Domain Authentication
+AC-4(19) | Validation of Metadata
+AC-4(20) | Approved Solutions
+AC-4(21) | Physical or Logical Separation of Information Flows
+AC-4(22) | Access Only
+AC-4(23) | Modify Non-releasable Information
+AC-4(24) | Internal Normalized Format
+AC-4(25) | Data Sanitization
+AC-4(26) | Audit Filtering Actions
+AC-4(27) | Redundant/Independent Filtering Mechanisms
+AC-4(28) | Linear Filter Pipelines
+AC-4(29) | Filter Orchestration Engines
+AC-4(30) | Filter Mechanisms Using Multiple Processes
+AC-4(31) | Failed Content Transfer Prevention
+AC-4(32) | Process Requirements for Information Transfer
+AC-5 | Separation of Duties
+AC-6 | Least Privilege
+AC-6(1) | Authorize Access to Security Functions
+AC-6(2) | Non-privileged Access for Nonsecurity Functions
+AC-6(3) | Network Access to Privileged Commands
+AC-6(4) | Separate Processing Domains
+AC-6(5) | Privileged Accounts
+AC-6(6) | Privileged Access by Non-organizational Users
+AC-6(7) | Review of User Privileges
+AC-6(8) | Privilege Levels for Code Execution
+AC-6(9) | Log Use of Privileged Functions
+AC-6(10) | Prohibit Non-privileged Users from Executing Privileged Functions
+AC-7 | Unsuccessful Logon Attempts
+AC-7(2) | Purge or Wipe Mobile Device
+AC-7(3) | Biometric Attempt Limiting
+AC-7(4) | Use of Alternate Authentication Factor
+AC-8 | System Use Notification
+AC-9 | Previous Logon Notification
+AC-9(1) | Unsuccessful Logons
+AC-9(2) | Successful and Unsuccessful Logons
+AC-9(3) | Notification of Account Changes
+AC-9(4) | Additional Logon Information
+AC-10 | Concurrent Session Control
+AC-11 | Device Lock
+AC-11(1) | Pattern-hiding Displays
+AC-12 | Session Termination
+AC-12(1) | User-initiated Logouts
+AC-12(2) | Termination Message
+AC-12(3) | Timeout Warning Message
+AC-14 | Permitted Actions Without Identification or Authentication
+AC-16 | Security and Privacy Attributes
+AC-16(1) | Dynamic Attribute Association
+AC-16(2) | Attribute Value Changes by Authorized Individuals
+AC-16(3) | Maintenance of Attribute Associations by System
+AC-16(4) | Association of Attributes by Authorized Individuals
+AC-16(5) | Attribute Displays on Objects to Be Output
+AC-16(6) | Maintenance of Attribute Association
+AC-16(7) | Consistent Attribute Interpretation
+AC-16(8) | Association Techniques and Technologies
+AC-16(9) | Attribute Reassignment — Regrading Mechanisms
+AC-16(10) | Attribute Configuration by Authorized Individuals
+AC-17 | Remote Access
+AC-17(1) | Monitoring and Control
+AC-17(2) | Protection of Confidentiality and Integrity Using Encryption
+AC-17(3) | Managed Access Control Points
+AC-17(4) | Privileged Commands and Access
+AC-17(6) | Protection of Mechanism Information
+AC-17(9) | Disconnect or Disable Access
+AC-17(10) | Authenticate Remote Commands
+AC-18 | Wireless Access
+AC-18(1) | Authentication and Encryption
+AC-18(3) | Disable Wireless Networking
+AC-18(4) | Restrict Configurations by Users
+AC-18(5) | Antennas and Transmission Power Levels
+AC-19 | Access Control for Mobile Devices
+AC-19(4) | Restrictions for Classified Information
+AC-19(5) | Full Device or Container-based Encryption
+AC-20 | Use of External Systems
+AC-20(1) | Limits on Authorized Use
+AC-20(2) | Portable Storage Devices — Restricted Use
+AC-20(3) | Non-organizationally Owned Systems — Restricted Use
+AC-20(4) | Network Accessible Storage Devices — Prohibited Use
+AC-20(5) | Portable Storage Devices — Prohibited Use
+AC-21 | Information Sharing
+AC-21(1) | Automated Decision Support
+AC-21(2) | Information Search and Retrieval
+AC-22 | Publicly Accessible Content
+AC-23 | Data Mining Protection
+AC-24 | Access Control Decisions
+AC-24(1) | Transmit Access Authorization Information
+AC-24(2) | No User or Process Identity
+AC-25 | Reference Monitor
+AT-1 | Policy and Procedures
+AT-2 | Literacy Training and Awareness
+AT-2(1) | Practical Exercises
+AT-2(2) | Insider Threat
+AT-2(3) | Social Engineering and Mining
+AT-2(4) | Suspicious Communications and Anomalous System Behavior
+AT-2(5) | Advanced Persistent Threat
+AT-2(6) | Cyber Threat Environment
+AT-3 | Role-based Training
+AT-3(1) | Environmental Controls
+AT-3(2) | Physical Security Controls
+AT-3(3) | Practical Exercises
+AT-3(5) | Processing Personally Identifiable Information
+AT-4 | Training Records
+AT-6 | Training Feedback
+AU-1 | Policy and Procedures
+AU-2 | Event Logging
+AU-3 | Content of Audit Records
+AU-3(1) | Additional Audit Information
+AU-3(3) | Limit Personally Identifiable Information Elements
+AU-4 | Audit Log Storage Capacity
+AU-4(1) | Transfer to Alternate Storage
+AU-5 | Response to Audit Logging Process Failures
+AU-5(1) | Storage Capacity Warning
+AU-5(2) | Real-time Alerts
+AU-5(3) | Configurable Traffic Volume Thresholds
+AU-5(4) | Shutdown on Failure
+AU-5(5) | Alternate Audit Logging Capability
+AU-6 | Audit Record Review, Analysis, and Reporting
+AU-6(1) | Automated Process Integration
+AU-6(3) | Correlate Audit Record Repositories
+AU-6(4) | Central Review and Analysis
+AU-6(5) | Integrated Analysis of Audit Records
+AU-6(6) | Correlation with Physical Monitoring
+AU-6(7) | Permitted Actions
+AU-6(8) | Full Text Analysis of Privileged Commands
+AU-6(9) | Correlation with Information from Nontechnical Sources
+AU-7 | Audit Record Reduction and Report Generation
+AU-7(1) | Automatic Processing
+AU-8 | Time Stamps
+AU-9 | Protection of Audit Information
+AU-9(1) | Hardware Write-once Media
+AU-9(2) | Store on Separate Physical Systems or Components
+AU-9(3) | Cryptographic Protection
+AU-9(4) | Access by Subset of Privileged Users
+AU-9(5) | Dual Authorization
+AU-9(6) | Read-only Access
+AU-9(7) | Store on Component with Different Operating System
+AU-10 | Non-repudiation
+AU-10(1) | Association of Identities
+AU-10(2) | Validate Binding of Information Producer Identity
+AU-10(3) | Chain of Custody
+AU-10(4) | Validate Binding of Information Reviewer Identity
+AU-11 | Audit Record Retention
+AU-11(1) | Long-term Retrieval Capability
+AU-12 | Audit Record Generation
+AU-12(1) | System-wide and Time-correlated Audit Trail
+AU-12(2) | Standardized Formats
+AU-12(3) | Changes by Authorized Individuals
+AU-12(4) | Query Parameter Audits of Personally Identifiable Information
+AU-13 | Monitoring for Information Disclosure
+AU-13(1) | Use of Automated Tools
+AU-13(2) | Review of Monitored Sites
+AU-13(3) | Unauthorized Replication of Information
+AU-14 | Session Audit
+AU-14(1) | System Start-up
+AU-14(3) | Remote Viewing and Listening
+AU-16 | Cross-organizational Audit Logging
+AU-16(1) | Identity Preservation
+AU-16(2) | Sharing of Audit Information
+AU-16(3) | Disassociability
+CA-1 | Policy and Procedures
+CA-2 | Control Assessments
+CA-2(1) | Independent Assessors
+CA-2(2) | Specialized Assessments
+CA-2(3) | Leveraging Results from External Organizations
+CA-3 | Information Exchange
+CA-3(6) | Transfer Authorizations
+CA-3(7) | Transitive Information Exchanges
+CA-5 | Plan of Action and Milestones
+CA-5(1) | Automation Support for Accuracy and Currency
+CA-6 | Authorization
+CA-6(1) | Joint Authorization — Intra-organization
+CA-6(2) | Joint Authorization — Inter-organization
+CA-7 | Continuous Monitoring
+CA-7(1) | Independent Assessment
+CA-7(3) | Trend Analyses
+CA-7(4) | Risk Monitoring
+CA-7(5) | Consistency Analysis
+CA-7(6) | Automation Support for Monitoring
+CA-8 | Penetration Testing
+CA-8(1) | Independent Penetration Testing Agent or Team
+CA-8(2) | Red Team Exercises
+CA-8(3) | Facility Penetration Testing
+CA-9 | Internal System Connections
+CA-9(1) | Compliance Checks
+CM-1 | Policy and Procedures
+CM-2 | Baseline Configuration
+CM-2(2) | Automation Support for Accuracy and Currency
+CM-2(3) | Retention of Previous Configurations
+CM-2(6) | Development and Test Environments
+CM-2(7) | Configure Systems and Components for High-risk Areas
+CM-3 | Configuration Change Control
+CM-3(1) | Automated Documentation, Notification, and Prohibition of Changes
+CM-3(2) | Testing, Validation, and Documentation of Changes
+CM-3(3) | Automated Change Implementation
+CM-3(4) | Security and Privacy Representatives
+CM-3(5) | Automated Security Response
+CM-3(6) | Cryptography Management
+CM-3(7) | Review System Changes
+CM-3(8) | Prevent or Restrict Configuration Changes
+CM-4 | Impact Analyses
+CM-4(1) | Separate Test Environments
+CM-4(2) | Verification of Controls
+CM-5 | Access Restrictions for Change
+CM-5(1) | Automated Access Enforcement and Audit Records
+CM-5(4) | Dual Authorization
+CM-5(5) | Privilege Limitation for Production and Operation
+CM-5(6) | Limit Library Privileges
+CM-6 | Configuration Settings
+CM-6(1) | Automated Management, Application, and Verification
+CM-6(2) | Respond to Unauthorized Changes
+CM-7 | Least Functionality
+CM-7(1) | Periodic Review
+CM-7(2) | Prevent Program Execution
+CM-7(3) | Registration Compliance
+CM-7(4) | Unauthorized Software — Deny-by-exception
+CM-7(5) | Authorized Software — Allow-by-exception
+CM-7(6) | Confined Environments with Limited Privileges
+CM-7(7) | Code Execution in Protected Environments
+CM-7(8) | Binary or Machine Executable Code
+CM-7(9) | Prohibiting The Use of Unauthorized Hardware
+CM-8 | System Component Inventory
+CM-8(1) | Updates During Installation and Removal
+CM-8(2) | Automated Maintenance
+CM-8(3) | Automated Unauthorized Component Detection
+CM-8(4) | Accountability Information
+CM-8(6) | Assessed Configurations and Approved Deviations
+CM-8(7) | Centralized Repository
+CM-8(8) | Automated Location Tracking
+CM-8(9) | Assignment of Components to Systems
+CM-9 | Configuration Management Plan
+CM-9(1) | Assignment of Responsibility
+CM-10 | Software Usage Restrictions
+CM-10(1) | Open-source Software
+CM-11 | User-installed Software
+CM-11(2) | Software Installation with Privileged Status
+CM-11(3) | Automated Enforcement and Monitoring
+CM-12 | Information Location
+CM-12(1) | Automated Tools to Support Information Location
+CM-13 | Data Action Mapping
+CM-14 | Signed Components
+CP-1 | Policy and Procedures
+CP-2 | Contingency Plan
+CP-2(1) | Coordinate with Related Plans
+CP-2(2) | Capacity Planning
+CP-2(3) | Resume Mission and Business Functions
+CP-2(5) | Continue Mission and Business Functions
+CP-2(6) | Alternate Processing and Storage Sites
+CP-2(7) | Coordinate with External Service Providers
+CP-2(8) | Identify Critical Assets
+CP-3 | Contingency Training
+CP-3(1) | Simulated Events
+CP-3(2) | Mechanisms Used in Training Environments
+CP-4 | Contingency Plan Testing
+CP-4(1) | Coordinate with Related Plans
+CP-4(2) | Alternate Processing Site
+CP-4(3) | Automated Testing
+CP-4(4) | Full Recovery and Reconstitution
+CP-4(5) | Self-challenge
+CP-6 | Alternate Storage Site
+CP-6(1) | Separation from Primary Site
+CP-6(2) | Recovery Time and Recovery Point Objectives
+CP-6(3) | Accessibility
+CP-7 | Alternate Processing Site
+CP-7(1) | Separation from Primary Site
+CP-7(2) | Accessibility
+CP-7(3) | Priority of Service
+CP-7(4) | Preparation for Use
+CP-7(6) | Inability to Return to Primary Site
+CP-8 | Telecommunications Services
+CP-8(1) | Priority of Service Provisions
+CP-8(2) | Single Points of Failure
+CP-8(3) | Separation of Primary and Alternate Providers
+CP-8(4) | Provider Contingency Plan
+CP-8(5) | Alternate Telecommunication Service Testing
+CP-9 | System Backup
+CP-9(1) | Testing for Reliability and Integrity
+CP-9(2) | Test Restoration Using Sampling
+CP-9(3) | Separate Storage for Critical Information
+CP-9(5) | Transfer to Alternate Storage Site
+CP-9(6) | Redundant Secondary System
+CP-9(7) | Dual Authorization for Deletion or Destruction
+CP-9(8) | Cryptographic Protection
+CP-10 | System Recovery and Reconstitution
+CP-10(2) | Transaction Recovery
+CP-10(4) | Restore Within Time Period
+CP-10(6) | Component Protection
+CP-11 | Alternate Communications Protocols
+CP-12 | Safe Mode
+CP-13 | Alternative Security Mechanisms
+IA-1 | Policy and Procedures
+IA-2 | Identification and Authentication (Organizational Users)
+IA-2(1) | Multi-factor Authentication to Privileged Accounts
+IA-2(2) | Multi-factor Authentication to Non-privileged Accounts
+IA-2(5) | Individual Authentication with Group Authentication
+IA-2(6) | Access to Accounts —separate Device
+IA-2(8) | Access to Accounts — Replay Resistant
+IA-2(10) | Single Sign-on
+IA-2(12) | Acceptance of PIV Credentials
+IA-2(13) | Out-of-band Authentication
+IA-3 | Device Identification and Authentication
+IA-3(1) | Cryptographic Bidirectional Authentication
+IA-3(3) | Dynamic Address Allocation
+IA-3(4) | Device Attestation
+IA-4 | Identifier Management
+IA-4(1) | Prohibit Account Identifiers as Public Identifiers
+IA-4(4) | Identify User Status
+IA-4(5) | Dynamic Management
+IA-4(6) | Cross-organization Management
+IA-4(8) | Pairwise Pseudonymous Identifiers
+IA-4(9) | Attribute Maintenance and Protection
+IA-5 | Authenticator Management
+IA-5(1) | Password-based Authentication
+IA-5(2) | Public Key-based Authentication
+IA-5(5) | Change Authenticators Prior to Delivery
+IA-5(6) | Protection of Authenticators
+IA-5(7) | No Embedded Unencrypted Static Authenticators
+IA-5(8) | Multiple System Accounts
+IA-5(9) | Federated Credential Management
+IA-5(10) | Dynamic Credential Binding
+IA-5(12) | Biometric Authentication Performance
+IA-5(13) | Expiration of Cached Authenticators
+IA-5(14) | Managing Content of PKI Trust Stores
+IA-5(15) | GSA-approved Products and Services
+IA-5(16) | In-person or Trusted External Party Authenticator Issuance
+IA-5(17) | Presentation Attack Detection for Biometric Authenticators
+IA-5(18) | Password Managers
+IA-6 | Authentication Feedback
+IA-7 | Cryptographic Module Authentication
+IA-8 | Identification and Authentication (Non-organizational Users)
+IA-8(1) | Acceptance of PIV Credentials from Other Agencies
+IA-8(2) | Acceptance of External Authenticators
+IA-8(4) | Use of Defined Profiles
+IA-8(5) | Acceptance of PIV-I Credentials
+IA-8(6) | Disassociability
+IA-9 | Service Identification and Authentication
+IA-10 | Adaptive Authentication
+IA-11 | Re-authentication
+IA-12 | Identity Proofing
+IA-12(1) | Supervisor Authorization
+IA-12(2) | Identity Evidence
+IA-12(3) | Identity Evidence Validation and Verification
+IA-12(4) | In-person Validation and Verification
+IA-12(5) | Address Confirmation
+IA-12(6) | Accept Externally-proofed Identities
+IA-13 | Identity Providers and Authorization Servers
+IA-13(1) | Protection of Cryptographic Keys
+IA-13(2) | Verification of Identity Assertions and Access Tokens
+IA-13(3) | Token Management
+IR-1 | Policy and Procedures
+IR-2 | Incident Response Training
+IR-2(1) | Simulated Events
+IR-2(2) | Automated Training Environments
+IR-2(3) | Breach
+IR-3 | Incident Response Testing
+IR-3(1) | Automated Testing
+IR-3(2) | Coordination with Related Plans
+IR-3(3) | Continuous Improvement
+IR-4 | Incident Handling
+IR-4(1) | Automated Incident Handling Processes
+IR-4(2) | Dynamic Reconfiguration
+IR-4(3) | Continuity of Operations
+IR-4(4) | Information Correlation
+IR-4(5) | Automatic Disabling of System
+IR-4(6) | Insider Threats
+IR-4(7) | Insider Threats — Intra-organization Coordination
+IR-4(8) | Correlation with External Organizations
+IR-4(9) | Dynamic Response Capability
+IR-4(10) | Supply Chain Coordination
+IR-4(11) | Integrated Incident Response Team
+IR-4(12) | Malicious Code and Forensic Analysis
+IR-4(13) | Behavior Analysis
+IR-4(14) | Security Operations Center
+IR-4(15) | Public Relations and Reputation Repair
+IR-5 | Incident Monitoring
+IR-5(1) | Automated Tracking, Data Collection, and Analysis
+IR-6 | Incident Reporting
+IR-6(1) | Automated Reporting
+IR-6(2) | Vulnerabilities Related to Incidents
+IR-6(3) | Supply Chain Coordination
+IR-7 | Incident Response Assistance
+IR-7(1) | Automation Support for Availability of Information and Support
+IR-7(2) | Coordination with External Providers
+IR-8 | Incident Response Plan
+IR-8(1) | Breaches
+IR-9 | Information Spillage Response
+IR-9(2) | Training
+IR-9(3) | Post-spill Operations
+IR-9(4) | Exposure to Unauthorized Personnel
+MA-1 | Policy and Procedures
+MA-2 | Controlled Maintenance
+MA-2(2) | Automated Maintenance Activities
+MA-3 | Maintenance Tools
+MA-3(1) | Inspect Tools
+MA-3(2) | Inspect Media
+MA-3(3) | Prevent Unauthorized Removal
+MA-3(4) | Restricted Tool Use
+MA-3(5) | Execution with Privilege
+MA-3(6) | Software Updates and Patches
+MA-4 | Nonlocal Maintenance
+MA-4(1) | Logging and Review
+MA-4(3) | Comparable Security and Sanitization
+MA-4(4) | Authentication and Separation of Maintenance Sessions
+MA-4(5) | Approvals and Notifications
+MA-4(6) | Cryptographic Protection
+MA-4(7) | Disconnect Verification
+MA-5 | Maintenance Personnel
+MA-5(1) | Individuals Without Appropriate Access
+MA-5(2) | Security Clearances for Classified Systems
+MA-5(3) | Citizenship Requirements for Classified Systems
+MA-5(4) | Foreign Nationals
+MA-5(5) | Non-system Maintenance
+MA-6 | Timely Maintenance
+MA-6(1) | Preventive Maintenance
+MA-6(2) | Predictive Maintenance
+MA-6(3) | Automated Support for Predictive Maintenance
+MA-7 | Field Maintenance
+MP-1 | Policy and Procedures
+MP-2 | Media Access
+MP-3 | Media Marking
+MP-4 | Media Storage
+MP-4(2) | Automated Restricted Access
+MP-5 | Media Transport
+MP-5(3) | Custodians
+MP-6 | Media Sanitization
+MP-6(1) | Review, Approve, Track, Document, and Verify
+MP-6(2) | Equipment Testing
+MP-6(3) | Nondestructive Techniques
+MP-6(7) | Dual Authorization
+MP-6(8) | Remote Purging or Wiping of Information
+MP-7 | Media Use
+MP-7(2) | Prohibit Use of Sanitization-resistant Media
+MP-8 | Media Downgrading
+MP-8(1) | Documentation of Process
+MP-8(2) | Equipment Testing
+MP-8(3) | Controlled Unclassified Information
+MP-8(4) | Classified Information
+PE-1 | Policy and Procedures
+PE-2 | Physical Access Authorizations
+PE-2(1) | Access by Position or Role
+PE-2(2) | Two Forms of Identification
+PE-2(3) | Restrict Unescorted Access
+PE-3 | Physical Access Control
+PE-3(1) | System Access
+PE-3(2) | Facility and Systems
+PE-3(3) | Continuous Guards
+PE-3(4) | Lockable Casings
+PE-3(5) | Tamper Protection
+PE-3(7) | Physical Barriers
+PE-3(8) | Access Control Vestibules
+PE-4 | Access Control for Transmission
+PE-5 | Access Control for Output Devices
+PE-5(2) | Link to Individual Identity
+PE-6 | Monitoring Physical Access
+PE-6(1) | Intrusion Alarms and Surveillance Equipment
+PE-6(2) | Automated Intrusion Recognition and Responses
+PE-6(3) | Video Surveillance
+PE-6(4) | Monitoring Physical Access to Systems
+PE-8 | Visitor Access Records
+PE-8(1) | Automated Records Maintenance and Review
+PE-8(3) | Limit Personally Identifiable Information Elements
+PE-9 | Power Equipment and Cabling
+PE-9(1) | Redundant Cabling
+PE-9(2) | Automatic Voltage Controls
+PE-10 | Emergency Shutoff
+PE-11 | Emergency Power
+PE-11(1) | Alternate Power Supply — Minimal Operational Capability
+PE-11(2) | Alternate Power Supply — Self-contained
+PE-12 | Emergency Lighting
+PE-12(1) | Essential Mission and Business Functions
+PE-13 | Fire Protection
+PE-13(1) | Detection Systems — Automatic Activation and Notification
+PE-13(2) | Suppression Systems — Automatic Activation and Notification
+PE-13(4) | Inspections
+PE-14 | Environmental Controls
+PE-14(1) | Automatic Controls
+PE-14(2) | Monitoring with Alarms and Notifications
+PE-15 | Water Damage Protection
+PE-15(1) | Automation Support
+PE-16 | Delivery and Removal
+PE-17 | Alternate Work Site
+PE-18 | Location of System Components
+PE-19 | Information Leakage
+PE-19(1) | National Emissions Policies and Procedures
+PE-20 | Asset Monitoring and Tracking
+PE-21 | Electromagnetic Pulse Protection
+PE-22 | Component Marking
+PE-23 | Facility Location
+PL-1 | Policy and Procedures
+PL-2 | System Security and Privacy Plans
+PL-4 | Rules of Behavior
+PL-4(1) | Social Media and External Site/Application Usage Restrictions
+PL-7 | Concept of Operations
+PL-8 | Security and Privacy Architectures
+PL-8(1) | Defense in Depth
+PL-8(2) | Supplier Diversity
+PL-9 | Central Management
+PL-10 | Baseline Selection
+PL-11 | Baseline Tailoring
+PM-1 | Information Security Program Plan
+PM-2 | Information Security Program Leadership Role
+PM-3 | Information Security and Privacy Resources
+PM-4 | Plan of Action and Milestones Process
+PM-5 | System Inventory
+PM-5(1) | Inventory of Personally Identifiable Information
+PM-6 | Measures of Performance
+PM-7 | Enterprise Architecture
+PM-7(1) | Offloading
+PM-8 | Critical Infrastructure Plan
+PM-9 | Risk Management Strategy
+PM-10 | Authorization Process
+PM-11 | Mission and Business Process Definition
+PM-12 | Insider Threat Program
+PM-13 | Security and Privacy Workforce
+PM-14 | Testing, Training, and Monitoring
+PM-15 | Security and Privacy Groups and Associations
+PM-16 | Threat Awareness Program
+PM-16(1) | Automated Means for Sharing Threat Intelligence
+PM-17 | Protecting Controlled Unclassified Information on External Systems
+PM-18 | Privacy Program Plan
+PM-19 | Privacy Program Leadership Role
+PM-20 | Dissemination of Privacy Program Information
+PM-20(1) | Privacy Policies on Websites, Applications, and Digital Services
+PM-21 | Accounting of Disclosures
+PM-22 | Personally Identifiable Information Quality Management
+PM-23 | Data Governance Body
+PM-24 | Data Integrity Board
+PM-25 | Minimization of Personally Identifiable Information Used in Testing, Training, and Research
+PM-26 | Complaint Management
+PM-27 | Privacy Reporting
+PM-28 | Risk Framing
+PM-29 | Risk Management Program Leadership Roles
+PM-30 | Supply Chain Risk Management Strategy
+PM-30(1) | Suppliers of Critical or Mission-essential Items
+PM-31 | Continuous Monitoring Strategy
+PM-32 | Purposing
+PS-1 | Policy and Procedures
+PS-2 | Position Risk Designation
+PS-3 | Personnel Screening
+PS-3(1) | Classified Information
+PS-3(2) | Formal Indoctrination
+PS-3(3) | Information Requiring Special Protective Measures
+PS-3(4) | Citizenship Requirements
+PS-4 | Personnel Termination
+PS-4(1) | Post-employment Requirements
+PS-4(2) | Automated Actions
+PS-5 | Personnel Transfer
+PS-6 | Access Agreements
+PS-6(2) | Classified Information Requiring Special Protection
+PS-6(3) | Post-employment Requirements
+PS-7 | External Personnel Security
+PS-8 | Personnel Sanctions
+PS-9 | Position Descriptions
+PT-1 | Policy and Procedures
+PT-2 | Authority to Process Personally Identifiable Information
+PT-2(1) | Data Tagging
+PT-2(2) | Automation
+PT-3 | Personally Identifiable Information Processing Purposes
+PT-3(1) | Data Tagging
+PT-3(2) | Automation
+PT-4 | Consent
+PT-4(1) | Tailored Consent
+PT-4(2) | Just-in-time Consent
+PT-4(3) | Revocation
+PT-5 | Privacy Notice
+PT-5(1) | Just-in-time Notice
+PT-5(2) | Privacy Act Statements
+PT-6 | System of Records Notice
+PT-6(1) | Routine Uses
+PT-6(2) | Exemption Rules
+PT-7 | Specific Categories of Personally Identifiable Information
+PT-7(1) | Social Security Numbers
+PT-7(2) | First Amendment Information
+PT-8 | Computer Matching Requirements
+RA-1 | Policy and Procedures
+RA-2 | Security Categorization
+RA-2(1) | Impact-level Prioritization
+RA-3 | Risk Assessment
+RA-3(1) | Supply Chain Risk Assessment
+RA-3(2) | Use of All-source Intelligence
+RA-3(3) | Dynamic Threat Awareness
+RA-3(4) | Predictive Cyber Analytics
+RA-5 | Vulnerability Monitoring and Scanning
+RA-5(2) | Update Vulnerabilities to Be Scanned
+RA-5(3) | Breadth and Depth of Coverage
+RA-5(4) | Discoverable Information
+RA-5(5) | Privileged Access
+RA-5(6) | Automated Trend Analyses
+RA-5(8) | Review Historic Audit Logs
+RA-5(10) | Correlate Scanning Information
+RA-5(11) | Public Disclosure Program
+RA-6 | Technical Surveillance Countermeasures Survey
+RA-7 | Risk Response
+RA-8 | Privacy Impact Assessments
+RA-9 | Criticality Analysis
+RA-10 | Threat Hunting
+SA-1 | Policy and Procedures
+SA-2 | Allocation of Resources
+SA-3 | System Development Life Cycle
+SA-3(1) | Manage Preproduction Environment
+SA-3(2) | Use of Live or Operational Data
+SA-3(3) | Technology Refresh
+SA-4 | Acquisition Process
+SA-4(1) | Functional Properties of Controls
+SA-4(2) | Design and Implementation Information for Controls
+SA-4(3) | Development Methods, Techniques, and Practices
+SA-4(5) | System, Component, and Service Configurations
+SA-4(6) | Use of Information Assurance Products
+SA-4(7) | NIAP-approved Protection Profiles 
+SA-4(8) | Continuous Monitoring Plan for Controls
+SA-4(9) | Functions, Ports, Protocols, and Services in Use
+SA-4(10) | Use of Approved PIV Products
+SA-4(11) | System of Records
+SA-4(12) | Data Ownership
+SA-5 | System Documentation
+SA-8 | Security and Privacy Engineering Principles
+SA-8(1) | Clear Abstractions
+SA-8(2) | Least Common Mechanism
+SA-8(3) | Modularity and Layering
+SA-8(4) | Partially Ordered Dependencies
+SA-8(5) | Efficiently Mediated Access
+SA-8(6) | Minimized Sharing
+SA-8(7) | Reduced Complexity
+SA-8(8) | Secure Evolvability
+SA-8(9) | Trusted Components
+SA-8(10) | Hierarchical Trust
+SA-8(11) | Inverse Modification Threshold
+SA-8(12) | Hierarchical Protection
+SA-8(13) | Minimized Security Elements
+SA-8(14) | Least Privilege
+SA-8(15) | Predicate Permission
+SA-8(16) | Self-reliant Trustworthiness
+SA-8(17) | Secure Distributed Composition
+SA-8(18) | Trusted Communications Channels
+SA-8(19) | Continuous Protection
+SA-8(20) | Secure Metadata Management
+SA-8(21) | Self-analysis
+SA-8(22) | Accountability and Traceability
+SA-8(23) | Secure Defaults
+SA-8(24) | Secure Failure and Recovery
+SA-8(25) | Economic Security
+SA-8(26) | Performance Security
+SA-8(27) | Human Factored Security
+SA-8(28) | Acceptable Security
+SA-8(29) | Repeatable and Documented Procedures
+SA-8(30) | Procedural Rigor
+SA-8(31) | Secure System Modification
+SA-8(32) | Sufficient Documentation
+SA-8(33) | Minimization
+SA-9 | External System Services
+SA-9(1) | Risk Assessments and Organizational Approvals
+SA-9(2) | Identification of Functions, Ports, Protocols, and Services
+SA-9(3) | Establish and Maintain Trust Relationship with Providers
+SA-9(4) | Consistent Interests of Consumers and Providers
+SA-9(5) | Processing, Storage, and Service Location
+SA-9(6) | Organization-controlled Cryptographic Keys
+SA-9(7) | Organization-controlled Integrity Checking
+SA-9(8) | Processing and Storage Location — U.S. Jurisdiction
+SA-10 | Developer Configuration Management
+SA-10(1) | Software and Firmware Integrity Verification
+SA-10(2) | Alternative Configuration Management Processes
+SA-10(3) | Hardware Integrity Verification
+SA-10(4) | Trusted Generation
+SA-10(5) | Mapping Integrity for Version Control
+SA-10(6) | Trusted Distribution
+SA-10(7) | Security and Privacy Representatives
+SA-11 | Developer Testing and Evaluation
+SA-11(1) | Static Code Analysis
+SA-11(2) | Threat Modeling and Vulnerability Analyses
+SA-11(3) | Independent Verification of Assessment Plans and Evidence
+SA-11(4) | Manual Code Reviews
+SA-11(5) | Penetration Testing
+SA-11(6) | Attack Surface Reviews
+SA-11(7) | Verify Scope of Testing and Evaluation
+SA-11(8) | Dynamic Code Analysis
+SA-11(9) | Interactive Application Security Testing
+SA-15 | Development Process, Standards, and Tools
+SA-15(1) | Quality Metrics
+SA-15(2) | Security and Privacy Tracking Tools
+SA-15(3) | Criticality Analysis
+SA-15(5) | Attack Surface Reduction
+SA-15(6) | Continuous Improvement
+SA-15(7) | Automated Vulnerability Analysis
+SA-15(8) | Reuse of Threat and Vulnerability Information
+SA-15(10) | Incident Response Plan
+SA-15(11) | Archive System or Component
+SA-15(12) | Minimize Personally Identifiable Information
+SA-15(13) | Logging Syntax
+SA-16 | Developer-provided Training
+SA-17 | Developer Security and Privacy Architecture and Design
+SA-17(1) | Formal Policy Model
+SA-17(2) | Security-relevant Components
+SA-17(3) | Formal Correspondence
+SA-17(4) | Informal Correspondence
+SA-17(5) | Conceptually Simple Design
+SA-17(6) | Structure for Testing
+SA-17(7) | Structure for Least Privilege
+SA-17(8) | Orchestration
+SA-17(9) | Design Diversity
+SA-20 | Customized Development of Critical Components
+SA-21 | Developer Screening
+SA-22 | Unsupported System Components
+SA-23 | Specialization
+SA-24 | Design For Cyber Resiliency
+SC-1 | Policy and Procedures
+SC-2 | Separation of System and User Functionality
+SC-2(1) | Interfaces for Non-privileged Users
+SC-2(2) | Disassociability
+SC-3 | Security Function Isolation
+SC-3(1) | Hardware Separation
+SC-3(2) | Access and Flow Control Functions
+SC-3(3) | Minimize Nonsecurity Functionality
+SC-3(4) | Module Coupling and Cohesiveness
+SC-3(5) | Layered Structures
+SC-4 | Information in Shared System Resources
+SC-4(2) | Multilevel or Periods Processing
+SC-5 | Denial-of-service Protection
+SC-5(1) | Restrict Ability to Attack Other Systems
+SC-5(2) | Capacity, Bandwidth, and Redundancy
+SC-5(3) | Detection and Monitoring
+SC-6 | Resource Availability
+SC-7 | Boundary Protection
+SC-7(3) | Access Points
+SC-7(4) | External Telecommunications Services
+SC-7(5) | Deny by Default — Allow by Exception
+SC-7(7) | Split Tunneling for Remote Devices
+SC-7(8) | Route Traffic to Authenticated Proxy Servers
+SC-7(9) | Restrict Threatening Outgoing Communications Traffic
+SC-7(10) | Prevent Exfiltration
+SC-7(11) | Restrict Incoming Communications Traffic
+SC-7(12) | Host-based Protection
+SC-7(13) | Isolation of Security Tools, Mechanisms, and Support Components
+SC-7(14) | Protect Against Unauthorized Physical Connections
+SC-7(15) | Networked Privileged Accesses
+SC-7(16) | Prevent Discovery of System Components
+SC-7(17) | Automated Enforcement of Protocol Formats
+SC-7(18) | Fail Secure
+SC-7(19) | Block Communication from Non-organizationally Configured Hosts
+SC-7(20) | Dynamic Isolation and Segregation
+SC-7(21) | Isolation of System Components
+SC-7(22) | Separate Subnets for Connecting to Different Security Domains
+SC-7(23) | Disable Sender Feedback on Protocol Validation Failure
+SC-7(24) | Personally Identifiable Information
+SC-7(25) | Unclassified National Security System Connections
+SC-7(26) | Classified National Security System Connections
+SC-7(27) | Unclassified Non-national Security System Connections
+SC-7(28) | Connections to Public Networks
+SC-7(29) | Separate Subnets to Isolate Functions
+SC-8 | Transmission Confidentiality and Integrity
+SC-8(1) | Cryptographic Protection
+SC-8(2) | Pre- and Post-transmission Handling
+SC-8(3) | Cryptographic Protection for Message Externals
+SC-8(4) | Conceal or Randomize Communications
+SC-8(5) | Protected Distribution System
+SC-10 | Network Disconnect
+SC-11 | Trusted Path
+SC-11(1) | Irrefutable Communications Path
+SC-12 | Cryptographic Key Establishment and Management
+SC-12(1) | Availability
+SC-12(2) | Symmetric Keys
+SC-12(3) | Asymmetric Keys
+SC-12(6) | Physical Control of Keys
+SC-13 | Cryptographic Protection
+SC-15 | Collaborative Computing Devices and Applications
+SC-15(1) | Physical or Logical Disconnect
+SC-15(3) | Disabling and Removal in Secure Work Areas
+SC-15(4) | Explicitly Indicate Current Participants
+SC-16 | Transmission of Security and Privacy Attributes
+SC-16(1) | Integrity Verification
+SC-16(2) | Anti-spoofing Mechanisms
+SC-16(3) | Cryptographic Binding
+SC-17 | Public Key Infrastructure Certificates
+SC-18 | Mobile Code
+SC-18(1) | Identify Unacceptable Code and Take Corrective Actions
+SC-18(2) | Acquisition, Development, and Use
+SC-18(3) | Prevent Downloading and Execution
+SC-18(4) | Prevent Automatic Execution
+SC-18(5) | Allow Execution Only in Confined Environments
+SC-20 | Secure Name/Address Resolution Service (Authoritative Source)
+SC-20(2) | Data Origin and Integrity
+SC-21 | Secure Name/Address Resolution Service (Recursive or Caching Resolver)
+SC-22 | Architecture and Provisioning for Name/Address Resolution Service
+SC-23 | Session Authenticity
+SC-23(1) | Invalidate Session Identifiers at Logout
+SC-23(3) | Unique System-generated Session Identifiers
+SC-23(5) | Allowed Certificate Authorities
+SC-24 | Fail in Known State
+SC-25 | Thin Nodes
+SC-26 | Decoys
+SC-27 | Platform-independent Applications
+SC-28 | Protection of Information at Rest
+SC-28(1) | Cryptographic Protection
+SC-28(2) | Offline Storage
+SC-28(3) | Cryptographic Keys
+SC-29 | Heterogeneity
+SC-29(1) | Virtualization Techniques
+SC-30 | Concealment and Misdirection
+SC-30(2) | Randomness
+SC-30(3) | Change Processing and Storage Locations
+SC-30(4) | Misleading Information
+SC-30(5) | Concealment of System Components
+SC-31 | Covert Channel Analysis
+SC-31(1) | Test Covert Channels for Exploitability
+SC-31(2) | Maximum Bandwidth
+SC-31(3) | Measure Bandwidth in Operational Environments
+SC-32 | System Partitioning
+SC-32(1) | Separate Physical Domains for Privileged Functions
+SC-34 | Non-modifiable Executable Programs
+SC-34(1) | No Writable Storage
+SC-34(2) | Integrity Protection on Read-only Media
+SC-35 | External Malicious Code Identification
+SC-36 | Distributed Processing and Storage
+SC-36(1) | Polling Techniques
+SC-36(2) | Synchronization
+SC-37 | Out-of-band Channels
+SC-37(1) | Ensure Delivery and Transmission
+SC-38 | Operations Security
+SC-39 | Process Isolation
+SC-39(1) | Hardware Separation
+SC-39(2) | Separate Execution Domain Per Thread
+SC-40 | Wireless Link Protection
+SC-40(1) | Electromagnetic Interference
+SC-40(2) | Reduce Detection Potential
+SC-40(3) | Imitative or Manipulative Communications Deception
+SC-40(4) | Signal Parameter Identification
+SC-41 | Port and I/O Device Access
+SC-42 | Sensor Capability and Data
+SC-42(1) | Reporting to Authorized Individuals or Roles
+SC-42(2) | Authorized Use
+SC-42(4) | Notice of Collection
+SC-42(5) | Collection Minimization
+SC-43 | Usage Restrictions
+SC-44 | Detonation Chambers
+SC-45 | System Time Synchronization
+SC-45(1) | Synchronization with Authoritative Time Source
+SC-45(2) | Secondary Authoritative Time Source
+SC-46 | Cross Domain Policy Enforcement
+SC-47 | Alternate Communications Paths
+SC-48 | Sensor Relocation
+SC-48(1) | Dynamic Relocation of Sensors or Monitoring Capabilities
+SC-49 | Hardware-enforced Separation and Policy Enforcement
+SC-50 | Software-enforced Separation and Policy Enforcement
+SC-51 | Hardware-based Protection
+SI-1 | Policy and Procedures
+SI-2 | Flaw Remediation
+SI-2(2) | Automated Flaw Remediation Status
+SI-2(3) | Time to Remediate Flaws and Benchmarks for Corrective Actions
+SI-2(4) | Automated Patch Management Tools
+SI-2(5) | Automatic Software and Firmware Updates
+SI-2(6) | Removal of Previous Versions of Software and Firmware
+SI-2(7) | Root Cause Analysis
+SI-3 | Malicious Code Protection
+SI-3(4) | Updates Only by Privileged Users
+SI-3(6) | Testing and Verification
+SI-3(8) | Detect Unauthorized Commands
+SI-3(10) | Malicious Code Analysis
+SI-4 | System Monitoring
+SI-4(1) | System-wide Intrusion Detection System
+SI-4(2) | Automated Tools and Mechanisms for Real-time Analysis
+SI-4(3) | Automated Tool and Mechanism Integration
+SI-4(4) | Inbound and Outbound Communications Traffic
+SI-4(5) | System-generated Alerts
+SI-4(7) | Automated Response to Suspicious Events
+SI-4(9) | Testing of Monitoring Tools and Mechanisms
+SI-4(10) | Visibility of Encrypted Communications
+SI-4(11) | Analyze Communications Traffic Anomalies
+SI-4(12) | Automated Organization-generated Alerts
+SI-4(13) | Analyze Traffic and Event Patterns
+SI-4(14) | Wireless Intrusion Detection
+SI-4(15) | Wireless to Wireline Communications
+SI-4(16) | Correlate Monitoring Information
+SI-4(17) | Integrated Situational Awareness
+SI-4(18) | Analyze Traffic and Covert Exfiltration
+SI-4(19) | Risk for Individuals
+SI-4(20) | Privileged Users
+SI-4(21) | Probationary Periods
+SI-4(22) | Unauthorized Network Services
+SI-4(23) | Host-based Devices
+SI-4(24) | Indicators of Compromise
+SI-4(25) | Optimize Network Traffic Analysis
+SI-5 | Security Alerts, Advisories, and Directives
+SI-5(1) | Automated Alerts and Advisories
+SI-6 | Security and Privacy Function Verification
+SI-6(2) | Automation Support for Distributed Testing
+SI-6(3) | Report Verification Results
+SI-7 | Software, Firmware, and Information Integrity
+SI-7(1) | Integrity Checks
+SI-7(2) | Automated Notifications of Integrity Violations
+SI-7(3) | Centrally Managed Integrity Tools
+SI-7(5) | Automated Response to Integrity Violations
+SI-7(6) | Cryptographic Protection
+SI-7(7) | Integration of Detection and Response
+SI-7(8) | Auditing Capability for Significant Events
+SI-7(9) | Verify Boot Process
+SI-7(10) | Protection of Boot Firmware
+SI-7(12) | Integrity Verification
+SI-7(15) | Code Authentication
+SI-7(16) | Time Limit on Process Execution Without Supervision
+SI-7(17) | Runtime Application Self-protection
+SI-8 | Spam Protection
+SI-8(2) | Automatic Updates
+SI-8(3) | Continuous Learning Capability
+SI-10 | Information Input Validation
+SI-10(1) | Manual Override Capability
+SI-10(2) | Review and Resolve Errors
+SI-10(3) | Predictable Behavior
+SI-10(4) | Timing Interactions
+SI-10(5) | Restrict Inputs to Trusted Sources and Approved Formats
+SI-10(6) | Injection Prevention
+SI-11 | Error Handling
+SI-12 | Information Management and Retention
+SI-12(1) | Limit Personally Identifiable Information Elements
+SI-12(2) | Minimize Personally Identifiable Information in Testing, Training, and Research
+SI-12(3) | Information Disposal
+SI-13 | Predictable Failure Prevention
+SI-13(1) | Transferring Component Responsibilities
+SI-13(3) | Manual Transfer Between Components
+SI-13(4) | Standby Component Installation and Notification
+SI-13(5) | Failover Capability
+SI-14 | Non-persistence
+SI-14(1) | Refresh from Trusted Sources
+SI-14(2) | Non-persistent Information
+SI-14(3) | Non-persistent Connectivity
+SI-15 | Information Output Filtering
+SI-16 | Memory Protection
+SI-17 | Fail-safe Procedures
+SI-18 | Personally Identifiable Information Quality Operations
+SI-18(1) | Automation Support
+SI-18(2) | Data Tags
+SI-18(3) | Collection
+SI-18(4) | Individual Requests
+SI-18(5) | Notice of Correction or Deletion
+SI-19 | De-identification
+SI-19(1) | Collection
+SI-19(2) | Archiving
+SI-19(3) | Release
+SI-19(4) | Removal, Masking, Encryption, Hashing, or Replacement of Direct Identifiers
+SI-19(5) | Statistical Disclosure Control
+SI-19(6) | Differential Privacy
+SI-19(7) | Validated Algorithms and Software
+SI-19(8) | Motivated Intruder
+SI-20 | Tainting
+SI-21 | Information Refresh
+SI-22 | Information Diversity
+SI-23 | Information Fragmentation
+SR-1 | Policy and Procedures
+SR-2 | Supply Chain Risk Management Plan
+SR-2(1) | Establish SCRM Team
+SR-3 | Supply Chain Controls and Processes
+SR-3(1) | Diverse Supply Base
+SR-3(2) | Limitation of Harm
+SR-3(3) | Sub-tier Flow Down
+SR-4 | Provenance
+SR-4(1) | Identity
+SR-4(2) | Track and Trace
+SR-4(3) | Validate as Genuine and Not Altered
+SR-4(4) | Supply Chain Integrity — Pedigree
+SR-5 | Acquisition Strategies, Tools, and Methods
+SR-5(1) | Adequate Supply
+SR-5(2) | Assessments Prior to Selection, Acceptance, Modification, or Update
+SR-6 | Supplier Assessments and Reviews
+SR-6(1) | Testing and Analysis
+SR-7 | Supply Chain Operations Security
+SR-8 | Notification Agreements
+SR-9 | Tamper Resistance and Detection
+SR-9(1) | Multiple Stages of System Development Life Cycle
+SR-10 | Inspection of Systems or Components
+SR-11 | Component Authenticity
+SR-11(1) | Anti-counterfeit Training
+SR-11(2) | Configuration Control for Component Service and Repair
+SR-11(3) | Anti-counterfeit Scanning
+SR-12 | Component Disposal
+PO.1.1 | Identify and document all security requirements for the organization’s software developmen
+PO.1.2 | Identify and document all security requirements for organization-developed software to mee
+PO.1.3 | Communicate requirements to all third parties who will provide commercial software compone
+PO.2.1 | Create new roles and alter responsibilities for existing roles as needed to encompass all 
+PO.2.2 | Provide role-based training for all personnel with responsibilities that contribute to sec
+PO.2.3 | Obtain upper management or authorizing official commitment to secure development, and conv
+PO.3.1 | Specify which tools or tool types must or should be included in each toolchain to mitigate
+PO.3.2 | Follow recommended security practices to deploy, operate, and maintain tools and toolchain
+PO.3.3 | Configure tools to generate artifacts  of their support of secure software development pra
+PO.4.1 | Define criteria for software security checks and track throughout the SDLC.
+PO.4.2 | Implement processes, mechanisms, etc. to gather and safeguard the necessary information in
+PO.5.1 | Separate and protect each environment involved in software development.
+PO.5.2 | Secure and harden development endpoints (i.e., endpoints for software designers, developer
+PS.1.1 | Store all forms of code – including source code, executable code, and configuration-as-cod
+PS.2.1 | Make software integrity verification information available to software acquirers.
+PS.3.1 | Securely archive the necessary files and supporting data (e.g., integrity verification inf
+PS.3.2 | Collect, safeguard, maintain, and share provenance data for all components of each softwar
+PW.1.1 | Use forms of risk modeling – such as threat modeling, attack modeling, or attack surface m
+PW.1.2 | Track and maintain the software’s security requirements, risks, and design decisions.
+PW.1.3 | Where appropriate, build in support for using standardized security features and services 
+PW.2.1 | Have 1) a qualified person (or people) who were not involved with the design and/or 2) aut
+PW.4.1 | Acquire and maintain well-secured software components (e.g., software libraries, modules, 
+PW.4.2 | Create and maintain well-secured software components in-house following SDLC processes to 
+PW.4.4 | Verify that acquired commercial, open-source, and all other third-party software component
+PW.5.1 | Follow all secure coding practices that are appropriate to the development languages and e
+PW.6.1 | Use compiler, interpreter, and build tools that offer features to improve executable secur
+PW.6.2 | Determine which compiler, interpreter, and build tool features should be used and how each
+PW.7.1 | Determine whether code review (a person looks directly at the code to find issues) and/or 
+PW.7.2 | Perform the code review and/or code analysis based on the organization’s secure coding sta
+PW.8.1 | Determine whether executable code testing should be performed to find vulnerabilities not 
+PW.8.2 | Scope the testing, design the tests, perform the testing, and document the results, includ
+PW.9.1 | Define a secure baseline by determining how to configure each setting that has an effect o
+PW.9.2 | Implement the default settings (or groups of default settings, if applicable), and documen
+RV.1.1 | Gather information from software acquirers, users, and public sources on potential vulnera
+RV.1.2 | Review, analyze, and/or test the software’s code to identify or confirm the presence of pr
+RV.1.3 | Have a policy that addresses vulnerability disclosure and remediation, and implement the r
+RV.2.1 | Analyze each vulnerability to gather sufficient information about risk to plan its remedia
+RV.2.2 | Plan and implement risk responses for vulnerabilities.
+RV.3.1 | Analyze identified vulnerabilities to determine their root causes.
+RV.3.2 | Analyze the root causes over time to identify patterns, such as a particular secure coding
+RV.3.3 | Review the software for similar vulnerabilities to eradicate a class of vulnerabilities, a
+RV.3.4 | Review the SDLC process, and update it if appropriate to prevent (or reduce the likelihood

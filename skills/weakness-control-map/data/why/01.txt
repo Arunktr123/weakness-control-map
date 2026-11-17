@@ -1,0 +1,244 @@
+{"why":"CWE-1076","P":{"PW.7.2":"detection:Automated Static Analysis","SA-11(1)":"detection:Automated Static Analysis"}}
+{"why":"CWE-1077","P":{"PW.7.2":"detection:Automated Static Analysis","SA-11(1)":"detection:Automated Static Analysis"}}
+{"why":"CWE-1078","P":{"PW.7.2":"detection:Automated Static Analysis;detection:Automated Static Analysis - Source Code","SA-11(1)":"detection:Automated Static Analysis;detection:Automated Static Analysis - Source Code"}}
+{"why":"CWE-1079","P":{"PW.7.2":"detection:Automated Static Analysis","SA-11(1)":"detection:Automated Static Analysis"}}
+{"why":"CWE-1080","P":{"PW.7.2":"detection:Automated Static Analysis","SA-11(1)":"detection:Automated Static Analysis"}}
+{"why":"CWE-1082","P":{"PW.7.2":"detection:Automated Static Analysis","SA-11(1)":"detection:Automated Static Analysis"}}
+{"why":"CWE-1083","P":{"PW.7.2":"detection:Automated Static Analysis","SA-11(1)":"detection:Automated Static Analysis"}}
+{"why":"CWE-1084","P":{"PW.7.2":"detection:Automated Static Analysis","SA-11(1)":"detection:Automated Static Analysis"}}
+{"why":"CWE-1085","P":{"PW.7.2":"detection:Automated Static Analysis","SA-11(1)":"detection:Automated Static Analysis"}}
+{"why":"CWE-1086","P":{"PW.7.2":"detection:Automated Static Analysis","SA-11(1)":"detection:Automated Static Analysis"}}
+{"why":"CWE-1087","P":{"PW.7.2":"detection:Automated Static Analysis","SA-11(1)":"detection:Automated Static Analysis"}}
+{"why":"CWE-1088","P":{"PW.7.2":"detection:Automated Static Analysis","SA-11(1)":"detection:Automated Static Analysis"}}
+{"why":"CWE-1089","P":{"PW.7.2":"detection:Automated Static Analysis","SA-11(1)":"detection:Automated Static Analysis"}}
+{"why":"CWE-1090","P":{"PW.7.2":"detection:Automated Static Analysis","SA-11(1)":"detection:Automated Static Analysis"}}
+{"why":"CWE-1091","P":{"PW.7.2":"detection:Automated Static Analysis","SA-11(1)":"detection:Automated Static Analysis"}}
+{"why":"CWE-1092","P":{"PW.7.2":"detection:Automated Static Analysis","SA-11(1)":"detection:Automated Static Analysis"}}
+{"why":"CWE-1094","P":{"PW.7.2":"detection:Automated Static Analysis","SA-11(1)":"detection:Automated Static Analysis"}}
+{"why":"CWE-1095","P":{"PW.7.2":"detection:Automated Static Analysis","SA-11(1)":"detection:Automated Static Analysis"}}
+{"why":"CWE-1096","P":{"PW.7.2":"detection:Automated Static Analysis","SA-11(1)":"detection:Automated Static Analysis"}}
+{"why":"CWE-1097","P":{"PW.7.2":"detection:Automated Static Analysis","SA-11(1)":"detection:Automated Static Analysis"}}
+{"why":"CWE-1098","P":{"PW.7.2":"detection:Automated Static Analysis","SA-11(1)":"detection:Automated Static Analysis"}}
+{"why":"CWE-1099","P":{"PW.7.2":"detection:Automated Static Analysis","SA-11(1)":"detection:Automated Static Analysis"}}
+{"why":"CWE-1101","P":{"PW.7.2":"detection:Automated Static Analysis","SA-11(1)":"detection:Automated Static Analysis"}}
+{"why":"CWE-1102","P":{"PW.7.2":"detection:Automated Static Analysis","SA-11(1)":"detection:Automated Static Analysis"}}
+{"why":"CWE-1104","P":{"PW.7.2":"detection:Automated Static Analysis","SA-11(1)":"detection:Automated Static Analysis"}}
+{"why":"CWE-1105","P":{"PW.7.2":"detection:Automated Static Analysis","SA-11(1)":"detection:Automated Static Analysis"}}
+{"why":"CWE-1106","P":{"PW.7.2":"detection:Automated Static Analysis","SA-11(1)":"detection:Automated Static Analysis"}}
+{"why":"CWE-1108","P":{"PW.7.2":"detection:Automated Static Analysis","SA-11(1)":"detection:Automated Static Analysis"}}
+{"why":"CWE-1113","P":{"PW.7.2":"detection:Automated Static Analysis","SA-11(1)":"detection:Automated Static Analysis"}}
+{"why":"CWE-1114","P":{"PW.7.2":"detection:Automated Static Analysis","SA-11(1)":"detection:Automated Static Analysis"}}
+{"why":"CWE-1115","P":{"PW.7.2":"detection:Automated Static Analysis","SA-11(1)":"detection:Automated Static Analysis"}}
+{"why":"CWE-1116","P":{"PW.7.2":"detection:Manual Static Analysis","SA-11(4)":"detection:Manual Static Analysis","PW.5.1":"phase:Implementation"}}
+{"why":"CWE-1118","P":{"PW.9.2":"phase:Documentation"}}
+{"why":"CWE-1119","P":{"PW.7.2":"detection:Automated Static Analysis","SA-11(1)":"detection:Automated Static Analysis"}}
+{"why":"CWE-1120","P":{"PW.7.2":"detection:Automated Static Analysis","SA-11(1)":"detection:Automated Static Analysis"}}
+{"why":"CWE-1121","P":{"PW.7.2":"detection:Automated Static Analysis","SA-11(1)":"detection:Automated Static Analysis"}}
+{"why":"CWE-1122","P":{"PW.7.2":"detection:Automated Static Analysis","SA-11(1)":"detection:Automated Static Analysis"}}
+{"why":"CWE-1124","P":{"PW.7.2":"detection:Automated Static Analysis","SA-11(1)":"detection:Automated Static Analysis"}}
+{"why":"CWE-1126","P":{"PW.7.2":"detection:Automated Static Analysis","SA-11(1)":"detection:Automated Static Analysis"}}
+{"why":"CWE-1127","P":{"PW.7.2":"detection:Manual Analysis","SA-11(4)":"detection:Manual Analysis","PW.6.1":"phase:Build and Compilation","PW.6.2":"phase:Build and Compilation"}}
+{"why":"CWE-1164","P":{"PW.7.2":"detection:Automated Static Analysis","SA-11(1)":"detection:Automated Static Analysis"}}
+{"why":"CWE-1173","P":{"PW.7.2":"detection:Automated Static Analysis","SA-11(1)":"detection:Automated Static Analysis","PW.5.1":"phase:Implementation"}}
+{"why":"CWE-1177","P":{"PW.7.2":"detection:Automated Static Analysis","SA-11(1)":"detection:Automated Static Analysis","PW.5.1":"phase:Implementation","PW.6.1":"phase:Build and Compilation","PW.6.2":"phase:Build and Compilation"}}
+{"why":"CWE-1188","W":{"SA-8(23)":"ship secure defaults","CM-6":"require secure configuration settings","PW.9.1":"define a secure default baseline","PW.9.2":"implement and document secure defaults"},"P":{"PW.7.2":"detection:Automated Static Analysis","SA-11(1)":"detection:Automated Static Analysis","CM-6":"inferred","PW.9.1":"inferred","PW.9.2":"inferred","SA-8(23)":"inferred"}}
+{"why":"CWE-1189","P":{"AC-6":"strategy:Separation of Privilege","SA-8(14)":"strategy:Separation of Privilege","PW.8.2":"detection:Automated Dynamic Analysis","SA-11(8)":"detection:Automated Dynamic Analysis","PW.1.1":"phase:Architecture and Design"}}
+{"why":"CWE-1190","P":{"PW.1.1":"phase:Architecture and Design"}}
+{"why":"CWE-1191","P":{"AC-6":"strategy:Separation of Privilege","SA-8(14)":"strategy:Separation of Privilege","PW.8.2":"detection:Dynamic Analysis with Manual Results Interpretation;detection:Fuzzing","SA-11(8)":"detection:Dynamic Analysis with Manual Results Interpretation;detection:Fuzzing","PW.1.1":"phase:Architecture and Design"}}
+{"why":"CWE-1192","P":{"AC-6":"strategy:Separation of Privilege","SA-8(14)":"strategy:Separation of Privilege","PW.1.1":"phase:Architecture and Design"}}
+{"why":"CWE-1193","P":{"PW.1.1":"phase:Architecture and Design"}}
+{"why":"CWE-1204","P":{"PW.7.2":"detection:Automated Static Analysis","SA-11(1)":"detection:Automated Static Analysis","PW.5.1":"phase:Implementation"}}
+{"why":"CWE-1209","P":{"PW.1.1":"phase:Architecture and Design","PW.4.4":"phase:Integration","PW.5.1":"phase:Implementation"}}
+{"why":"CWE-1220","W":{"AC-3":"enforce sufficiently granular access control"},"P":{"PW.1.1":"phase:Architecture and Design","PW.5.1":"phase:Implementation","PW.7.2":"phase:Testing","PW.8.2":"phase:Testing","AC-3":"inferred"}}
+{"why":"CWE-1221","P":{"PW.7.2":"detection:Automated Analysis","SA-11(1)":"detection:Automated Analysis","PW.1.1":"phase:Architecture and Design","PW.5.1":"phase:Implementation"}}
+{"why":"CWE-1222","P":{"PW.1.1":"phase:Architecture and Design"}}
+{"why":"CWE-1223","P":{"PW.7.2":"detection:Automated Analysis","SA-11(1)":"detection:Automated Analysis","PW.1.1":"phase:Architecture and Design"}}
+{"why":"CWE-1224","P":{"PW.7.2":"detection:Automated Analysis","SA-11(1)":"detection:Automated Analysis","PW.1.1":"phase:Architecture and Design"}}
+{"why":"CWE-1231","P":{"PW.7.2":"detection:Manual Analysis;phase:Testing","SA-11(4)":"detection:Manual Analysis","PW.1.1":"phase:Architecture and Design","PW.5.1":"phase:Implementation","PW.8.2":"phase:Testing"}}
+{"why":"CWE-1232","P":{"PW.1.1":"phase:Architecture and Design","PW.5.1":"phase:Implementation","PW.7.2":"phase:Testing","PW.8.2":"phase:Testing"}}
+{"why":"CWE-1233","P":{"PW.7.2":"detection:Manual Analysis;phase:Testing","SA-11(4)":"detection:Manual Analysis","PW.1.1":"phase:Architecture and Design","PW.5.1":"phase:Implementation","PW.8.2":"phase:Testing"}}
+{"why":"CWE-1234","P":{"PW.1.1":"phase:Architecture and Design","PW.5.1":"phase:Implementation","PW.7.2":"phase:Testing","PW.8.2":"phase:Testing"}}
+{"why":"CWE-1235","P":{"PW.7.2":"detection:Automated Static Analysis","SA-11(1)":"detection:Automated Static Analysis","PW.5.1":"phase:Implementation"}}
+{"why":"CWE-1236","P":{"PW.7.2":"detection:Automated Static Analysis","SA-11(1)":"detection:Automated Static Analysis","PW.1.1":"phase:Architecture and Design","PW.5.1":"phase:Implementation"}}
+{"why":"CWE-1239","P":{"PW.1.1":"phase:Architecture and Design"}}
+{"why":"CWE-1240","P":{"PW.4.1":"strategy:Libraries or Frameworks","PW.4.4":"strategy:Libraries or Frameworks","PW.2.1":"detection:Architecture or Design Review","PW.7.2":"detection:Manual Analysis","PW.8.2":"detection:Dynamic Analysis with Manual Results Interpretation","SA-11(2)":"detection:Architecture or Design Review","SA-11(4)":"detection:Manual Analysis","SA-11(8)":"detection:Dynamic Analysis with Manual Results Interpretation","SA-17":"detection:Architecture or Design Review","SC-13":"text:crypto_algorithm","PW.1.1":"phase:Architecture and Design","PW.5.1":"phase:Implementation","PO.1.2":"phase:Requirements"}}
+{"why":"CWE-1241","P":{"PW.1.1":"phase:Architecture and Design","PW.5.1":"phase:Implementation"}}
+{"why":"CWE-1242","P":{"PW.1.1":"phase:Architecture and Design","PW.5.1":"phase:Implementation"}}
+{"why":"CWE-1243","P":{"PW.1.1":"phase:Architecture and Design","PW.5.1":"phase:Implementation"}}
+{"why":"CWE-1244","P":{"PW.7.2":"detection:Manual Analysis","SA-11(4)":"detection:Manual Analysis","PW.1.1":"phase:Architecture and Design","PW.5.1":"phase:Implementation"}}
+{"why":"CWE-1245","P":{"PW.1.1":"phase:Architecture and Design","PW.5.1":"phase:Implementation"}}
+{"why":"CWE-1246","P":{"PW.1.1":"phase:Architecture and Design","PW.5.1":"phase:Implementation","PW.7.2":"phase:Testing","PW.8.2":"phase:Testing"}}
+{"why":"CWE-1247","P":{"PW.2.1":"detection:Architecture or Design Review","PW.7.2":"detection:Manual Analysis","PW.8.2":"detection:Dynamic Analysis with Manual Results Interpretation","SA-11(2)":"detection:Architecture or Design Review","SA-11(4)":"detection:Manual Analysis","SA-11(8)":"detection:Dynamic Analysis with Manual Results Interpretation","SA-17":"detection:Architecture or Design Review","PW.1.1":"phase:Architecture and Design","PW.5.1":"phase:Implementation"}}
+{"why":"CWE-1248","P":{"PW.7.2":"phase:Testing","PW.8.2":"phase:Testing"}}
+{"why":"CWE-1249","P":{"PW.1.1":"phase:Architecture and Design"}}
+{"why":"CWE-1250","W":{"SC-36(2)":"synchronize state across distributed components"},"P":{"SC-36(2)":"inferred"}}
+{"why":"CWE-1251","P":{"PW.1.1":"phase:Architecture and Design"}}
+{"why":"CWE-1252","P":{"PW.1.1":"phase:Architecture and Design","PW.4.4":"phase:Integration"}}
+{"why":"CWE-1253","P":{"PW.1.1":"phase:Architecture and Design"}}
+{"why":"CWE-1254","P":{"PW.5.1":"phase:Implementation"}}
+{"why":"CWE-1255","P":{"PW.1.1":"phase:Architecture and Design","PW.4.4":"phase:Integration","PW.5.1":"phase:Implementation"}}
+{"why":"CWE-1256","P":{"PW.7.2":"detection:Manual Analysis","PW.8.2":"detection:Automated Dynamic Analysis","SA-11(4)":"detection:Manual Analysis","SA-11(8)":"detection:Automated Dynamic Analysis","PW.1.1":"phase:Architecture and Design","PW.5.1":"phase:Implementation"}}
+{"why":"CWE-1257","P":{"PW.1.1":"phase:Architecture and Design","PW.5.1":"phase:Implementation"}}
+{"why":"CWE-1258","P":{"PW.1.1":"phase:Architecture and Design"}}
+{"why":"CWE-1259","P":{"PW.1.1":"phase:Architecture and Design","PW.5.1":"phase:Implementation"}}
+{"why":"CWE-1260","P":{"PW.7.2":"detection:Manual Analysis","SA-11(4)":"detection:Manual Analysis","PW.1.1":"phase:Architecture and Design","PW.5.1":"phase:Implementation"}}
+{"why":"CWE-1261","P":{"PW.1.1":"phase:Architecture and Design"}}
+{"why":"CWE-1262","P":{"PW.2.1":"detection:Architecture or Design Review;detection:Formal Verification","PW.7.2":"detection:Automated Analysis;detection:Manual Analysis","PW.8.2":"detection:Fuzzing","SA-11(1)":"detection:Automated Analysis","SA-11(2)":"detection:Architecture or Design Review","SA-11(4)":"detection:Manual Analysis","SA-11(8)":"detection:Fuzzing","SA-17":"detection:Architecture or Design Review","SA-17(3)":"detection:Formal Verification","PW.1.1":"phase:Architecture and Design","PW.5.1":"phase:Implementation"}}
+{"why":"CWE-1263","P":{"PW.1.1":"phase:Architecture and Design","PW.7.2":"phase:Testing","PW.8.2":"phase:Testing"}}
+{"why":"CWE-1264","P":{"PW.1.1":"phase:Architecture and Design"}}
+{"why":"CWE-1265","P":{"PW.1.1":"phase:Architecture and Design","PW.5.1":"phase:Implementation"}}
+{"why":"CWE-1266","P":{"PW.1.1":"phase:Architecture and Design","PW.5.1":"phase:Implementation","PO.1.1":"phase:Policy"}}
+{"why":"CWE-1267","P":{"PW.1.1":"phase:Architecture and Design","PW.5.1":"phase:Implementation"}}
+{"why":"CWE-1268","P":{"PW.1.1":"phase:Architecture and Design","PW.5.1":"phase:Implementation"}}
+{"why":"CWE-1269","P":{"PW.4.4":"phase:Integration","PW.5.1":"phase:Implementation"}}
+{"why":"CWE-1270","P":{"PW.1.1":"phase:Architecture and Design","PW.5.1":"phase:Implementation"}}
+{"why":"CWE-1271","P":{"PW.1.1":"phase:Architecture and Design","PW.5.1":"phase:Implementation"}}
+{"why":"CWE-1272","P":{"PW.7.2":"detection:Manual Analysis","SA-11(4)":"detection:Manual Analysis","PW.1.1":"phase:Architecture and Design","PW.5.1":"phase:Implementation"}}
+{"why":"CWE-1273","P":{"PW.4.4":"phase:Integration"}}
+{"why":"CWE-1274","P":{"PW.7.2":"detection:Manual Analysis;phase:Testing","SA-11(4)":"detection:Manual Analysis","PW.1.1":"phase:Architecture and Design","PW.8.2":"phase:Testing"}}
+{"why":"CWE-1275","P":{"PW.7.2":"detection:Automated Static Analysis","SA-11(1)":"detection:Automated Static Analysis","PW.5.1":"phase:Implementation"}}
+{"why":"CWE-1276","P":{"PW.7.2":"phase:Testing","PW.8.2":"phase:Testing"}}
+{"why":"CWE-1277","P":{"PW.2.1":"detection:Architecture or Design Review","PW.7.2":"detection:Manual Analysis","PW.8.2":"detection:Manual Dynamic Analysis","SA-11(2)":"detection:Architecture or Design Review","SA-11(4)":"detection:Manual Analysis","SA-11(8)":"detection:Manual Dynamic Analysis","SA-17":"detection:Architecture or Design Review","PW.1.1":"phase:Architecture and Design","PW.5.1":"phase:Implementation","PO.1.2":"phase:Requirements"}}
+{"why":"CWE-1278","P":{"PW.1.1":"phase:Architecture and Design"}}
+{"why":"CWE-1279","P":{"PW.1.1":"phase:Architecture and Design","PW.5.1":"phase:Implementation"}}
+{"why":"CWE-1280","P":{"PW.5.1":"phase:Implementation"}}
+{"why":"CWE-1281","P":{"PW.7.2":"phase:Testing","PW.8.2":"phase:Testing"}}
+{"why":"CWE-1282","P":{"PW.5.1":"phase:Implementation"}}
+{"why":"CWE-1283","P":{"PW.1.1":"phase:Architecture and Design"}}
+{"why":"CWE-1284","P":{"PW.5.1":"phase:Implementation;strategy:Input Validation","SI-10":"strategy:Input Validation","PW.7.2":"detection:Automated Static Analysis","SA-11(1)":"detection:Automated Static Analysis"}}
+{"why":"CWE-1285","P":{"PW.5.1":"phase:Implementation;strategy:Input Validation","SI-10":"strategy:Input Validation","PW.7.2":"detection:Automated Static Analysis","SA-11(1)":"detection:Automated Static Analysis"}}
+{"why":"CWE-1286","P":{"PW.5.1":"phase:Implementation;strategy:Input Validation","SI-10":"strategy:Input Validation"}}
+{"why":"CWE-1287","P":{"PW.5.1":"phase:Implementation;strategy:Input Validation","SI-10":"strategy:Input Validation"}}
+{"why":"CWE-1288","P":{"PW.5.1":"phase:Implementation;strategy:Input Validation","SI-10":"strategy:Input Validation"}}
+{"why":"CWE-1289","P":{"PW.5.1":"phase:Implementation;strategy:Input Validation","SI-10":"strategy:Input Validation"}}
+{"why":"CWE-1290","P":{"PW.1.1":"phase:Architecture and Design","PW.5.1":"phase:Implementation"}}
+{"why":"CWE-1291","P":{"PW.2.1":"detection:Architecture or Design Review","PW.8.2":"detection:Dynamic Analysis with Manual Results Interpretation","SA-11(2)":"detection:Architecture or Design Review","SA-11(8)":"detection:Dynamic Analysis with Manual Results Interpretation","SA-17":"detection:Architecture or Design Review","PW.5.1":"phase:Implementation"}}
+{"why":"CWE-1292","P":{"PW.1.1":"phase:Architecture and Design","PW.5.1":"phase:Implementation"}}
+{"why":"CWE-1293","P":{"PW.5.1":"phase:Implementation","PO.1.2":"phase:Requirements"}}
+{"why":"CWE-1294","P":{"PW.1.1":"phase:Architecture and Design","PW.5.1":"phase:Implementation"}}
+{"why":"CWE-1295","P":{"PW.7.2":"detection:Automated Static Analysis","SA-11(1)":"detection:Automated Static Analysis","PW.5.1":"phase:Implementation"}}
+{"why":"CWE-1296","P":{"PW.2.1":"detection:Architecture or Design Review","PW.8.2":"detection:Dynamic Analysis with Manual Results Interpretation","SA-11(2)":"detection:Architecture or Design Review","SA-11(8)":"detection:Dynamic Analysis with Manual Results Interpretation","SA-17":"detection:Architecture or Design Review","PW.5.1":"phase:Implementation"}}
+{"why":"CWE-1297","P":{"PW.2.1":"detection:Architecture or Design Review","PW.8.2":"detection:Dynamic Analysis with Manual Results Interpretation","SA-11(2)":"detection:Architecture or Design Review","SA-11(8)":"detection:Dynamic Analysis with Manual Results Interpretation","SA-17":"detection:Architecture or Design Review","PW.1.1":"phase:Architecture and Design"}}
+{"why":"CWE-1298","P":{"PW.1.1":"phase:Architecture and Design","PW.5.1":"phase:Implementation"}}
+{"why":"CWE-1299","P":{"PW.1.1":"phase:Architecture and Design","PW.5.1":"phase:Implementation","PO.1.2":"phase:Requirements"}}
+{"why":"CWE-1300","P":{"PW.7.2":"detection:Manual Analysis","SA-11(4)":"detection:Manual Analysis","PW.1.1":"phase:Architecture and Design","PW.5.1":"phase:Implementation"}}
+{"why":"CWE-1301","P":{"PW.1.1":"phase:Architecture and Design","PW.5.1":"phase:Implementation"}}
+{"why":"CWE-1302","P":{"PW.1.1":"phase:Architecture and Design","PW.5.1":"phase:Implementation"}}
+{"why":"CWE-1303","P":{"PW.1.1":"phase:Architecture and Design","PO.1.2":"phase:Requirements"}}
+{"why":"CWE-1304","P":{"PW.1.1":"phase:Architecture and Design","PW.4.4":"phase:Integration"}}
+{"why":"CWE-1310","P":{"PW.1.1":"phase:Architecture and Design","PW.5.1":"phase:Implementation"}}
+{"why":"CWE-1311","P":{"PW.1.1":"phase:Architecture and Design","PW.5.1":"phase:Implementation"}}
+{"why":"CWE-1312","P":{"PW.8.2":"detection:Manual Dynamic Analysis","SA-11(8)":"detection:Manual Dynamic Analysis","PW.1.1":"phase:Architecture and Design","PW.5.1":"phase:Implementation"}}
+{"why":"CWE-1313","P":{"PW.1.1":"phase:Architecture and Design","PW.4.4":"phase:Integration","PW.5.1":"phase:Implementation"}}
+{"why":"CWE-1314","P":{"PW.1.1":"phase:Architecture and Design"}}
+{"why":"CWE-1315","P":{"PW.1.1":"phase:Architecture and Design","PW.5.1":"phase:Implementation","PW.9.1":"phase:System Configuration","PW.9.2":"phase:System Configuration"}}
+{"why":"CWE-1316","P":{"PW.7.2":"detection:Manual Static Analysis;phase:Testing","PW.8.2":"detection:Automated Dynamic Analysis;phase:Testing","SA-11(4)":"detection:Manual Static Analysis","SA-11(8)":"detection:Automated Dynamic Analysis","PW.1.1":"phase:Architecture and Design","PW.5.1":"phase:Implementation"}}
+{"why":"CWE-1317","P":{"PW.2.1":"detection:Formal Verification","SA-17(3)":"detection:Formal Verification","PW.1.1":"phase:Architecture and Design","PW.5.1":"phase:Implementation"}}
+{"why":"CWE-1318","P":{"PW.2.1":"detection:Architecture or Design Review","PW.7.2":"detection:Manual Static Analysis - Source Code","SA-11(2)":"detection:Architecture or Design Review","SA-11(4)":"detection:Manual Static Analysis - Source Code","SA-17":"detection:Architecture or Design Review","PW.1.1":"phase:Architecture and Design"}}
+{"why":"CWE-1319","P":{"PW.1.1":"phase:Architecture and Design","PW.5.1":"phase:Implementation"}}
+{"why":"CWE-1320","P":{"PW.1.1":"phase:Architecture and Design"}}
+{"why":"CWE-1321","P":{"PW.5.1":"phase:Implementation;strategy:Input Validation","SI-10":"strategy:Input Validation","PW.7.2":"detection:Automated Static Analysis","SA-11(1)":"detection:Automated Static Analysis","PW.1.1":"phase:Architecture and Design"}}
+{"why":"CWE-1322","P":{"PW.5.1":"phase:Implementation"}}
+{"why":"CWE-1323","P":{"PW.5.1":"phase:Implementation"}}
+{"why":"CWE-1325","W":{"SC-6":"limit cumulative memory allocation"},"P":{"PW.5.1":"phase:Implementation","SC-6":"inferred"}}
+{"why":"CWE-1326","P":{"PW.2.1":"detection:Architecture or Design Review","PW.8.2":"detection:Automated Dynamic Analysis","SA-11(2)":"detection:Architecture or Design Review","SA-11(8)":"detection:Automated Dynamic Analysis","SA-17":"detection:Architecture or Design Review","PW.1.1":"phase:Architecture and Design","PW.5.1":"phase:Implementation"}}
+{"why":"CWE-1327","P":{"SC-7":"strategy:Firewall","PW.9.1":"phase:System Configuration","PW.9.2":"phase:System Configuration"}}
+{"why":"CWE-1328","P":{"PW.2.1":"detection:Architecture or Design Review","PW.8.2":"detection:Automated Dynamic Analysis","SA-11(2)":"detection:Architecture or Design Review","SA-11(8)":"detection:Automated Dynamic Analysis","SA-17":"detection:Architecture or Design Review","PW.1.1":"phase:Architecture and Design","PW.5.1":"phase:Implementation"}}
+{"why":"CWE-1329","P":{"PW.2.1":"detection:Architecture or Design Review","SA-11(2)":"detection:Architecture or Design Review","SA-17":"detection:Architecture or Design Review","PW.1.1":"phase:Architecture and Design","PW.5.1":"phase:Implementation","PO.1.2":"phase:Requirements"}}
+{"why":"CWE-1330","P":{"PW.2.1":"detection:Architecture or Design Review","PW.8.2":"detection:Dynamic Analysis with Manual Results Interpretation","SA-11(2)":"detection:Architecture or Design Review","SA-11(8)":"detection:Dynamic Analysis with Manual Results Interpretation","SA-17":"detection:Architecture or Design Review","PW.1.1":"phase:Architecture and Design"}}
+{"why":"CWE-1331","P":{"PW.7.2":"detection:Manual Analysis","SA-11(4)":"detection:Manual Analysis","PW.1.1":"phase:Architecture and Design","PW.5.1":"phase:Implementation"}}
+{"why":"CWE-1332","P":{"PW.7.2":"detection:Automated Static Analysis;detection:Manual Analysis","SA-11(1)":"detection:Automated Static Analysis","SA-11(4)":"detection:Manual Analysis","PW.1.1":"phase:Architecture and Design","PW.5.1":"phase:Implementation"}}
+{"why":"CWE-1333","W":{"SC-5":"limit denial of service from regex backtracking"},"P":{"PW.7.2":"detection:Automated Static Analysis","SA-11(1)":"detection:Automated Static Analysis","PW.1.1":"phase:Architecture and Design","PW.5.1":"phase:Implementation","PW.9.1":"phase:System Configuration","PW.9.2":"phase:System Configuration","SC-5":"inferred"}}
+{"why":"CWE-1334","P":{"PW.1.1":"phase:Architecture and Design","PW.4.4":"phase:Integration","PW.5.1":"phase:Implementation"}}
+{"why":"CWE-1335","P":{"PW.7.2":"detection:Automated Static Analysis","SA-11(1)":"detection:Automated Static Analysis","PW.5.1":"phase:Implementation"}}
+{"why":"CWE-1336","W":{"SI-10":"validate data inserted into templates","SI-10(6)":"prevent server-side template injection"},"P":{"PW.7.2":"detection:Automated Static Analysis","SA-11(1)":"detection:Automated Static Analysis","PW.1.1":"phase:Architecture and Design","PW.5.1":"phase:Implementation","SI-10":"inferred","SI-10(6)":"inferred"}}
+{"why":"CWE-1338","P":{"PW.2.1":"detection:Architecture or Design Review","PW.8.2":"detection:Dynamic Analysis with Manual Results Interpretation","SA-11(2)":"detection:Architecture or Design Review","SA-11(8)":"detection:Dynamic Analysis with Manual Results Interpretation","SA-17":"detection:Architecture or Design Review","PW.1.1":"phase:Architecture and Design","PW.5.1":"phase:Implementation"}}
+{"why":"CWE-1339","P":{"PW.7.2":"detection:Automated Static Analysis","SA-11(1)":"detection:Automated Static Analysis","PW.5.1":"phase:Implementation"}}
+{"why":"CWE-1341","P":{"PW.5.1":"phase:Implementation;strategy:Refactoring","PW.7.2":"detection:Automated Static Analysis","PW.8.2":"detection:Automated Dynamic Analysis","SA-11(1)":"detection:Automated Static Analysis","SA-11(8)":"detection:Automated Dynamic Analysis"}}
+{"why":"CWE-1342","P":{"PW.1.1":"phase:Architecture and Design","PW.6.1":"phase:Build and Compilation","PW.6.2":"phase:Build and Compilation","PO.1.2":"phase:Requirements"}}
+{"why":"CWE-1351","P":{"PW.1.1":"phase:Architecture and Design"}}
+{"why":"CWE-1357","P":{"PW.7.2":"detection:Automated Static Analysis","SA-11(1)":"detection:Automated Static Analysis","PW.1.1":"phase:Architecture and Design","PW.4.4":"phase:Integration","PW.5.1":"phase:Implementation","PO.1.2":"phase:Requirements"}}
+{"why":"CWE-1384","P":{"PW.1.1":"phase:Architecture and Design","PW.5.1":"phase:Implementation","PO.1.2":"phase:Requirements"}}
+{"why":"CWE-1385","P":{"SC-8":"text:protected_channel","PW.1.1":"phase:Architecture and Design","PW.5.1":"phase:Implementation"}}
+{"why":"CWE-1386","P":{"AC-6":"strategy:Separation of Privilege","SA-8(14)":"strategy:Separation of Privilege","PW.1.1":"phase:Architecture and Design"}}
+{"why":"CWE-1389","P":{"PW.5.1":"phase:Implementation;strategy:Enforcement by Conversion;strategy:Input Validation","SI-10":"strategy:Enforcement by Conversion;strategy:Input Validation","PW.7.2":"detection:Automated Static Analysis","SA-11(1)":"detection:Automated Static Analysis"}}
+{"why":"CWE-1391","P":{"PW.1.1":"phase:Architecture and Design"}}
+{"why":"CWE-1392","P":{"PW.1.1":"phase:Architecture and Design","PW.9.1":"phase:Installation","PW.9.2":"phase:Installation","PO.1.2":"phase:Requirements"}}
+{"why":"CWE-1393","P":{"PW.7.2":"detection:Automated Analysis","SA-11(1)":"detection:Automated Analysis","PW.1.1":"phase:Architecture and Design","PW.9.1":"phase:Installation","PW.9.2":"phase:Documentation;phase:Installation","PO.1.2":"phase:Requirements"}}
+{"why":"CWE-1394","P":{"PW.1.1":"phase:Architecture and Design","PW.9.1":"phase:Installation","PW.9.2":"phase:Installation","PO.1.2":"phase:Requirements"}}
+{"why":"CWE-1395","P":{"PW.7.2":"detection:Automated Analysis","SA-11(1)":"detection:Automated Analysis","PW.1.1":"phase:Architecture and Design","PW.4.4":"phase:Integration","PW.5.1":"phase:Implementation","PO.1.1":"phase:Policy","PO.1.2":"phase:Requirements"}}
+{"why":"CWE-1419","P":{"PW.7.2":"detection:Automated Static Analysis","SA-11(1)":"detection:Automated Static Analysis","PW.1.1":"phase:Architecture and Design","PW.5.1":"phase:Implementation"}}
+{"why":"CWE-1420","P":{"PW.7.2":"detection:Automated Analysis;detection:Automated Static Analysis;detection:Manual Analysis","PW.8.2":"detection:Fuzzing","SA-11(1)":"detection:Automated Analysis;detection:Automated Static Analysis","SA-11(4)":"detection:Manual Analysis","SA-11(8)":"detection:Fuzzing","PW.1.1":"phase:Architecture and Design","PW.6.1":"phase:Build and Compilation","PW.6.2":"phase:Build and Compilation","PO.1.2":"phase:Requirements","PW.9.2":"phase:Documentation"}}
+{"why":"CWE-1421","P":{"PW.7.2":"detection:Automated Analysis;detection:Manual Analysis","PW.8.2":"detection:Fuzzing","SA-11(1)":"detection:Automated Analysis","SA-11(4)":"detection:Manual Analysis","SA-11(8)":"detection:Fuzzing","PW.1.1":"phase:Architecture and Design","PW.5.1":"phase:Implementation","PW.6.1":"phase:Build and Compilation","PW.6.2":"phase:Build and Compilation","PW.9.1":"phase:System Configuration","PW.9.2":"phase:System Configuration","PO.1.2":"phase:Requirements"}}
+{"why":"CWE-1422","P":{"PW.7.2":"detection:Automated Analysis;detection:Automated Static Analysis;detection:Manual Analysis","SA-11(1)":"detection:Automated Analysis;detection:Automated Static Analysis","SA-11(4)":"detection:Manual Analysis","PW.1.1":"phase:Architecture and Design","PW.6.1":"phase:Build and Compilation","PW.6.2":"phase:Build and Compilation","PO.1.2":"phase:Requirements","PW.9.2":"phase:Documentation"}}
+{"why":"CWE-1423","P":{"PW.7.2":"detection:Automated Analysis;detection:Manual Analysis","SA-11(1)":"detection:Automated Analysis","SA-11(4)":"detection:Manual Analysis","PW.1.1":"phase:Architecture and Design","PW.5.1":"phase:Implementation","PW.6.1":"phase:Build and Compilation","PW.6.2":"phase:Build and Compilation","PW.9.1":"phase:System Configuration","PW.9.2":"phase:Documentation;phase:System Configuration","PO.1.2":"phase:Requirements"}}
+{"why":"CWE-1426","P":{"PW.2.1":"detection:Architecture or Design Review","PW.8.2":"detection:Dynamic Analysis with Automated Results Interpretation;detection:Dynamic Analysis with Manual Results Interpretation","SA-11(2)":"detection:Architecture or Design Review","SA-11(8)":"detection:Dynamic Analysis with Automated Results Interpretation;detection:Dynamic Analysis with Manual Results Interpretation","SA-17":"detection:Architecture or Design Review","PW.1.1":"phase:Architecture and Design","PW.6.1":"phase:Build and Compilation","PW.6.2":"phase:Build and Compilation"}}
+{"why":"CWE-1427","P":{"PW.2.1":"detection:Architecture or Design Review","PW.8.2":"detection:Dynamic Analysis with Automated Results Interpretation;detection:Dynamic Analysis with Manual Results Interpretation","SA-11(2)":"detection:Architecture or Design Review","SA-11(8)":"detection:Dynamic Analysis with Automated Results Interpretation;detection:Dynamic Analysis with Manual Results Interpretation","SA-17":"detection:Architecture or Design Review","PW.1.1":"phase:Architecture and Design","PW.5.1":"phase:Implementation","PW.9.1":"phase:Installation;phase:System Configuration","PW.9.2":"phase:Installation;phase:System Configuration"}}
+{"why":"CWE-1428","P":{"SC-8":"text:protected_channel","PW.1.1":"phase:Architecture and Design","PW.5.1":"phase:Implementation"}}
+{"why":"CWE-1429","P":{"PW.7.2":"detection:Automated Static Analysis - Source Code;detection:Manual Static Analysis - Source Code","SA-11(1)":"detection:Automated Static Analysis - Source Code","SA-11(4)":"detection:Manual Static Analysis - Source Code","PW.1.1":"phase:Architecture and Design","PW.5.1":"phase:Implementation"}}
+{"why":"CWE-1431","P":{"PW.2.1":"detection:Formal Verification","PW.7.2":"detection:Automated Static Analysis - Source Code;detection:Manual Analysis","SA-11(1)":"detection:Automated Static Analysis - Source Code","SA-11(4)":"detection:Manual Analysis","SA-17(3)":"detection:Formal Verification","PW.1.1":"phase:Architecture and Design","PW.5.1":"phase:Implementation"}}
+{"why":"CWE-1434","P":{"PW.8.2":"detection:Automated Dynamic Analysis;detection:Manual Dynamic Analysis","SA-11(8)":"detection:Automated Dynamic Analysis;detection:Manual Dynamic Analysis","PW.5.1":"phase:Implementation","PW.9.1":"phase:System Configuration","PW.9.2":"phase:Documentation;phase:System Configuration"}}
+{"why":"CWE-1461","P":{"PW.2.1":"detection:Formal Verification","PW.7.2":"detection:Automated Static Analysis - Source Code;detection:Manual Analysis","PW.8.2":"detection:Fuzzing","SA-11(1)":"detection:Automated Static Analysis - Source Code","SA-11(4)":"detection:Manual Analysis","SA-11(8)":"detection:Fuzzing","SA-17(3)":"detection:Formal Verification"}}
+{"why":"CWE-1462","P":{"PW.1.1":"phase:Architecture and Design","PW.5.1":"phase:Implementation"}}
+{"why":"CWE-1463","P":{"PW.5.1":"phase:Implementation"}}
+{"why":"CWE-1464","P":{"PW.8.2":"detection:Dynamic Analysis with Manual Results Interpretation","SA-11(8)":"detection:Dynamic Analysis with Manual Results Interpretation","PW.5.1":"phase:Implementation"}}
+{"why":"CWE-1465","P":{"PW.5.1":"phase:Implementation"}}
+{"why":"CWE-1466","P":{"PW.8.2":"detection:Dynamic Analysis with Manual Results Interpretation","SA-11(8)":"detection:Dynamic Analysis with Manual Results Interpretation","PW.5.1":"phase:Implementation"}}
+{"why":"CWE-1467","P":{"PW.5.1":"phase:Implementation"}}
+{"why":"CWE-1469","P":{"PW.1.1":"phase:Architecture and Design","PW.5.1":"phase:Implementation"}}
+{"why":"CWE-1470","P":{"PW.1.1":"phase:Architecture and Design","PW.5.1":"phase:Implementation"}}
+{"why":"CWE-1471","P":{"PW.8.2":"detection:Automated Dynamic Analysis","SA-11(8)":"detection:Automated Dynamic Analysis","PW.1.1":"phase:Architecture and Design","PW.5.1":"phase:Implementation"}}
+{"why":"CWE-1472","P":{"PW.7.2":"detection:Manual Analysis","PW.8.2":"detection:Automated Dynamic Analysis","SA-11(4)":"detection:Manual Analysis","SA-11(8)":"detection:Automated Dynamic Analysis","PW.1.1":"phase:Architecture and Design","PW.5.1":"phase:Implementation"}}
+{"why":"CWE-1473","P":{"PW.1.1":"phase:Architecture and Design","PW.5.1":"phase:Implementation"}}
+{"why":"CWE-1474","P":{"PW.7.2":"detection:Manual Analysis","PW.8.2":"detection:Automated Dynamic Analysis","SA-11(4)":"detection:Manual Analysis","SA-11(8)":"detection:Automated Dynamic Analysis","PW.1.1":"phase:Architecture and Design","PW.5.1":"phase:Implementation"}}
+{"why":"CWE-1475","P":{"PW.5.1":"phase:Implementation"}}
+{"why":"CWE-1476","P":{"PW.2.1":"detection:Architecture or Design Review;detection:Formal Verification","SA-11(2)":"detection:Architecture or Design Review","SA-17":"detection:Architecture or Design Review","SA-17(3)":"detection:Formal Verification"}}
+{"why":"CAPEC-1","W":{"AC-3":"enforce authorization on every function, not only on navigation paths","AC-6(10)":"block non-privileged users from executing privileged functions","PW.1.3":"use the framework's standard authorization service rather than ad hoc checks"}}
+{"why":"CAPEC-6","W":{"SI-10(6)":"treat argument input as data, never as command syntax","SI-10":"allowlist-validate argument values","AC-6":"limit program privileges to reduce impact","PW.5.1":"pass arguments through safe APIs, not the shell"}}
+{"why":"CAPEC-15","W":{"SI-10":"allowlist-validate command input against a positive specification","SI-10(6)":"keep injected command delimiters away from interpreters","AC-6":"run with least privilege so concatenated commands gain little","PW.5.1":"avoid building shell command strings from input"}}
+{"why":"CAPEC-17","W":{"AC-6":"run server interfaces with least privilege","SC-39":"confine server processes in separate execution domains (jails)","CM-7(2)":"prevent execution of unauthorized files","AC-3":"restrict write and execute permissions on files and directories"}}
+{"why":"CAPEC-20","W":{"SC-13":"use approved algorithms with recommended key sizes","SC-12":"generate keys with adequate length and entropy"}}
+{"why":"CAPEC-21","W":{"SC-23":"protect session authenticity of identifiers and tokens","SC-23(3)":"generate unique, unpredictable session identifiers","SC-23(1)":"invalidate session identifiers at logout","IA-13(3)":"issue signed tokens and validate them","SC-8(1)":"encrypt identity tokens in transit"}}
+{"why":"CAPEC-22","W":{"SC-23":"authenticate client sessions and messages instead of trusting the client","SI-10":"repeat all validation on the server side","SC-8(1)":"cryptographically protect message integrity in transit"}}
+{"why":"CAPEC-26","W":{"SA-8(6)":"minimize sharing of resources between concurrent processes","SA-11(1)":"static analysis detects data races and unsafe concurrency","PW.5.1":"use atomic operations and safe resource-access libraries"}}
+{"why":"CAPEC-28","W":{"SA-11(8)":"fuzz during development before adversaries do","PW.8.2":"include fuzzing in dynamic testing","SI-4":"detect fuzzing traffic patterns in production","SI-11":"handle malformed input without revealing internals","SI-10":"reject malformed input early"}}
+{"why":"CAPEC-29","W":{"SA-8(19)":"keep check and use under one uninterrupted mediated operation","SA-8(6)":"minimize shared resources that can change between check and use","SA-11(1)":"static analysis flags check-then-use patterns","PW.5.1":"use atomic file operations and descriptors, not repeated path lookups"}}
+{"why":"CAPEC-36","W":{"CM-7":"disable unneeded functions, ports and interfaces","SA-4(9)":"require developers to identify all functions, ports, protocols and services in use","SA-15(5)":"reduce attack surface by removing undocumented interfaces","IA-9":"authenticate services and service discovery","AC-3":"authorize every interface, documented or not"}}
+{"why":"CAPEC-62","W":{"SC-23":"bind state-changing requests to the session with anti-forgery tokens","IA-11":"require re-authentication for sensitive actions","PW.1.3":"use the framework's built-in CSRF protection"}}
+{"why":"CAPEC-63","W":{"SI-10(6)":"prevent script injection into web content","SI-15":"encode output for the HTML context","SI-10":"enforce strict type and character validation","SC-18":"restrict which scripts may run (e.g. content security policy)","PW.5.1":"use auto-escaping templates"}}
+{"why":"CAPEC-66","W":{"SI-10(6)":"use parameterized queries so input cannot alter SQL","SI-10":"validate input against strict types and formats","SI-11":"return generic database errors","AC-6":"use least-privilege database accounts","PW.5.1":"use parameterized queries or stored procedures"}}
+{"why":"CAPEC-73","W":{"SI-10":"allowlist-validate user-supplied filenames","SI-15":"encode filenames wherever they are rendered","PW.5.1":"never use client filenames directly for storage or output"}}
+{"why":"CAPEC-75","W":{"AC-3":"restrict write permissions on configuration files","CM-5":"restrict who can change configuration","SI-7":"monitor configuration file integrity","CP-9":"keep backup copies of configuration files"}}
+{"why":"CAPEC-77","W":{"SI-10":"do not let request input set internal or global variables","SI-10(5)":"accept input only from trusted sources in approved formats","CM-6":"disable risky settings such as register_globals"}}
+{"why":"CAPEC-87","W":{"AC-3":"authorize every page and resource request","AC-14":"define explicitly which resources are reachable without authentication"}}
+{"why":"CAPEC-88","W":{"SI-10(6)":"prevent untrusted data being injected into OS commands","SI-10":"filter and allowlist input reaching command functions","AC-6":"run with least privilege to limit injected commands","SI-3(8)":"detect unauthorized operating system commands","PW.5.1":"use language APIs instead of shell invocation"}}
+{"why":"CAPEC-94","W":{"SC-8(1)":"encrypt and integrity-protect communications","SC-23":"protect session authenticity against interception and replay","SC-17":"use certificates issued by an approved PKI","SC-23(5)":"accept only certificates from allowed certificate authorities"}}
+{"why":"CAPEC-100","W":{"SI-16":"memory protections (ASLR, DEP, canaries) hinder overflow exploitation","SA-15":"mandate memory-safe languages or bounds-checking toolchains","PW.6.2":"enable compiler bounds and stack protection features","SA-11(1)":"static analysis finds unsafe buffer operations","SA-11(8)":"fuzzing and dynamic analysis find overflows","PW.5.1":"use safe buffer functions"}}
+{"why":"CAPEC-104","W":{"SC-18":"restrict and control mobile code (scripts) per zone","AC-6(8)":"stop content from running at a higher privilege level than the user","SI-10":"validate untrusted data before it reaches the page","SI-15":"filter and encode output delivered to browsers"}}
+{"why":"CAPEC-111","W":{"SC-23":"require session-bound unguessable tokens so forged requests are rejected","PW.5.1":"return non-executable JSON (prefixes or objects) and require POST for sensitive data"}}
+{"why":"CAPEC-122","W":{"AC-6":"grant only the privileges each role needs","AC-6(10)":"prevent non-privileged users executing privileged functions","AC-6(5)":"restrict privileged accounts to designated personnel","AC-6(9)":"log use of privileged functions"}}
+{"why":"CAPEC-125","W":{"SC-5":"protect against flooding denial of service","SC-5(2)":"manage capacity and bandwidth to absorb floods","SC-5(3)":"monitor for flooding indicators"}}
+{"why":"CAPEC-130","W":{"SC-6":"set resource quotas per user and request","SC-5":"protect against resource-exhaustion denial of service","SI-10":"validate size and count parameters before allocating"}}
+{"why":"CAPEC-135","W":{"SI-10":"validate and filter format specifiers in input","PW.5.1":"never pass user input as the format string","SA-11(1)":"static analysis flags non-constant format strings","SI-16":"memory protections hinder write-what-where exploitation"}}
+{"why":"CAPEC-136","W":{"SI-10(6)":"prevent injection into LDAP queries","SI-10":"allowlist-validate input used in LDAP filters","SI-11":"return generic errors that do not reveal query structure","PW.5.1":"escape LDAP special characters with safe library calls"}}
+{"why":"CAPEC-141","W":{"SC-21":"validate origin and integrity of resolution data before caching (DNS-type caches)","SI-4":"monitor for unsolicited or anomalous replies that signal poisoning","CM-6":"disable client-side caching of sensitive content"}}
+{"why":"CAPEC-180","W":{"AC-3":"enforce the intended access policy correctly","AC-6(1)":"authorize access to security functions and settings explicitly","CM-6":"configure access-control settings to the approved baseline"}}
+{"why":"CAPEC-182","W":{"SC-18":"control acceptable mobile code such as Flash","SC-18(3)":"prevent download and execution of unacceptable mobile code","SI-10":"validate parameters passed to embedded content"}}
+{"why":"CAPEC-219","W":{"SC-8(1)":"use end-to-end encryption and integrity protection across intermediaries","IA-9":"mutually authenticate services and intermediaries","AC-4":"enforce approved information flow and routing through intermediaries"}}
+{"why":"CAPEC-230","W":{"SI-10":"validate and sanitize data before passing it to the parser","AC-4(5)":"limit nesting and embedding of data types","SC-6":"bound parser depth, recursion and memory"}}
+{"why":"CAPEC-231","W":{"SI-10":"enforce maximum payload size before parsing","SC-6":"cap parser resource use per request","SC-5":"protect parser services from resource-exhaustion DoS"}}
+{"why":"CAPEC-250","W":{"SI-10(6)":"prevent injection into XML documents and queries","SI-10":"validate XML input against a strict schema","SI-11":"return generic errors that do not expose XML structure","PW.5.1":"encode user data placed into XML"}}
+{"why":"CAPEC-267","W":{"SI-10":"canonicalize input before validating it","AC-4(24)":"parse data into a normalized internal format before policy checks","SI-10(6)":"reject encoded payloads that become injections after decoding","PW.5.1":"decode once and validate canonical data"}}
+{"why":"CAPEC-384","W":{"SC-8(1)":"protect message integrity in transit","SC-23":"protect session authenticity","SI-10":"re-validate all client-supplied API data on the server"}}
+{"why":"CAPEC-386","W":{"SC-8(1)":"protect navigation data in transit from tampering","SC-23":"protect session authenticity","SI-10":"validate destinations and navigation data on the server"}}
+{"why":"CAPEC-469","W":{"SC-5":"protect web applications against HTTP-level DoS","SC-10":"terminate idle or slow HTTP connections after a set period","SC-5(2)":"use load balancing and capacity to absorb request floods"}}
+{"why":"CAPEC-473","W":{"SC-13":"require approved signature algorithms","SI-7(6)":"verify cryptographic integrity of messages and data","SI-7(15)":"authenticate code by verifying signatures before installation","SC-17":"validate signer certificates against an approved PKI"}}
+{"why":"CAPEC-492","W":{"SA-11(8)":"fuzz custom regular expressions for catastrophic backtracking","SA-11(1)":"static analysis flags vulnerable regex patterns","SC-6":"apply timeouts and resource limits to regex evaluation","PW.5.1":"prefer linear-time regex engines and bounded patterns"}}
+{"why":"CAPEC-494","W":{"SC-7(17)":"enforce protocol format rules, dropping tiny and overlapping fragments","SC-7":"filter at boundary devices following RFC 1858","SI-4":"detect fragmentation-based evasion attempts"}}
+{"why":"CAPEC-495","W":{"SC-5":"protect against fragmentation-driven resource exhaustion","SC-7(17)":"drop malformed or oversized fragments at the boundary","SC-5(3)":"monitor for fragment floods"}}
+{"why":"CAPEC-496","W":{"SC-5":"protect against ICMP fragment floods","SC-7":"filter ICMP at the boundary in both directions","SC-7(17)":"drop malformed ICMP fragments"}}
+{"why":"CAPEC-555","W":{"AC-17":"restrict and control remote access services","IA-2(1)":"require multi-factor authentication for privileged accounts","IA-2(2)":"require multi-factor authentication for non-privileged accounts","CM-7":"disable unneeded remote services such as telnet and VNC","AC-17(1)":"monitor remote access sessions"}}
+{"why":"CAPEC-652","W":{"IA-5(1)":"enforce strong passwords for Kerberos service accounts","IA-5":"rotate service account credentials and keys","AC-6(5)":"restrict privileged service accounts","IA-5(13)":"limit lifetime of cached tickets and authenticators","SI-4":"detect anomalous ticket use"}}
+{"why":"CAPEC-664","W":{"SC-7":"restrict server outbound connections to approved destinations","SC-7(5)":"deny egress by default and allow by exception","AC-4":"enforce approved information flows for server-side requests","SI-10":"allowlist-validate requested URLs and hosts"}}
+{"why":"CAPEC-668","W":{"AC-18(1)":"enforce strong authentication and encryption for wireless (Bluetooth) links","SC-12":"enforce minimum key length during key establishment","SC-13":"require approved cryptographic strength"}}
+{"why":"CAPEC-701","W":{"SC-23":"bind sessions to the authenticated client","IA-3(1)":"use cryptographic bidirectional authentication of endpoints","AT-2(3)":"train users to recognize phishing that starts browser-in-the-middle"}}

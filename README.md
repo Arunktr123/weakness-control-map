@@ -9,27 +9,18 @@ It is built for agents that work with security findings. When a scanner report, 
 names a CWE or CAPEC, the agent can answer "which controls and SSDF practices apply?" in a few lines, without loading
 large reference documents into the conversation.
 
-Version 1.0.0 · Claude Code, claude.ai and GitHub Copilot CLI · offline · MIT licensed
+Version 1.0.1 · Claude Code, claude.ai and GitHub Copilot CLI · offline · MIT licensed
 
 ## Example
 
-```text
-$ lookup.py CWE-89
-CWE-89 Improper Neutralization of Special Elements used in an SQL Command [Base, Stable, CWE mapping usage: Allowed]
-800-53: CM-6 Configuration Settings[m,r]; CM-7 Least Functionality[m,r]; SC-7 Boundary Protection[m,r]; SI-10 Information Input Validation[m,r]; SI-15 Information Output Filtering[m,r]; SA-11(1) Static Code Analysis[d,t]; SA-11(2) Threat Modeling and Vulnerability…[d,t]; SA-11(4) Manual Code Reviews[d,t]; SA-11(8) Dynamic Code Analysis[d,t]; SA-17 Developer Security and Privacy Ar…[d,t]; AC-6 Least Privilege[m,x]
-SSDF 1.1: PW.4.1[m,r]; PW.4.4[m,r]; PW.5.1[m,r]; PW.2.1[d,t]; PW.7.2[d,t]; PW.8.2[d,t]; PW.1.1[m,p]
-inferred, NOT reviewed: SI-10(6) Injection Prevention[m,iu]
-CAPEC (6): CAPEC-108 CAPEC-109 CAPEC-110 CAPEC-470 CAPEC-66 CAPEC-7
-baseline (every software weakness): 800-53 SA-8 SA-11 SA-15 SI-2 RA-5 | SSDF RV.1.2 RV.2.2 RV.3.1 RV.3.3
-key: m=mitigates d=detects g=governs | r/t/x/p=rule from CWE fields, o=official, ia=reviewed inference, iu=unreviewed
+The agent finds a record by searching the bundled data for its id (pattern `^\{"id":"CWE-89"`) and gets one line back:
 
-$ lookup.py CWE-79 CAPEC-66 SI-10 --brief
-CWE-79: CM-6 CM-7 SC-7 SI-10 SI-15 SA-11(1) SA-11(8) SI-10(6)? | SSDF PW.1.1 PW.4.1 PW.4.4 PW.5.1 PW.7.2 PW.8.2
-CAPEC-66: CWE CWE-1286 CWE-89 | AC-6? SI-10? SI-10(6)? SI-11? | SSDF PW.5.1?
-SI-10 Information Input Validation: 160 CWE/CAPEC
+```text
+{"id":"CWE-89","n":"Improper Neutralization of Special Elements used in an SQL Command","ab":"Base","st":"Stable","mu":"Allowed","N":[["CM-6","m","r"],["CM-7","m","r"],["SC-7","m","r"],["SI-10","m","r"],["SI-15","m","r"],["SA-11(1)","d","t"],["SA-11(2)","d","t"],["SA-11(4)","d","t"],["SA-11(8)","d","t"],["SA-17","d","t"],["AC-6","m","x"],["SI-10(6)","m","iu"]],"S":[["PW.4.1","m","r"],["PW.4.4","m","r"],["PW.5.1","m","r"],["PW.2.1","d","t"],["PW.7.2","d","t"],["PW.8.2","d","t"],["PW.1.1","m","p"]],"K":["CAPEC-108","CAPEC-109","CAPEC-110","CAPEC-470","CAPEC-66","CAPEC-7"]}
 ```
 
-In `--brief` output, `ID?` marks a link that was inferred and has not yet been reviewed by a person.
+Each link is `[target, relation, evidence]`; evidence `iu` marks a link that was inferred and has not yet been reviewed
+by a person. The agent turns records into a readable answer.
 
 ## Install
 
@@ -39,14 +30,14 @@ In `--brief` output, `ID?` marks a link that was inferred and has not yet been r
 - **Other agents that read `SKILL.md` folders:** copy `skills/weakness-control-map/` into the agent's skills folder.
 
 The skill loads only when a request is about CWE, CAPEC, SP 800-53 or SSDF mapping. Its always-on cost is under 200
-tokens (Claude Code's estimate), and each lookup prints a few short lines.
+tokens (Claude Code's estimate), and a lookup returns one record of about 100 tokens.
 
 ## What it runs, sends and stores
 
-The plugin is one skill. When it is used, the agent runs `skills/weakness-control-map/scripts/lookup.py` with the ids or search
-words from your request. The script uses only the Python 3.8+ standard library and reads the JSON files bundled in
-`skills/weakness-control-map/data/`. It makes no network connections, sends nothing anywhere, writes nothing to disk, and has no
-hooks, MCP servers or background processes. See [PRIVACY.md](PRIVACY.md).
+The plugin is one skill made only of Markdown and JSON text files. It contains no scripts, hooks, MCP servers, commands
+or background processes, and it asks for no permissions. When it is used, the agent searches the files in
+`skills/weakness-control-map/data/` with its own built-in search tool. Nothing is sent anywhere, written to disk, or kept. See
+[PRIVACY.md](PRIVACY.md).
 
 ## Where the links come from
 
