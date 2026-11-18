@@ -1,5 +1,11 @@
 # Changelog
 
+## 1.0.3 (2026-11-18)
+
+- Documentation brought in line with the Anthropic Software Directory Policy: example prompts, troubleshooting, support
+  and security-reporting sections, SECURITY.md, and an accurate statement of which hosts have been tested.
+  The skill also names a shell `grep -E` fallback for hosts without a Grep tool. Data and mappings are unchanged.
+
 ## 1.0.2 (2026-11-17)
 
 - Re-release with no content changes, to refresh the directory scan now that the repository is public.

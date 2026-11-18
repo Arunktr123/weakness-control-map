@@ -6,7 +6,7 @@ description: Map MITRE CWE weaknesses and CAPEC attack patterns to NIST SP 800-5
 # Weakness → control map (CWE / CAPEC ↔ SP 800-53 Rev 5 ↔ SSDF 1.1)
 
 The data is bundled as text files with **one JSON record per line** in this skill's `data/` folder. Never read a whole
-file: search for the id with the Grep tool (regex, content output, path = `<this skill's base directory>/data`).
+file: search for the id with the Grep tool (regex, content output, path = `<this skill's base directory>/data`). If the host has no Grep tool, run the same pattern with `grep -rE '<pattern>' <base>/data` in a shell.
 
 | want | Grep pattern (regex) |
 |---|---|

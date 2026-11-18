@@ -9,7 +9,7 @@ It is built for agents that work with security findings. When a scanner report, 
 names a CWE or CAPEC, the agent can answer "which controls and SSDF practices apply?" in a few lines, without loading
 large reference documents into the conversation.
 
-Version 1.0.2 · Claude Code, claude.ai and GitHub Copilot CLI · offline · MIT licensed
+Version 1.0.3 · built for Claude Code and claude.ai · offline · MIT licensed
 
 ## Example
 
@@ -26,11 +26,21 @@ by a person. The agent turns records into a readable answer.
 
 - **Claude Code, from this repository:**
   `/plugin marketplace add Arunktr123/weakness-control-map`, then `/plugin install weakness-control-map@weakness-control-map`
-- **GitHub Copilot CLI:** `copilot plugin install Arunktr123/weakness-control-map`
+- **GitHub Copilot CLI:** the repository includes a Copilot `plugin.json` (`copilot plugin install Arunktr123/weakness-control-map`). This has not been tested yet.
 - **Other agents that read `SKILL.md` folders:** copy `skills/weakness-control-map/` into the agent's skills folder.
 
 The skill loads only when a request is about CWE, CAPEC, SP 800-53 or SSDF mapping. Its always-on cost is under 200
 tokens (Claude Code's estimate), and a lookup returns one record of about 100 tokens.
+
+## Example prompts
+
+1. "Which NIST SP 800-53 controls and SSDF tasks apply to CWE-89 (SQL injection)? Say which links are unreviewed."
+2. "Our scanner reported CWE-79, CWE-22 and CWE-798. Give me one table of the controls and SSDF tasks for each, for the
+   compliance report."
+3. "Which weaknesses and attack patterns does control SI-10 help with?"
+4. "What does CAPEC-66 map to, and which of those links are official versus inferred?"
+
+Each is answered from the bundled data in one or two searches. The agent should cite the evidence code of every link.
 
 ## What it runs, sends and stores
 
@@ -71,6 +81,23 @@ Coverage: 699 of 956 CWE weaknesses have SP 800-53 links and 851 have SSDF links
 - CAPEC: 3.9
 - ATT&CK->800-53: CTID Mappings Explorer, ATT&CK 16.1 (updated 04/16/2025)
 - CAPEC->ATT&CK: CAPEC 3.9 taxonomy mappings (historical, ATT&CK 12.0)
+
+## Troubleshooting
+
+- **"Not found" or no result:** the id may not be in the data. Use the exact id form (`CWE-89`, `CAPEC-66`, `SI-10`,
+  `SA-11(1)`, `PW.5.1`); control ids are unpadded (`AC-2`, not `AC-02`). Names and aliases can be searched too,
+  for example "sql injection". Weaknesses that were deprecated or are only categories are not included.
+- **No result is not "not applicable".** It means the pair is not mapped here.
+- **The skill does not trigger:** mention CWE, CAPEC, SP 800-53 or SSDF in the request, or ask for the
+  "weakness-control-map" skill by name.
+- **Too much output:** ask for a summary table; controls such as SA-11(1) have long reverse lists, which are capped at 40.
+- **No search tool in the agent:** the skill falls back to `grep -E` in a shell. Without either, the agent cannot read the data.
+
+## Support and security
+
+Questions and mapping corrections: open an issue at https://github.com/Arunktr123/weakness-control-map/issues. Security problems with this repository: see
+[SECURITY.md](SECURITY.md). Maintenance: reported problems are triaged on a best-effort basis and data releases follow
+new CWE, CAPEC and NIST publications.
 
 ## Feedback and corrections
 
