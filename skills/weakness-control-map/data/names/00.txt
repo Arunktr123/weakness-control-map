@@ -2568,3 +2568,609 @@ RV.3.1 | Analyze identified vulnerabilities to determine their root causes.
 RV.3.2 | Analyze the root causes over time to identify patterns, such as a particular secure coding
 RV.3.3 | Review the software for similar vulnerabilities to eradicate a class of vulnerabilities, a
 RV.3.4 | Review the SDLC process, and update it if appropriate to prevent (or reduce the likelihood
+KSI-CED-RAT | Reviewing All Training
+KSI-CMT-LMC | Logging Changes
+KSI-CMT-RMV | Redeploying vs Modifying
+KSI-CMT-RVP | Reviewing Change Procedures
+KSI-CMT-VTD | Validating Throughout Deployment
+KSI-CNA-DFP | Defining Functionality and Privileges
+KSI-CNA-EIS | Enforcing Intended State
+KSI-CNA-IBP | Implementing Best Practices
+KSI-CNA-MAT | Minimizing Attack Surface
+KSI-CNA-OFA | Optimizing for Availability
+KSI-CNA-RNT | Restricting Network Traffic
+KSI-CNA-RVP | Reviewing Protections
+KSI-CNA-ULN | Using Logical Networking
+KSI-IAM-AAM | Automating Account Management
+KSI-IAM-APM | Adopting Passwordless Methods
+KSI-IAM-ELP | Ensuring Least Privilege
+KSI-IAM-JIT | Authorizing Just-in-Time
+KSI-IAM-SNU | Securing Non-User Authentication
+KSI-IAM-SUS | Responding to Suspicious Activity
+KSI-INR-AAR | Generating After Action Reports
+KSI-INR-RIR | Reviewing Incident Response Procedures
+KSI-INR-RPI | Reviewing Past Incidents
+KSI-MLA-ALA | Authorizing Log Access
+KSI-MLA-EVC | Evaluating Configurations
+KSI-MLA-LET | Logging Event Types
+KSI-MLA-OSM | Operating SIEM Capability
+KSI-MLA-RVL | Reviewing Logs
+KSI-PIY-GIV | Generating Inventories
+KSI-PIY-RES | Reviewing Executive Support
+KSI-PIY-RIS | Reviewing Investments in Security
+KSI-PIY-RSD | Reviewing Security in the SDLC
+KSI-PIY-RVD | Reviewing Vulnerability Disclosures
+KSI-RPL-ABO | Aligning Backups with Objectives
+KSI-RPL-ARP | Aligning Recovery Plan
+KSI-RPL-RRO | Reviewing Recovery Objectives
+KSI-RPL-TRC | Testing Recovery Capabilities
+KSI-SCR-MIT | Mitigating Supply Chain Risk
+KSI-SCR-MON | Monitoring Supply Chain Risk
+KSI-SVC-ACM | Automating Configuration Management
+KSI-SVC-ASM | Automating Secret Management
+KSI-SVC-EIS | Evaluating and Improving Security
+KSI-SVC-PRR | Preventing Residual Risk
+KSI-SVC-RUD | Removing Unwanted Data
+KSI-SVC-SIN | Securing Information
+KSI-SVC-VCM | Validating Communications
+KSI-SVC-VRI | Validating Resource Integrity
+CMU-CSO-CAT | Configuration of Agency Tenants
+CMU-CSO-CMD | Cryptographic Module Documentation
+CMU-CSO-UVM | Using Validated Cryptographic Modules
+IEC-CSO-AIR | Automated Incident Reporting
+IEC-CSO-DPR | Default PAIN Rating
+IEC-CSO-EFI | Estimate Federal Impact
+IEC-CSO-EFR | Evaluate FedRAMP Reportability
+IEC-CSO-FIR | Final Incident Report
+IEC-CSO-IIR | Initial Incident Report
+IEC-CSO-OIR | Ongoing Incident Reports
+IEC-FRP-ORV | Ongoing Review
+MAS-CSO-FLO | Information Flows and Security Categories
+MAS-CSO-IIR | Identify Information Resources
+MAS-CSO-MDI | Metadata Inclusion
+MAS-CSO-SUP | Supplemental Information
+MAS-CSO-TPR | Third-Party Information Resources
+SCG-CSO-AUP | Use Instructions
+SCG-CSO-PUB | Public Secure Configuration Guidance
+SCG-CSO-RSC | Recommended Secure Configuration
+SCG-CSO-SDF | Secure Defaults
+SCG-ENH-API | API Capability
+SCG-ENH-CMP | Comparison Capability
+SCG-ENH-EXP | Export Capability
+SCG-ENH-MRG | Machine-Readable Guidance
+SCG-ENH-VRH | Versioning and Release History
+SCN-ADP-NTF | Notification Requirements
+SCN-CSO-ARI | Additional Relevant Information
+SCN-CSO-EMG | Emergency Changes
+SCN-CSO-EVA | Evaluate Changes
+SCN-CSO-HIS | Historical Notifications
+SCN-CSO-HRM | Human and Machine-Readable Notifications
+SCN-CSO-INF | Required Information
+SCN-CSO-MAR | Maintain Audit Records
+SCN-CSO-NOM | Notification Mechanisms
+SCN-FRP-CAP | Corrective Action Plan Conditions
+SCN-RTR-NNR | No Notification Requirements
+SCN-TRF-NAF | Notification After Finishing
+SCN-TRF-NAV | Notification After Verification
+SCN-TRF-NFP | Notification of Final Plans
+SCN-TRF-NIP | Notification of Initial Plans
+SCN-TRF-TPR | Third-Party Review
+SCN-TRF-UPD | Update Documentation
+VDR-CSO-ADT | Automate Detection
+VDR-CSO-AKE | Avoid KEVs
+VDR-CSO-DAC | Detect After Changes
+VDR-CSO-DET | Vulnerability Detection
+VDR-CSO-DFR | Design For Resilience
+VDR-CSO-FAV | Failures Are Vulnerabilities
+VDR-CSO-MSP | Maintain Security
+VDR-CSO-RES | Vulnerability Response
+VDR-CSO-SIR | Sampling
+VDR-TFR-KEV | Remediate KEVs
+VDR-TFR-MVF | Persistent Machine Verification and Validation for Rev5
+VDR-TFR-MVX | Persistent Machine Verification and Validation for 20x
+VDR-TFR-NMV | Non-Machine Verification and Validation
+VDR-TFR-PCD | Persistently Complete Detection
+VDR-TFR-PDD | Persistent Drift Detection
+VDR-TFR-PSD | Persistent Sample Detection
+VDR-TFR-PVR | Mitigation and Remediation Expectations
+VDR-TFR-RMN | Remaining Vulnerabilities
+VER-AGM-MAP | Maintain Agency Plans of Action and Milestones
+VER-AGM-RVR | Review Vulnerability Reports
+VER-EVA-AIA | Assume It's Automatable
+VER-EVA-EFA | Evaluation Factors
+VER-EVA-EFP | Evaluate False Positives
+VER-EVA-EIR | Evaluate Internet-Reachability
+VER-EVA-ELX | Evaluate Exploitability
+VER-EVA-EPA | Estimate Potential Agency Impact
+VER-EVA-GRV | Group Vulnerabilities
+VER-FRP-ADV | Sensitive Details
+VER-FRP-ARP | Additional Requirements
+VER-RPT-AVI | Accepted Vulnerability Info
+VER-RPT-HLO | High-Level Overviews
+VER-RPT-NID | Responsible Disclosure
+VER-RPT-PER | Persistent Reporting
+VER-RPT-RPD | Responsible Public Disclosure
+VER-RPT-VDT | Vulnerability Details
+VER-TFR-EVU | Evaluate Vulnerabilities Quickly
+VER-TFR-IRI | Internet-Reachable Incidents
+VER-TFR-MAV | Mark Accepted Vulnerabilities
+VER-TFR-MHR | Monthly Activity Report
+VER-TFR-MRH | Historical Activity
+VER-TFR-NRI | Non-Internet-Reachable Incidents
+T1001 | Data Obfuscation
+T1001.001 | Junk Data
+T1001.002 | Steganography
+T1001.003 | Protocol or Service Impersonation
+T1003 | OS Credential Dumping
+T1003.001 | LSASS Memory
+T1003.002 | Security Account Manager
+T1003.003 | NTDS
+T1003.004 | LSA Secrets
+T1003.005 | Cached Domain Credentials
+T1003.006 | DCSync
+T1003.007 | Proc Filesystem
+T1003.008 | /etc/passwd and /etc/shadow
+T1005 | Data from Local System
+T1008 | Fallback Channels
+T1011 | Exfiltration Over Other Network Medium
+T1011.001 | Exfiltration Over Bluetooth
+T1014 | Rootkit
+T1018 | Remote System Discovery
+T1020.001 | Traffic Duplication
+T1021 | Remote Services
+T1021.001 | Remote Desktop Protocol
+T1021.002 | SMB/Windows Admin Shares
+T1021.003 | Distributed Component Object Model
+T1021.004 | SSH
+T1021.005 | VNC
+T1021.006 | Windows Remote Management
+T1021.007 | Cloud Services
+T1021.008 | Direct Cloud VM Connections
+T1025 | Data from Removable Media
+T1027 | Obfuscated Files or Information
+T1027.002 | Software Packing
+T1027.007 | Dynamic API Resolution
+T1027.008 | Stripped Payloads
+T1027.009 | Embedded Payloads
+T1027.010 | Command Obfuscation
+T1027.011 | Fileless Storage
+T1027.012 | LNK Icon Smuggling
+T1027.013 | Encrypted/Encoded File
+T1027.014 | Polymorphic Code
+T1029 | Scheduled Transfer
+T1030 | Data Transfer Size Limits
+T1036 | Masquerading
+T1036.001 | Invalid Code Signature
+T1036.003 | Rename System Utilities
+T1036.005 | Match Legitimate Name or Location
+T1036.007 | Double File Extension
+T1036.008 | Masquerade File Type
+T1036.010 | Masquerade Account Name
+T1037 | Boot or Logon Initialization Scripts
+T1037.001 | Logon Script (Windows)
+T1037.002 | Login Hook
+T1037.003 | Network Logon Script
+T1037.004 | RC Scripts
+T1037.005 | Startup Items
+T1040 | Network Sniffing
+T1041 | Exfiltration Over C2 Channel
+T1046 | Network Service Discovery
+T1047 | Windows Management Instrumentation
+T1048 | Exfiltration Over Alternative Protocol
+T1048.001 | Exfiltration Over Symmetric Encrypted Non-C2 Protocol
+T1048.002 | Exfiltration Over Asymmetric Encrypted Non-C2 Protocol
+T1048.003 | Exfiltration Over Unencrypted Non-C2 Protocol
+T1052 | Exfiltration Over Physical Medium
+T1052.001 | Exfiltration over USB
+T1053 | Scheduled Task/Job
+T1053.002 | At
+T1053.003 | Cron
+T1053.005 | Scheduled Task
+T1053.006 | Systemd Timers
+T1053.007 | Container Orchestration Job
+T1055 | Process Injection
+T1055.001 | Dynamic-link Library Injection
+T1055.002 | Portable Executable Injection
+T1055.003 | Thread Execution Hijacking
+T1055.004 | Asynchronous Procedure Call
+T1055.005 | Thread Local Storage
+T1055.008 | Ptrace System Calls
+T1055.009 | Proc Memory
+T1055.011 | Extra Window Memory Injection
+T1055.012 | Process Hollowing
+T1055.013 | Process Doppelgänging
+T1055.014 | VDSO Hijacking
+T1055.015 | ListPlanting
+T1056.002 | GUI Input Capture
+T1056.003 | Web Portal Capture
+T1059 | Command and Scripting Interpreter
+T1059.001 | PowerShell
+T1059.002 | AppleScript
+T1059.003 | Windows Command Shell
+T1059.004 | Unix Shell
+T1059.005 | Visual Basic
+T1059.006 | Python
+T1059.007 | JavaScript
+T1059.008 | Network Device CLI
+T1059.009 | Cloud API
+T1059.010 | AutoHotKey & AutoIT
+T1059.011 | Lua
+T1068 | Exploitation for Privilege Escalation
+T1070 | Indicator Removal
+T1070.001 | Clear Windows Event Logs
+T1070.002 | Clear Linux or Mac System Logs
+T1070.003 | Clear Command History
+T1070.007 | Clear Network Connection History and Configurations
+T1070.008 | Clear Mailbox Data
+T1070.009 | Clear Persistence
+T1070.010 | Relocate Malware
+T1071 | Application Layer Protocol
+T1071.001 | Web Protocols
+T1071.002 | File Transfer Protocols
+T1071.003 | Mail Protocols
+T1071.004 | DNS
+T1071.005 | Publish/Subscribe Protocols
+T1072 | Software Deployment Tools
+T1078 | Valid Accounts
+T1078.001 | Default Accounts
+T1078.002 | Domain Accounts
+T1078.003 | Local Accounts
+T1078.004 | Cloud Accounts
+T1080 | Taint Shared Content
+T1087 | Account Discovery
+T1087.001 | Local Account
+T1087.002 | Domain Account
+T1087.004 | Cloud Account
+T1090 | Proxy
+T1090.001 | Internal Proxy
+T1090.002 | External Proxy
+T1090.003 | Multi-hop Proxy
+T1090.004 | Domain Fronting
+T1091 | Replication Through Removable Media
+T1092 | Communication Through Removable Media
+T1095 | Non-Application Layer Protocol
+T1098 | Account Manipulation
+T1098.001 | Additional Cloud Credentials
+T1098.002 | Additional Email Delegate Permissions
+T1098.003 | Additional Cloud Roles
+T1098.004 | SSH Authorized Keys
+T1098.005 | Device Registration
+T1098.006 | Additional Container Cluster Roles
+T1098.007 | Additional Local or Domain Groups
+T1102 | Web Service
+T1102.001 | Dead Drop Resolver
+T1102.002 | Bidirectional Communication
+T1102.003 | One-Way Communication
+T1104 | Multi-Stage Channels
+T1105 | Ingress Tool Transfer
+T1106 | Native API
+T1110 | Brute Force
+T1110.001 | Password Guessing
+T1110.002 | Password Cracking
+T1110.003 | Password Spraying
+T1110.004 | Credential Stuffing
+T1111 | Multi-Factor Authentication Interception
+T1112 | Modify Registry
+T1114 | Email Collection
+T1114.001 | Local Email Collection
+T1114.002 | Remote Email Collection
+T1114.003 | Email Forwarding Rule
+T1119 | Automated Collection
+T1127 | Trusted Developer Utilities Proxy Execution
+T1127.001 | MSBuild
+T1127.002 | ClickOnce
+T1129 | Shared Modules
+T1132 | Data Encoding
+T1132.001 | Standard Encoding
+T1132.002 | Non-Standard Encoding
+T1133 | External Remote Services
+T1134 | Access Token Manipulation
+T1134.001 | Token Impersonation/Theft
+T1134.002 | Create Process with Token
+T1134.003 | Make and Impersonate Token
+T1134.005 | SID-History Injection
+T1135 | Network Share Discovery
+T1136 | Create Account
+T1136.001 | Local Account
+T1136.002 | Domain Account
+T1136.003 | Cloud Account
+T1137 | Office Application Startup
+T1137.001 | Office Template Macros
+T1137.002 | Office Test
+T1137.003 | Outlook Forms
+T1137.004 | Outlook Home Page
+T1137.005 | Outlook Rules
+T1137.006 | Add-ins
+T1176 | Browser Extensions
+T1185 | Browser Session Hijacking
+T1187 | Forced Authentication
+T1189 | Drive-by Compromise
+T1190 | Exploit Public-Facing Application
+T1195 | Supply Chain Compromise
+T1195.001 | Compromise Software Dependencies and Development Tools
+T1195.002 | Compromise Software Supply Chain
+T1195.003 | Compromise Hardware Supply Chain
+T1197 | BITS Jobs
+T1199 | Trusted Relationship
+T1200 | Hardware Additions
+T1201 | Password Policy Discovery
+T1203 | Exploitation for Client Execution
+T1204 | User Execution
+T1204.001 | Malicious Link
+T1204.002 | Malicious File
+T1204.003 | Malicious Image
+T1205 | Traffic Signaling
+T1205.001 | Port Knocking
+T1205.002 | Socket Filters
+T1210 | Exploitation of Remote Services
+T1211 | Exploitation for Defense Evasion
+T1212 | Exploitation for Credential Access
+T1213 | Data from Information Repositories
+T1213.001 | Confluence
+T1213.002 | Sharepoint
+T1213.003 | Code Repositories
+T1213.004 | Customer Relationship Management Software
+T1213.005 | Messaging Applications
+T1216 | System Script Proxy Execution
+T1216.001 | PubPrn
+T1216.002 | SyncAppvPublishingServer
+T1218 | System Binary Proxy Execution
+T1218.001 | Compiled HTML File
+T1218.002 | Control Panel
+T1218.003 | CMSTP
+T1218.004 | InstallUtil
+T1218.005 | Mshta
+T1218.007 | Msiexec
+T1218.008 | Odbcconf
+T1218.009 | Regsvcs/Regasm
+T1218.010 | Regsvr32
+T1218.011 | Rundll32
+T1218.012 | Verclsid
+T1218.013 | Mavinject
+T1218.014 | MMC
+T1218.015 | Electron Applications
+T1219 | Remote Access Software
+T1220 | XSL Script Processing
+T1221 | Template Injection
+T1222 | File and Directory Permissions Modification
+T1222.001 | Windows File and Directory Permissions Modification
+T1222.002 | Linux and Mac File and Directory Permissions Modification
+T1482 | Domain Trust Discovery
+T1484 | Domain or Tenant Policy Modification
+T1485 | Data Destruction
+T1485.001 | Lifecycle-Triggered Deletion
+T1486 | Data Encrypted for Impact
+T1489 | Service Stop
+T1490 | Inhibit System Recovery
+T1491 | Defacement
+T1491.001 | Internal Defacement
+T1491.002 | External Defacement
+T1495 | Firmware Corruption
+T1496.003 | SMS Pumping
+T1498 | Network Denial of Service
+T1498.001 | Direct Network Flood
+T1498.002 | Reflection Amplification
+T1499 | Endpoint Denial of Service
+T1499.001 | OS Exhaustion Flood
+T1499.002 | Service Exhaustion Flood
+T1499.003 | Application Exhaustion Flood
+T1499.004 | Application or System Exploitation
+T1505 | Server Software Component
+T1505.001 | SQL Stored Procedures
+T1505.002 | Transport Agent
+T1505.003 | Web Shell
+T1505.004 | IIS Components
+T1505.005 | Terminal Services DLL
+T1521.003 | SSL Pinning
+T1525 | Implant Internal Image
+T1528 | Steal Application Access Token
+T1530 | Data from Cloud Storage
+T1534 | Internal Spearphishing
+T1535 | Unused/Unsupported Cloud Regions
+T1537 | Transfer Data to Cloud Account
+T1538 | Cloud Service Dashboard
+T1539 | Steal Web Session Cookie
+T1542 | Pre-OS Boot
+T1542.001 | System Firmware
+T1542.003 | Bootkit
+T1542.004 | ROMMONkit
+T1542.005 | TFTP Boot
+T1543 | Create or Modify System Process
+T1543.001 | Launch Agent
+T1543.002 | Systemd Service
+T1543.003 | Windows Service
+T1543.004 | Launch Daemon
+T1543.005 | Container Service
+T1546 | Event Triggered Execution
+T1546.002 | Screensaver
+T1546.003 | Windows Management Instrumentation Event Subscription
+T1546.004 | Unix Shell Configuration Modification
+T1546.006 | LC_LOAD_DYLIB Addition
+T1546.008 | Accessibility Features
+T1546.009 | AppCert DLLs
+T1546.010 | AppInit DLLs
+T1546.011 | Application Shimming
+T1546.013 | PowerShell Profile
+T1546.014 | Emond
+T1546.016 | Installer Packages
+T1547.002 | Authentication Package
+T1547.003 | Time Providers
+T1547.004 | Winlogon Helper DLL
+T1547.005 | Security Support Provider
+T1547.006 | Kernel Modules and Extensions
+T1547.007 | Re-opened Applications
+T1547.008 | LSASS Driver
+T1547.009 | Shortcut Modification
+T1547.012 | Print Processors
+T1547.013 | XDG Autostart Entries
+T1548 | Abuse Elevation Control Mechanism
+T1548.001 | Setuid and Setgid
+T1548.002 | Bypass User Account Control
+T1548.003 | Sudo and Sudo Caching
+T1548.004 | Elevated Execution with Prompt
+T1548.005 | Temporary Elevated Cloud Access
+T1548.006 | TCC Manipulation
+T1550 | Use Alternate Authentication Material
+T1550.001 | Application Access Token
+T1550.002 | Pass the Hash
+T1550.003 | Pass the Ticket
+T1550.004 | Web Session Cookie
+T1552 | Unsecured Credentials
+T1552.001 | Credentials In Files
+T1552.002 | Credentials in Registry
+T1552.003 | Bash History
+T1552.004 | Private Keys
+T1552.005 | Cloud Instance Metadata API
+T1552.006 | Group Policy Preferences
+T1552.007 | Container API
+T1552.008 | Chat Messages
+T1553 | Subvert Trust Controls
+T1553.001 | Gatekeeper Bypass
+T1553.002 | Code Signing
+T1553.003 | SIP and Trust Provider Hijacking
+T1553.004 | Install Root Certificate
+T1553.005 | Mark-of-the-Web Bypass
+T1553.006 | Code Signing Policy Modification
+T1554 | Compromise Host Software Binary
+T1555 | Credentials from Password Stores
+T1555.001 | Keychain
+T1555.002 | Securityd Memory
+T1555.004 | Windows Credential Manager
+T1555.005 | Password Managers
+T1555.006 | Cloud Secrets Management Stores
+T1556 | Modify Authentication Process
+T1556.001 | Domain Controller Authentication
+T1556.002 | Password Filter DLL
+T1556.003 | Pluggable Authentication Modules
+T1556.004 | Network Device Authentication
+T1556.005 | Reversible Encryption
+T1556.006 | Multi-Factor Authentication
+T1556.007 | Hybrid Identity
+T1556.008 | Network Provider DLL
+T1556.009 | Conditional Access Policies
+T1557 | Adversary-in-the-Middle
+T1557.001 | LLMNR/NBT-NS Poisoning and SMB Relay
+T1557.002 | ARP Cache Poisoning
+T1557.003 | DHCP Spoofing
+T1557.004 | Evil Twin
+T1558 | Steal or Forge Kerberos Tickets
+T1558.001 | Golden Ticket
+T1558.002 | Silver Ticket
+T1558.003 | Kerberoasting
+T1558.004 | AS-REP Roasting
+T1558.005 | Ccache Files
+T1559 | Inter-Process Communication
+T1559.001 | Component Object Model
+T1559.002 | Dynamic Data Exchange
+T1559.003 | XPC Services
+T1560 | Archive Collected Data
+T1560.001 | Archive via Utility
+T1561 | Disk Wipe
+T1561.001 | Disk Content Wipe
+T1561.002 | Disk Structure Wipe
+T1562 | Impair Defenses
+T1562.001 | Disable or Modify Tools
+T1562.002 | Disable Windows Event Logging
+T1562.003 | Impair Command History Logging
+T1562.004 | Disable or Modify System Firewall
+T1562.006 | Indicator Blocking
+T1562.007 | Disable or Modify Cloud Firewall
+T1562.008 | Disable or Modify Cloud Logs
+T1562.009 | Safe Mode Boot
+T1562.010 | Downgrade Attack
+T1562.011 | Spoof Security Alerting
+T1562.012 | Disable or Modify Linux Audit System
+T1563 | Remote Service Session Hijacking
+T1563.001 | SSH Hijacking
+T1563.002 | RDP Hijacking
+T1564.002 | Hidden Users
+T1564.003 | Hidden Window
+T1564.004 | NTFS File Attributes
+T1564.006 | Run Virtual Instance
+T1564.007 | VBA Stomping
+T1564.008 | Email Hiding Rules
+T1564.009 | Resource Forking
+T1564.010 | Process Argument Spoofing
+T1564.012 | File/Path Exclusions
+T1565 | Data Manipulation
+T1565.001 | Stored Data Manipulation
+T1565.002 | Transmitted Data Manipulation
+T1565.003 | Runtime Data Manipulation
+T1566 | Phishing
+T1566.001 | Spearphishing Attachment
+T1566.002 | Spearphishing Link
+T1566.003 | Spearphishing via Service
+T1567 | Exfiltration Over Web Service
+T1567.001 | Exfiltration to Code Repository
+T1567.002 | Exfiltration to Cloud Storage
+T1567.003 | Exfiltration to Text Storage Sites
+T1567.004 | Exfiltration Over Webhook
+T1568 | Dynamic Resolution
+T1568.002 | Domain Generation Algorithms
+T1569 | System Services
+T1569.001 | Launchctl
+T1569.002 | Service Execution
+T1570 | Lateral Tool Transfer
+T1571 | Non-Standard Port
+T1572 | Protocol Tunneling
+T1573 | Encrypted Channel
+T1573.001 | Symmetric Cryptography
+T1573.002 | Asymmetric Cryptography
+T1574 | Hijack Execution Flow
+T1574.001 | DLL Search Order Hijacking
+T1574.002 | DLL Side-Loading
+T1574.004 | Dylib Hijacking
+T1574.005 | Executable Installer File Permissions Weakness
+T1574.006 | Dynamic Linker Hijacking
+T1574.007 | Path Interception by PATH Environment Variable
+T1574.008 | Path Interception by Search Order Hijacking
+T1574.009 | Path Interception by Unquoted Path
+T1574.010 | Services File Permissions Weakness
+T1574.011 | Services Registry Permissions Weakness
+T1574.012 | COR_PROFILER
+T1574.013 | KernelCallbackTable
+T1574.014 | AppDomainManager
+T1578 | Modify Cloud Compute Infrastructure
+T1578.001 | Create Snapshot
+T1578.002 | Create Cloud Instance
+T1578.003 | Delete Cloud Instance
+T1578.005 | Modify Cloud Compute Configurations
+T1580 | Cloud Infrastructure Discovery
+T1584.002 | DNS Server
+T1589 | Gather Victim Identity Information
+T1590.002 | DNS
+T1593.003 | Code Repositories
+T1595.003 | Wordlist Scanning
+T1598 | Phishing for Information
+T1598.001 | Spearphishing Service
+T1598.002 | Spearphishing Attachment
+T1598.003 | Spearphishing Link
+T1599 | Network Boundary Bridging
+T1599.001 | Network Address Translation Traversal
+T1600 | Weaken Encryption
+T1601 | Modify System Image
+T1601.001 | Patch System Image
+T1601.002 | Downgrade System Image
+T1602 | Data from Configuration Repository
+T1602.001 | SNMP (MIB Dump)
+T1602.002 | Network Device Configuration Dump
+T1606 | Forge Web Credentials
+T1606.001 | Web Cookies
+T1606.002 | SAML Tokens
+T1609 | Container Administration Command
+T1610 | Deploy Container
+T1611 | Escape to Host
+T1612 | Build Image on Host
+T1613 | Container and Resource Discovery
+T1619 | Cloud Storage Object Discovery
+T1621 | Multi-Factor Authentication Request Generation
+T1622 | Debugger Evasion
+T1647 | Plist File Modification
+T1648 | Serverless Execution
+T1649 | Steal or Forge Authentication Certificates
+T1651 | Cloud Administration Command
+T1653 | Power Settings
+T1654 | Log Enumeration
+T1657 | Financial Theft
+T1659 | Content Injection
+T1666 | Modify Cloud Resource Hierarchy

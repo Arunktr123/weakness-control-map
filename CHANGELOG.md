@@ -1,5 +1,13 @@
 # Changelog
 
+## 1.1.0 (unreleased)
+
+- FedRAMP Consolidated Rules 2026 (release 2026.11.02.01): 46 KSIs and the security-practice rules (VDR, VER, SCG, CMU,
+  SCN, IEC, MAS) with FedRAMP's official SP 800-53 controls, 20x/Rev5 applicability and class variants.
+- KSI/rule ↔ CWE/CAPEC links: derived through the official controls (`dv`, ranked and capped) and inferred directly
+  (`iu`, with rationales). Attack paths: CAPEC → ATT&CK 16.1 techniques. VDR/VER rules shown once as a baseline.
+- CWE, CAPEC and control records list the KSIs and rules that address or cite them (`F`).
+
 ## 1.0.3 (2026-11-18)
 
 - Documentation brought in line with the Anthropic Software Directory Policy: example prompts, troubleshooting, support

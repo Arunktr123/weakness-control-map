@@ -9,14 +9,14 @@ It is built for agents that work with security findings. When a scanner report, 
 names a CWE or CAPEC, the agent can answer "which controls and SSDF practices apply?" in a few lines, without loading
 large reference documents into the conversation.
 
-Version 1.0.3 · built for Claude Code and claude.ai · offline · MIT licensed
+Version 1.1.0 · built for Claude Code and claude.ai · offline · MIT licensed
 
 ## Example
 
 The agent finds a record by searching the bundled data for its id (pattern `^\{"id":"CWE-89"`) and gets one line back:
 
 ```text
-{"id":"CWE-89","n":"Improper Neutralization of Special Elements used in an SQL Command","ab":"Base","st":"Stable","mu":"Allowed","N":[["CM-6","m","r"],["CM-7","m","r"],["SC-7","m","r"],["SI-10","m","r"],["SI-15","m","r"],["SA-11(1)","d","t"],["SA-11(2)","d","t"],["SA-11(4)","d","t"],["SA-11(8)","d","t"],["SA-17","d","t"],["AC-6","m","x"],["SI-10(6)","m","iu"]],"S":[["PW.4.1","m","r"],["PW.4.4","m","r"],["PW.5.1","m","r"],["PW.2.1","d","t"],["PW.7.2","d","t"],["PW.8.2","d","t"],["PW.1.1","m","p"]],"K":["CAPEC-108","CAPEC-109","CAPEC-110","CAPEC-470","CAPEC-66","CAPEC-7"]}
+{"id":"CWE-89","n":"Improper Neutralization of Special Elements used in an SQL Command","ab":"Base","st":"Stable","mu":"Allowed","N":[["CM-6","m","r"],["CM-7","m","r"],["SC-7","m","r"],["SI-10","m","r"],["SI-15","m","r"],["SA-11(1)","d","t"],["SA-11(2)","d","t"],["SA-11(4)","d","t"],["SA-11(8)","d","t"],["SA-17","d","t"],["AC-6","m","x"],["SI-10(6)","m","iu"]],"S":[["PW.4.1","m","r"],["PW.4.4","m","r"],["PW.5.1","m","r"],["PW.2.1","d","t"],["PW.7.2","d","t"],["PW.8.2","d","t"],["PW.1.1","m","p"]],"K":["CAPEC-108","CAPEC-109","CAPEC-110","CAPEC-470","CAPEC-66","CAPEC-7"],"F":[["KSI-SVC-EIS","m","dv"]]}
 ```
 
 Each link is `[target, relation, evidence]`; evidence `iu` marks a link that was inferred and has not yet been reviewed
@@ -39,6 +39,7 @@ tokens (Claude Code's estimate), and a lookup returns one record of about 100 to
    compliance report."
 3. "Which weaknesses and attack patterns does control SI-10 help with?"
 4. "What does CAPEC-66 map to, and which of those links are official versus inferred?"
+5. "For FedRAMP KSI-SVC-VRI, which weaknesses and ATT&CK techniques does it address?"
 
 Each is answered from the bundled data in one or two searches. The agent should cite the evidence code of every link.
 
@@ -60,11 +61,20 @@ only in RA-5, and CWE and CAPEC carry no NIST taxonomy mappings. So each link ca
 | `r` `t` `x` `p` | deterministic rules applied to MITRE CWE fields: mitigation strategy, detection method, mitigation text, SDLC phase |
 | `ia` | inferred, then accepted by a reviewer |
 | `iu` | inferred and **not yet reviewed** |
+| `f` | official FedRAMP: the KSI or rule lists the SP 800-53 control |
+| `dv` | derived: CWE/CAPEC reached through a KSI's or rule's official controls (ranked; withheld when the controls cannot separate them) |
 
 Relations: `m` mitigates, `d` detects or verifies, `g` governs. A baseline (SP 800-53 SA-8, SA-11, SA-15, SI-2, RA-5;
 SSDF RV.1.2, RV.2.2, RV.3.1, RV.3.3) applies to every software weakness and is shown once rather than per weakness.
 Links through ATT&CK (CAPEC → ATT&CK technique → SP 800-53, from the MITRE Center for Threat-Informed Defense) are
 broad, so they appear only when you ask for them with `--expand`.
+
+**FedRAMP Consolidated Rules 2026 (CR26).** The 46 Key Security Indicators (KSIs) and the rules in the security-practice
+families (VDR, VER, SCG, CMU, SCN, IEC, MAS) are included. Each keeps FedRAMP's own SP 800-53 control list (`f`),
+its 20x / Rev5 applicability and every class variant (a–d) that FedRAMP defines. CWE and CAPEC links are derived
+through those controls (`dv`) or inferred directly (`iu`). Attack paths follow MITRE's CAPEC → ATT&CK links, checked
+against ATT&CK 16.1. Vulnerability Detection and Response (VDR) and Vulnerability Evaluation and Reporting (VER)
+rules apply to every weakness and are shown once as a baseline.
 
 This release contains 380 inferred links for a priority set of 168 weaknesses and attack
 patterns (including the CWE Top 25). They were proposed with the help of a language model and semantic search, each
@@ -81,6 +91,7 @@ Coverage: 699 of 956 CWE weaknesses have SP 800-53 links and 851 have SSDF links
 - CAPEC: 3.9
 - ATT&CK->800-53: CTID Mappings Explorer, ATT&CK 16.1 (updated 04/16/2025)
 - CAPEC->ATT&CK: CAPEC 3.9 taxonomy mappings (historical, ATT&CK 12.0)
+- FedRAMP: FedRAMP Consolidated Rules for 2026 (2026.11.02.01, updated 2026-11-02)
 
 ## Troubleshooting
 

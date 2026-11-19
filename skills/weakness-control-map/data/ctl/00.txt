@@ -1,18 +1,18 @@
 {"id":"AC-1","t":"Policy and Procedures","f":"AC","R":[],"S":[],"A":0,"B":false}
-{"id":"AC-2","t":"Account Management","f":"AC","R":[],"S":[],"A":220,"B":false}
-{"id":"AC-2(1)","t":"Automated System Account Management","f":"AC","R":[],"S":[],"A":0,"B":false}
-{"id":"AC-2(2)","t":"Automated Temporary and Emergency Account Management","f":"AC","R":[],"S":[],"A":0,"B":false}
-{"id":"AC-2(3)","t":"Disable Accounts","f":"AC","R":[],"S":[],"A":0,"B":false}
-{"id":"AC-2(4)","t":"Automated Audit Actions","f":"AC","R":[],"S":[],"A":0,"B":false}
-{"id":"AC-2(5)","t":"Inactivity Logout","f":"AC","R":[],"S":[],"A":0,"B":false}
-{"id":"AC-2(6)","t":"Dynamic Privilege Management","f":"AC","R":[],"S":[],"A":0,"B":false}
-{"id":"AC-2(7)","t":"Privileged User Accounts","f":"AC","R":[],"S":[],"A":0,"B":false}
+{"id":"AC-2","t":"Account Management","f":"AC","R":[],"S":[],"A":220,"B":false,"F":["KSI-IAM-APM","KSI-IAM-JIT","KSI-IAM-SNU","KSI-IAM-SUS"]}
+{"id":"AC-2(1)","t":"Automated System Account Management","f":"AC","R":[],"S":[],"A":0,"B":false,"F":["KSI-IAM-JIT","KSI-IAM-SUS"]}
+{"id":"AC-2(2)","t":"Automated Temporary and Emergency Account Management","f":"AC","R":[],"S":[],"A":0,"B":false,"F":["KSI-IAM-AAM","KSI-IAM-JIT","KSI-IAM-SNU"]}
+{"id":"AC-2(3)","t":"Disable Accounts","f":"AC","R":[],"S":[],"A":0,"B":false,"F":["KSI-IAM-AAM","KSI-IAM-JIT","KSI-IAM-SUS"]}
+{"id":"AC-2(4)","t":"Automated Audit Actions","f":"AC","R":[],"S":[],"A":0,"B":false,"F":["KSI-IAM-JIT","KSI-MLA-LET","KSI-MLA-RVL","KSI-SVC-ACM"]}
+{"id":"AC-2(5)","t":"Inactivity Logout","f":"AC","R":[],"S":[],"A":0,"B":false,"F":["KSI-IAM-ELP"]}
+{"id":"AC-2(6)","t":"Dynamic Privilege Management","f":"AC","R":[],"S":[],"A":0,"B":false,"F":["KSI-IAM-ELP","KSI-IAM-JIT"]}
+{"id":"AC-2(7)","t":"Privileged User Accounts","f":"AC","R":[],"S":[],"A":0,"B":false,"F":["KSI-IAM-ELP","KSI-IAM-JIT"]}
 {"id":"AC-2(8)","t":"Dynamic Account Management","f":"AC","R":[],"S":[],"A":0,"B":false}
-{"id":"AC-2(9)","t":"Restrictions on Use of Shared and Group Accounts","f":"AC","R":[],"S":[],"A":0,"B":false}
-{"id":"AC-2(11)","t":"Usage Conditions","f":"AC","R":[],"S":[],"A":0,"B":false}
-{"id":"AC-2(12)","t":"Account Monitoring for Atypical Usage","f":"AC","R":[],"S":[],"A":0,"B":false}
-{"id":"AC-2(13)","t":"Disable Accounts for High-risk Individuals","f":"AC","R":[],"S":[],"A":0,"B":false}
-{"id":"AC-3","t":"Access Enforcement","f":"AC","R":[["CAPEC-1","m","iu"],["CAPEC-17","m","iu"],["CAPEC-180","m","iu"],["CAPEC-36","m","iu"],["CAPEC-75","m","iu"],["CAPEC-87","m","iu"],["CWE-1220","m","iu"],["CWE-200","m","iu"],["CWE-22","m","iu"],["CWE-23","m","iu"],["CWE-276","m","iu"],["CWE-284","m","iu"],["CWE-285","m","iu"],["CWE-288","m","iu"],["CWE-289","m","iu"],["CWE-36","m","iu"],["CWE-424","m","iu"],["CWE-425","m","iu"],["CWE-552","m","iu"],["CWE-639","m","iu"],["CWE-668","m","iu"],["CWE-698","m","iu"],["CWE-708","m","iu"],["CWE-73","m","iu"],["CWE-732","m","iu"],["CWE-749","m","iu"],["CWE-807","m","iu"],["CWE-862","m","iu"],["CWE-863","m","iu"]],"S":[],"A":281,"B":false}
+{"id":"AC-2(9)","t":"Restrictions on Use of Shared and Group Accounts","f":"AC","R":[],"S":[],"A":0,"B":false,"F":["KSI-IAM-ELP","KSI-IAM-SNU"]}
+{"id":"AC-2(11)","t":"Usage Conditions","f":"AC","R":[],"S":[],"A":0,"B":false,"F":["KSI-IAM-ELP","KSI-IAM-JIT","KSI-IAM-SUS"]}
+{"id":"AC-2(12)","t":"Account Monitoring for Atypical Usage","f":"AC","R":[],"S":[],"A":0,"B":false,"F":["KSI-IAM-SUS"]}
+{"id":"AC-2(13)","t":"Disable Accounts for High-risk Individuals","f":"AC","R":[],"S":[],"A":0,"B":false,"F":["KSI-IAM-AAM","KSI-IAM-SUS"]}
+{"id":"AC-3","t":"Access Enforcement","f":"AC","R":[["CAPEC-1","m","iu"],["CAPEC-17","m","iu"],["CAPEC-180","m","iu"],["CAPEC-36","m","iu"],["CAPEC-75","m","iu"],["CAPEC-87","m","iu"],["CWE-1220","m","iu"],["CWE-200","m","iu"],["CWE-22","m","iu"],["CWE-23","m","iu"],["CWE-276","m","iu"],["CWE-284","m","iu"],["CWE-285","m","iu"],["CWE-288","m","iu"],["CWE-289","m","iu"],["CWE-36","m","iu"],["CWE-424","m","iu"],["CWE-425","m","iu"],["CWE-552","m","iu"],["CWE-639","m","iu"],["CWE-668","m","iu"],["CWE-698","m","iu"],["CWE-708","m","iu"],["CWE-73","m","iu"],["CWE-732","m","iu"],["CWE-749","m","iu"],["CWE-807","m","iu"],["CWE-862","m","iu"],["CWE-863","m","iu"]],"S":[],"A":281,"B":false,"F":["KSI-IAM-APM","KSI-IAM-ELP","KSI-IAM-JIT"]}
 {"id":"AC-3(2)","t":"Dual Authorization","f":"AC","R":[],"S":[],"A":0,"B":false}
 {"id":"AC-3(3)","t":"Mandatory Access Control","f":"AC","R":[],"S":[],"A":0,"B":false}
 {"id":"AC-3(4)","t":"Discretionary Access Control","f":"AC","R":[],"S":[],"A":0,"B":false}
@@ -26,7 +26,7 @@
 {"id":"AC-3(13)","t":"Attribute-based Access Control","f":"AC","R":[],"S":[],"A":0,"B":false}
 {"id":"AC-3(14)","t":"Individual Access","f":"AC","R":[],"S":[],"A":0,"B":false}
 {"id":"AC-3(15)","t":"Discretionary and Mandatory Access Control","f":"AC","R":[],"S":[],"A":0,"B":false}
-{"id":"AC-4","t":"Information Flow Enforcement","f":"AC","R":[["CAPEC-219","m","iu"],["CAPEC-664","m","iu"],["CWE-200","m","iu"],["CWE-441","m","iu"],["CWE-610","m","iu"],["CWE-668","m","iu"],["CWE-669","m","iu"],["CWE-918","m","iu"]],"S":[],"A":158,"B":false}
+{"id":"AC-4","t":"Information Flow Enforcement","f":"AC","R":[["CAPEC-219","m","iu"],["CAPEC-664","m","iu"],["CWE-200","m","iu"],["CWE-441","m","iu"],["CWE-610","m","iu"],["CWE-668","m","iu"],["CWE-669","m","iu"],["CWE-918","m","iu"]],"S":[],"A":158,"B":false,"F":["KSI-IAM-ELP","KSI-IAM-JIT","KSI-IAM-SNU","MAS-CSO-FLO"]}
 {"id":"AC-4(1)","t":"Object Security and Privacy Attributes","f":"AC","R":[],"S":[],"A":0,"B":false}
 {"id":"AC-4(2)","t":"Processing Domains","f":"AC","R":[],"S":[],"A":0,"B":false}
 {"id":"AC-4(3)","t":"Dynamic Information Flow Control","f":"AC","R":[],"S":[],"A":0,"B":false}
@@ -45,7 +45,7 @@
 {"id":"AC-4(17)","t":"Domain Authentication","f":"AC","R":[],"S":[],"A":0,"B":false}
 {"id":"AC-4(19)","t":"Validation of Metadata","f":"AC","R":[],"S":[],"A":0,"B":false}
 {"id":"AC-4(20)","t":"Approved Solutions","f":"AC","R":[],"S":[],"A":0,"B":false}
-{"id":"AC-4(21)","t":"Physical or Logical Separation of Information Flows","f":"AC","R":[],"S":[],"A":0,"B":false}
+{"id":"AC-4(21)","t":"Physical or Logical Separation of Information Flows","f":"AC","R":[],"S":[],"A":0,"B":false,"F":["KSI-CNA-ULN"]}
 {"id":"AC-4(22)","t":"Access Only","f":"AC","R":[],"S":[],"A":0,"B":false}
 {"id":"AC-4(23)","t":"Modify Non-releasable Information","f":"AC","R":[],"S":[],"A":0,"B":false}
 {"id":"AC-4(24)","t":"Internal Normalized Format","f":"AC","R":[["CAPEC-267","m","iu"]],"S":[],"A":0,"B":false}
@@ -57,19 +57,19 @@
 {"id":"AC-4(30)","t":"Filter Mechanisms Using Multiple Processes","f":"AC","R":[],"S":[],"A":0,"B":false}
 {"id":"AC-4(31)","t":"Failed Content Transfer Prevention","f":"AC","R":[],"S":[],"A":0,"B":false}
 {"id":"AC-4(32)","t":"Process Requirements for Information Transfer","f":"AC","R":[],"S":[],"A":0,"B":false}
-{"id":"AC-5","t":"Separation of Duties","f":"AC","R":[["CWE-269","m","iu"],["CWE-284","m","iu"]],"S":[],"A":167,"B":false}
-{"id":"AC-6","t":"Least Privilege","f":"AC","R":[["CWE-1189","m","r"],["CWE-1191","m","r"],["CWE-1192","m","r"],["CWE-1386","m","r"],["CWE-15","m","r"],["CWE-200","m","r"],["CWE-201","m","r"],["CWE-203","m","r"],["CWE-204","m","r"],["CWE-212","m","r"],["CWE-215","m","r"],["CWE-250","m","r"],["CWE-268","m","r"],["CWE-269","m","r"],["CWE-270","m","r"],["CWE-271","m","r"],["CWE-272","m","r"],["CWE-273","m","r"],["CWE-276","m","r"],["CWE-277","m","r"],["CWE-278","m","r"],["CWE-279","m","r"],["CWE-280","m","r"],["CWE-283","m","r"],["CWE-284","m","r"],["CWE-311","m","r"],["CWE-382","m","r"],["CWE-406","m","r"],["CWE-59","m","r"],["CWE-61","m","r"],["CWE-62","m","r"],["CWE-64","m","r"],["CWE-65","m","r"],["CWE-651","m","r"],["CWE-926","m","r"],["CWE-120","m","x"],["CWE-129","m","x"],["CWE-131","m","x"],["CWE-22","m","x"],["CWE-266","m","x"]],"S":[],"A":270,"B":false,"more":22}
-{"id":"AC-6(1)","t":"Authorize Access to Security Functions","f":"AC","R":[["CAPEC-180","m","iu"]],"S":[],"A":0,"B":false}
-{"id":"AC-6(2)","t":"Non-privileged Access for Nonsecurity Functions","f":"AC","R":[],"S":[],"A":0,"B":false}
-{"id":"AC-6(3)","t":"Network Access to Privileged Commands","f":"AC","R":[],"S":[],"A":0,"B":false}
+{"id":"AC-5","t":"Separation of Duties","f":"AC","R":[["CWE-269","m","iu"],["CWE-284","m","iu"]],"S":[],"A":167,"B":false,"F":["KSI-IAM-JIT","KSI-PIY-RIS","KSI-PIY-RSD"]}
+{"id":"AC-6","t":"Least Privilege","f":"AC","R":[["CWE-1189","m","r"],["CWE-1191","m","r"],["CWE-1192","m","r"],["CWE-1386","m","r"],["CWE-15","m","r"],["CWE-200","m","r"],["CWE-201","m","r"],["CWE-203","m","r"],["CWE-204","m","r"],["CWE-212","m","r"],["CWE-215","m","r"],["CWE-250","m","r"],["CWE-268","m","r"],["CWE-269","m","r"],["CWE-270","m","r"],["CWE-271","m","r"],["CWE-272","m","r"],["CWE-273","m","r"],["CWE-276","m","r"],["CWE-277","m","r"],["CWE-278","m","r"],["CWE-279","m","r"],["CWE-280","m","r"],["CWE-283","m","r"],["CWE-284","m","r"],["CWE-311","m","r"],["CWE-382","m","r"],["CWE-406","m","r"],["CWE-59","m","r"],["CWE-61","m","r"],["CWE-62","m","r"],["CWE-64","m","r"],["CWE-65","m","r"],["CWE-651","m","r"],["CWE-926","m","r"],["CWE-120","m","x"],["CWE-129","m","x"],["CWE-131","m","x"],["CWE-22","m","x"],["CWE-266","m","x"]],"S":[],"A":270,"B":false,"F":["KSI-IAM-ELP","KSI-IAM-JIT"],"more":22}
+{"id":"AC-6(1)","t":"Authorize Access to Security Functions","f":"AC","R":[["CAPEC-180","m","iu"]],"S":[],"A":0,"B":false,"F":["KSI-IAM-JIT"]}
+{"id":"AC-6(2)","t":"Non-privileged Access for Nonsecurity Functions","f":"AC","R":[],"S":[],"A":0,"B":false,"F":["KSI-IAM-JIT"]}
+{"id":"AC-6(3)","t":"Network Access to Privileged Commands","f":"AC","R":[],"S":[],"A":0,"B":false,"F":["KSI-IAM-ELP","KSI-IAM-JIT"]}
 {"id":"AC-6(4)","t":"Separate Processing Domains","f":"AC","R":[],"S":[],"A":0,"B":false}
-{"id":"AC-6(5)","t":"Privileged Accounts","f":"AC","R":[["CAPEC-122","m","iu"],["CAPEC-652","m","iu"]],"S":[],"A":0,"B":false}
+{"id":"AC-6(5)","t":"Privileged Accounts","f":"AC","R":[["CAPEC-122","m","iu"],["CAPEC-652","m","iu"]],"S":[],"A":0,"B":false,"F":["KSI-IAM-JIT","KSI-IAM-SNU"]}
 {"id":"AC-6(6)","t":"Privileged Access by Non-organizational Users","f":"AC","R":[],"S":[],"A":0,"B":false}
-{"id":"AC-6(7)","t":"Review of User Privileges","f":"AC","R":[],"S":[],"A":0,"B":false}
-{"id":"AC-6(8)","t":"Privilege Levels for Code Execution","f":"AC","R":[["CAPEC-104","m","iu"],["CWE-250","m","iu"],["CWE-269","m","iu"]],"S":[],"A":0,"B":false}
-{"id":"AC-6(9)","t":"Log Use of Privileged Functions","f":"AC","R":[["CAPEC-122","d","iu"]],"S":[],"A":0,"B":false}
-{"id":"AC-6(10)","t":"Prohibit Non-privileged Users from Executing Privileged Functions","f":"AC","R":[["CAPEC-1","m","iu"],["CAPEC-122","m","iu"]],"S":[],"A":0,"B":false}
-{"id":"AC-7","t":"Unsuccessful Logon Attempts","f":"AC","R":[],"S":[],"A":16,"B":false}
+{"id":"AC-6(7)","t":"Review of User Privileges","f":"AC","R":[],"S":[],"A":0,"B":false,"F":["KSI-IAM-AAM","KSI-IAM-JIT"]}
+{"id":"AC-6(8)","t":"Privilege Levels for Code Execution","f":"AC","R":[["CAPEC-104","m","iu"],["CWE-250","m","iu"],["CWE-269","m","iu"]],"S":[],"A":0,"B":false,"F":["KSI-IAM-ELP","KSI-IAM-JIT","KSI-SVC-ACM"]}
+{"id":"AC-6(9)","t":"Log Use of Privileged Functions","f":"AC","R":[["CAPEC-122","d","iu"]],"S":[],"A":0,"B":false,"F":["KSI-IAM-JIT","KSI-MLA-LET","KSI-MLA-RVL"]}
+{"id":"AC-6(10)","t":"Prohibit Non-privileged Users from Executing Privileged Functions","f":"AC","R":[["CAPEC-1","m","iu"],["CAPEC-122","m","iu"]],"S":[],"A":0,"B":false,"F":["KSI-IAM-JIT"]}
+{"id":"AC-7","t":"Unsuccessful Logon Attempts","f":"AC","R":[],"S":[],"A":16,"B":false,"F":["KSI-IAM-JIT","KSI-IAM-SUS"]}
 {"id":"AC-7(2)","t":"Purge or Wipe Mobile Device","f":"AC","R":[],"S":[],"A":0,"B":false}
 {"id":"AC-7(3)","t":"Biometric Attempt Limiting","f":"AC","R":[],"S":[],"A":0,"B":false}
 {"id":"AC-7(4)","t":"Use of Alternate Authentication Factor","f":"AC","R":[],"S":[],"A":0,"B":false}
@@ -79,14 +79,14 @@
 {"id":"AC-9(2)","t":"Successful and Unsuccessful Logons","f":"AC","R":[],"S":[],"A":0,"B":false}
 {"id":"AC-9(3)","t":"Notification of Account Changes","f":"AC","R":[],"S":[],"A":0,"B":false}
 {"id":"AC-9(4)","t":"Additional Logon Information","f":"AC","R":[],"S":[],"A":0,"B":false}
-{"id":"AC-10","t":"Concurrent Session Control","f":"AC","R":[],"S":[],"A":4,"B":false}
-{"id":"AC-11","t":"Device Lock","f":"AC","R":[],"S":[],"A":2,"B":false}
-{"id":"AC-11(1)","t":"Pattern-hiding Displays","f":"AC","R":[],"S":[],"A":0,"B":false}
-{"id":"AC-12","t":"Session Termination","f":"AC","R":[["CWE-672","m","iu"]],"S":[],"A":6,"B":false}
+{"id":"AC-10","t":"Concurrent Session Control","f":"AC","R":[],"S":[],"A":4,"B":false,"F":["KSI-SVC-VCM"]}
+{"id":"AC-11","t":"Device Lock","f":"AC","R":[],"S":[],"A":2,"B":false,"F":["KSI-SVC-SIN"]}
+{"id":"AC-11(1)","t":"Pattern-hiding Displays","f":"AC","R":[],"S":[],"A":0,"B":false,"F":["KSI-SVC-SIN"]}
+{"id":"AC-12","t":"Session Termination","f":"AC","R":[["CWE-672","m","iu"]],"S":[],"A":6,"B":false,"F":["KSI-CNA-ULN","KSI-IAM-ELP"]}
 {"id":"AC-12(1)","t":"User-initiated Logouts","f":"AC","R":[],"S":[],"A":0,"B":false}
 {"id":"AC-12(2)","t":"Termination Message","f":"AC","R":[],"S":[],"A":0,"B":false}
 {"id":"AC-12(3)","t":"Timeout Warning Message","f":"AC","R":[],"S":[],"A":0,"B":false}
-{"id":"AC-14","t":"Permitted Actions Without Identification or Authentication","f":"AC","R":[["CAPEC-87","g","iu"],["CWE-306","m","iu"]],"S":[],"A":1,"B":false}
+{"id":"AC-14","t":"Permitted Actions Without Identification or Authentication","f":"AC","R":[["CAPEC-87","g","iu"],["CWE-306","m","iu"]],"S":[],"A":1,"B":false,"F":["KSI-IAM-ELP"]}
 {"id":"AC-16","t":"Security and Privacy Attributes","f":"AC","R":[],"S":[],"A":57,"B":false}
 {"id":"AC-16(1)","t":"Dynamic Attribute Association","f":"AC","R":[],"S":[],"A":0,"B":false}
 {"id":"AC-16(2)","t":"Attribute Value Changes by Authorized Individuals","f":"AC","R":[],"S":[],"A":0,"B":false}
@@ -98,29 +98,29 @@
 {"id":"AC-16(8)","t":"Association Techniques and Technologies","f":"AC","R":[],"S":[],"A":0,"B":false}
 {"id":"AC-16(9)","t":"Attribute Reassignment — Regrading Mechanisms","f":"AC","R":[],"S":[],"A":0,"B":false}
 {"id":"AC-16(10)","t":"Attribute Configuration by Authorized Individuals","f":"AC","R":[],"S":[],"A":0,"B":false}
-{"id":"AC-17","t":"Remote Access","f":"AC","R":[["CAPEC-555","m","iu"]],"S":[],"A":81,"B":false}
-{"id":"AC-17(1)","t":"Monitoring and Control","f":"AC","R":[["CAPEC-555","d","iu"]],"S":[],"A":0,"B":false}
-{"id":"AC-17(2)","t":"Protection of Confidentiality and Integrity Using Encryption","f":"AC","R":[],"S":[],"A":0,"B":false}
-{"id":"AC-17(3)","t":"Managed Access Control Points","f":"AC","R":[],"S":[],"A":0,"B":false}
-{"id":"AC-17(4)","t":"Privileged Commands and Access","f":"AC","R":[],"S":[],"A":0,"B":false}
+{"id":"AC-17","t":"Remote Access","f":"AC","R":[["CAPEC-555","m","iu"]],"S":[],"A":81,"B":false,"F":["KSI-IAM-ELP","KSI-IAM-JIT"]}
+{"id":"AC-17(1)","t":"Monitoring and Control","f":"AC","R":[["CAPEC-555","d","iu"]],"S":[],"A":0,"B":false,"F":["KSI-IAM-ELP","KSI-MLA-LET","KSI-MLA-OSM"]}
+{"id":"AC-17(2)","t":"Protection of Confidentiality and Integrity Using Encryption","f":"AC","R":[],"S":[],"A":0,"B":false,"F":["KSI-IAM-ELP","KSI-SVC-ASM","KSI-SVC-SIN"]}
+{"id":"AC-17(3)","t":"Managed Access Control Points","f":"AC","R":[],"S":[],"A":0,"B":false,"F":["KSI-CNA-IBP","KSI-CNA-MAT","KSI-CNA-RNT","KSI-CNA-ULN","KSI-IAM-ELP"]}
+{"id":"AC-17(4)","t":"Privileged Commands and Access","f":"AC","R":[],"S":[],"A":0,"B":false,"F":["KSI-IAM-JIT","KSI-SVC-VCM","KSI-SVC-VRI"]}
 {"id":"AC-17(6)","t":"Protection of Mechanism Information","f":"AC","R":[],"S":[],"A":0,"B":false}
 {"id":"AC-17(9)","t":"Disconnect or Disable Access","f":"AC","R":[],"S":[],"A":0,"B":false}
 {"id":"AC-17(10)","t":"Authenticate Remote Commands","f":"AC","R":[],"S":[],"A":0,"B":false}
-{"id":"AC-18","t":"Wireless Access","f":"AC","R":[],"S":[],"A":25,"B":false}
-{"id":"AC-18(1)","t":"Authentication and Encryption","f":"AC","R":[["CAPEC-668","m","iu"]],"S":[],"A":0,"B":false}
-{"id":"AC-18(3)","t":"Disable Wireless Networking","f":"AC","R":[],"S":[],"A":0,"B":false}
-{"id":"AC-18(4)","t":"Restrict Configurations by Users","f":"AC","R":[],"S":[],"A":0,"B":false}
+{"id":"AC-18","t":"Wireless Access","f":"AC","R":[],"S":[],"A":25,"B":false,"F":["CMU-CSO-UVM","KSI-SVC-VCM","KSI-SVC-VRI"]}
+{"id":"AC-18(1)","t":"Authentication and Encryption","f":"AC","R":[["CAPEC-668","m","iu"]],"S":[],"A":0,"B":false,"F":["KSI-CNA-MAT"]}
+{"id":"AC-18(3)","t":"Disable Wireless Networking","f":"AC","R":[],"S":[],"A":0,"B":false,"F":["KSI-CNA-MAT"]}
+{"id":"AC-18(4)","t":"Restrict Configurations by Users","f":"AC","R":[],"S":[],"A":0,"B":false,"F":["KSI-IAM-ELP"]}
 {"id":"AC-18(5)","t":"Antennas and Transmission Power Levels","f":"AC","R":[],"S":[],"A":0,"B":false}
-{"id":"AC-19","t":"Access Control for Mobile Devices","f":"AC","R":[],"S":[],"A":27,"B":false}
+{"id":"AC-19","t":"Access Control for Mobile Devices","f":"AC","R":[],"S":[],"A":27,"B":false,"F":["KSI-MLA-EVC","KSI-SCR-MIT","KSI-SCR-MON","KSI-SVC-PRR","KSI-SVC-VCM","KSI-SVC-VRI"]}
 {"id":"AC-19(4)","t":"Restrictions for Classified Information","f":"AC","R":[],"S":[],"A":0,"B":false}
-{"id":"AC-19(5)","t":"Full Device or Container-based Encryption","f":"AC","R":[],"S":[],"A":0,"B":false}
-{"id":"AC-20","t":"Use of External Systems","f":"AC","R":[],"S":[],"A":64,"B":false}
-{"id":"AC-20(1)","t":"Limits on Authorized Use","f":"AC","R":[],"S":[],"A":0,"B":false}
+{"id":"AC-19(5)","t":"Full Device or Container-based Encryption","f":"AC","R":[],"S":[],"A":0,"B":false,"F":["KSI-SVC-SIN"]}
+{"id":"AC-20","t":"Use of External Systems","f":"AC","R":[],"S":[],"A":64,"B":false,"F":["KSI-IAM-ELP","KSI-SCR-MIT","KSI-SCR-MON"]}
+{"id":"AC-20(1)","t":"Limits on Authorized Use","f":"AC","R":[],"S":[],"A":0,"B":false,"F":["KSI-CNA-MAT","KSI-IAM-ELP","KSI-IAM-JIT","KSI-MLA-LET","KSI-MLA-OSM"]}
 {"id":"AC-20(2)","t":"Portable Storage Devices — Restricted Use","f":"AC","R":[],"S":[],"A":0,"B":false}
 {"id":"AC-20(3)","t":"Non-organizationally Owned Systems — Restricted Use","f":"AC","R":[],"S":[],"A":0,"B":false}
 {"id":"AC-20(4)","t":"Network Accessible Storage Devices — Prohibited Use","f":"AC","R":[],"S":[],"A":0,"B":false}
 {"id":"AC-20(5)","t":"Portable Storage Devices — Prohibited Use","f":"AC","R":[],"S":[],"A":0,"B":false}
-{"id":"AC-21","t":"Information Sharing","f":"AC","R":[],"S":[],"A":5,"B":false}
+{"id":"AC-21","t":"Information Sharing","f":"AC","R":[],"S":[],"A":5,"B":false,"F":["KSI-IAM-ELP","KSI-IAM-JIT","KSI-SVC-SIN"]}
 {"id":"AC-21(1)","t":"Automated Decision Support","f":"AC","R":[],"S":[],"A":0,"B":false}
 {"id":"AC-21(2)","t":"Information Search and Retrieval","f":"AC","R":[],"S":[],"A":0,"B":false}
 {"id":"AC-22","t":"Publicly Accessible Content","f":"AC","R":[["CWE-552","m","iu"]],"S":[],"A":0,"B":false}
@@ -130,64 +130,64 @@
 {"id":"AC-24(2)","t":"No User or Process Identity","f":"AC","R":[],"S":[],"A":0,"B":false}
 {"id":"AC-25","t":"Reference Monitor","f":"AC","R":[],"S":[],"A":0,"B":false}
 {"id":"AT-1","t":"Policy and Procedures","f":"AT","R":[],"S":[],"A":0,"B":false}
-{"id":"AT-2","t":"Literacy Training and Awareness","f":"AT","R":[],"S":[],"A":0,"B":false}
+{"id":"AT-2","t":"Literacy Training and Awareness","f":"AT","R":[],"S":[],"A":0,"B":false,"F":["KSI-CED-RAT"]}
 {"id":"AT-2(1)","t":"Practical Exercises","f":"AT","R":[],"S":[],"A":0,"B":false}
-{"id":"AT-2(2)","t":"Insider Threat","f":"AT","R":[],"S":[],"A":0,"B":false}
-{"id":"AT-2(3)","t":"Social Engineering and Mining","f":"AT","R":[["CAPEC-701","g","iu"]],"S":[],"A":0,"B":false}
+{"id":"AT-2(2)","t":"Insider Threat","f":"AT","R":[],"S":[],"A":0,"B":false,"F":["KSI-CED-RAT"]}
+{"id":"AT-2(3)","t":"Social Engineering and Mining","f":"AT","R":[["CAPEC-701","g","iu"]],"S":[],"A":0,"B":false,"F":["KSI-CED-RAT"]}
 {"id":"AT-2(4)","t":"Suspicious Communications and Anomalous System Behavior","f":"AT","R":[],"S":[],"A":0,"B":false}
 {"id":"AT-2(5)","t":"Advanced Persistent Threat","f":"AT","R":[],"S":[],"A":0,"B":false}
 {"id":"AT-2(6)","t":"Cyber Threat Environment","f":"AT","R":[],"S":[],"A":0,"B":false}
-{"id":"AT-3","t":"Role-based Training","f":"AT","R":[],"S":[],"A":0,"B":false}
+{"id":"AT-3","t":"Role-based Training","f":"AT","R":[],"S":[],"A":0,"B":false,"F":["KSI-CED-RAT"]}
 {"id":"AT-3(1)","t":"Environmental Controls","f":"AT","R":[],"S":[],"A":0,"B":false}
 {"id":"AT-3(2)","t":"Physical Security Controls","f":"AT","R":[],"S":[],"A":0,"B":false}
 {"id":"AT-3(3)","t":"Practical Exercises","f":"AT","R":[],"S":[],"A":0,"B":false}
-{"id":"AT-3(5)","t":"Processing Personally Identifiable Information","f":"AT","R":[],"S":[],"A":0,"B":false}
-{"id":"AT-4","t":"Training Records","f":"AT","R":[],"S":[],"A":0,"B":false}
+{"id":"AT-3(5)","t":"Processing Personally Identifiable Information","f":"AT","R":[],"S":[],"A":0,"B":false,"F":["KSI-CED-RAT"]}
+{"id":"AT-4","t":"Training Records","f":"AT","R":[],"S":[],"A":0,"B":false,"F":["KSI-CED-RAT"]}
 {"id":"AT-6","t":"Training Feedback","f":"AT","R":[],"S":[],"A":0,"B":false}
 {"id":"AU-1","t":"Policy and Procedures","f":"AU","R":[],"S":[],"A":0,"B":false}
-{"id":"AU-2","t":"Event Logging","f":"AU","R":[],"S":[],"A":0,"B":false}
-{"id":"AU-3","t":"Content of Audit Records","f":"AU","R":[],"S":[],"A":0,"B":false}
-{"id":"AU-3(1)","t":"Additional Audit Information","f":"AU","R":[],"S":[],"A":0,"B":false}
-{"id":"AU-3(3)","t":"Limit Personally Identifiable Information Elements","f":"AU","R":[["CWE-532","m","iu"]],"S":[],"A":0,"B":false}
-{"id":"AU-4","t":"Audit Log Storage Capacity","f":"AU","R":[],"S":[],"A":0,"B":false}
+{"id":"AU-2","t":"Event Logging","f":"AU","R":[],"S":[],"A":0,"B":false,"F":["KSI-CMT-LMC","KSI-MLA-LET","KSI-MLA-OSM","KSI-MLA-RVL"]}
+{"id":"AU-3","t":"Content of Audit Records","f":"AU","R":[],"S":[],"A":0,"B":false,"F":["KSI-MLA-OSM"]}
+{"id":"AU-3(1)","t":"Additional Audit Information","f":"AU","R":[],"S":[],"A":0,"B":false,"F":["KSI-MLA-OSM"]}
+{"id":"AU-3(3)","t":"Limit Personally Identifiable Information Elements","f":"AU","R":[["CWE-532","m","iu"]],"S":[],"A":0,"B":false,"F":["KSI-PIY-RSD"]}
+{"id":"AU-4","t":"Audit Log Storage Capacity","f":"AU","R":[],"S":[],"A":0,"B":false,"F":["KSI-MLA-OSM"]}
 {"id":"AU-4(1)","t":"Transfer to Alternate Storage","f":"AU","R":[],"S":[],"A":0,"B":false}
-{"id":"AU-5","t":"Response to Audit Logging Process Failures","f":"AU","R":[],"S":[],"A":0,"B":false}
-{"id":"AU-5(1)","t":"Storage Capacity Warning","f":"AU","R":[],"S":[],"A":0,"B":false}
-{"id":"AU-5(2)","t":"Real-time Alerts","f":"AU","R":[],"S":[],"A":0,"B":false}
+{"id":"AU-5","t":"Response to Audit Logging Process Failures","f":"AU","R":[],"S":[],"A":0,"B":false,"F":["KSI-MLA-OSM"]}
+{"id":"AU-5(1)","t":"Storage Capacity Warning","f":"AU","R":[],"S":[],"A":0,"B":false,"F":["KSI-MLA-OSM"]}
+{"id":"AU-5(2)","t":"Real-time Alerts","f":"AU","R":[],"S":[],"A":0,"B":false,"F":["IEC-CSO-EFR","IEC-CSO-IIR","VDR-CSO-DET","VDR-CSO-FAV","VDR-CSO-RES"]}
 {"id":"AU-5(3)","t":"Configurable Traffic Volume Thresholds","f":"AU","R":[],"S":[],"A":0,"B":false}
 {"id":"AU-5(4)","t":"Shutdown on Failure","f":"AU","R":[],"S":[],"A":0,"B":false}
 {"id":"AU-5(5)","t":"Alternate Audit Logging Capability","f":"AU","R":[],"S":[],"A":0,"B":false}
-{"id":"AU-6","t":"Audit Record Review, Analysis, and Reporting","f":"AU","R":[],"S":[],"A":0,"B":false}
-{"id":"AU-6(1)","t":"Automated Process Integration","f":"AU","R":[],"S":[],"A":0,"B":false}
-{"id":"AU-6(3)","t":"Correlate Audit Record Repositories","f":"AU","R":[],"S":[],"A":0,"B":false}
-{"id":"AU-6(4)","t":"Central Review and Analysis","f":"AU","R":[],"S":[],"A":0,"B":false}
-{"id":"AU-6(5)","t":"Integrated Analysis of Audit Records","f":"AU","R":[],"S":[],"A":0,"B":false}
+{"id":"AU-6","t":"Audit Record Review, Analysis, and Reporting","f":"AU","R":[],"S":[],"A":0,"B":false,"F":["KSI-MLA-RVL","VDR-CSO-DET"]}
+{"id":"AU-6(1)","t":"Automated Process Integration","f":"AU","R":[],"S":[],"A":0,"B":false,"F":["KSI-MLA-OSM","KSI-MLA-RVL"]}
+{"id":"AU-6(3)","t":"Correlate Audit Record Repositories","f":"AU","R":[],"S":[],"A":0,"B":false,"F":["KSI-MLA-OSM"]}
+{"id":"AU-6(4)","t":"Central Review and Analysis","f":"AU","R":[],"S":[],"A":0,"B":false,"F":["KSI-MLA-OSM"]}
+{"id":"AU-6(5)","t":"Integrated Analysis of Audit Records","f":"AU","R":[],"S":[],"A":0,"B":false,"F":["KSI-IAM-SUS","KSI-MLA-OSM"]}
 {"id":"AU-6(6)","t":"Correlation with Physical Monitoring","f":"AU","R":[],"S":[],"A":0,"B":false}
-{"id":"AU-6(7)","t":"Permitted Actions","f":"AU","R":[],"S":[],"A":0,"B":false}
+{"id":"AU-6(7)","t":"Permitted Actions","f":"AU","R":[],"S":[],"A":0,"B":false,"F":["KSI-IAM-ELP","KSI-MLA-ALA"]}
 {"id":"AU-6(8)","t":"Full Text Analysis of Privileged Commands","f":"AU","R":[],"S":[],"A":0,"B":false}
 {"id":"AU-6(9)","t":"Correlation with Information from Nontechnical Sources","f":"AU","R":[],"S":[],"A":0,"B":false}
-{"id":"AU-7","t":"Audit Record Reduction and Report Generation","f":"AU","R":[],"S":[],"A":0,"B":false}
-{"id":"AU-7(1)","t":"Automatic Processing","f":"AU","R":[],"S":[],"A":0,"B":false}
-{"id":"AU-8","t":"Time Stamps","f":"AU","R":[],"S":[],"A":0,"B":false}
-{"id":"AU-9","t":"Protection of Audit Information","f":"AU","R":[["CWE-117","m","iu"],["CWE-532","m","iu"]],"S":[],"A":0,"B":false}
+{"id":"AU-7","t":"Audit Record Reduction and Report Generation","f":"AU","R":[],"S":[],"A":0,"B":false,"F":["KSI-MLA-LET","KSI-MLA-OSM","KSI-MLA-RVL"]}
+{"id":"AU-7(1)","t":"Automatic Processing","f":"AU","R":[],"S":[],"A":0,"B":false,"F":["KSI-MLA-LET","KSI-MLA-OSM"]}
+{"id":"AU-8","t":"Time Stamps","f":"AU","R":[],"S":[],"A":0,"B":false,"F":["KSI-MLA-OSM"]}
+{"id":"AU-9","t":"Protection of Audit Information","f":"AU","R":[["CWE-117","m","iu"],["CWE-532","m","iu"]],"S":[],"A":0,"B":false,"F":["KSI-MLA-OSM"]}
 {"id":"AU-9(1)","t":"Hardware Write-once Media","f":"AU","R":[],"S":[],"A":0,"B":false}
 {"id":"AU-9(2)","t":"Store on Separate Physical Systems or Components","f":"AU","R":[],"S":[],"A":0,"B":false}
-{"id":"AU-9(3)","t":"Cryptographic Protection","f":"AU","R":[],"S":[],"A":0,"B":false}
-{"id":"AU-9(4)","t":"Access by Subset of Privileged Users","f":"AU","R":[],"S":[],"A":0,"B":false}
+{"id":"AU-9(3)","t":"Cryptographic Protection","f":"AU","R":[],"S":[],"A":0,"B":false,"F":["CMU-CSO-CMD","CMU-CSO-UVM","KSI-SVC-VRI"]}
+{"id":"AU-9(4)","t":"Access by Subset of Privileged Users","f":"AU","R":[],"S":[],"A":0,"B":false,"F":["KSI-IAM-JIT"]}
 {"id":"AU-9(5)","t":"Dual Authorization","f":"AU","R":[],"S":[],"A":0,"B":false}
 {"id":"AU-9(6)","t":"Read-only Access","f":"AU","R":[],"S":[],"A":0,"B":false}
 {"id":"AU-9(7)","t":"Store on Component with Different Operating System","f":"AU","R":[],"S":[],"A":0,"B":false}
-{"id":"AU-10","t":"Non-repudiation","f":"AU","R":[],"S":[],"A":0,"B":false}
+{"id":"AU-10","t":"Non-repudiation","f":"AU","R":[],"S":[],"A":0,"B":false,"F":["KSI-IAM-JIT","KSI-IAM-SNU","KSI-MLA-LET"]}
 {"id":"AU-10(1)","t":"Association of Identities","f":"AU","R":[],"S":[],"A":0,"B":false}
 {"id":"AU-10(2)","t":"Validate Binding of Information Producer Identity","f":"AU","R":[],"S":[],"A":0,"B":false}
 {"id":"AU-10(3)","t":"Chain of Custody","f":"AU","R":[],"S":[],"A":0,"B":false}
 {"id":"AU-10(4)","t":"Validate Binding of Information Reviewer Identity","f":"AU","R":[],"S":[],"A":0,"B":false}
-{"id":"AU-11","t":"Audit Record Retention","f":"AU","R":[],"S":[],"A":0,"B":false}
+{"id":"AU-11","t":"Audit Record Retention","f":"AU","R":[],"S":[],"A":0,"B":false,"F":["KSI-MLA-OSM"]}
 {"id":"AU-11(1)","t":"Long-term Retrieval Capability","f":"AU","R":[],"S":[],"A":0,"B":false}
-{"id":"AU-12","t":"Audit Record Generation","f":"AU","R":[],"S":[],"A":0,"B":false}
-{"id":"AU-12(1)","t":"System-wide and Time-correlated Audit Trail","f":"AU","R":[],"S":[],"A":0,"B":false}
+{"id":"AU-12","t":"Audit Record Generation","f":"AU","R":[],"S":[],"A":0,"B":false,"F":["KSI-MLA-LET"]}
+{"id":"AU-12(1)","t":"System-wide and Time-correlated Audit Trail","f":"AU","R":[],"S":[],"A":0,"B":false,"F":["KSI-MLA-OSM"]}
 {"id":"AU-12(2)","t":"Standardized Formats","f":"AU","R":[],"S":[],"A":0,"B":false}
-{"id":"AU-12(3)","t":"Changes by Authorized Individuals","f":"AU","R":[],"S":[],"A":0,"B":false}
+{"id":"AU-12(3)","t":"Changes by Authorized Individuals","f":"AU","R":[],"S":[],"A":0,"B":false,"F":["KSI-IAM-ELP","KSI-IAM-JIT","KSI-MLA-ALA"]}
 {"id":"AU-12(4)","t":"Query Parameter Audits of Personally Identifiable Information","f":"AU","R":[],"S":[],"A":0,"B":false}
 {"id":"AU-13","t":"Monitoring for Information Disclosure","f":"AU","R":[],"S":[],"A":0,"B":false}
 {"id":"AU-13(1)","t":"Use of Automated Tools","f":"AU","R":[],"S":[],"A":0,"B":false}
@@ -201,163 +201,163 @@
 {"id":"AU-16(2)","t":"Sharing of Audit Information","f":"AU","R":[],"S":[],"A":0,"B":false}
 {"id":"AU-16(3)","t":"Disassociability","f":"AU","R":[],"S":[],"A":0,"B":false}
 {"id":"CA-1","t":"Policy and Procedures","f":"CA","R":[],"S":[],"A":0,"B":false}
-{"id":"CA-2","t":"Control Assessments","f":"CA","R":[],"S":[],"A":5,"B":false}
-{"id":"CA-2(1)","t":"Independent Assessors","f":"CA","R":[],"S":[],"A":0,"B":false}
-{"id":"CA-2(2)","t":"Specialized Assessments","f":"CA","R":[],"S":[],"A":0,"B":false}
-{"id":"CA-2(3)","t":"Leveraging Results from External Organizations","f":"CA","R":[],"S":[],"A":0,"B":false}
-{"id":"CA-3","t":"Information Exchange","f":"CA","R":[],"S":[],"A":7,"B":false}
-{"id":"CA-3(6)","t":"Transfer Authorizations","f":"CA","R":[],"S":[],"A":0,"B":false}
+{"id":"CA-2","t":"Control Assessments","f":"CA","R":[],"S":[],"A":5,"B":false,"F":["KSI-PIY-RIS"]}
+{"id":"CA-2(1)","t":"Independent Assessors","f":"CA","R":[],"S":[],"A":0,"B":false,"F":["KSI-CNA-EIS"]}
+{"id":"CA-2(2)","t":"Specialized Assessments","f":"CA","R":[],"S":[],"A":0,"B":false,"F":["KSI-PIY-RIS"]}
+{"id":"CA-2(3)","t":"Leveraging Results from External Organizations","f":"CA","R":[],"S":[],"A":0,"B":false,"F":["KSI-SCR-MON"]}
+{"id":"CA-3","t":"Information Exchange","f":"CA","R":[],"S":[],"A":7,"B":false,"F":["KSI-SCR-MON"]}
+{"id":"CA-3(6)","t":"Transfer Authorizations","f":"CA","R":[],"S":[],"A":0,"B":false,"F":["KSI-IAM-JIT"]}
 {"id":"CA-3(7)","t":"Transitive Information Exchanges","f":"CA","R":[],"S":[],"A":0,"B":false}
 {"id":"CA-5","t":"Plan of Action and Milestones","f":"CA","R":[],"S":[],"A":0,"B":false}
 {"id":"CA-5(1)","t":"Automation Support for Accuracy and Currency","f":"CA","R":[],"S":[],"A":0,"B":false}
 {"id":"CA-6","t":"Authorization","f":"CA","R":[],"S":[],"A":0,"B":false}
 {"id":"CA-6(1)","t":"Joint Authorization — Intra-organization","f":"CA","R":[],"S":[],"A":0,"B":false}
 {"id":"CA-6(2)","t":"Joint Authorization — Inter-organization","f":"CA","R":[],"S":[],"A":0,"B":false}
-{"id":"CA-7","t":"Continuous Monitoring","f":"CA","R":[],"S":[],"A":210,"B":false}
+{"id":"CA-7","t":"Continuous Monitoring","f":"CA","R":[],"S":[],"A":210,"B":false,"F":["KSI-MLA-EVC"]}
 {"id":"CA-7(1)","t":"Independent Assessment","f":"CA","R":[],"S":[],"A":0,"B":false}
 {"id":"CA-7(3)","t":"Trend Analyses","f":"CA","R":[],"S":[],"A":0,"B":false}
-{"id":"CA-7(4)","t":"Risk Monitoring","f":"CA","R":[],"S":[],"A":0,"B":false}
+{"id":"CA-7(4)","t":"Risk Monitoring","f":"CA","R":[],"S":[],"A":0,"B":false,"F":["KSI-CMT-LMC","KSI-SCR-MIT","KSI-SVC-EIS"]}
 {"id":"CA-7(5)","t":"Consistency Analysis","f":"CA","R":[],"S":[],"A":0,"B":false}
 {"id":"CA-7(6)","t":"Automation Support for Monitoring","f":"CA","R":[],"S":[],"A":0,"B":false}
-{"id":"CA-8","t":"Penetration Testing","f":"CA","R":[],"S":[],"A":0,"B":false}
-{"id":"CA-8(1)","t":"Independent Penetration Testing Agent or Team","f":"CA","R":[],"S":[],"A":0,"B":false}
-{"id":"CA-8(2)","t":"Red Team Exercises","f":"CA","R":[],"S":[],"A":0,"B":false}
+{"id":"CA-8","t":"Penetration Testing","f":"CA","R":[],"S":[],"A":0,"B":false,"F":["VDR-CSO-DET"]}
+{"id":"CA-8(1)","t":"Independent Penetration Testing Agent or Team","f":"CA","R":[],"S":[],"A":0,"B":false,"F":["VDR-CSO-DET"]}
+{"id":"CA-8(2)","t":"Red Team Exercises","f":"CA","R":[],"S":[],"A":0,"B":false,"F":["VDR-CSO-DET"]}
 {"id":"CA-8(3)","t":"Facility Penetration Testing","f":"CA","R":[],"S":[],"A":0,"B":false}
-{"id":"CA-9","t":"Internal System Connections","f":"CA","R":[],"S":[],"A":0,"B":false}
+{"id":"CA-9","t":"Internal System Connections","f":"CA","R":[],"S":[],"A":0,"B":false,"F":["KSI-CNA-MAT","KSI-CNA-RNT","KSI-CNA-ULN"]}
 {"id":"CA-9(1)","t":"Compliance Checks","f":"CA","R":[],"S":[],"A":0,"B":false}
 {"id":"CM-1","t":"Policy and Procedures","f":"CM","R":[],"S":[],"A":0,"B":false}
-{"id":"CM-2","t":"Baseline Configuration","f":"CM","R":[],"S":[],"A":287,"B":false}
-{"id":"CM-2(2)","t":"Automation Support for Accuracy and Currency","f":"CM","R":[],"S":[],"A":0,"B":false}
-{"id":"CM-2(3)","t":"Retention of Previous Configurations","f":"CM","R":[],"S":[],"A":0,"B":false}
+{"id":"CM-2","t":"Baseline Configuration","f":"CM","R":[],"S":[],"A":287,"B":false,"F":["KSI-CMT-RMV","KSI-CNA-DFP","KSI-CNA-IBP","KSI-MLA-EVC","KSI-SVC-ACM"]}
+{"id":"CM-2(2)","t":"Automation Support for Accuracy and Currency","f":"CM","R":[],"S":[],"A":0,"B":false,"F":["KSI-PIY-GIV","KSI-SVC-ACM","KSI-SVC-VRI"]}
+{"id":"CM-2(3)","t":"Retention of Previous Configurations","f":"CM","R":[],"S":[],"A":0,"B":false,"F":["KSI-RPL-ABO","KSI-SVC-ACM"]}
 {"id":"CM-2(6)","t":"Development and Test Environments","f":"CM","R":[],"S":[],"A":0,"B":false}
-{"id":"CM-2(7)","t":"Configure Systems and Components for High-risk Areas","f":"CM","R":[],"S":[],"A":0,"B":false}
-{"id":"CM-3","t":"Configuration Change Control","f":"CM","R":[],"S":[],"A":35,"B":false}
-{"id":"CM-3(1)","t":"Automated Documentation, Notification, and Prohibition of Changes","f":"CM","R":[],"S":[],"A":0,"B":false}
-{"id":"CM-3(2)","t":"Testing, Validation, and Documentation of Changes","f":"CM","R":[],"S":[],"A":0,"B":false}
+{"id":"CM-2(7)","t":"Configure Systems and Components for High-risk Areas","f":"CM","R":[],"S":[],"A":0,"B":false,"F":["KSI-IAM-ELP"]}
+{"id":"CM-3","t":"Configuration Change Control","f":"CM","R":[],"S":[],"A":35,"B":false,"F":["KSI-CMT-LMC","KSI-CMT-RMV","KSI-CMT-RVP","KSI-CMT-VTD"]}
+{"id":"CM-3(1)","t":"Automated Documentation, Notification, and Prohibition of Changes","f":"CM","R":[],"S":[],"A":0,"B":false,"F":["KSI-CMT-LMC"]}
+{"id":"CM-3(2)","t":"Testing, Validation, and Documentation of Changes","f":"CM","R":[],"S":[],"A":0,"B":false,"F":["KSI-CMT-LMC","KSI-CMT-RVP","KSI-CMT-VTD"]}
 {"id":"CM-3(3)","t":"Automated Change Implementation","f":"CM","R":[],"S":[],"A":0,"B":false}
-{"id":"CM-3(4)","t":"Security and Privacy Representatives","f":"CM","R":[],"S":[],"A":0,"B":false}
+{"id":"CM-3(4)","t":"Security and Privacy Representatives","f":"CM","R":[],"S":[],"A":0,"B":false,"F":["KSI-CMT-RVP","KSI-PIY-RSD"]}
 {"id":"CM-3(5)","t":"Automated Security Response","f":"CM","R":[],"S":[],"A":0,"B":false}
-{"id":"CM-3(6)","t":"Cryptography Management","f":"CM","R":[],"S":[],"A":0,"B":false}
+{"id":"CM-3(6)","t":"Cryptography Management","f":"CM","R":[],"S":[],"A":0,"B":false,"F":["CMU-CSO-CMD","KSI-CMT-LMC"]}
 {"id":"CM-3(7)","t":"Review System Changes","f":"CM","R":[],"S":[],"A":0,"B":false}
 {"id":"CM-3(8)","t":"Prevent or Restrict Configuration Changes","f":"CM","R":[],"S":[],"A":0,"B":false}
-{"id":"CM-4","t":"Impact Analyses","f":"CM","R":[],"S":[],"A":0,"B":false}
+{"id":"CM-4","t":"Impact Analyses","f":"CM","R":[],"S":[],"A":0,"B":false,"F":["SCN-CSO-EVA"]}
 {"id":"CM-4(1)","t":"Separate Test Environments","f":"CM","R":[],"S":[],"A":0,"B":false}
-{"id":"CM-4(2)","t":"Verification of Controls","f":"CM","R":[],"S":[],"A":0,"B":false}
-{"id":"CM-5","t":"Access Restrictions for Change","f":"CM","R":[["CAPEC-75","m","iu"]],"S":[],"A":162,"B":false}
-{"id":"CM-5(1)","t":"Automated Access Enforcement and Audit Records","f":"CM","R":[],"S":[],"A":0,"B":false}
+{"id":"CM-4(2)","t":"Verification of Controls","f":"CM","R":[],"S":[],"A":0,"B":false,"F":["KSI-CMT-LMC","KSI-CMT-VTD"]}
+{"id":"CM-5","t":"Access Restrictions for Change","f":"CM","R":[["CAPEC-75","m","iu"]],"S":[],"A":162,"B":false,"F":["KSI-CMT-RMV","KSI-CMT-RVP","KSI-IAM-JIT"]}
+{"id":"CM-5(1)","t":"Automated Access Enforcement and Audit Records","f":"CM","R":[],"S":[],"A":0,"B":false,"F":["KSI-IAM-ELP","KSI-IAM-JIT","KSI-IAM-SUS","KSI-MLA-LET"]}
 {"id":"CM-5(4)","t":"Dual Authorization","f":"CM","R":[],"S":[],"A":0,"B":false}
-{"id":"CM-5(5)","t":"Privilege Limitation for Production and Operation","f":"CM","R":[],"S":[],"A":0,"B":false}
+{"id":"CM-5(5)","t":"Privilege Limitation for Production and Operation","f":"CM","R":[],"S":[],"A":0,"B":false,"F":["KSI-IAM-ELP","KSI-IAM-JIT","KSI-SVC-EIS"]}
 {"id":"CM-5(6)","t":"Limit Library Privileges","f":"CM","R":[],"S":[],"A":0,"B":false}
-{"id":"CM-6","t":"Configuration Settings","f":"CM","R":[["CWE-119","m","r"],["CWE-120","m","r"],["CWE-121","m","r"],["CWE-122","m","r"],["CWE-129","m","r"],["CWE-131","m","r"],["CWE-209","m","r"],["CWE-210","m","r"],["CWE-211","m","r"],["CWE-22","m","r"],["CWE-250","m","r"],["CWE-266","m","r"],["CWE-267","m","r"],["CWE-268","m","r"],["CWE-270","m","r"],["CWE-362","m","r"],["CWE-434","m","r"],["CWE-494","m","r"],["CWE-642","m","r"],["CWE-732","m","r"],["CWE-78","m","r"],["CWE-787","m","r"],["CWE-79","m","r"],["CWE-805","m","r"],["CWE-806","m","r"],["CWE-807","m","r"],["CWE-829","m","r"],["CWE-89","m","r"],["CWE-94","m","r"],["CWE-942","m","r"],["CWE-98","m","r"],["CAPEC-141","m","iu"],["CAPEC-180","m","iu"],["CAPEC-77","m","iu"],["CWE-1188","m","iu"],["CWE-276","m","iu"],["CWE-473","m","iu"],["CWE-611","m","iu"]],"S":[],"A":344,"B":false}
-{"id":"CM-6(1)","t":"Automated Management, Application, and Verification","f":"CM","R":[],"S":[],"A":0,"B":false}
-{"id":"CM-6(2)","t":"Respond to Unauthorized Changes","f":"CM","R":[],"S":[],"A":0,"B":false}
-{"id":"CM-7","t":"Least Functionality","f":"CM","R":[["CWE-119","m","r"],["CWE-120","m","r"],["CWE-121","m","r"],["CWE-122","m","r"],["CWE-129","m","r"],["CWE-131","m","r"],["CWE-20","m","r"],["CWE-209","m","r"],["CWE-210","m","r"],["CWE-211","m","r"],["CWE-212","m","r"],["CWE-22","m","r"],["CWE-250","m","r"],["CWE-266","m","r"],["CWE-267","m","r"],["CWE-268","m","r"],["CWE-270","m","r"],["CWE-311","m","r"],["CWE-359","m","r"],["CWE-362","m","r"],["CWE-416","m","r"],["CWE-426","m","r"],["CWE-427","m","r"],["CWE-434","m","r"],["CWE-456","m","r"],["CWE-457","m","r"],["CWE-494","m","r"],["CWE-601","m","r"],["CWE-642","m","r"],["CWE-732","m","r"],["CWE-749","m","r"],["CWE-78","m","r"],["CWE-787","m","r"],["CWE-79","m","r"],["CWE-80","m","r"],["CWE-805","m","r"],["CWE-806","m","r"],["CWE-807","m","r"],["CWE-81","m","r"],["CWE-82","m","r"]],"S":[],"A":225,"B":false,"more":14}
-{"id":"CM-7(1)","t":"Periodic Review","f":"CM","R":[],"S":[],"A":0,"B":false}
-{"id":"CM-7(2)","t":"Prevent Program Execution","f":"CM","R":[["CAPEC-17","m","iu"],["CWE-434","m","iu"],["CWE-77","m","iu"],["CWE-78","m","iu"]],"S":[],"A":0,"B":false}
+{"id":"CM-6","t":"Configuration Settings","f":"CM","R":[["CWE-119","m","r"],["CWE-120","m","r"],["CWE-121","m","r"],["CWE-122","m","r"],["CWE-129","m","r"],["CWE-131","m","r"],["CWE-209","m","r"],["CWE-210","m","r"],["CWE-211","m","r"],["CWE-22","m","r"],["CWE-250","m","r"],["CWE-266","m","r"],["CWE-267","m","r"],["CWE-268","m","r"],["CWE-270","m","r"],["CWE-362","m","r"],["CWE-434","m","r"],["CWE-494","m","r"],["CWE-642","m","r"],["CWE-732","m","r"],["CWE-78","m","r"],["CWE-787","m","r"],["CWE-79","m","r"],["CWE-805","m","r"],["CWE-806","m","r"],["CWE-807","m","r"],["CWE-829","m","r"],["CWE-89","m","r"],["CWE-94","m","r"],["CWE-942","m","r"],["CWE-98","m","r"],["CAPEC-141","m","iu"],["CAPEC-180","m","iu"],["CAPEC-77","m","iu"],["CWE-1188","m","iu"],["CWE-276","m","iu"],["CWE-473","m","iu"],["CWE-611","m","iu"]],"S":[],"A":344,"B":false,"F":["KSI-CMT-LMC","KSI-CMT-RMV","KSI-MLA-EVC","KSI-SVC-ACM"]}
+{"id":"CM-6(1)","t":"Automated Management, Application, and Verification","f":"CM","R":[],"S":[],"A":0,"B":false,"F":["KSI-MLA-EVC"]}
+{"id":"CM-6(2)","t":"Respond to Unauthorized Changes","f":"CM","R":[],"S":[],"A":0,"B":false,"F":["KSI-CMT-VTD","KSI-CNA-EIS","KSI-IAM-SUS"]}
+{"id":"CM-7","t":"Least Functionality","f":"CM","R":[["CWE-119","m","r"],["CWE-120","m","r"],["CWE-121","m","r"],["CWE-122","m","r"],["CWE-129","m","r"],["CWE-131","m","r"],["CWE-20","m","r"],["CWE-209","m","r"],["CWE-210","m","r"],["CWE-211","m","r"],["CWE-212","m","r"],["CWE-22","m","r"],["CWE-250","m","r"],["CWE-266","m","r"],["CWE-267","m","r"],["CWE-268","m","r"],["CWE-270","m","r"],["CWE-311","m","r"],["CWE-359","m","r"],["CWE-362","m","r"],["CWE-416","m","r"],["CWE-426","m","r"],["CWE-427","m","r"],["CWE-434","m","r"],["CWE-456","m","r"],["CWE-457","m","r"],["CWE-494","m","r"],["CWE-601","m","r"],["CWE-642","m","r"],["CWE-732","m","r"],["CWE-749","m","r"],["CWE-78","m","r"],["CWE-787","m","r"],["CWE-79","m","r"],["CWE-80","m","r"],["CWE-805","m","r"],["CWE-806","m","r"],["CWE-807","m","r"],["CWE-81","m","r"],["CWE-82","m","r"]],"S":[],"A":225,"B":false,"F":["KSI-CMT-RMV","KSI-IAM-JIT","SCG-CSO-RSC"],"more":14}
+{"id":"CM-7(1)","t":"Periodic Review","f":"CM","R":[],"S":[],"A":0,"B":false,"F":["KSI-CMT-RVP","KSI-CNA-RNT","KSI-SVC-ACM","KSI-SVC-EIS"]}
+{"id":"CM-7(2)","t":"Prevent Program Execution","f":"CM","R":[["CAPEC-17","m","iu"],["CWE-434","m","iu"],["CWE-77","m","iu"],["CWE-78","m","iu"]],"S":[],"A":0,"B":false,"F":["KSI-IAM-ELP","KSI-IAM-JIT"]}
 {"id":"CM-7(3)","t":"Registration Compliance","f":"CM","R":[],"S":[],"A":0,"B":false}
 {"id":"CM-7(4)","t":"Unauthorized Software — Deny-by-exception","f":"CM","R":[],"S":[],"A":0,"B":false}
-{"id":"CM-7(5)","t":"Authorized Software — Allow-by-exception","f":"CM","R":[["CWE-426","m","iu"],["CWE-427","m","iu"],["CWE-829","m","iu"]],"S":[],"A":0,"B":false}
+{"id":"CM-7(5)","t":"Authorized Software — Allow-by-exception","f":"CM","R":[["CWE-426","m","iu"],["CWE-427","m","iu"],["CWE-829","m","iu"]],"S":[],"A":0,"B":false,"F":["KSI-IAM-JIT","KSI-PIY-GIV"]}
 {"id":"CM-7(6)","t":"Confined Environments with Limited Privileges","f":"CM","R":[],"S":[],"A":0,"B":false}
 {"id":"CM-7(7)","t":"Code Execution in Protected Environments","f":"CM","R":[["CWE-94","m","iu"]],"S":[],"A":0,"B":false}
 {"id":"CM-7(8)","t":"Binary or Machine Executable Code","f":"CM","R":[],"S":[],"A":0,"B":false}
 {"id":"CM-7(9)","t":"Prohibiting The Use of Unauthorized Hardware","f":"CM","R":[],"S":[],"A":0,"B":false}
-{"id":"CM-8","t":"System Component Inventory","f":"CM","R":[],"S":[],"A":101,"B":false}
-{"id":"CM-8(1)","t":"Updates During Installation and Removal","f":"CM","R":[],"S":[],"A":0,"B":false}
-{"id":"CM-8(2)","t":"Automated Maintenance","f":"CM","R":[],"S":[],"A":0,"B":false}
-{"id":"CM-8(3)","t":"Automated Unauthorized Component Detection","f":"CM","R":[],"S":[],"A":0,"B":false}
-{"id":"CM-8(4)","t":"Accountability Information","f":"CM","R":[],"S":[],"A":0,"B":false}
+{"id":"CM-8","t":"System Component Inventory","f":"CM","R":[],"S":[],"A":101,"B":false,"F":["KSI-PIY-GIV"]}
+{"id":"CM-8(1)","t":"Updates During Installation and Removal","f":"CM","R":[],"S":[],"A":0,"B":false,"F":["KSI-CMT-RMV","KSI-PIY-GIV"]}
+{"id":"CM-8(2)","t":"Automated Maintenance","f":"CM","R":[],"S":[],"A":0,"B":false,"F":["KSI-PIY-GIV"]}
+{"id":"CM-8(3)","t":"Automated Unauthorized Component Detection","f":"CM","R":[],"S":[],"A":0,"B":false,"F":["KSI-CMT-LMC","KSI-SVC-VRI"]}
+{"id":"CM-8(4)","t":"Accountability Information","f":"CM","R":[],"S":[],"A":0,"B":false,"F":["KSI-CNA-DFP","KSI-PIY-GIV","MAS-CSO-IIR"]}
 {"id":"CM-8(6)","t":"Assessed Configurations and Approved Deviations","f":"CM","R":[],"S":[],"A":0,"B":false}
 {"id":"CM-8(7)","t":"Centralized Repository","f":"CM","R":[],"S":[],"A":0,"B":false}
 {"id":"CM-8(8)","t":"Automated Location Tracking","f":"CM","R":[],"S":[],"A":0,"B":false}
 {"id":"CM-8(9)","t":"Assignment of Components to Systems","f":"CM","R":[],"S":[],"A":0,"B":false}
-{"id":"CM-9","t":"Configuration Management Plan","f":"CM","R":[],"S":[],"A":0,"B":false}
+{"id":"CM-9","t":"Configuration Management Plan","f":"CM","R":[],"S":[],"A":0,"B":false,"F":["KSI-CMT-RVP","KSI-IAM-ELP","KSI-IAM-JIT"]}
 {"id":"CM-9(1)","t":"Assignment of Responsibility","f":"CM","R":[],"S":[],"A":0,"B":false}
 {"id":"CM-10","t":"Software Usage Restrictions","f":"CM","R":[],"S":[],"A":9,"B":false}
 {"id":"CM-10(1)","t":"Open-source Software","f":"CM","R":[],"S":[],"A":0,"B":false}
-{"id":"CM-11","t":"User-installed Software","f":"CM","R":[],"S":[],"A":33,"B":false}
+{"id":"CM-11","t":"User-installed Software","f":"CM","R":[],"S":[],"A":33,"B":false,"F":["KSI-CED-RAT","KSI-CNA-EIS","KSI-CNA-ULN"]}
 {"id":"CM-11(2)","t":"Software Installation with Privileged Status","f":"CM","R":[],"S":[],"A":0,"B":false}
 {"id":"CM-11(3)","t":"Automated Enforcement and Monitoring","f":"CM","R":[],"S":[],"A":0,"B":false}
-{"id":"CM-12","t":"Information Location","f":"CM","R":[],"S":[],"A":2,"B":false}
-{"id":"CM-12(1)","t":"Automated Tools to Support Information Location","f":"CM","R":[],"S":[],"A":0,"B":false}
+{"id":"CM-12","t":"Information Location","f":"CM","R":[],"S":[],"A":2,"B":false,"F":["KSI-PIY-GIV","MAS-CSO-FLO"]}
+{"id":"CM-12(1)","t":"Automated Tools to Support Information Location","f":"CM","R":[],"S":[],"A":0,"B":false,"F":["KSI-PIY-GIV","KSI-SVC-EIS","MAS-CSO-FLO"]}
 {"id":"CM-13","t":"Data Action Mapping","f":"CM","R":[],"S":[],"A":0,"B":false}
-{"id":"CM-14","t":"Signed Components","f":"CM","R":[["CWE-494","m","iu"]],"S":[],"A":0,"B":false}
+{"id":"CM-14","t":"Signed Components","f":"CM","R":[["CWE-494","m","iu"]],"S":[],"A":0,"B":false,"F":["KSI-SVC-VRI"]}
 {"id":"CP-1","t":"Policy and Procedures","f":"CP","R":[],"S":[],"A":0,"B":false}
-{"id":"CP-2","t":"Contingency Plan","f":"CP","R":[],"S":[],"A":9,"B":false}
-{"id":"CP-2(1)","t":"Coordinate with Related Plans","f":"CP","R":[],"S":[],"A":0,"B":false}
+{"id":"CP-2","t":"Contingency Plan","f":"CP","R":[],"S":[],"A":9,"B":false,"F":["KSI-RPL-ARP"]}
+{"id":"CP-2(1)","t":"Coordinate with Related Plans","f":"CP","R":[],"S":[],"A":0,"B":false,"F":["KSI-PIY-RIS","KSI-RPL-ARP","KSI-RPL-TRC"]}
 {"id":"CP-2(2)","t":"Capacity Planning","f":"CP","R":[],"S":[],"A":0,"B":false}
-{"id":"CP-2(3)","t":"Resume Mission and Business Functions","f":"CP","R":[],"S":[],"A":0,"B":false}
-{"id":"CP-2(5)","t":"Continue Mission and Business Functions","f":"CP","R":[],"S":[],"A":0,"B":false}
+{"id":"CP-2(3)","t":"Resume Mission and Business Functions","f":"CP","R":[],"S":[],"A":0,"B":false,"F":["KSI-RPL-ARP","KSI-RPL-RRO","KSI-RPL-TRC"]}
+{"id":"CP-2(5)","t":"Continue Mission and Business Functions","f":"CP","R":[],"S":[],"A":0,"B":false,"F":["KSI-CNA-OFA"]}
 {"id":"CP-2(6)","t":"Alternate Processing and Storage Sites","f":"CP","R":[],"S":[],"A":0,"B":false}
 {"id":"CP-2(7)","t":"Coordinate with External Service Providers","f":"CP","R":[],"S":[],"A":0,"B":false}
-{"id":"CP-2(8)","t":"Identify Critical Assets","f":"CP","R":[],"S":[],"A":0,"B":false}
-{"id":"CP-3","t":"Contingency Training","f":"CP","R":[],"S":[],"A":0,"B":false}
-{"id":"CP-3(1)","t":"Simulated Events","f":"CP","R":[],"S":[],"A":0,"B":false}
+{"id":"CP-2(8)","t":"Identify Critical Assets","f":"CP","R":[],"S":[],"A":0,"B":false,"F":["KSI-PIY-GIV"]}
+{"id":"CP-3","t":"Contingency Training","f":"CP","R":[],"S":[],"A":0,"B":false,"F":["KSI-CED-RAT"]}
+{"id":"CP-3(1)","t":"Simulated Events","f":"CP","R":[],"S":[],"A":0,"B":false,"F":["KSI-CED-RAT"]}
 {"id":"CP-3(2)","t":"Mechanisms Used in Training Environments","f":"CP","R":[],"S":[],"A":0,"B":false}
-{"id":"CP-4","t":"Contingency Plan Testing","f":"CP","R":[],"S":[],"A":0,"B":false}
-{"id":"CP-4(1)","t":"Coordinate with Related Plans","f":"CP","R":[],"S":[],"A":0,"B":false}
+{"id":"CP-4","t":"Contingency Plan Testing","f":"CP","R":[],"S":[],"A":0,"B":false,"F":["KSI-RPL-TRC"]}
+{"id":"CP-4(1)","t":"Coordinate with Related Plans","f":"CP","R":[],"S":[],"A":0,"B":false,"F":["KSI-PIY-RIS","KSI-RPL-ARP","KSI-RPL-TRC"]}
 {"id":"CP-4(2)","t":"Alternate Processing Site","f":"CP","R":[],"S":[],"A":0,"B":false}
 {"id":"CP-4(3)","t":"Automated Testing","f":"CP","R":[],"S":[],"A":0,"B":false}
 {"id":"CP-4(4)","t":"Full Recovery and Reconstitution","f":"CP","R":[],"S":[],"A":0,"B":false}
 {"id":"CP-4(5)","t":"Self-challenge","f":"CP","R":[],"S":[],"A":0,"B":false}
-{"id":"CP-6","t":"Alternate Storage Site","f":"CP","R":[],"S":[],"A":8,"B":false}
-{"id":"CP-6(1)","t":"Separation from Primary Site","f":"CP","R":[],"S":[],"A":0,"B":false}
+{"id":"CP-6","t":"Alternate Storage Site","f":"CP","R":[],"S":[],"A":8,"B":false,"F":["KSI-RPL-ABO","KSI-RPL-ARP","KSI-RPL-TRC"]}
+{"id":"CP-6(1)","t":"Separation from Primary Site","f":"CP","R":[],"S":[],"A":0,"B":false,"F":["KSI-RPL-ARP","KSI-RPL-TRC"]}
 {"id":"CP-6(2)","t":"Recovery Time and Recovery Point Objectives","f":"CP","R":[],"S":[],"A":0,"B":false}
-{"id":"CP-6(3)","t":"Accessibility","f":"CP","R":[],"S":[],"A":0,"B":false}
-{"id":"CP-7","t":"Alternate Processing Site","f":"CP","R":[],"S":[],"A":16,"B":false}
-{"id":"CP-7(1)","t":"Separation from Primary Site","f":"CP","R":[],"S":[],"A":0,"B":false}
-{"id":"CP-7(2)","t":"Accessibility","f":"CP","R":[],"S":[],"A":0,"B":false}
-{"id":"CP-7(3)","t":"Priority of Service","f":"CP","R":[],"S":[],"A":0,"B":false}
+{"id":"CP-6(3)","t":"Accessibility","f":"CP","R":[],"S":[],"A":0,"B":false,"F":["KSI-RPL-ARP"]}
+{"id":"CP-7","t":"Alternate Processing Site","f":"CP","R":[],"S":[],"A":16,"B":false,"F":["KSI-RPL-ARP"]}
+{"id":"CP-7(1)","t":"Separation from Primary Site","f":"CP","R":[],"S":[],"A":0,"B":false,"F":["KSI-RPL-ARP"]}
+{"id":"CP-7(2)","t":"Accessibility","f":"CP","R":[],"S":[],"A":0,"B":false,"F":["KSI-RPL-ARP"]}
+{"id":"CP-7(3)","t":"Priority of Service","f":"CP","R":[],"S":[],"A":0,"B":false,"F":["KSI-RPL-ARP"]}
 {"id":"CP-7(4)","t":"Preparation for Use","f":"CP","R":[],"S":[],"A":0,"B":false}
 {"id":"CP-7(6)","t":"Inability to Return to Primary Site","f":"CP","R":[],"S":[],"A":0,"B":false}
-{"id":"CP-8","t":"Telecommunications Services","f":"CP","R":[],"S":[],"A":0,"B":false}
-{"id":"CP-8(1)","t":"Priority of Service Provisions","f":"CP","R":[],"S":[],"A":0,"B":false}
-{"id":"CP-8(2)","t":"Single Points of Failure","f":"CP","R":[],"S":[],"A":0,"B":false}
+{"id":"CP-8","t":"Telecommunications Services","f":"CP","R":[],"S":[],"A":0,"B":false,"F":["KSI-RPL-ARP"]}
+{"id":"CP-8(1)","t":"Priority of Service Provisions","f":"CP","R":[],"S":[],"A":0,"B":false,"F":["KSI-RPL-ARP"]}
+{"id":"CP-8(2)","t":"Single Points of Failure","f":"CP","R":[],"S":[],"A":0,"B":false,"F":["KSI-RPL-ARP"]}
 {"id":"CP-8(3)","t":"Separation of Primary and Alternate Providers","f":"CP","R":[],"S":[],"A":0,"B":false}
 {"id":"CP-8(4)","t":"Provider Contingency Plan","f":"CP","R":[],"S":[],"A":0,"B":false}
 {"id":"CP-8(5)","t":"Alternate Telecommunication Service Testing","f":"CP","R":[],"S":[],"A":0,"B":false}
-{"id":"CP-9","t":"System Backup","f":"CP","R":[["CAPEC-75","m","iu"]],"S":[],"A":22,"B":false}
-{"id":"CP-9(1)","t":"Testing for Reliability and Integrity","f":"CP","R":[],"S":[],"A":0,"B":false}
+{"id":"CP-9","t":"System Backup","f":"CP","R":[["CAPEC-75","m","iu"]],"S":[],"A":22,"B":false,"F":["KSI-RPL-ABO"]}
+{"id":"CP-9(1)","t":"Testing for Reliability and Integrity","f":"CP","R":[],"S":[],"A":0,"B":false,"F":["KSI-RPL-TRC"]}
 {"id":"CP-9(2)","t":"Test Restoration Using Sampling","f":"CP","R":[],"S":[],"A":0,"B":false}
 {"id":"CP-9(3)","t":"Separate Storage for Critical Information","f":"CP","R":[],"S":[],"A":0,"B":false}
 {"id":"CP-9(5)","t":"Transfer to Alternate Storage Site","f":"CP","R":[],"S":[],"A":0,"B":false}
 {"id":"CP-9(6)","t":"Redundant Secondary System","f":"CP","R":[],"S":[],"A":0,"B":false}
 {"id":"CP-9(7)","t":"Dual Authorization for Deletion or Destruction","f":"CP","R":[],"S":[],"A":0,"B":false}
-{"id":"CP-9(8)","t":"Cryptographic Protection","f":"CP","R":[],"S":[],"A":0,"B":false}
-{"id":"CP-10","t":"System Recovery and Reconstitution","f":"CP","R":[],"S":[],"A":12,"B":false}
-{"id":"CP-10(2)","t":"Transaction Recovery","f":"CP","R":[],"S":[],"A":0,"B":false}
-{"id":"CP-10(4)","t":"Restore Within Time Period","f":"CP","R":[],"S":[],"A":0,"B":false}
+{"id":"CP-9(8)","t":"Cryptographic Protection","f":"CP","R":[],"S":[],"A":0,"B":false,"F":["KSI-SVC-SIN"]}
+{"id":"CP-10","t":"System Recovery and Reconstitution","f":"CP","R":[],"S":[],"A":12,"B":false,"F":["KSI-RPL-ABO","KSI-RPL-ARP","KSI-RPL-RRO","KSI-RPL-TRC"]}
+{"id":"CP-10(2)","t":"Transaction Recovery","f":"CP","R":[],"S":[],"A":0,"B":false,"F":["KSI-RPL-ABO","KSI-RPL-ARP"]}
+{"id":"CP-10(4)","t":"Restore Within Time Period","f":"CP","R":[],"S":[],"A":0,"B":false,"F":["KSI-CNA-DFP","KSI-CNA-EIS"]}
 {"id":"CP-10(6)","t":"Component Protection","f":"CP","R":[],"S":[],"A":0,"B":false}
 {"id":"CP-11","t":"Alternate Communications Protocols","f":"CP","R":[],"S":[],"A":0,"B":false}
 {"id":"CP-12","t":"Safe Mode","f":"CP","R":[],"S":[],"A":0,"B":false}
 {"id":"CP-13","t":"Alternative Security Mechanisms","f":"CP","R":[],"S":[],"A":0,"B":false}
 {"id":"IA-1","t":"Policy and Procedures","f":"IA","R":[],"S":[],"A":0,"B":false}
-{"id":"IA-2","t":"Identification and Authentication (Organizational Users)","f":"IA","R":[["CWE-287","m","iu"],["CWE-288","m","iu"],["CWE-290","m","iu"],["CWE-303","m","iu"],["CWE-304","m","iu"],["CWE-305","m","iu"],["CWE-306","m","iu"]],"S":[],"A":173,"B":false}
-{"id":"IA-2(1)","t":"Multi-factor Authentication to Privileged Accounts","f":"IA","R":[["CAPEC-555","m","iu"]],"S":[],"A":0,"B":false}
-{"id":"IA-2(2)","t":"Multi-factor Authentication to Non-privileged Accounts","f":"IA","R":[["CAPEC-555","m","iu"]],"S":[],"A":0,"B":false}
-{"id":"IA-2(5)","t":"Individual Authentication with Group Authentication","f":"IA","R":[],"S":[],"A":0,"B":false}
-{"id":"IA-2(6)","t":"Access to Accounts —separate Device","f":"IA","R":[],"S":[],"A":0,"B":false}
-{"id":"IA-2(8)","t":"Access to Accounts — Replay Resistant","f":"IA","R":[["CWE-294","m","iu"]],"S":[],"A":0,"B":false}
+{"id":"IA-2","t":"Identification and Authentication (Organizational Users)","f":"IA","R":[["CWE-287","m","iu"],["CWE-288","m","iu"],["CWE-290","m","iu"],["CWE-303","m","iu"],["CWE-304","m","iu"],["CWE-305","m","iu"],["CWE-306","m","iu"]],"S":[],"A":173,"B":false,"F":["KSI-IAM-APM","KSI-IAM-ELP"]}
+{"id":"IA-2(1)","t":"Multi-factor Authentication to Privileged Accounts","f":"IA","R":[["CAPEC-555","m","iu"]],"S":[],"A":0,"B":false,"F":["KSI-IAM-APM"]}
+{"id":"IA-2(2)","t":"Multi-factor Authentication to Non-privileged Accounts","f":"IA","R":[["CAPEC-555","m","iu"]],"S":[],"A":0,"B":false,"F":["KSI-IAM-APM"]}
+{"id":"IA-2(5)","t":"Individual Authentication with Group Authentication","f":"IA","R":[],"S":[],"A":0,"B":false,"F":["KSI-IAM-SNU"]}
+{"id":"IA-2(6)","t":"Access to Accounts —separate Device","f":"IA","R":[],"S":[],"A":0,"B":false,"F":["KSI-IAM-APM"]}
+{"id":"IA-2(8)","t":"Access to Accounts — Replay Resistant","f":"IA","R":[["CWE-294","m","iu"]],"S":[],"A":0,"B":false,"F":["KSI-IAM-APM"]}
 {"id":"IA-2(10)","t":"Single Sign-on","f":"IA","R":[],"S":[],"A":0,"B":false}
 {"id":"IA-2(12)","t":"Acceptance of PIV Credentials","f":"IA","R":[],"S":[],"A":0,"B":false}
 {"id":"IA-2(13)","t":"Out-of-band Authentication","f":"IA","R":[],"S":[],"A":0,"B":false}
-{"id":"IA-3","t":"Device Identification and Authentication","f":"IA","R":[["CWE-290","m","iu"]],"S":[],"A":8,"B":false}
+{"id":"IA-3","t":"Device Identification and Authentication","f":"IA","R":[["CWE-290","m","iu"]],"S":[],"A":8,"B":false,"F":["KSI-IAM-ELP","KSI-IAM-SNU"]}
 {"id":"IA-3(1)","t":"Cryptographic Bidirectional Authentication","f":"IA","R":[["CAPEC-701","m","iu"]],"S":[],"A":0,"B":false}
 {"id":"IA-3(3)","t":"Dynamic Address Allocation","f":"IA","R":[],"S":[],"A":0,"B":false}
 {"id":"IA-3(4)","t":"Device Attestation","f":"IA","R":[],"S":[],"A":0,"B":false}
-{"id":"IA-4","t":"Identifier Management","f":"IA","R":[],"S":[],"A":36,"B":false}
+{"id":"IA-4","t":"Identifier Management","f":"IA","R":[],"S":[],"A":36,"B":false,"F":["KSI-IAM-ELP","KSI-IAM-JIT"]}
 {"id":"IA-4(1)","t":"Prohibit Account Identifiers as Public Identifiers","f":"IA","R":[],"S":[],"A":0,"B":false}
-{"id":"IA-4(4)","t":"Identify User Status","f":"IA","R":[],"S":[],"A":0,"B":false}
+{"id":"IA-4(4)","t":"Identify User Status","f":"IA","R":[],"S":[],"A":0,"B":false,"F":["KSI-IAM-AAM","KSI-IAM-ELP","KSI-IAM-JIT"]}
 {"id":"IA-4(5)","t":"Dynamic Management","f":"IA","R":[],"S":[],"A":0,"B":false}
 {"id":"IA-4(6)","t":"Cross-organization Management","f":"IA","R":[],"S":[],"A":0,"B":false}
 {"id":"IA-4(8)","t":"Pairwise Pseudonymous Identifiers","f":"IA","R":[],"S":[],"A":0,"B":false}
 {"id":"IA-4(9)","t":"Attribute Maintenance and Protection","f":"IA","R":[],"S":[],"A":0,"B":false}
-{"id":"IA-5","t":"Authenticator Management","f":"IA","R":[["CAPEC-652","m","iu"],["CWE-287","m","iu"],["CWE-522","m","iu"],["CWE-798","m","iu"]],"S":[],"A":72,"B":false}
-{"id":"IA-5(1)","t":"Password-based Authentication","f":"IA","R":[["CAPEC-652","m","iu"],["CWE-522","m","iu"]],"S":[],"A":0,"B":false}
-{"id":"IA-5(2)","t":"Public Key-based Authentication","f":"IA","R":[["CWE-295","m","iu"],["CWE-297","m","iu"],["CWE-299","m","iu"]],"S":[],"A":0,"B":false}
+{"id":"IA-5","t":"Authenticator Management","f":"IA","R":[["CAPEC-652","m","iu"],["CWE-287","m","iu"],["CWE-522","m","iu"],["CWE-798","m","iu"]],"S":[],"A":72,"B":false,"F":["KSI-IAM-APM"]}
+{"id":"IA-5(1)","t":"Password-based Authentication","f":"IA","R":[["CAPEC-652","m","iu"],["CWE-522","m","iu"]],"S":[],"A":0,"B":false,"F":["KSI-IAM-APM"]}
+{"id":"IA-5(2)","t":"Public Key-based Authentication","f":"IA","R":[["CWE-295","m","iu"],["CWE-297","m","iu"],["CWE-299","m","iu"]],"S":[],"A":0,"B":false,"F":["KSI-IAM-APM","KSI-IAM-ELP","KSI-IAM-SNU","KSI-SVC-ASM"]}
 {"id":"IA-5(5)","t":"Change Authenticators Prior to Delivery","f":"IA","R":[],"S":[],"A":0,"B":false}
-{"id":"IA-5(6)","t":"Protection of Authenticators","f":"IA","R":[],"S":[],"A":0,"B":false}
-{"id":"IA-5(7)","t":"No Embedded Unencrypted Static Authenticators","f":"IA","R":[["CWE-321","m","iu"],["CWE-798","m","iu"]],"S":[],"A":0,"B":false}
-{"id":"IA-5(8)","t":"Multiple System Accounts","f":"IA","R":[],"S":[],"A":0,"B":false}
+{"id":"IA-5(6)","t":"Protection of Authenticators","f":"IA","R":[],"S":[],"A":0,"B":false,"F":["KSI-IAM-APM","KSI-IAM-ELP","KSI-SVC-ASM"]}
+{"id":"IA-5(7)","t":"No Embedded Unencrypted Static Authenticators","f":"IA","R":[["CWE-321","m","iu"],["CWE-798","m","iu"]],"S":[],"A":0,"B":false,"F":["KSI-PIY-RSD"]}
+{"id":"IA-5(8)","t":"Multiple System Accounts","f":"IA","R":[],"S":[],"A":0,"B":false,"F":["KSI-IAM-APM"]}
 {"id":"IA-5(9)","t":"Federated Credential Management","f":"IA","R":[],"S":[],"A":0,"B":false}
 {"id":"IA-5(10)","t":"Dynamic Credential Binding","f":"IA","R":[],"S":[],"A":0,"B":false}
 {"id":"IA-5(12)","t":"Biometric Authentication Performance","f":"IA","R":[],"S":[],"A":0,"B":false}
@@ -367,68 +367,68 @@
 {"id":"IA-5(16)","t":"In-person or Trusted External Party Authenticator Issuance","f":"IA","R":[],"S":[],"A":0,"B":false}
 {"id":"IA-5(17)","t":"Presentation Attack Detection for Biometric Authenticators","f":"IA","R":[],"S":[],"A":0,"B":false}
 {"id":"IA-5(18)","t":"Password Managers","f":"IA","R":[],"S":[],"A":0,"B":false}
-{"id":"IA-6","t":"Authentication Feedback","f":"IA","R":[],"S":[],"A":8,"B":false}
-{"id":"IA-7","t":"Cryptographic Module Authentication","f":"IA","R":[],"S":[],"A":12,"B":false}
-{"id":"IA-8","t":"Identification and Authentication (Non-organizational Users)","f":"IA","R":[["CWE-287","m","iu"],["CWE-306","m","iu"]],"S":[],"A":22,"B":false}
+{"id":"IA-6","t":"Authentication Feedback","f":"IA","R":[],"S":[],"A":8,"B":false,"F":["KSI-IAM-APM"]}
+{"id":"IA-7","t":"Cryptographic Module Authentication","f":"IA","R":[],"S":[],"A":12,"B":false,"F":["CMU-CSO-CMD","CMU-CSO-UVM","KSI-IAM-JIT"]}
+{"id":"IA-8","t":"Identification and Authentication (Non-organizational Users)","f":"IA","R":[["CWE-287","m","iu"],["CWE-306","m","iu"]],"S":[],"A":22,"B":false,"F":["KSI-IAM-APM"]}
 {"id":"IA-8(1)","t":"Acceptance of PIV Credentials from Other Agencies","f":"IA","R":[],"S":[],"A":0,"B":false}
-{"id":"IA-8(2)","t":"Acceptance of External Authenticators","f":"IA","R":[],"S":[],"A":0,"B":false}
-{"id":"IA-8(4)","t":"Use of Defined Profiles","f":"IA","R":[],"S":[],"A":0,"B":false}
+{"id":"IA-8(2)","t":"Acceptance of External Authenticators","f":"IA","R":[],"S":[],"A":0,"B":false,"F":["KSI-IAM-APM"]}
+{"id":"IA-8(4)","t":"Use of Defined Profiles","f":"IA","R":[],"S":[],"A":0,"B":false,"F":["KSI-IAM-AAM","KSI-IAM-APM"]}
 {"id":"IA-8(5)","t":"Acceptance of PIV-I Credentials","f":"IA","R":[],"S":[],"A":0,"B":false}
 {"id":"IA-8(6)","t":"Disassociability","f":"IA","R":[],"S":[],"A":0,"B":false}
 {"id":"IA-9","t":"Service Identification and Authentication","f":"IA","R":[["CAPEC-219","m","iu"],["CAPEC-36","m","iu"]],"S":[],"A":22,"B":false}
 {"id":"IA-10","t":"Adaptive Authentication","f":"IA","R":[],"S":[],"A":0,"B":false}
-{"id":"IA-11","t":"Re-authentication","f":"IA","R":[["CAPEC-62","m","iu"]],"S":[],"A":7,"B":false}
-{"id":"IA-12","t":"Identity Proofing","f":"IA","R":[],"S":[],"A":4,"B":false}
+{"id":"IA-11","t":"Re-authentication","f":"IA","R":[["CAPEC-62","m","iu"]],"S":[],"A":7,"B":false,"F":["KSI-IAM-ELP"]}
+{"id":"IA-12","t":"Identity Proofing","f":"IA","R":[],"S":[],"A":4,"B":false,"F":["KSI-IAM-AAM"]}
 {"id":"IA-12(1)","t":"Supervisor Authorization","f":"IA","R":[],"S":[],"A":0,"B":false}
-{"id":"IA-12(2)","t":"Identity Evidence","f":"IA","R":[],"S":[],"A":0,"B":false}
-{"id":"IA-12(3)","t":"Identity Evidence Validation and Verification","f":"IA","R":[],"S":[],"A":0,"B":false}
+{"id":"IA-12(2)","t":"Identity Evidence","f":"IA","R":[],"S":[],"A":0,"B":false,"F":["KSI-IAM-AAM"]}
+{"id":"IA-12(3)","t":"Identity Evidence Validation and Verification","f":"IA","R":[],"S":[],"A":0,"B":false,"F":["KSI-IAM-AAM"]}
 {"id":"IA-12(4)","t":"In-person Validation and Verification","f":"IA","R":[],"S":[],"A":0,"B":false}
-{"id":"IA-12(5)","t":"Address Confirmation","f":"IA","R":[],"S":[],"A":0,"B":false}
+{"id":"IA-12(5)","t":"Address Confirmation","f":"IA","R":[],"S":[],"A":0,"B":false,"F":["KSI-IAM-AAM"]}
 {"id":"IA-12(6)","t":"Accept Externally-proofed Identities","f":"IA","R":[],"S":[],"A":0,"B":false}
 {"id":"IA-13","t":"Identity Providers and Authorization Servers","f":"IA","R":[],"S":[],"A":17,"B":false}
 {"id":"IA-13(1)","t":"Protection of Cryptographic Keys","f":"IA","R":[],"S":[],"A":0,"B":false}
 {"id":"IA-13(2)","t":"Verification of Identity Assertions and Access Tokens","f":"IA","R":[],"S":[],"A":0,"B":false}
 {"id":"IA-13(3)","t":"Token Management","f":"IA","R":[["CAPEC-21","m","iu"]],"S":[],"A":0,"B":false}
 {"id":"IR-1","t":"Policy and Procedures","f":"IR","R":[],"S":[],"A":0,"B":false}
-{"id":"IR-2","t":"Incident Response Training","f":"IR","R":[],"S":[],"A":0,"B":false}
-{"id":"IR-2(1)","t":"Simulated Events","f":"IR","R":[],"S":[],"A":0,"B":false}
-{"id":"IR-2(2)","t":"Automated Training Environments","f":"IR","R":[],"S":[],"A":0,"B":false}
-{"id":"IR-2(3)","t":"Breach","f":"IR","R":[],"S":[],"A":0,"B":false}
-{"id":"IR-3","t":"Incident Response Testing","f":"IR","R":[],"S":[],"A":0,"B":false}
+{"id":"IR-2","t":"Incident Response Training","f":"IR","R":[],"S":[],"A":0,"B":false,"F":["KSI-CED-RAT"]}
+{"id":"IR-2(1)","t":"Simulated Events","f":"IR","R":[],"S":[],"A":0,"B":false,"F":["KSI-CED-RAT"]}
+{"id":"IR-2(2)","t":"Automated Training Environments","f":"IR","R":[],"S":[],"A":0,"B":false,"F":["KSI-CED-RAT"]}
+{"id":"IR-2(3)","t":"Breach","f":"IR","R":[],"S":[],"A":0,"B":false,"F":["KSI-CED-RAT"]}
+{"id":"IR-3","t":"Incident Response Testing","f":"IR","R":[],"S":[],"A":0,"B":false,"F":["KSI-INR-AAR","KSI-INR-RPI","KSI-RPL-TRC"]}
 {"id":"IR-3(1)","t":"Automated Testing","f":"IR","R":[],"S":[],"A":0,"B":false}
-{"id":"IR-3(2)","t":"Coordination with Related Plans","f":"IR","R":[],"S":[],"A":0,"B":false}
+{"id":"IR-3(2)","t":"Coordination with Related Plans","f":"IR","R":[],"S":[],"A":0,"B":false,"F":["KSI-PIY-RIS","KSI-RPL-TRC"]}
 {"id":"IR-3(3)","t":"Continuous Improvement","f":"IR","R":[],"S":[],"A":0,"B":false}
-{"id":"IR-4","t":"Incident Handling","f":"IR","R":[],"S":[],"A":0,"B":false}
-{"id":"IR-4(1)","t":"Automated Incident Handling Processes","f":"IR","R":[],"S":[],"A":0,"B":false}
-{"id":"IR-4(2)","t":"Dynamic Reconfiguration","f":"IR","R":[],"S":[],"A":0,"B":false}
+{"id":"IR-4","t":"Incident Handling","f":"IR","R":[],"S":[],"A":0,"B":false,"F":["KSI-INR-AAR","KSI-INR-RIR","KSI-INR-RPI"]}
+{"id":"IR-4(1)","t":"Automated Incident Handling Processes","f":"IR","R":[],"S":[],"A":0,"B":false,"F":["KSI-INR-AAR","KSI-INR-RIR","KSI-INR-RPI","KSI-MLA-OSM"]}
+{"id":"IR-4(2)","t":"Dynamic Reconfiguration","f":"IR","R":[],"S":[],"A":0,"B":false,"F":["KSI-CNA-RVP","KSI-IAM-SUS","SCN-CSO-EMG"]}
 {"id":"IR-4(3)","t":"Continuity of Operations","f":"IR","R":[],"S":[],"A":0,"B":false}
-{"id":"IR-4(4)","t":"Information Correlation","f":"IR","R":[],"S":[],"A":0,"B":false}
+{"id":"IR-4(4)","t":"Information Correlation","f":"IR","R":[],"S":[],"A":0,"B":false,"F":["KSI-INR-RPI"]}
 {"id":"IR-4(5)","t":"Automatic Disabling of System","f":"IR","R":[],"S":[],"A":0,"B":false}
-{"id":"IR-4(6)","t":"Insider Threats","f":"IR","R":[],"S":[],"A":0,"B":false}
+{"id":"IR-4(6)","t":"Insider Threats","f":"IR","R":[],"S":[],"A":0,"B":false,"F":["KSI-IAM-ELP","KSI-IAM-JIT","KSI-IAM-SUS"]}
 {"id":"IR-4(7)","t":"Insider Threats — Intra-organization Coordination","f":"IR","R":[],"S":[],"A":0,"B":false}
 {"id":"IR-4(8)","t":"Correlation with External Organizations","f":"IR","R":[],"S":[],"A":0,"B":false}
 {"id":"IR-4(9)","t":"Dynamic Response Capability","f":"IR","R":[],"S":[],"A":0,"B":false}
 {"id":"IR-4(10)","t":"Supply Chain Coordination","f":"IR","R":[],"S":[],"A":0,"B":false}
-{"id":"IR-4(11)","t":"Integrated Incident Response Team","f":"IR","R":[],"S":[],"A":0,"B":false}
+{"id":"IR-4(11)","t":"Integrated Incident Response Team","f":"IR","R":[],"S":[],"A":0,"B":false,"F":["IEC-CSO-EFR","KSI-INR-RIR","KSI-INR-RPI","KSI-PIY-RIS","VDR-CSO-RES"]}
 {"id":"IR-4(12)","t":"Malicious Code and Forensic Analysis","f":"IR","R":[],"S":[],"A":0,"B":false}
 {"id":"IR-4(13)","t":"Behavior Analysis","f":"IR","R":[],"S":[],"A":0,"B":false}
 {"id":"IR-4(14)","t":"Security Operations Center","f":"IR","R":[],"S":[],"A":0,"B":false}
 {"id":"IR-4(15)","t":"Public Relations and Reputation Repair","f":"IR","R":[],"S":[],"A":0,"B":false}
-{"id":"IR-5","t":"Incident Monitoring","f":"IR","R":[],"S":[],"A":0,"B":false}
-{"id":"IR-5(1)","t":"Automated Tracking, Data Collection, and Analysis","f":"IR","R":[],"S":[],"A":0,"B":false}
-{"id":"IR-6","t":"Incident Reporting","f":"IR","R":[],"S":[],"A":0,"B":false}
-{"id":"IR-6(1)","t":"Automated Reporting","f":"IR","R":[],"S":[],"A":0,"B":false}
+{"id":"IR-5","t":"Incident Monitoring","f":"IR","R":[],"S":[],"A":0,"B":false,"F":["IEC-CSO-FIR","IEC-CSO-IIR","IEC-CSO-OIR","KSI-INR-RPI"]}
+{"id":"IR-5(1)","t":"Automated Tracking, Data Collection, and Analysis","f":"IR","R":[],"S":[],"A":0,"B":false,"F":["KSI-INR-AAR","KSI-INR-RPI"]}
+{"id":"IR-6","t":"Incident Reporting","f":"IR","R":[],"S":[],"A":0,"B":false,"F":["KSI-INR-RIR"]}
+{"id":"IR-6(1)","t":"Automated Reporting","f":"IR","R":[],"S":[],"A":0,"B":false,"F":["KSI-INR-RIR"]}
 {"id":"IR-6(2)","t":"Vulnerabilities Related to Incidents","f":"IR","R":[],"S":[],"A":0,"B":false}
-{"id":"IR-6(3)","t":"Supply Chain Coordination","f":"IR","R":[],"S":[],"A":0,"B":false}
-{"id":"IR-7","t":"Incident Response Assistance","f":"IR","R":[],"S":[],"A":0,"B":false}
-{"id":"IR-7(1)","t":"Automation Support for Availability of Information and Support","f":"IR","R":[],"S":[],"A":0,"B":false}
+{"id":"IR-6(3)","t":"Supply Chain Coordination","f":"IR","R":[],"S":[],"A":0,"B":false,"F":["KSI-INR-RIR","KSI-SCR-MON"]}
+{"id":"IR-7","t":"Incident Response Assistance","f":"IR","R":[],"S":[],"A":0,"B":false,"F":["KSI-INR-RIR"]}
+{"id":"IR-7(1)","t":"Automation Support for Availability of Information and Support","f":"IR","R":[],"S":[],"A":0,"B":false,"F":["KSI-INR-RIR"]}
 {"id":"IR-7(2)","t":"Coordination with External Providers","f":"IR","R":[],"S":[],"A":0,"B":false}
-{"id":"IR-8","t":"Incident Response Plan","f":"IR","R":[],"S":[],"A":0,"B":false}
-{"id":"IR-8(1)","t":"Breaches","f":"IR","R":[],"S":[],"A":0,"B":false}
-{"id":"IR-9","t":"Information Spillage Response","f":"IR","R":[],"S":[],"A":0,"B":false}
-{"id":"IR-9(2)","t":"Training","f":"IR","R":[],"S":[],"A":0,"B":false}
-{"id":"IR-9(3)","t":"Post-spill Operations","f":"IR","R":[],"S":[],"A":0,"B":false}
-{"id":"IR-9(4)","t":"Exposure to Unauthorized Personnel","f":"IR","R":[],"S":[],"A":0,"B":false}
+{"id":"IR-8","t":"Incident Response Plan","f":"IR","R":[],"S":[],"A":0,"B":false,"F":["KSI-INR-AAR","KSI-INR-RIR","KSI-INR-RPI"]}
+{"id":"IR-8(1)","t":"Breaches","f":"IR","R":[],"S":[],"A":0,"B":false,"F":["KSI-INR-RIR"]}
+{"id":"IR-9","t":"Information Spillage Response","f":"IR","R":[],"S":[],"A":0,"B":false,"F":["KSI-SVC-RUD"]}
+{"id":"IR-9(2)","t":"Training","f":"IR","R":[],"S":[],"A":0,"B":false,"F":["KSI-CED-RAT"]}
+{"id":"IR-9(3)","t":"Post-spill Operations","f":"IR","R":[],"S":[],"A":0,"B":false,"F":["KSI-INR-AAR","KSI-INR-RIR","KSI-RPL-TRC","VDR-CSO-RES"]}
+{"id":"IR-9(4)","t":"Exposure to Unauthorized Personnel","f":"IR","R":[],"S":[],"A":0,"B":false,"F":["KSI-CED-RAT","KSI-CMT-VTD","KSI-CNA-DFP","KSI-CNA-EIS","KSI-IAM-ELP","KSI-MLA-LET","KSI-SVC-EIS","KSI-SVC-PRR","KSI-SVC-SIN"]}
 {"id":"MA-1","t":"Policy and Procedures","f":"MA","R":[],"S":[],"A":0,"B":false}
 {"id":"MA-2","t":"Controlled Maintenance","f":"MA","R":[],"S":[],"A":0,"B":false}
 {"id":"MA-2(2)","t":"Automated Maintenance Activities","f":"MA","R":[],"S":[],"A":0,"B":false}
@@ -530,23 +530,23 @@
 {"id":"PE-23","t":"Facility Location","f":"PE","R":[],"S":[],"A":0,"B":false}
 {"id":"PL-1","t":"Policy and Procedures","f":"PL","R":[],"S":[],"A":0,"B":false}
 {"id":"PL-2","t":"System Security and Privacy Plans","f":"PL","R":[],"S":[],"A":0,"B":false}
-{"id":"PL-4","t":"Rules of Behavior","f":"PL","R":[],"S":[],"A":0,"B":false}
-{"id":"PL-4(1)","t":"Social Media and External Site/Application Usage Restrictions","f":"PL","R":[],"S":[],"A":0,"B":false}
+{"id":"PL-4","t":"Rules of Behavior","f":"PL","R":[],"S":[],"A":0,"B":false,"F":["KSI-CED-RAT"]}
+{"id":"PL-4(1)","t":"Social Media and External Site/Application Usage Restrictions","f":"PL","R":[],"S":[],"A":0,"B":false,"F":["KSI-CED-RAT"]}
 {"id":"PL-7","t":"Concept of Operations","f":"PL","R":[],"S":[],"A":0,"B":false}
-{"id":"PL-8","t":"Security and Privacy Architectures","f":"PL","R":[],"S":[],"A":0,"B":false}
+{"id":"PL-8","t":"Security and Privacy Architectures","f":"PL","R":[],"S":[],"A":0,"B":false,"F":["KSI-PIY-RSD","KSI-SVC-EIS"]}
 {"id":"PL-8(1)","t":"Defense in Depth","f":"PL","R":[],"S":[],"A":0,"B":false}
 {"id":"PL-8(2)","t":"Supplier Diversity","f":"PL","R":[],"S":[],"A":0,"B":false}
-{"id":"PL-9","t":"Central Management","f":"PL","R":[],"S":[],"A":0,"B":false}
-{"id":"PL-10","t":"Baseline Selection","f":"PL","R":[],"S":[],"A":0,"B":false}
+{"id":"PL-9","t":"Central Management","f":"PL","R":[],"S":[],"A":0,"B":false,"F":["KSI-SVC-ACM"]}
+{"id":"PL-10","t":"Baseline Selection","f":"PL","R":[],"S":[],"A":0,"B":false,"F":["KSI-CNA-IBP","KSI-SVC-ACM"]}
 {"id":"PL-11","t":"Baseline Tailoring","f":"PL","R":[],"S":[],"A":0,"B":false}
 {"id":"PM-1","t":"Information Security Program Plan","f":"PM","R":[],"S":[],"A":0,"B":false}
 {"id":"PM-2","t":"Information Security Program Leadership Role","f":"PM","R":[],"S":[],"A":0,"B":false}
-{"id":"PM-3","t":"Information Security and Privacy Resources","f":"PM","R":[],"S":[],"A":0,"B":false}
+{"id":"PM-3","t":"Information Security and Privacy Resources","f":"PM","R":[],"S":[],"A":0,"B":false,"F":["KSI-PIY-RIS"]}
 {"id":"PM-4","t":"Plan of Action and Milestones Process","f":"PM","R":[],"S":[],"A":0,"B":false}
 {"id":"PM-5","t":"System Inventory","f":"PM","R":[],"S":[],"A":0,"B":false}
 {"id":"PM-5(1)","t":"Inventory of Personally Identifiable Information","f":"PM","R":[],"S":[],"A":0,"B":false}
 {"id":"PM-6","t":"Measures of Performance","f":"PM","R":[],"S":[],"A":0,"B":false}
-{"id":"PM-7","t":"Enterprise Architecture","f":"PM","R":[],"S":[],"A":0,"B":false}
+{"id":"PM-7","t":"Enterprise Architecture","f":"PM","R":[],"S":[],"A":0,"B":false,"F":["KSI-PIY-RSD"]}
 {"id":"PM-7(1)","t":"Offloading","f":"PM","R":[],"S":[],"A":0,"B":false}
 {"id":"PM-8","t":"Critical Infrastructure Plan","f":"PM","R":[],"S":[],"A":0,"B":false}
 {"id":"PM-9","t":"Risk Management Strategy","f":"PM","R":[],"S":[],"A":0,"B":false}
@@ -577,22 +577,22 @@
 {"id":"PM-31","t":"Continuous Monitoring Strategy","f":"PM","R":[],"S":[],"A":0,"B":false}
 {"id":"PM-32","t":"Purposing","f":"PM","R":[],"S":[],"A":0,"B":false}
 {"id":"PS-1","t":"Policy and Procedures","f":"PS","R":[],"S":[],"A":0,"B":false}
-{"id":"PS-2","t":"Position Risk Designation","f":"PS","R":[],"S":[],"A":0,"B":false}
-{"id":"PS-3","t":"Personnel Screening","f":"PS","R":[],"S":[],"A":0,"B":false}
+{"id":"PS-2","t":"Position Risk Designation","f":"PS","R":[],"S":[],"A":0,"B":false,"F":["KSI-IAM-ELP","KSI-IAM-JIT"]}
+{"id":"PS-3","t":"Personnel Screening","f":"PS","R":[],"S":[],"A":0,"B":false,"F":["KSI-IAM-ELP","KSI-IAM-JIT"]}
 {"id":"PS-3(1)","t":"Classified Information","f":"PS","R":[],"S":[],"A":0,"B":false}
 {"id":"PS-3(2)","t":"Formal Indoctrination","f":"PS","R":[],"S":[],"A":0,"B":false}
 {"id":"PS-3(3)","t":"Information Requiring Special Protective Measures","f":"PS","R":[],"S":[],"A":0,"B":false}
 {"id":"PS-3(4)","t":"Citizenship Requirements","f":"PS","R":[],"S":[],"A":0,"B":false}
-{"id":"PS-4","t":"Personnel Termination","f":"PS","R":[],"S":[],"A":0,"B":false}
+{"id":"PS-4","t":"Personnel Termination","f":"PS","R":[],"S":[],"A":0,"B":false,"F":["KSI-IAM-ELP","KSI-IAM-JIT","KSI-IAM-SUS"]}
 {"id":"PS-4(1)","t":"Post-employment Requirements","f":"PS","R":[],"S":[],"A":0,"B":false}
 {"id":"PS-4(2)","t":"Automated Actions","f":"PS","R":[],"S":[],"A":0,"B":false}
-{"id":"PS-5","t":"Personnel Transfer","f":"PS","R":[],"S":[],"A":0,"B":false}
-{"id":"PS-6","t":"Access Agreements","f":"PS","R":[],"S":[],"A":0,"B":false}
+{"id":"PS-5","t":"Personnel Transfer","f":"PS","R":[],"S":[],"A":0,"B":false,"F":["KSI-IAM-ELP","KSI-IAM-JIT"]}
+{"id":"PS-6","t":"Access Agreements","f":"PS","R":[],"S":[],"A":0,"B":false,"F":["KSI-CED-RAT","KSI-IAM-ELP","KSI-IAM-JIT"]}
 {"id":"PS-6(2)","t":"Classified Information Requiring Special Protection","f":"PS","R":[],"S":[],"A":0,"B":false}
 {"id":"PS-6(3)","t":"Post-employment Requirements","f":"PS","R":[],"S":[],"A":0,"B":false}
-{"id":"PS-7","t":"External Personnel Security","f":"PS","R":[],"S":[],"A":0,"B":false}
-{"id":"PS-8","t":"Personnel Sanctions","f":"PS","R":[],"S":[],"A":0,"B":false}
-{"id":"PS-9","t":"Position Descriptions","f":"PS","R":[],"S":[],"A":0,"B":false}
+{"id":"PS-7","t":"External Personnel Security","f":"PS","R":[],"S":[],"A":0,"B":false,"F":["KSI-SCR-MON"]}
+{"id":"PS-8","t":"Personnel Sanctions","f":"PS","R":[],"S":[],"A":0,"B":false,"F":["KSI-IAM-SUS"]}
+{"id":"PS-9","t":"Position Descriptions","f":"PS","R":[],"S":[],"A":0,"B":false,"F":["KSI-IAM-JIT"]}
 {"id":"PT-1","t":"Policy and Procedures","f":"PT","R":[],"S":[],"A":0,"B":false}
 {"id":"PT-2","t":"Authority to Process Personally Identifiable Information","f":"PT","R":[],"S":[],"A":0,"B":false}
 {"id":"PT-2(1)","t":"Data Tagging","f":"PT","R":[],"S":[],"A":0,"B":false}
@@ -617,45 +617,45 @@
 {"id":"RA-1","t":"Policy and Procedures","f":"RA","R":[],"S":[],"A":0,"B":false}
 {"id":"RA-2","t":"Security Categorization","f":"RA","R":[],"S":[],"A":0,"B":false}
 {"id":"RA-2(1)","t":"Impact-level Prioritization","f":"RA","R":[],"S":[],"A":0,"B":false}
-{"id":"RA-3","t":"Risk Assessment","f":"RA","R":[],"S":[],"A":0,"B":false}
-{"id":"RA-3(1)","t":"Supply Chain Risk Assessment","f":"RA","R":[],"S":[],"A":0,"B":false}
+{"id":"RA-3","t":"Risk Assessment","f":"RA","R":[],"S":[],"A":0,"B":false,"F":["KSI-MLA-EVC","KSI-SCR-MIT","KSI-SCR-MON","KSI-SVC-EIS","MAS-CSO-FLO","MAS-CSO-IIR","MAS-CSO-TPR","VER-EVA-EPA"]}
+{"id":"RA-3(1)","t":"Supply Chain Risk Assessment","f":"RA","R":[],"S":[],"A":0,"B":false,"F":["KSI-SCR-MIT"]}
 {"id":"RA-3(2)","t":"Use of All-source Intelligence","f":"RA","R":[],"S":[],"A":0,"B":false}
 {"id":"RA-3(3)","t":"Dynamic Threat Awareness","f":"RA","R":[],"S":[],"A":0,"B":false}
 {"id":"RA-3(4)","t":"Predictive Cyber Analytics","f":"RA","R":[],"S":[],"A":0,"B":false}
-{"id":"RA-5","t":"Vulnerability Monitoring and Scanning","f":"RA","R":[],"S":[],"A":107,"B":true}
-{"id":"RA-5(2)","t":"Update Vulnerabilities to Be Scanned","f":"RA","R":[],"S":[],"A":0,"B":false}
-{"id":"RA-5(3)","t":"Breadth and Depth of Coverage","f":"RA","R":[],"S":[],"A":0,"B":false}
-{"id":"RA-5(4)","t":"Discoverable Information","f":"RA","R":[],"S":[],"A":0,"B":false}
-{"id":"RA-5(5)","t":"Privileged Access","f":"RA","R":[],"S":[],"A":0,"B":false}
+{"id":"RA-5","t":"Vulnerability Monitoring and Scanning","f":"RA","R":[],"S":[],"A":107,"B":true,"F":["KSI-SCR-MON","VDR-CSO-ADT","VDR-CSO-AKE","VDR-CSO-DAC","VDR-CSO-DET"]}
+{"id":"RA-5(2)","t":"Update Vulnerabilities to Be Scanned","f":"RA","R":[],"S":[],"A":0,"B":false,"F":["VDR-CSO-DET"]}
+{"id":"RA-5(3)","t":"Breadth and Depth of Coverage","f":"RA","R":[],"S":[],"A":0,"B":false,"F":["VDR-CSO-DET","VDR-CSO-SIR"]}
+{"id":"RA-5(4)","t":"Discoverable Information","f":"RA","R":[],"S":[],"A":0,"B":false,"F":["VDR-CSO-DET"]}
+{"id":"RA-5(5)","t":"Privileged Access","f":"RA","R":[],"S":[],"A":0,"B":false,"F":["KSI-IAM-ELP","KSI-IAM-JIT","KSI-IAM-SNU","VDR-CSO-MSP","VDR-CSO-SIR"]}
 {"id":"RA-5(6)","t":"Automated Trend Analyses","f":"RA","R":[],"S":[],"A":0,"B":false}
-{"id":"RA-5(8)","t":"Review Historic Audit Logs","f":"RA","R":[],"S":[],"A":0,"B":false}
+{"id":"RA-5(8)","t":"Review Historic Audit Logs","f":"RA","R":[],"S":[],"A":0,"B":false,"F":["KSI-INR-RPI","KSI-MLA-RVL"]}
 {"id":"RA-5(10)","t":"Correlate Scanning Information","f":"RA","R":[],"S":[],"A":0,"B":false}
-{"id":"RA-5(11)","t":"Public Disclosure Program","f":"RA","R":[],"S":[],"A":0,"B":false}
+{"id":"RA-5(11)","t":"Public Disclosure Program","f":"RA","R":[],"S":[],"A":0,"B":false,"F":["KSI-PIY-RVD"]}
 {"id":"RA-6","t":"Technical Surveillance Countermeasures Survey","f":"RA","R":[],"S":[],"A":0,"B":false}
-{"id":"RA-7","t":"Risk Response","f":"RA","R":[],"S":[],"A":0,"B":false}
+{"id":"RA-7","t":"Risk Response","f":"RA","R":[],"S":[],"A":0,"B":false,"F":["VDR-CSO-RES"]}
 {"id":"RA-8","t":"Privacy Impact Assessments","f":"RA","R":[],"S":[],"A":0,"B":false}
-{"id":"RA-9","t":"Criticality Analysis","f":"RA","R":[],"S":[],"A":12,"B":false}
+{"id":"RA-9","t":"Criticality Analysis","f":"RA","R":[],"S":[],"A":12,"B":false,"F":["KSI-PIY-RSD","VER-EVA-EFA"]}
 {"id":"RA-10","t":"Threat Hunting","f":"RA","R":[],"S":[],"A":8,"B":false}
 {"id":"SA-1","t":"Policy and Procedures","f":"SA","R":[],"S":["PO.1.1"],"A":0,"B":false}
-{"id":"SA-2","t":"Allocation of Resources","f":"SA","R":[],"S":[],"A":0,"B":false}
-{"id":"SA-3","t":"System Development Life Cycle","f":"SA","R":[],"S":["PO.2.1"],"A":6,"B":false}
+{"id":"SA-2","t":"Allocation of Resources","f":"SA","R":[],"S":[],"A":0,"B":false,"F":["KSI-PIY-RIS"]}
+{"id":"SA-3","t":"System Development Life Cycle","f":"SA","R":[],"S":["PO.2.1"],"A":6,"B":false,"F":["KSI-PIY-RIS","KSI-PIY-RSD"]}
 {"id":"SA-3(1)","t":"Manage Preproduction Environment","f":"SA","R":[],"S":["PO.5.1"],"A":0,"B":false}
 {"id":"SA-3(2)","t":"Use of Live or Operational Data","f":"SA","R":[],"S":[],"A":0,"B":false}
 {"id":"SA-3(3)","t":"Technology Refresh","f":"SA","R":[],"S":[],"A":0,"B":false}
-{"id":"SA-4","t":"Acquisition Process","f":"SA","R":[],"S":["PO.1.3","PW.4.1"],"A":6,"B":false}
-{"id":"SA-4(1)","t":"Functional Properties of Controls","f":"SA","R":[],"S":[],"A":0,"B":false}
-{"id":"SA-4(2)","t":"Design and Implementation Information for Controls","f":"SA","R":[],"S":[],"A":0,"B":false}
+{"id":"SA-4","t":"Acquisition Process","f":"SA","R":[],"S":["PO.1.3","PW.4.1"],"A":6,"B":false,"F":["KSI-SCR-MIT"]}
+{"id":"SA-4(1)","t":"Functional Properties of Controls","f":"SA","R":[],"S":[],"A":0,"B":false,"F":["KSI-SCR-MIT"]}
+{"id":"SA-4(2)","t":"Design and Implementation Information for Controls","f":"SA","R":[],"S":[],"A":0,"B":false,"F":["KSI-SCR-MIT"]}
 {"id":"SA-4(3)","t":"Development Methods, Techniques, and Practices","f":"SA","R":[],"S":[],"A":0,"B":false}
-{"id":"SA-4(5)","t":"System, Component, and Service Configurations","f":"SA","R":[],"S":[],"A":0,"B":false}
+{"id":"SA-4(5)","t":"System, Component, and Service Configurations","f":"SA","R":[],"S":[],"A":0,"B":false,"F":["KSI-SCR-MIT"]}
 {"id":"SA-4(6)","t":"Use of Information Assurance Products","f":"SA","R":[],"S":[],"A":0,"B":false}
 {"id":"SA-4(7)","t":"NIAP-approved Protection Profiles ","f":"SA","R":[],"S":[],"A":0,"B":false}
 {"id":"SA-4(8)","t":"Continuous Monitoring Plan for Controls","f":"SA","R":[],"S":[],"A":0,"B":false}
-{"id":"SA-4(9)","t":"Functions, Ports, Protocols, and Services in Use","f":"SA","R":[["CAPEC-36","g","iu"]],"S":[],"A":0,"B":false}
+{"id":"SA-4(9)","t":"Functions, Ports, Protocols, and Services in Use","f":"SA","R":[["CAPEC-36","g","iu"]],"S":[],"A":0,"B":false,"F":["KSI-SCR-MIT"]}
 {"id":"SA-4(10)","t":"Use of Approved PIV Products","f":"SA","R":[],"S":[],"A":0,"B":false}
 {"id":"SA-4(11)","t":"System of Records","f":"SA","R":[],"S":[],"A":0,"B":false}
 {"id":"SA-4(12)","t":"Data Ownership","f":"SA","R":[],"S":[],"A":0,"B":false}
-{"id":"SA-5","t":"System Documentation","f":"SA","R":[],"S":["PW.4.1","PW.9.2","RV.2.2"],"A":0,"B":false}
-{"id":"SA-8","t":"Security and Privacy Engineering Principles","f":"SA","R":[],"S":["PO.1.1","PO.1.2","PO.2.2","PO.5.1","PS.2.1","PS.3.2","PW.1.1","PW.1.2"],"A":20,"B":true}
+{"id":"SA-5","t":"System Documentation","f":"SA","R":[],"S":["PW.4.1","PW.9.2","RV.2.2"],"A":0,"B":false,"F":["KSI-SVC-ACM"]}
+{"id":"SA-8","t":"Security and Privacy Engineering Principles","f":"SA","R":[],"S":["PO.1.1","PO.1.2","PO.2.2","PO.5.1","PS.2.1","PS.3.2","PW.1.1","PW.1.2"],"A":20,"B":true,"F":["KSI-PIY-RSD"]}
 {"id":"SA-8(1)","t":"Clear Abstractions","f":"SA","R":[],"S":[],"A":0,"B":false}
 {"id":"SA-8(2)","t":"Least Common Mechanism","f":"SA","R":[],"S":[],"A":0,"B":false}
 {"id":"SA-8(3)","t":"Modularity and Layering","f":"SA","R":[],"S":["PO.1.2","PW.4.1","PW.4.2"],"A":0,"B":false}
@@ -689,16 +689,16 @@
 {"id":"SA-8(31)","t":"Secure System Modification","f":"SA","R":[],"S":[],"A":0,"B":false}
 {"id":"SA-8(32)","t":"Sufficient Documentation","f":"SA","R":[],"S":[],"A":0,"B":false}
 {"id":"SA-8(33)","t":"Minimization","f":"SA","R":[],"S":[],"A":0,"B":false}
-{"id":"SA-9","t":"External System Services","f":"SA","R":[],"S":["PO.1.3","PW.4.4"],"A":6,"B":false}
-{"id":"SA-9(1)","t":"Risk Assessments and Organizational Approvals","f":"SA","R":[],"S":[],"A":0,"B":false}
-{"id":"SA-9(2)","t":"Identification of Functions, Ports, Protocols, and Services","f":"SA","R":[],"S":[],"A":0,"B":false}
+{"id":"SA-9","t":"External System Services","f":"SA","R":[],"S":["PO.1.3","PW.4.4"],"A":6,"B":false,"F":["KSI-SCR-MIT","KSI-SCR-MON"]}
+{"id":"SA-9(1)","t":"Risk Assessments and Organizational Approvals","f":"SA","R":[],"S":[],"A":0,"B":false,"F":["KSI-SCR-MIT"]}
+{"id":"SA-9(2)","t":"Identification of Functions, Ports, Protocols, and Services","f":"SA","R":[],"S":[],"A":0,"B":false,"F":["KSI-SCR-MIT"]}
 {"id":"SA-9(3)","t":"Establish and Maintain Trust Relationship with Providers","f":"SA","R":[],"S":[],"A":0,"B":false}
 {"id":"SA-9(4)","t":"Consistent Interests of Consumers and Providers","f":"SA","R":[],"S":[],"A":0,"B":false}
-{"id":"SA-9(5)","t":"Processing, Storage, and Service Location","f":"SA","R":[],"S":[],"A":0,"B":false}
+{"id":"SA-9(5)","t":"Processing, Storage, and Service Location","f":"SA","R":[],"S":[],"A":0,"B":false,"F":["KSI-SCR-MIT"]}
 {"id":"SA-9(6)","t":"Organization-controlled Cryptographic Keys","f":"SA","R":[],"S":[],"A":0,"B":false}
 {"id":"SA-9(7)","t":"Organization-controlled Integrity Checking","f":"SA","R":[],"S":[],"A":0,"B":false}
 {"id":"SA-9(8)","t":"Processing and Storage Location — U.S. Jurisdiction","f":"SA","R":[],"S":[],"A":0,"B":false}
-{"id":"SA-10","t":"Developer Configuration Management","f":"SA","R":[],"S":["PO.1.3","PS.1.1","PS.3.1","PW.1.2","RV.1.1","RV.2.1","RV.2.2"],"A":27,"B":false}
+{"id":"SA-10","t":"Developer Configuration Management","f":"SA","R":[],"S":["PO.1.3","PS.1.1","PS.3.1","PW.1.2","RV.1.1","RV.2.1","RV.2.2"],"A":27,"B":false,"F":["KSI-SCR-MIT"]}
 {"id":"SA-10(1)","t":"Software and Firmware Integrity Verification","f":"SA","R":[],"S":["PO.1.3"],"A":0,"B":false}
 {"id":"SA-10(2)","t":"Alternative Configuration Management Processes","f":"SA","R":[],"S":[],"A":0,"B":false}
 {"id":"SA-10(3)","t":"Hardware Integrity Verification","f":"SA","R":[],"S":[],"A":0,"B":false}
@@ -706,9 +706,9 @@
 {"id":"SA-10(5)","t":"Mapping Integrity for Version Control","f":"SA","R":[],"S":[],"A":0,"B":false}
 {"id":"SA-10(6)","t":"Trusted Distribution","f":"SA","R":[],"S":["PW.4.1"],"A":0,"B":false}
 {"id":"SA-10(7)","t":"Security and Privacy Representatives","f":"SA","R":[],"S":[],"A":0,"B":false}
-{"id":"SA-11","t":"Developer Testing and Evaluation","f":"SA","R":[],"S":["PW.7.1","PW.7.2","PW.8.1","PW.8.2","RV.1.2","RV.2.2","RV.3.3"],"A":34,"B":true}
-{"id":"SA-11(1)","t":"Static Code Analysis","f":"SA","R":[["CWE-1004","d","t"],["CWE-102","d","t"],["CWE-1021","d","t"],["CWE-1022","d","t"],["CWE-1024","d","t"],["CWE-103","d","t"],["CWE-104","d","t"],["CWE-1041","d","t"],["CWE-1042","d","t"],["CWE-1043","d","t"],["CWE-1044","d","t"],["CWE-1045","d","t"],["CWE-1046","d","t"],["CWE-1047","d","t"],["CWE-1048","d","t"],["CWE-1049","d","t"],["CWE-105","d","t"],["CWE-1050","d","t"],["CWE-1051","d","t"],["CWE-1052","d","t"],["CWE-1054","d","t"],["CWE-1055","d","t"],["CWE-1056","d","t"],["CWE-1057","d","t"],["CWE-1058","d","t"],["CWE-106","d","t"],["CWE-1060","d","t"],["CWE-1061","d","t"],["CWE-1062","d","t"],["CWE-1063","d","t"],["CWE-1064","d","t"],["CWE-1065","d","t"],["CWE-1066","d","t"],["CWE-1067","d","t"],["CWE-1069","d","t"],["CWE-107","d","t"],["CWE-1070","d","t"],["CWE-1071","d","t"],["CWE-1072","d","t"],["CWE-1073","d","t"]],"S":["PW.7.2"],"A":0,"B":false,"more":500}
-{"id":"SA-11(2)","t":"Threat Modeling and Vulnerability Analyses","f":"SA","R":[["CWE-1039","d","t"],["CWE-119","d","t"],["CWE-120","d","t"],["CWE-1240","d","t"],["CWE-1247","d","t"],["CWE-1262","d","t"],["CWE-1277","d","t"],["CWE-1291","d","t"],["CWE-1296","d","t"],["CWE-1297","d","t"],["CWE-131","d","t"],["CWE-1318","d","t"],["CWE-1326","d","t"],["CWE-1328","d","t"],["CWE-1329","d","t"],["CWE-1330","d","t"],["CWE-1338","d","t"],["CWE-134","d","t"],["CWE-1426","d","t"],["CWE-1427","d","t"],["CWE-1476","d","t"],["CWE-190","d","t"],["CWE-20","d","t"],["CWE-200","d","t"],["CWE-22","d","t"],["CWE-250","d","t"],["CWE-272","d","t"],["CWE-276","d","t"],["CWE-285","d","t"],["CWE-287","d","t"],["CWE-295","d","t"],["CWE-306","d","t"],["CWE-307","d","t"],["CWE-311","d","t"],["CWE-327","d","t"],["CWE-330","d","t"],["CWE-34","d","t"],["CWE-352","d","t"],["CWE-359","d","t"],["CWE-362","d","t"]],"S":["PW.1.1"],"A":0,"B":false,"more":24}
+{"id":"SA-11","t":"Developer Testing and Evaluation","f":"SA","R":[],"S":["PW.7.1","PW.7.2","PW.8.1","PW.8.2","RV.1.2","RV.2.2","RV.3.3"],"A":34,"B":true,"F":["KSI-SCR-MIT"]}
+{"id":"SA-11(1)","t":"Static Code Analysis","f":"SA","R":[["CWE-1004","d","t"],["CWE-102","d","t"],["CWE-1021","d","t"],["CWE-1022","d","t"],["CWE-1024","d","t"],["CWE-103","d","t"],["CWE-104","d","t"],["CWE-1041","d","t"],["CWE-1042","d","t"],["CWE-1043","d","t"],["CWE-1044","d","t"],["CWE-1045","d","t"],["CWE-1046","d","t"],["CWE-1047","d","t"],["CWE-1048","d","t"],["CWE-1049","d","t"],["CWE-105","d","t"],["CWE-1050","d","t"],["CWE-1051","d","t"],["CWE-1052","d","t"],["CWE-1054","d","t"],["CWE-1055","d","t"],["CWE-1056","d","t"],["CWE-1057","d","t"],["CWE-1058","d","t"],["CWE-106","d","t"],["CWE-1060","d","t"],["CWE-1061","d","t"],["CWE-1062","d","t"],["CWE-1063","d","t"],["CWE-1064","d","t"],["CWE-1065","d","t"],["CWE-1066","d","t"],["CWE-1067","d","t"],["CWE-1069","d","t"],["CWE-107","d","t"],["CWE-1070","d","t"],["CWE-1071","d","t"],["CWE-1072","d","t"],["CWE-1073","d","t"]],"S":["PW.7.2"],"A":0,"B":false,"F":["KSI-SCR-MIT"],"more":500}
+{"id":"SA-11(2)","t":"Threat Modeling and Vulnerability Analyses","f":"SA","R":[["CWE-1039","d","t"],["CWE-119","d","t"],["CWE-120","d","t"],["CWE-1240","d","t"],["CWE-1247","d","t"],["CWE-1262","d","t"],["CWE-1277","d","t"],["CWE-1291","d","t"],["CWE-1296","d","t"],["CWE-1297","d","t"],["CWE-131","d","t"],["CWE-1318","d","t"],["CWE-1326","d","t"],["CWE-1328","d","t"],["CWE-1329","d","t"],["CWE-1330","d","t"],["CWE-1338","d","t"],["CWE-134","d","t"],["CWE-1426","d","t"],["CWE-1427","d","t"],["CWE-1476","d","t"],["CWE-190","d","t"],["CWE-20","d","t"],["CWE-200","d","t"],["CWE-22","d","t"],["CWE-250","d","t"],["CWE-272","d","t"],["CWE-276","d","t"],["CWE-285","d","t"],["CWE-287","d","t"],["CWE-295","d","t"],["CWE-306","d","t"],["CWE-307","d","t"],["CWE-311","d","t"],["CWE-327","d","t"],["CWE-330","d","t"],["CWE-34","d","t"],["CWE-352","d","t"],["CWE-359","d","t"],["CWE-362","d","t"]],"S":["PW.1.1"],"A":0,"B":false,"F":["KSI-SCR-MIT"],"more":24}
 {"id":"SA-11(3)","t":"Independent Verification of Assessment Plans and Evidence","f":"SA","R":[],"S":[],"A":0,"B":false}
 {"id":"SA-11(4)","t":"Manual Code Reviews","f":"SA","R":[["CWE-1023","d","t"],["CWE-1024","d","t"],["CWE-1025","d","t"],["CWE-1037","d","t"],["CWE-110","d","t"],["CWE-1116","d","t"],["CWE-1127","d","t"],["CWE-119","d","t"],["CWE-120","d","t"],["CWE-1231","d","t"],["CWE-1233","d","t"],["CWE-1240","d","t"],["CWE-1244","d","t"],["CWE-1247","d","t"],["CWE-1256","d","t"],["CWE-1260","d","t"],["CWE-1262","d","t"],["CWE-1272","d","t"],["CWE-1274","d","t"],["CWE-1277","d","t"],["CWE-1300","d","t"],["CWE-131","d","t"],["CWE-1316","d","t"],["CWE-1318","d","t"],["CWE-1331","d","t"],["CWE-1332","d","t"],["CWE-134","d","t"],["CWE-14","d","t"],["CWE-1420","d","t"],["CWE-1421","d","t"],["CWE-1422","d","t"],["CWE-1423","d","t"],["CWE-1429","d","t"],["CWE-1431","d","t"],["CWE-1461","d","t"],["CWE-1472","d","t"],["CWE-1474","d","t"],["CWE-190","d","t"],["CWE-20","d","t"],["CWE-200","d","t"]],"S":["PW.7.2"],"A":0,"B":false,"more":55}
 {"id":"SA-11(5)","t":"Penetration Testing","f":"SA","R":[],"S":["PW.8.2"],"A":0,"B":false}
@@ -716,10 +716,10 @@
 {"id":"SA-11(7)","t":"Verify Scope of Testing and Evaluation","f":"SA","R":[],"S":[],"A":0,"B":false}
 {"id":"SA-11(8)","t":"Dynamic Code Analysis","f":"SA","R":[["CWE-1007","d","t"],["CWE-1039","d","t"],["CWE-115","d","t"],["CWE-116","d","t"],["CWE-1189","d","t"],["CWE-119","d","t"],["CWE-1191","d","t"],["CWE-120","d","t"],["CWE-121","d","t"],["CWE-122","d","t"],["CWE-123","d","t"],["CWE-124","d","t"],["CWE-1240","d","t"],["CWE-1247","d","t"],["CWE-125","d","t"],["CWE-1256","d","t"],["CWE-126","d","t"],["CWE-1262","d","t"],["CWE-127","d","t"],["CWE-1277","d","t"],["CWE-129","d","t"],["CWE-1291","d","t"],["CWE-1296","d","t"],["CWE-1297","d","t"],["CWE-131","d","t"],["CWE-1312","d","t"],["CWE-1316","d","t"],["CWE-1326","d","t"],["CWE-1328","d","t"],["CWE-1330","d","t"],["CWE-1338","d","t"],["CWE-134","d","t"],["CWE-1341","d","t"],["CWE-14","d","t"],["CWE-1420","d","t"],["CWE-1421","d","t"],["CWE-1426","d","t"],["CWE-1427","d","t"],["CWE-1434","d","t"],["CWE-1461","d","t"]],"S":["PW.8.2"],"A":0,"B":false,"more":102}
 {"id":"SA-11(9)","t":"Interactive Application Security Testing","f":"SA","R":[],"S":[],"A":0,"B":false}
-{"id":"SA-15","t":"Development Process, Standards, and Tools","f":"SA","R":[["CAPEC-100","m","iu"]],"S":["PO.1.1","PO.1.2","PO.1.3","PO.3.1","PO.3.2","PO.3.3","PO.4.1","PO.4.2","PO.5.1","PO.5.2","PS.3.1","PW.6.1","PW.6.2","RV.3.4"],"A":14,"B":true}
+{"id":"SA-15","t":"Development Process, Standards, and Tools","f":"SA","R":[["CAPEC-100","m","iu"]],"S":["PO.1.1","PO.1.2","PO.1.3","PO.3.1","PO.3.2","PO.3.3","PO.4.1","PO.4.2","PO.5.1","PO.5.2","PS.3.1","PW.6.1","PW.6.2","RV.3.4"],"A":14,"B":true,"F":["KSI-SCR-MIT"]}
 {"id":"SA-15(1)","t":"Quality Metrics","f":"SA","R":[],"S":["PO.4.1","PO.4.2"],"A":0,"B":false}
 {"id":"SA-15(2)","t":"Security and Privacy Tracking Tools","f":"SA","R":[],"S":[],"A":0,"B":false}
-{"id":"SA-15(3)","t":"Criticality Analysis","f":"SA","R":[],"S":[],"A":0,"B":false}
+{"id":"SA-15(3)","t":"Criticality Analysis","f":"SA","R":[],"S":[],"A":0,"B":false,"F":["KSI-SCR-MIT"]}
 {"id":"SA-15(5)","t":"Attack Surface Reduction","f":"SA","R":[["CAPEC-36","m","iu"],["CWE-749","m","iu"]],"S":["PW.1.1"],"A":0,"B":false}
 {"id":"SA-15(6)","t":"Continuous Improvement","f":"SA","R":[],"S":[],"A":0,"B":false}
 {"id":"SA-15(7)","t":"Automated Vulnerability Analysis","f":"SA","R":[],"S":["PW.7.2","PW.8.2","RV.2.1","RV.2.2"],"A":0,"B":false}
@@ -728,8 +728,8 @@
 {"id":"SA-15(11)","t":"Archive System or Component","f":"SA","R":[],"S":["PO.4.2","PS.3.1"],"A":0,"B":false}
 {"id":"SA-15(12)","t":"Minimize Personally Identifiable Information","f":"SA","R":[],"S":[],"A":0,"B":false}
 {"id":"SA-15(13)","t":"Logging Syntax","f":"SA","R":[],"S":[],"A":0,"B":false}
-{"id":"SA-16","t":"Developer-provided Training","f":"SA","R":[],"S":[],"A":3,"B":false}
-{"id":"SA-17","t":"Developer Security and Privacy Architecture and Design","f":"SA","R":[["CWE-1039","d","t"],["CWE-119","d","t"],["CWE-120","d","t"],["CWE-1240","d","t"],["CWE-1247","d","t"],["CWE-1262","d","t"],["CWE-1277","d","t"],["CWE-1291","d","t"],["CWE-1296","d","t"],["CWE-1297","d","t"],["CWE-131","d","t"],["CWE-1318","d","t"],["CWE-1326","d","t"],["CWE-1328","d","t"],["CWE-1329","d","t"],["CWE-1330","d","t"],["CWE-1338","d","t"],["CWE-134","d","t"],["CWE-1426","d","t"],["CWE-1427","d","t"],["CWE-1476","d","t"],["CWE-190","d","t"],["CWE-20","d","t"],["CWE-200","d","t"],["CWE-22","d","t"],["CWE-250","d","t"],["CWE-272","d","t"],["CWE-276","d","t"],["CWE-285","d","t"],["CWE-287","d","t"],["CWE-295","d","t"],["CWE-306","d","t"],["CWE-307","d","t"],["CWE-311","d","t"],["CWE-327","d","t"],["CWE-330","d","t"],["CWE-34","d","t"],["CWE-352","d","t"],["CWE-359","d","t"],["CWE-362","d","t"]],"S":["PW.1.2"],"A":7,"B":false,"more":24}
+{"id":"SA-16","t":"Developer-provided Training","f":"SA","R":[],"S":[],"A":3,"B":false,"F":["KSI-SCR-MIT"]}
+{"id":"SA-17","t":"Developer Security and Privacy Architecture and Design","f":"SA","R":[["CWE-1039","d","t"],["CWE-119","d","t"],["CWE-120","d","t"],["CWE-1240","d","t"],["CWE-1247","d","t"],["CWE-1262","d","t"],["CWE-1277","d","t"],["CWE-1291","d","t"],["CWE-1296","d","t"],["CWE-1297","d","t"],["CWE-131","d","t"],["CWE-1318","d","t"],["CWE-1326","d","t"],["CWE-1328","d","t"],["CWE-1329","d","t"],["CWE-1330","d","t"],["CWE-1338","d","t"],["CWE-134","d","t"],["CWE-1426","d","t"],["CWE-1427","d","t"],["CWE-1476","d","t"],["CWE-190","d","t"],["CWE-20","d","t"],["CWE-200","d","t"],["CWE-22","d","t"],["CWE-250","d","t"],["CWE-272","d","t"],["CWE-276","d","t"],["CWE-285","d","t"],["CWE-287","d","t"],["CWE-295","d","t"],["CWE-306","d","t"],["CWE-307","d","t"],["CWE-311","d","t"],["CWE-327","d","t"],["CWE-330","d","t"],["CWE-34","d","t"],["CWE-352","d","t"],["CWE-359","d","t"],["CWE-362","d","t"]],"S":["PW.1.2"],"A":7,"B":false,"F":["KSI-SCR-MIT"],"more":24}
 {"id":"SA-17(1)","t":"Formal Policy Model","f":"SA","R":[],"S":[],"A":0,"B":false}
 {"id":"SA-17(2)","t":"Security-relevant Components","f":"SA","R":[],"S":[],"A":0,"B":false}
 {"id":"SA-17(3)","t":"Formal Correspondence","f":"SA","R":[["CWE-1262","d","t"],["CWE-1317","d","t"],["CWE-1431","d","t"],["CWE-1461","d","t"],["CWE-1476","d","t"]],"S":[],"A":0,"B":false}
@@ -740,35 +740,35 @@
 {"id":"SA-17(8)","t":"Orchestration","f":"SA","R":[],"S":[],"A":0,"B":false}
 {"id":"SA-17(9)","t":"Design Diversity","f":"SA","R":[],"S":[],"A":0,"B":false}
 {"id":"SA-20","t":"Customized Development of Critical Components","f":"SA","R":[],"S":[],"A":0,"B":false}
-{"id":"SA-21","t":"Developer Screening","f":"SA","R":[],"S":[],"A":0,"B":false}
-{"id":"SA-22","t":"Unsupported System Components","f":"SA","R":[],"S":[],"A":6,"B":false}
+{"id":"SA-21","t":"Developer Screening","f":"SA","R":[],"S":[],"A":0,"B":false,"F":["KSI-SCR-MIT"]}
+{"id":"SA-22","t":"Unsupported System Components","f":"SA","R":[],"S":[],"A":6,"B":false,"F":["KSI-SCR-MIT"]}
 {"id":"SA-23","t":"Specialization","f":"SA","R":[],"S":[],"A":0,"B":false}
 {"id":"SA-24","t":"Design For Cyber Resiliency","f":"SA","R":[],"S":[],"A":0,"B":false}
 {"id":"SC-1","t":"Policy and Procedures","f":"SC","R":[],"S":[],"A":0,"B":false}
-{"id":"SC-2","t":"Separation of System and User Functionality","f":"SC","R":[],"S":[],"A":8,"B":false}
+{"id":"SC-2","t":"Separation of System and User Functionality","f":"SC","R":[],"S":[],"A":8,"B":false,"F":["KSI-IAM-ELP","KSI-IAM-JIT"]}
 {"id":"SC-2(1)","t":"Interfaces for Non-privileged Users","f":"SC","R":[],"S":[],"A":0,"B":false}
 {"id":"SC-2(2)","t":"Disassociability","f":"SC","R":[],"S":[],"A":0,"B":false}
-{"id":"SC-3","t":"Security Function Isolation","f":"SC","R":[],"S":[],"A":18,"B":false}
+{"id":"SC-3","t":"Security Function Isolation","f":"SC","R":[],"S":[],"A":18,"B":false,"F":["KSI-IAM-ELP","KSI-IAM-JIT"]}
 {"id":"SC-3(1)","t":"Hardware Separation","f":"SC","R":[],"S":[],"A":0,"B":false}
 {"id":"SC-3(2)","t":"Access and Flow Control Functions","f":"SC","R":[],"S":[],"A":0,"B":false}
 {"id":"SC-3(3)","t":"Minimize Nonsecurity Functionality","f":"SC","R":[],"S":[],"A":0,"B":false}
 {"id":"SC-3(4)","t":"Module Coupling and Cohesiveness","f":"SC","R":[],"S":[],"A":0,"B":false}
 {"id":"SC-3(5)","t":"Layered Structures","f":"SC","R":[],"S":[],"A":0,"B":false}
-{"id":"SC-4","t":"Information in Shared System Resources","f":"SC","R":[["CWE-459","m","iu"],["CWE-591","m","iu"],["CWE-908","m","iu"]],"S":[],"A":29,"B":false}
+{"id":"SC-4","t":"Information in Shared System Resources","f":"SC","R":[["CWE-459","m","iu"],["CWE-591","m","iu"],["CWE-908","m","iu"]],"S":[],"A":29,"B":false,"F":["KSI-CNA-ULN","KSI-IAM-ELP","KSI-PIY-RSD","KSI-SVC-PRR","KSI-SVC-SIN"]}
 {"id":"SC-4(2)","t":"Multilevel or Periods Processing","f":"SC","R":[],"S":[],"A":0,"B":false}
-{"id":"SC-5","t":"Denial-of-service Protection","f":"SC","R":[["CWE-770","m","r"],["CWE-771","m","r"],["CWE-772","m","r"],["CWE-773","m","r"],["CWE-774","m","r"],["CWE-775","m","r"],["CAPEC-125","m","iu"],["CAPEC-130","m","iu"],["CAPEC-231","m","iu"],["CAPEC-469","m","iu"],["CAPEC-495","m","iu"],["CAPEC-496","m","iu"],["CWE-1333","m","iu"],["CWE-400","m","iu"],["CWE-407","m","iu"],["CWE-674","m","iu"],["CWE-835","m","iu"]],"S":[],"A":1,"B":false}
+{"id":"SC-5","t":"Denial-of-service Protection","f":"SC","R":[["CWE-770","m","r"],["CWE-771","m","r"],["CWE-772","m","r"],["CWE-773","m","r"],["CWE-774","m","r"],["CWE-775","m","r"],["CAPEC-125","m","iu"],["CAPEC-130","m","iu"],["CAPEC-231","m","iu"],["CAPEC-469","m","iu"],["CAPEC-495","m","iu"],["CAPEC-496","m","iu"],["CWE-1333","m","iu"],["CWE-400","m","iu"],["CWE-407","m","iu"],["CWE-674","m","iu"],["CWE-835","m","iu"]],"S":[],"A":1,"B":false,"F":["KSI-CNA-RVP"]}
 {"id":"SC-5(1)","t":"Restrict Ability to Attack Other Systems","f":"SC","R":[],"S":[],"A":0,"B":false}
 {"id":"SC-5(2)","t":"Capacity, Bandwidth, and Redundancy","f":"SC","R":[["CAPEC-125","m","iu"],["CAPEC-469","m","iu"]],"S":[],"A":0,"B":false}
 {"id":"SC-5(3)","t":"Detection and Monitoring","f":"SC","R":[["CAPEC-125","d","iu"],["CAPEC-495","d","iu"]],"S":[],"A":0,"B":false}
 {"id":"SC-6","t":"Resource Availability","f":"SC","R":[["CWE-770","m","r"],["CWE-771","m","r"],["CWE-772","m","r"],["CWE-773","m","r"],["CWE-774","m","r"],["CWE-775","m","r"],["CAPEC-130","m","iu"],["CAPEC-230","m","iu"],["CAPEC-231","m","iu"],["CAPEC-492","m","iu"],["CWE-1325","m","iu"],["CWE-400","m","iu"],["CWE-789","m","iu"]],"S":[],"A":1,"B":false}
-{"id":"SC-7","t":"Boundary Protection","f":"SC","R":[["CWE-1327","m","r"],["CWE-22","m","r"],["CWE-23","m","r"],["CWE-36","m","r"],["CWE-384","m","r"],["CWE-502","m","r"],["CWE-601","m","r"],["CWE-78","m","r"],["CWE-79","m","r"],["CWE-829","m","r"],["CWE-89","m","r"],["CWE-98","m","r"],["CAPEC-494","m","iu"],["CAPEC-496","m","iu"],["CAPEC-664","m","iu"],["CWE-918","m","iu"]],"S":[],"A":156,"B":false}
-{"id":"SC-7(3)","t":"Access Points","f":"SC","R":[],"S":[],"A":0,"B":false}
-{"id":"SC-7(4)","t":"External Telecommunications Services","f":"SC","R":[],"S":[],"A":0,"B":false}
-{"id":"SC-7(5)","t":"Deny by Default — Allow by Exception","f":"SC","R":[["CAPEC-664","m","iu"],["CWE-918","m","iu"]],"S":[],"A":0,"B":false}
-{"id":"SC-7(7)","t":"Split Tunneling for Remote Devices","f":"SC","R":[],"S":[],"A":0,"B":false}
-{"id":"SC-7(8)","t":"Route Traffic to Authenticated Proxy Servers","f":"SC","R":[],"S":[],"A":0,"B":false}
+{"id":"SC-7","t":"Boundary Protection","f":"SC","R":[["CWE-1327","m","r"],["CWE-22","m","r"],["CWE-23","m","r"],["CWE-36","m","r"],["CWE-384","m","r"],["CWE-502","m","r"],["CWE-601","m","r"],["CWE-78","m","r"],["CWE-79","m","r"],["CWE-829","m","r"],["CWE-89","m","r"],["CWE-98","m","r"],["CAPEC-494","m","iu"],["CAPEC-496","m","iu"],["CAPEC-664","m","iu"],["CWE-918","m","iu"]],"S":[],"A":156,"B":false,"F":["KSI-CNA-ULN","KSI-SVC-EIS"]}
+{"id":"SC-7(3)","t":"Access Points","f":"SC","R":[],"S":[],"A":0,"B":false,"F":["KSI-CNA-MAT"]}
+{"id":"SC-7(4)","t":"External Telecommunications Services","f":"SC","R":[],"S":[],"A":0,"B":false,"F":["KSI-CNA-MAT"]}
+{"id":"SC-7(5)","t":"Deny by Default — Allow by Exception","f":"SC","R":[["CAPEC-664","m","iu"],["CWE-918","m","iu"]],"S":[],"A":0,"B":false,"F":["KSI-CNA-MAT","KSI-CNA-RNT"]}
+{"id":"SC-7(7)","t":"Split Tunneling for Remote Devices","f":"SC","R":[],"S":[],"A":0,"B":false,"F":["KSI-CNA-ULN"]}
+{"id":"SC-7(8)","t":"Route Traffic to Authenticated Proxy Servers","f":"SC","R":[],"S":[],"A":0,"B":false,"F":["KSI-CNA-MAT"]}
 {"id":"SC-7(9)","t":"Restrict Threatening Outgoing Communications Traffic","f":"SC","R":[],"S":[],"A":0,"B":false}
-{"id":"SC-7(10)","t":"Prevent Exfiltration","f":"SC","R":[],"S":[],"A":0,"B":false}
+{"id":"SC-7(10)","t":"Prevent Exfiltration","f":"SC","R":[],"S":[],"A":0,"B":false,"F":["KSI-CNA-RNT"]}
 {"id":"SC-7(11)","t":"Restrict Incoming Communications Traffic","f":"SC","R":[],"S":[],"A":0,"B":false}
 {"id":"SC-7(12)","t":"Host-based Protection","f":"SC","R":[],"S":[],"A":0,"B":false}
 {"id":"SC-7(13)","t":"Isolation of Security Tools, Mechanisms, and Support Components","f":"SC","R":[],"S":[],"A":0,"B":false}
@@ -776,10 +776,10 @@
 {"id":"SC-7(15)","t":"Networked Privileged Accesses","f":"SC","R":[],"S":[],"A":0,"B":false}
 {"id":"SC-7(16)","t":"Prevent Discovery of System Components","f":"SC","R":[],"S":[],"A":0,"B":false}
 {"id":"SC-7(17)","t":"Automated Enforcement of Protocol Formats","f":"SC","R":[["CAPEC-494","m","iu"],["CAPEC-495","m","iu"],["CAPEC-496","m","iu"],["CWE-444","m","iu"]],"S":[],"A":0,"B":false}
-{"id":"SC-7(18)","t":"Fail Secure","f":"SC","R":[["CWE-636","m","iu"]],"S":[],"A":0,"B":false}
+{"id":"SC-7(18)","t":"Fail Secure","f":"SC","R":[["CWE-636","m","iu"]],"S":[],"A":0,"B":false,"F":["KSI-CNA-EIS","KSI-CNA-IBP","KSI-CNA-MAT","KSI-CNA-RNT","KSI-CNA-RVP","KSI-SVC-ACM","KSI-SVC-PRR","KSI-SVC-SIN"]}
 {"id":"SC-7(19)","t":"Block Communication from Non-organizationally Configured Hosts","f":"SC","R":[],"S":[],"A":0,"B":false}
-{"id":"SC-7(20)","t":"Dynamic Isolation and Segregation","f":"SC","R":[],"S":[],"A":0,"B":false}
-{"id":"SC-7(21)","t":"Isolation of System Components","f":"SC","R":[],"S":[],"A":0,"B":false}
+{"id":"SC-7(20)","t":"Dynamic Isolation and Segregation","f":"SC","R":[],"S":[],"A":0,"B":false,"F":["KSI-CNA-RNT","KSI-CNA-ULN"]}
+{"id":"SC-7(21)","t":"Isolation of System Components","f":"SC","R":[],"S":[],"A":0,"B":false,"F":["KSI-CNA-RNT","KSI-CNA-ULN"]}
 {"id":"SC-7(22)","t":"Separate Subnets for Connecting to Different Security Domains","f":"SC","R":[],"S":[],"A":0,"B":false}
 {"id":"SC-7(23)","t":"Disable Sender Feedback on Protocol Validation Failure","f":"SC","R":[["CWE-204","m","iu"]],"S":[],"A":0,"B":false}
 {"id":"SC-7(24)","t":"Personally Identifiable Information","f":"SC","R":[],"S":[],"A":0,"B":false}
@@ -788,21 +788,21 @@
 {"id":"SC-7(27)","t":"Unclassified Non-national Security System Connections","f":"SC","R":[],"S":[],"A":0,"B":false}
 {"id":"SC-7(28)","t":"Connections to Public Networks","f":"SC","R":[],"S":[],"A":0,"B":false}
 {"id":"SC-7(29)","t":"Separate Subnets to Isolate Functions","f":"SC","R":[],"S":[],"A":0,"B":false}
-{"id":"SC-8","t":"Transmission Confidentiality and Integrity","f":"SC","R":[["CWE-1385","m","x"],["CWE-1428","m","x"],["CWE-319","m","x"],["CWE-444","m","x"],["CWE-5","m","x"],["CWE-523","m","x"],["CWE-593","m","x"],["CWE-614","m","x"],["CWE-420","m","iu"]],"S":[],"A":20,"B":false}
-{"id":"SC-8(1)","t":"Cryptographic Protection","f":"SC","R":[["CAPEC-21","m","iu"],["CAPEC-219","m","iu"],["CAPEC-22","m","iu"],["CAPEC-384","m","iu"],["CAPEC-386","m","iu"],["CAPEC-94","m","iu"],["CWE-326","m","iu"],["CWE-522","m","iu"]],"S":[],"A":0,"B":false}
+{"id":"SC-8","t":"Transmission Confidentiality and Integrity","f":"SC","R":[["CWE-1385","m","x"],["CWE-1428","m","x"],["CWE-319","m","x"],["CWE-444","m","x"],["CWE-5","m","x"],["CWE-523","m","x"],["CWE-593","m","x"],["CWE-614","m","x"],["CWE-420","m","iu"]],"S":[],"A":20,"B":false,"F":["KSI-CNA-MAT","KSI-CNA-ULN","KSI-SVC-SIN"]}
+{"id":"SC-8(1)","t":"Cryptographic Protection","f":"SC","R":[["CAPEC-21","m","iu"],["CAPEC-219","m","iu"],["CAPEC-22","m","iu"],["CAPEC-384","m","iu"],["CAPEC-386","m","iu"],["CAPEC-94","m","iu"],["CWE-326","m","iu"],["CWE-522","m","iu"]],"S":[],"A":0,"B":false,"F":["CMU-CSO-CMD","CMU-CSO-UVM","KSI-SVC-SIN"]}
 {"id":"SC-8(2)","t":"Pre- and Post-transmission Handling","f":"SC","R":[],"S":[],"A":0,"B":false}
 {"id":"SC-8(3)","t":"Cryptographic Protection for Message Externals","f":"SC","R":[],"S":[],"A":0,"B":false}
 {"id":"SC-8(4)","t":"Conceal or Randomize Communications","f":"SC","R":[],"S":[],"A":0,"B":false}
 {"id":"SC-8(5)","t":"Protected Distribution System","f":"SC","R":[],"S":[],"A":0,"B":false}
-{"id":"SC-10","t":"Network Disconnect","f":"SC","R":[["CAPEC-469","m","iu"]],"S":[],"A":5,"B":false}
+{"id":"SC-10","t":"Network Disconnect","f":"SC","R":[["CAPEC-469","m","iu"]],"S":[],"A":5,"B":false,"F":["KSI-CNA-MAT","KSI-CNA-ULN"]}
 {"id":"SC-11","t":"Trusted Path","f":"SC","R":[],"S":[],"A":0,"B":false}
 {"id":"SC-11(1)","t":"Irrefutable Communications Path","f":"SC","R":[],"S":[],"A":0,"B":false}
-{"id":"SC-12","t":"Cryptographic Key Establishment and Management","f":"SC","R":[["CAPEC-20","m","iu"],["CAPEC-668","m","iu"],["CWE-321","m","iu"],["CWE-326","m","iu"],["CWE-798","m","iu"]],"S":[],"A":11,"B":false}
-{"id":"SC-12(1)","t":"Availability","f":"SC","R":[],"S":[],"A":0,"B":false}
+{"id":"SC-12","t":"Cryptographic Key Establishment and Management","f":"SC","R":[["CAPEC-20","m","iu"],["CAPEC-668","m","iu"],["CWE-321","m","iu"],["CWE-326","m","iu"],["CWE-798","m","iu"]],"S":[],"A":11,"B":false,"F":["KSI-SVC-ASM"]}
+{"id":"SC-12(1)","t":"Availability","f":"SC","R":[],"S":[],"A":0,"B":false,"F":["KSI-CNA-OFA","KSI-RPL-TRC","KSI-SVC-ASM","KSI-SVC-PRR"]}
 {"id":"SC-12(2)","t":"Symmetric Keys","f":"SC","R":[],"S":[],"A":0,"B":false}
 {"id":"SC-12(3)","t":"Asymmetric Keys","f":"SC","R":[],"S":[],"A":0,"B":false}
 {"id":"SC-12(6)","t":"Physical Control of Keys","f":"SC","R":[],"S":[],"A":0,"B":false}
-{"id":"SC-13","t":"Cryptographic Protection","f":"SC","R":[["CWE-1240","m","x"],["CWE-311","m","x"],["CWE-319","m","x"],["CWE-327","m","x"],["CWE-330","m","x"],["CWE-332","m","x"],["CWE-334","m","x"],["CWE-336","m","x"],["CWE-337","m","x"],["CWE-339","m","x"],["CWE-341","m","x"],["CWE-342","m","x"],["CWE-343","m","x"],["CAPEC-20","m","iu"],["CAPEC-473","m","iu"],["CAPEC-668","m","iu"],["CWE-303","m","iu"],["CWE-326","m","iu"],["CWE-347","m","iu"]],"S":[],"A":5,"B":false}
+{"id":"SC-13","t":"Cryptographic Protection","f":"SC","R":[["CWE-1240","m","x"],["CWE-311","m","x"],["CWE-319","m","x"],["CWE-327","m","x"],["CWE-330","m","x"],["CWE-332","m","x"],["CWE-334","m","x"],["CWE-336","m","x"],["CWE-337","m","x"],["CWE-339","m","x"],["CWE-341","m","x"],["CWE-342","m","x"],["CWE-343","m","x"],["CAPEC-20","m","iu"],["CAPEC-473","m","iu"],["CAPEC-668","m","iu"],["CWE-303","m","iu"],["CWE-326","m","iu"],["CWE-347","m","iu"]],"S":[],"A":5,"B":false,"F":["KSI-SVC-SIN","KSI-SVC-VRI"]}
 {"id":"SC-15","t":"Collaborative Computing Devices and Applications","f":"SC","R":[],"S":[],"A":0,"B":false}
 {"id":"SC-15(1)","t":"Physical or Logical Disconnect","f":"SC","R":[],"S":[],"A":0,"B":false}
 {"id":"SC-15(3)","t":"Disabling and Removal in Secure Work Areas","f":"SC","R":[],"S":[],"A":0,"B":false}
@@ -811,27 +811,27 @@
 {"id":"SC-16(1)","t":"Integrity Verification","f":"SC","R":[],"S":[],"A":0,"B":false}
 {"id":"SC-16(2)","t":"Anti-spoofing Mechanisms","f":"SC","R":[],"S":[],"A":0,"B":false}
 {"id":"SC-16(3)","t":"Cryptographic Binding","f":"SC","R":[],"S":[],"A":0,"B":false}
-{"id":"SC-17","t":"Public Key Infrastructure Certificates","f":"SC","R":[["CAPEC-473","m","iu"],["CAPEC-94","m","iu"],["CWE-295","m","iu"],["CWE-299","m","iu"]],"S":[],"A":2,"B":false}
-{"id":"SC-18","t":"Mobile Code","f":"SC","R":[["CAPEC-104","m","iu"],["CAPEC-182","m","iu"],["CAPEC-63","m","iu"]],"S":[],"A":38,"B":false}
+{"id":"SC-17","t":"Public Key Infrastructure Certificates","f":"SC","R":[["CAPEC-473","m","iu"],["CAPEC-94","m","iu"],["CWE-295","m","iu"],["CWE-299","m","iu"]],"S":[],"A":2,"B":false,"F":["KSI-SVC-ASM"]}
+{"id":"SC-18","t":"Mobile Code","f":"SC","R":[["CAPEC-104","m","iu"],["CAPEC-182","m","iu"],["CAPEC-63","m","iu"]],"S":[],"A":38,"B":false,"F":["KSI-PIY-RSD","KSI-SCR-MIT"]}
 {"id":"SC-18(1)","t":"Identify Unacceptable Code and Take Corrective Actions","f":"SC","R":[],"S":[],"A":0,"B":false}
 {"id":"SC-18(2)","t":"Acquisition, Development, and Use","f":"SC","R":[],"S":[],"A":0,"B":false}
 {"id":"SC-18(3)","t":"Prevent Downloading and Execution","f":"SC","R":[["CAPEC-182","m","iu"]],"S":[],"A":0,"B":false}
 {"id":"SC-18(4)","t":"Prevent Automatic Execution","f":"SC","R":[],"S":[],"A":0,"B":false}
 {"id":"SC-18(5)","t":"Allow Execution Only in Confined Environments","f":"SC","R":[],"S":[],"A":0,"B":false}
-{"id":"SC-20","t":"Secure Name/Address Resolution Service (Authoritative Source)","f":"SC","R":[],"S":[],"A":14,"B":false}
+{"id":"SC-20","t":"Secure Name/Address Resolution Service (Authoritative Source)","f":"SC","R":[],"S":[],"A":14,"B":false,"F":["KSI-IAM-ELP","KSI-SVC-SIN"]}
 {"id":"SC-20(2)","t":"Data Origin and Integrity","f":"SC","R":[],"S":[],"A":0,"B":false}
-{"id":"SC-21","t":"Secure Name/Address Resolution Service (Recursive or Caching Resolver)","f":"SC","R":[["CAPEC-141","m","iu"]],"S":[],"A":7,"B":false}
-{"id":"SC-22","t":"Architecture and Provisioning for Name/Address Resolution Service","f":"SC","R":[],"S":[],"A":7,"B":false}
-{"id":"SC-23","t":"Session Authenticity","f":"SC","R":[["CAPEC-111","m","iu"],["CAPEC-21","m","iu"],["CAPEC-22","m","iu"],["CAPEC-384","m","iu"],["CAPEC-386","m","iu"],["CAPEC-62","m","iu"],["CAPEC-701","m","iu"],["CAPEC-94","m","iu"],["CWE-290","m","iu"],["CWE-294","m","iu"],["CWE-346","m","iu"],["CWE-352","m","iu"]],"S":[],"A":20,"B":false}
+{"id":"SC-21","t":"Secure Name/Address Resolution Service (Recursive or Caching Resolver)","f":"SC","R":[["CAPEC-141","m","iu"]],"S":[],"A":7,"B":false,"F":["KSI-IAM-ELP","KSI-SVC-SIN"]}
+{"id":"SC-22","t":"Architecture and Provisioning for Name/Address Resolution Service","f":"SC","R":[],"S":[],"A":7,"B":false,"F":["KSI-IAM-ELP","KSI-SVC-SIN"]}
+{"id":"SC-23","t":"Session Authenticity","f":"SC","R":[["CAPEC-111","m","iu"],["CAPEC-21","m","iu"],["CAPEC-22","m","iu"],["CAPEC-384","m","iu"],["CAPEC-386","m","iu"],["CAPEC-62","m","iu"],["CAPEC-701","m","iu"],["CAPEC-94","m","iu"],["CWE-290","m","iu"],["CWE-294","m","iu"],["CWE-346","m","iu"],["CWE-352","m","iu"]],"S":[],"A":20,"B":false,"F":["KSI-IAM-APM","KSI-IAM-ELP","KSI-IAM-JIT","KSI-SVC-SIN","KSI-SVC-VCM","KSI-SVC-VRI"]}
 {"id":"SC-23(1)","t":"Invalidate Session Identifiers at Logout","f":"SC","R":[["CAPEC-21","m","iu"]],"S":[],"A":0,"B":false}
 {"id":"SC-23(3)","t":"Unique System-generated Session Identifiers","f":"SC","R":[["CAPEC-21","m","iu"]],"S":[],"A":0,"B":false}
 {"id":"SC-23(5)","t":"Allowed Certificate Authorities","f":"SC","R":[["CAPEC-94","m","iu"],["CWE-295","m","iu"]],"S":[],"A":0,"B":false}
-{"id":"SC-24","t":"Fail in Known State","f":"SC","R":[["CWE-636","m","iu"]],"S":[],"A":0,"B":false}
+{"id":"SC-24","t":"Fail in Known State","f":"SC","R":[["CWE-636","m","iu"]],"S":[],"A":0,"B":false,"F":["KSI-CNA-EIS"]}
 {"id":"SC-25","t":"Thin Nodes","f":"SC","R":[],"S":[],"A":0,"B":false}
 {"id":"SC-26","t":"Decoys","f":"SC","R":[],"S":[],"A":3,"B":false}
 {"id":"SC-27","t":"Platform-independent Applications","f":"SC","R":[],"S":[],"A":0,"B":false}
-{"id":"SC-28","t":"Protection of Information at Rest","f":"SC","R":[["CWE-312","m","iu"]],"S":[],"A":42,"B":false}
-{"id":"SC-28(1)","t":"Cryptographic Protection","f":"SC","R":[["CWE-312","m","iu"],["CWE-313","m","iu"],["CWE-326","m","iu"],["CWE-522","m","iu"]],"S":[],"A":0,"B":false}
+{"id":"SC-28","t":"Protection of Information at Rest","f":"SC","R":[["CWE-312","m","iu"]],"S":[],"A":42,"B":false,"F":["KSI-SVC-SIN"]}
+{"id":"SC-28(1)","t":"Cryptographic Protection","f":"SC","R":[["CWE-312","m","iu"],["CWE-313","m","iu"],["CWE-326","m","iu"],["CWE-522","m","iu"]],"S":[],"A":0,"B":false,"F":["CMU-CSO-CMD","CMU-CSO-UVM","KSI-SVC-SIN"]}
 {"id":"SC-28(2)","t":"Offline Storage","f":"SC","R":[],"S":[],"A":0,"B":false}
 {"id":"SC-28(3)","t":"Cryptographic Keys","f":"SC","R":[["CWE-321","m","iu"]],"S":[],"A":0,"B":false}
 {"id":"SC-29","t":"Heterogeneity","f":"SC","R":[],"S":[],"A":5,"B":false}
@@ -857,7 +857,7 @@
 {"id":"SC-37","t":"Out-of-band Channels","f":"SC","R":[],"S":[],"A":12,"B":false}
 {"id":"SC-37(1)","t":"Ensure Delivery and Transmission","f":"SC","R":[],"S":[],"A":0,"B":false}
 {"id":"SC-38","t":"Operations Security","f":"SC","R":[],"S":[],"A":2,"B":false}
-{"id":"SC-39","t":"Process Isolation","f":"SC","R":[["CWE-120","m","r"],["CWE-129","m","r"],["CWE-131","m","r"],["CWE-22","m","r"],["CWE-434","m","r"],["CWE-494","m","r"],["CWE-732","m","r"],["CWE-78","m","r"],["CWE-805","m","r"],["CWE-829","m","r"],["CWE-98","m","r"],["CAPEC-17","m","iu"]],"S":[],"A":22,"B":false}
+{"id":"SC-39","t":"Process Isolation","f":"SC","R":[["CWE-120","m","r"],["CWE-129","m","r"],["CWE-131","m","r"],["CWE-22","m","r"],["CWE-434","m","r"],["CWE-494","m","r"],["CWE-732","m","r"],["CWE-78","m","r"],["CWE-805","m","r"],["CWE-829","m","r"],["CWE-98","m","r"],["CAPEC-17","m","iu"]],"S":[],"A":22,"B":false,"F":["KSI-IAM-ELP","KSI-IAM-JIT","KSI-SVC-EIS"]}
 {"id":"SC-39(1)","t":"Hardware Separation","f":"SC","R":[],"S":[],"A":0,"B":false}
 {"id":"SC-39(2)","t":"Separate Execution Domain Per Thread","f":"SC","R":[],"S":[],"A":0,"B":false}
 {"id":"SC-40","t":"Wireless Link Protection","f":"SC","R":[],"S":[],"A":1,"B":false}
@@ -873,8 +873,8 @@
 {"id":"SC-42(5)","t":"Collection Minimization","f":"SC","R":[],"S":[],"A":0,"B":false}
 {"id":"SC-43","t":"Usage Restrictions","f":"SC","R":[],"S":[],"A":5,"B":false}
 {"id":"SC-44","t":"Detonation Chambers","f":"SC","R":[],"S":[],"A":22,"B":false}
-{"id":"SC-45","t":"System Time Synchronization","f":"SC","R":[],"S":[],"A":0,"B":false}
-{"id":"SC-45(1)","t":"Synchronization with Authoritative Time Source","f":"SC","R":[],"S":[],"A":0,"B":false}
+{"id":"SC-45","t":"System Time Synchronization","f":"SC","R":[],"S":[],"A":0,"B":false,"F":["KSI-SVC-ACM"]}
+{"id":"SC-45(1)","t":"Synchronization with Authoritative Time Source","f":"SC","R":[],"S":[],"A":0,"B":false,"F":["KSI-SVC-ACM"]}
 {"id":"SC-45(2)","t":"Secondary Authoritative Time Source","f":"SC","R":[],"S":[],"A":0,"B":false}
 {"id":"SC-46","t":"Cross Domain Policy Enforcement","f":"SC","R":[],"S":[],"A":27,"B":false}
 {"id":"SC-47","t":"Alternate Communications Paths","f":"SC","R":[],"S":[],"A":0,"B":false}
@@ -884,76 +884,76 @@
 {"id":"SC-50","t":"Software-enforced Separation and Policy Enforcement","f":"SC","R":[],"S":[],"A":0,"B":false}
 {"id":"SC-51","t":"Hardware-based Protection","f":"SC","R":[],"S":[],"A":0,"B":false}
 {"id":"SI-1","t":"Policy and Procedures","f":"SI","R":[],"S":[],"A":0,"B":false}
-{"id":"SI-2","t":"Flaw Remediation","f":"SI","R":[],"S":[],"A":84,"B":true}
-{"id":"SI-2(2)","t":"Automated Flaw Remediation Status","f":"SI","R":[],"S":[],"A":0,"B":false}
-{"id":"SI-2(3)","t":"Time to Remediate Flaws and Benchmarks for Corrective Actions","f":"SI","R":[],"S":[],"A":0,"B":false}
+{"id":"SI-2","t":"Flaw Remediation","f":"SI","R":[],"S":[],"A":84,"B":true,"F":["KSI-CMT-VTD","VDR-CSO-DET","VDR-CSO-MSP","VDR-CSO-RES"]}
+{"id":"SI-2(2)","t":"Automated Flaw Remediation Status","f":"SI","R":[],"S":[],"A":0,"B":false,"F":["KSI-SVC-EIS","VDR-CSO-ADT"]}
+{"id":"SI-2(3)","t":"Time to Remediate Flaws and Benchmarks for Corrective Actions","f":"SI","R":[],"S":[],"A":0,"B":false,"F":["VDR-TFR-PVR","VER-RPT-VDT"]}
 {"id":"SI-2(4)","t":"Automated Patch Management Tools","f":"SI","R":[],"S":[],"A":0,"B":false}
 {"id":"SI-2(5)","t":"Automatic Software and Firmware Updates","f":"SI","R":[],"S":[],"A":0,"B":false}
 {"id":"SI-2(6)","t":"Removal of Previous Versions of Software and Firmware","f":"SI","R":[],"S":[],"A":0,"B":false}
 {"id":"SI-2(7)","t":"Root Cause Analysis","f":"SI","R":[],"S":[],"A":0,"B":false}
-{"id":"SI-3","t":"Malicious Code Protection","f":"SI","R":[["CWE-434","m","iu"],["CWE-506","m","iu"]],"S":[],"A":226,"B":false}
+{"id":"SI-3","t":"Malicious Code Protection","f":"SI","R":[["CWE-434","m","iu"],["CWE-506","m","iu"]],"S":[],"A":226,"B":false,"F":["KSI-CMT-RMV","KSI-CNA-DFP","KSI-IAM-ELP","VDR-CSO-ADT","VDR-CSO-DET","VDR-CSO-RES"]}
 {"id":"SI-3(4)","t":"Updates Only by Privileged Users","f":"SI","R":[],"S":[],"A":0,"B":false}
 {"id":"SI-3(6)","t":"Testing and Verification","f":"SI","R":[],"S":[],"A":0,"B":false}
 {"id":"SI-3(8)","t":"Detect Unauthorized Commands","f":"SI","R":[["CAPEC-88","d","iu"]],"S":[],"A":0,"B":false}
 {"id":"SI-3(10)","t":"Malicious Code Analysis","f":"SI","R":[],"S":[],"A":0,"B":false}
-{"id":"SI-4","t":"System Monitoring","f":"SI","R":[["CAPEC-141","d","iu"],["CAPEC-28","d","iu"],["CAPEC-494","d","iu"],["CAPEC-652","d","iu"]],"S":[],"A":375,"B":false}
-{"id":"SI-4(1)","t":"System-wide Intrusion Detection System","f":"SI","R":[],"S":[],"A":0,"B":false}
-{"id":"SI-4(2)","t":"Automated Tools and Mechanisms for Real-time Analysis","f":"SI","R":[],"S":[],"A":0,"B":false}
+{"id":"SI-4","t":"System Monitoring","f":"SI","R":[["CAPEC-141","d","iu"],["CAPEC-28","d","iu"],["CAPEC-494","d","iu"],["CAPEC-652","d","iu"]],"S":[],"A":375,"B":false,"F":["KSI-IAM-SUS","KSI-MLA-RVL","KSI-SVC-EIS","VDR-CSO-FAV"]}
+{"id":"SI-4(1)","t":"System-wide Intrusion Detection System","f":"SI","R":[],"S":[],"A":0,"B":false,"F":["KSI-IAM-SUS","VDR-CSO-DET","VDR-CSO-FAV"]}
+{"id":"SI-4(2)","t":"Automated Tools and Mechanisms for Real-time Analysis","f":"SI","R":[],"S":[],"A":0,"B":false,"F":["KSI-MLA-OSM","VDR-CSO-ADT"]}
 {"id":"SI-4(3)","t":"Automated Tool and Mechanism Integration","f":"SI","R":[],"S":[],"A":0,"B":false}
-{"id":"SI-4(4)","t":"Inbound and Outbound Communications Traffic","f":"SI","R":[],"S":[],"A":0,"B":false}
-{"id":"SI-4(5)","t":"System-generated Alerts","f":"SI","R":[],"S":[],"A":0,"B":false}
+{"id":"SI-4(4)","t":"Inbound and Outbound Communications Traffic","f":"SI","R":[],"S":[],"A":0,"B":false,"F":["KSI-CNA-RNT","KSI-IAM-SUS","KSI-MLA-LET","KSI-MLA-OSM","KSI-MLA-RVL"]}
+{"id":"SI-4(5)","t":"System-generated Alerts","f":"SI","R":[],"S":[],"A":0,"B":false,"F":["KSI-INR-RIR","KSI-MLA-LET","VDR-CSO-ADT"]}
 {"id":"SI-4(7)","t":"Automated Response to Suspicious Events","f":"SI","R":[],"S":[],"A":0,"B":false}
 {"id":"SI-4(9)","t":"Testing of Monitoring Tools and Mechanisms","f":"SI","R":[],"S":[],"A":0,"B":false}
 {"id":"SI-4(10)","t":"Visibility of Encrypted Communications","f":"SI","R":[],"S":[],"A":0,"B":false}
-{"id":"SI-4(11)","t":"Analyze Communications Traffic Anomalies","f":"SI","R":[],"S":[],"A":0,"B":false}
-{"id":"SI-4(12)","t":"Automated Organization-generated Alerts","f":"SI","R":[],"S":[],"A":0,"B":false}
+{"id":"SI-4(11)","t":"Analyze Communications Traffic Anomalies","f":"SI","R":[],"S":[],"A":0,"B":false,"F":["KSI-CNA-RNT"]}
+{"id":"SI-4(12)","t":"Automated Organization-generated Alerts","f":"SI","R":[],"S":[],"A":0,"B":false,"F":["VDR-CSO-DET"]}
 {"id":"SI-4(13)","t":"Analyze Traffic and Event Patterns","f":"SI","R":[],"S":[],"A":0,"B":false}
 {"id":"SI-4(14)","t":"Wireless Intrusion Detection","f":"SI","R":[],"S":[],"A":0,"B":false}
 {"id":"SI-4(15)","t":"Wireless to Wireline Communications","f":"SI","R":[],"S":[],"A":0,"B":false}
-{"id":"SI-4(16)","t":"Correlate Monitoring Information","f":"SI","R":[],"S":[],"A":0,"B":false}
+{"id":"SI-4(16)","t":"Correlate Monitoring Information","f":"SI","R":[],"S":[],"A":0,"B":false,"F":["KSI-MLA-OSM"]}
 {"id":"SI-4(17)","t":"Integrated Situational Awareness","f":"SI","R":[],"S":[],"A":0,"B":false}
-{"id":"SI-4(18)","t":"Analyze Traffic and Covert Exfiltration","f":"SI","R":[],"S":[],"A":0,"B":false}
-{"id":"SI-4(19)","t":"Risk for Individuals","f":"SI","R":[],"S":[],"A":0,"B":false}
-{"id":"SI-4(20)","t":"Privileged Users","f":"SI","R":[],"S":[],"A":0,"B":false}
+{"id":"SI-4(18)","t":"Analyze Traffic and Covert Exfiltration","f":"SI","R":[],"S":[],"A":0,"B":false,"F":["KSI-CNA-RNT","KSI-SVC-SIN","VDR-CSO-DET"]}
+{"id":"SI-4(19)","t":"Risk for Individuals","f":"SI","R":[],"S":[],"A":0,"B":false,"F":["KSI-IAM-ELP","KSI-IAM-SUS","KSI-MLA-LET","KSI-MLA-RVL","MAS-CSO-FLO","MAS-CSO-IIR"]}
+{"id":"SI-4(20)","t":"Privileged Users","f":"SI","R":[],"S":[],"A":0,"B":false,"F":["KSI-IAM-SUS","KSI-MLA-LET"]}
 {"id":"SI-4(21)","t":"Probationary Periods","f":"SI","R":[],"S":[],"A":0,"B":false}
-{"id":"SI-4(22)","t":"Unauthorized Network Services","f":"SI","R":[],"S":[],"A":0,"B":false}
+{"id":"SI-4(22)","t":"Unauthorized Network Services","f":"SI","R":[],"S":[],"A":0,"B":false,"F":["KSI-CNA-EIS","KSI-IAM-SUS","KSI-SVC-VCM","VDR-CSO-DET","VDR-TFR-PDD"]}
 {"id":"SI-4(23)","t":"Host-based Devices","f":"SI","R":[],"S":[],"A":0,"B":false}
 {"id":"SI-4(24)","t":"Indicators of Compromise","f":"SI","R":[],"S":[],"A":0,"B":false}
 {"id":"SI-4(25)","t":"Optimize Network Traffic Analysis","f":"SI","R":[],"S":[],"A":0,"B":false}
-{"id":"SI-5","t":"Security Alerts, Advisories, and Directives","f":"SI","R":[],"S":[],"A":4,"B":false}
-{"id":"SI-5(1)","t":"Automated Alerts and Advisories","f":"SI","R":[],"S":[],"A":0,"B":false}
+{"id":"SI-5","t":"Security Alerts, Advisories, and Directives","f":"SI","R":[],"S":[],"A":4,"B":false,"F":["KSI-SCR-MON","KSI-SVC-ACM","VDR-CSO-AKE"]}
+{"id":"SI-5(1)","t":"Automated Alerts and Advisories","f":"SI","R":[],"S":[],"A":0,"B":false,"F":["VDR-CSO-DET"]}
 {"id":"SI-6","t":"Security and Privacy Function Verification","f":"SI","R":[],"S":[],"A":0,"B":false}
 {"id":"SI-6(2)","t":"Automation Support for Distributed Testing","f":"SI","R":[],"S":[],"A":0,"B":false}
 {"id":"SI-6(3)","t":"Report Verification Results","f":"SI","R":[],"S":[],"A":0,"B":false}
-{"id":"SI-7","t":"Software, Firmware, and Information Integrity","f":"SI","R":[["CAPEC-75","d","iu"],["CWE-345","m","iu"],["CWE-642","m","iu"]],"S":[],"A":209,"B":false}
-{"id":"SI-7(1)","t":"Integrity Checks","f":"SI","R":[],"S":[],"A":0,"B":false}
-{"id":"SI-7(2)","t":"Automated Notifications of Integrity Violations","f":"SI","R":[],"S":[],"A":0,"B":false}
+{"id":"SI-7","t":"Software, Firmware, and Information Integrity","f":"SI","R":[["CAPEC-75","d","iu"],["CWE-345","m","iu"],["CWE-642","m","iu"]],"S":[],"A":209,"B":false,"F":["KSI-CNA-EIS","KSI-SVC-VRI","VDR-TFR-PDD"]}
+{"id":"SI-7(1)","t":"Integrity Checks","f":"SI","R":[],"S":[],"A":0,"B":false,"F":["KSI-CNA-EIS","KSI-SCR-MIT","KSI-SVC-VCM","KSI-SVC-VRI","VDR-TFR-PDD"]}
+{"id":"SI-7(2)","t":"Automated Notifications of Integrity Violations","f":"SI","R":[],"S":[],"A":0,"B":false,"F":["VER-RPT-PER"]}
 {"id":"SI-7(3)","t":"Centrally Managed Integrity Tools","f":"SI","R":[],"S":[],"A":0,"B":false}
-{"id":"SI-7(5)","t":"Automated Response to Integrity Violations","f":"SI","R":[],"S":[],"A":0,"B":false}
+{"id":"SI-7(5)","t":"Automated Response to Integrity Violations","f":"SI","R":[],"S":[],"A":0,"B":false,"F":["KSI-CNA-EIS"]}
 {"id":"SI-7(6)","t":"Cryptographic Protection","f":"SI","R":[["CAPEC-473","m","iu"],["CWE-345","m","iu"],["CWE-347","m","iu"],["CWE-502","m","iu"]],"S":[],"A":0,"B":false}
-{"id":"SI-7(7)","t":"Integration of Detection and Response","f":"SI","R":[],"S":[],"A":0,"B":false}
+{"id":"SI-7(7)","t":"Integration of Detection and Response","f":"SI","R":[],"S":[],"A":0,"B":false,"F":["KSI-CNA-EIS","KSI-MLA-EVC","KSI-MLA-LET","VDR-CSO-FAV"]}
 {"id":"SI-7(8)","t":"Auditing Capability for Significant Events","f":"SI","R":[],"S":[],"A":0,"B":false}
 {"id":"SI-7(9)","t":"Verify Boot Process","f":"SI","R":[],"S":[],"A":0,"B":false}
 {"id":"SI-7(10)","t":"Protection of Boot Firmware","f":"SI","R":[],"S":[],"A":0,"B":false}
 {"id":"SI-7(12)","t":"Integrity Verification","f":"SI","R":[],"S":[],"A":0,"B":false}
-{"id":"SI-7(15)","t":"Code Authentication","f":"SI","R":[["CAPEC-473","m","iu"],["CWE-347","m","iu"],["CWE-494","m","iu"],["CWE-829","m","iu"]],"S":[],"A":0,"B":false}
+{"id":"SI-7(15)","t":"Code Authentication","f":"SI","R":[["CAPEC-473","m","iu"],["CWE-347","m","iu"],["CWE-494","m","iu"],["CWE-829","m","iu"]],"S":[],"A":0,"B":false,"F":["KSI-SCR-MIT","KSI-SVC-VRI"]}
 {"id":"SI-7(16)","t":"Time Limit on Process Execution Without Supervision","f":"SI","R":[],"S":[],"A":0,"B":false}
 {"id":"SI-7(17)","t":"Runtime Application Self-protection","f":"SI","R":[],"S":[],"A":0,"B":false}
-{"id":"SI-8","t":"Spam Protection","f":"SI","R":[],"S":[],"A":20,"B":false}
-{"id":"SI-8(2)","t":"Automatic Updates","f":"SI","R":[],"S":[],"A":0,"B":false}
+{"id":"SI-8","t":"Spam Protection","f":"SI","R":[],"S":[],"A":20,"B":false,"F":["KSI-CNA-RNT","KSI-CNA-RVP","KSI-SVC-RUD"]}
+{"id":"SI-8(2)","t":"Automatic Updates","f":"SI","R":[],"S":[],"A":0,"B":false,"F":["KSI-CNA-RVP","KSI-SVC-RUD"]}
 {"id":"SI-8(3)","t":"Continuous Learning Capability","f":"SI","R":[],"S":[],"A":0,"B":false}
-{"id":"SI-10","t":"Information Input Validation","f":"SI","R":[["CWE-106","m","r"],["CWE-108","m","r"],["CWE-112","m","r"],["CWE-113","m","r"],["CWE-116","m","r"],["CWE-117","m","r"],["CWE-120","m","r"],["CWE-125","m","r"],["CWE-1284","m","r"],["CWE-1285","m","r"],["CWE-1286","m","r"],["CWE-1287","m","r"],["CWE-1288","m","r"],["CWE-1289","m","r"],["CWE-129","m","r"],["CWE-131","m","r"],["CWE-1321","m","r"],["CWE-135","m","r"],["CWE-138","m","r"],["CWE-1389","m","r"],["CWE-140","m","r"],["CWE-141","m","r"],["CWE-142","m","r"],["CWE-143","m","r"],["CWE-144","m","r"],["CWE-145","m","r"],["CWE-146","m","r"],["CWE-147","m","r"],["CWE-148","m","r"],["CWE-149","m","r"],["CWE-150","m","r"],["CWE-151","m","r"],["CWE-152","m","r"],["CWE-153","m","r"],["CWE-154","m","r"],["CWE-155","m","r"],["CWE-156","m","r"],["CWE-157","m","r"],["CWE-158","m","r"],["CWE-159","m","r"]],"S":[],"A":101,"B":false,"more":120}
+{"id":"SI-10","t":"Information Input Validation","f":"SI","R":[["CWE-106","m","r"],["CWE-108","m","r"],["CWE-112","m","r"],["CWE-113","m","r"],["CWE-116","m","r"],["CWE-117","m","r"],["CWE-120","m","r"],["CWE-125","m","r"],["CWE-1284","m","r"],["CWE-1285","m","r"],["CWE-1286","m","r"],["CWE-1287","m","r"],["CWE-1288","m","r"],["CWE-1289","m","r"],["CWE-129","m","r"],["CWE-131","m","r"],["CWE-1321","m","r"],["CWE-135","m","r"],["CWE-138","m","r"],["CWE-1389","m","r"],["CWE-140","m","r"],["CWE-141","m","r"],["CWE-142","m","r"],["CWE-143","m","r"],["CWE-144","m","r"],["CWE-145","m","r"],["CWE-146","m","r"],["CWE-147","m","r"],["CWE-148","m","r"],["CWE-149","m","r"],["CWE-150","m","r"],["CWE-151","m","r"],["CWE-152","m","r"],["CWE-153","m","r"],["CWE-154","m","r"],["CWE-155","m","r"],["CWE-156","m","r"],["CWE-157","m","r"],["CWE-158","m","r"],["CWE-159","m","r"]],"S":[],"A":101,"B":false,"F":["KSI-CNA-MAT","KSI-CNA-RNT","KSI-PIY-RSD"],"more":120}
 {"id":"SI-10(1)","t":"Manual Override Capability","f":"SI","R":[],"S":[],"A":0,"B":false}
 {"id":"SI-10(2)","t":"Review and Resolve Errors","f":"SI","R":[],"S":[],"A":0,"B":false}
 {"id":"SI-10(3)","t":"Predictable Behavior","f":"SI","R":[["CWE-20","m","iu"]],"S":[],"A":0,"B":false}
 {"id":"SI-10(4)","t":"Timing Interactions","f":"SI","R":[],"S":[],"A":0,"B":false}
 {"id":"SI-10(5)","t":"Restrict Inputs to Trusted Sources and Approved Formats","f":"SI","R":[["CAPEC-77","m","iu"],["CWE-184","m","iu"],["CWE-20","m","iu"],["CWE-346","m","iu"],["CWE-470","m","iu"],["CWE-502","m","iu"],["CWE-601","m","iu"],["CWE-807","m","iu"],["CWE-98","m","iu"]],"S":[],"A":0,"B":false}
 {"id":"SI-10(6)","t":"Injection Prevention","f":"SI","R":[["CAPEC-136","m","iu"],["CAPEC-15","m","iu"],["CAPEC-250","m","iu"],["CAPEC-267","m","iu"],["CAPEC-6","m","iu"],["CAPEC-63","m","iu"],["CAPEC-66","m","iu"],["CAPEC-88","m","iu"],["CWE-116","m","iu"],["CWE-117","m","iu"],["CWE-1336","m","iu"],["CWE-134","m","iu"],["CWE-158","m","iu"],["CWE-74","m","iu"],["CWE-77","m","iu"],["CWE-78","m","iu"],["CWE-79","m","iu"],["CWE-80","m","iu"],["CWE-88","m","iu"],["CWE-89","m","iu"],["CWE-917","m","iu"],["CWE-93","m","iu"],["CWE-94","m","iu"],["CWE-95","m","iu"]],"S":[],"A":0,"B":false}
-{"id":"SI-11","t":"Error Handling","f":"SI","R":[["CAPEC-136","m","iu"],["CAPEC-250","m","iu"],["CAPEC-28","m","iu"],["CAPEC-66","m","iu"],["CWE-204","m","iu"],["CWE-209","m","iu"],["CWE-252","m","iu"],["CWE-280","m","iu"],["CWE-617","m","iu"],["CWE-703","m","iu"],["CWE-754","m","iu"],["CWE-755","m","iu"]],"S":[],"A":0,"B":false}
+{"id":"SI-11","t":"Error Handling","f":"SI","R":[["CAPEC-136","m","iu"],["CAPEC-250","m","iu"],["CAPEC-28","m","iu"],["CAPEC-66","m","iu"],["CWE-204","m","iu"],["CWE-209","m","iu"],["CWE-252","m","iu"],["CWE-280","m","iu"],["CWE-617","m","iu"],["CWE-703","m","iu"],["CWE-754","m","iu"],["CWE-755","m","iu"]],"S":[],"A":0,"B":false,"F":["KSI-CNA-MAT","KSI-MLA-ALA","KSI-PIY-RSD"]}
 {"id":"SI-12","t":"Information Management and Retention","f":"SI","R":[],"S":[],"A":34,"B":false}
 {"id":"SI-12(1)","t":"Limit Personally Identifiable Information Elements","f":"SI","R":[],"S":[],"A":0,"B":false}
 {"id":"SI-12(2)","t":"Minimize Personally Identifiable Information in Testing, Training, and Research","f":"SI","R":[],"S":[],"A":0,"B":false}
-{"id":"SI-12(3)","t":"Information Disposal","f":"SI","R":[],"S":[],"A":0,"B":false}
+{"id":"SI-12(3)","t":"Information Disposal","f":"SI","R":[],"S":[],"A":0,"B":false,"F":["KSI-SVC-RUD"]}
 {"id":"SI-13","t":"Predictable Failure Prevention","f":"SI","R":[],"S":[],"A":0,"B":false}
 {"id":"SI-13(1)","t":"Transferring Component Responsibilities","f":"SI","R":[],"S":[],"A":0,"B":false}
 {"id":"SI-13(3)","t":"Manual Transfer Between Components","f":"SI","R":[],"S":[],"A":0,"B":false}
@@ -964,13 +964,13 @@
 {"id":"SI-14(2)","t":"Non-persistent Information","f":"SI","R":[],"S":[],"A":0,"B":false}
 {"id":"SI-14(3)","t":"Non-persistent Connectivity","f":"SI","R":[],"S":[],"A":0,"B":false}
 {"id":"SI-15","t":"Information Output Filtering","f":"SI","R":[["CWE-113","m","r"],["CWE-117","m","r"],["CWE-138","m","r"],["CWE-140","m","r"],["CWE-141","m","r"],["CWE-142","m","r"],["CWE-143","m","r"],["CWE-144","m","r"],["CWE-145","m","r"],["CWE-146","m","r"],["CWE-147","m","r"],["CWE-148","m","r"],["CWE-149","m","r"],["CWE-150","m","r"],["CWE-151","m","r"],["CWE-152","m","r"],["CWE-153","m","r"],["CWE-154","m","r"],["CWE-155","m","r"],["CWE-156","m","r"],["CWE-157","m","r"],["CWE-159","m","r"],["CWE-160","m","r"],["CWE-161","m","r"],["CWE-162","m","r"],["CWE-163","m","r"],["CWE-164","m","r"],["CWE-165","m","r"],["CWE-167","m","r"],["CWE-172","m","r"],["CWE-173","m","r"],["CWE-174","m","r"],["CWE-175","m","r"],["CWE-41","m","r"],["CWE-451","m","r"],["CWE-78","m","r"],["CWE-79","m","r"],["CWE-80","m","r"],["CWE-81","m","r"],["CWE-82","m","r"]],"S":[],"A":42,"B":false,"more":14}
-{"id":"SI-16","t":"Memory Protection","f":"SI","R":[["CWE-131","m","r"],["CWE-190","m","r"],["CWE-209","m","r"],["CWE-210","m","r"],["CWE-211","m","r"],["CWE-457","m","r"],["CWE-463","m","r"],["CWE-682","m","r"],["CWE-78","m","r"],["CWE-94","m","r"],["CWE-119","m","x"],["CWE-120","m","x"],["CWE-121","m","x"],["CWE-122","m","x"],["CWE-129","m","x"],["CWE-787","m","x"],["CWE-805","m","x"],["CWE-806","m","x"],["CAPEC-100","m","iu"],["CAPEC-135","m","iu"],["CWE-123","m","iu"],["CWE-124","m","iu"],["CWE-415","m","iu"],["CWE-416","m","iu"],["CWE-822","m","iu"],["CWE-824","m","iu"]],"S":[],"A":36,"B":false}
+{"id":"SI-16","t":"Memory Protection","f":"SI","R":[["CWE-131","m","r"],["CWE-190","m","r"],["CWE-209","m","r"],["CWE-210","m","r"],["CWE-211","m","r"],["CWE-457","m","r"],["CWE-463","m","r"],["CWE-682","m","r"],["CWE-78","m","r"],["CWE-94","m","r"],["CWE-119","m","x"],["CWE-120","m","x"],["CWE-121","m","x"],["CWE-122","m","x"],["CWE-129","m","x"],["CWE-787","m","x"],["CWE-805","m","x"],["CWE-806","m","x"],["CAPEC-100","m","iu"],["CAPEC-135","m","iu"],["CWE-123","m","iu"],["CWE-124","m","iu"],["CWE-415","m","iu"],["CWE-416","m","iu"],["CWE-822","m","iu"],["CWE-824","m","iu"]],"S":[],"A":36,"B":false,"F":["KSI-CNA-MAT","KSI-PIY-RSD"]}
 {"id":"SI-17","t":"Fail-safe Procedures","f":"SI","R":[],"S":[],"A":0,"B":false}
 {"id":"SI-18","t":"Personally Identifiable Information Quality Operations","f":"SI","R":[],"S":[],"A":0,"B":false}
 {"id":"SI-18(1)","t":"Automation Support","f":"SI","R":[],"S":[],"A":0,"B":false}
 {"id":"SI-18(2)","t":"Data Tags","f":"SI","R":[],"S":[],"A":0,"B":false}
 {"id":"SI-18(3)","t":"Collection","f":"SI","R":[],"S":[],"A":0,"B":false}
-{"id":"SI-18(4)","t":"Individual Requests","f":"SI","R":[],"S":[],"A":0,"B":false}
+{"id":"SI-18(4)","t":"Individual Requests","f":"SI","R":[],"S":[],"A":0,"B":false,"F":["KSI-SVC-RUD"]}
 {"id":"SI-18(5)","t":"Notice of Correction or Deletion","f":"SI","R":[],"S":[],"A":0,"B":false}
 {"id":"SI-19","t":"De-identification","f":"SI","R":[],"S":[],"A":0,"B":false}
 {"id":"SI-19(1)","t":"Collection","f":"SI","R":[],"S":[],"A":0,"B":false}
@@ -986,9 +986,9 @@
 {"id":"SI-22","t":"Information Diversity","f":"SI","R":[],"S":[],"A":0,"B":false}
 {"id":"SI-23","t":"Information Fragmentation","f":"SI","R":[],"S":[],"A":7,"B":false}
 {"id":"SR-1","t":"Policy and Procedures","f":"SR","R":[],"S":[],"A":0,"B":false}
-{"id":"SR-2","t":"Supply Chain Risk Management Plan","f":"SR","R":[],"S":[],"A":0,"B":false}
-{"id":"SR-2(1)","t":"Establish SCRM Team","f":"SR","R":[],"S":[],"A":0,"B":false}
-{"id":"SR-3","t":"Supply Chain Controls and Processes","f":"SR","R":[],"S":["PO.1.1","PO.1.2","PO.1.3","PS.3.2","PW.4.1","PW.4.4","RV.1.1"],"A":0,"B":false}
+{"id":"SR-2","t":"Supply Chain Risk Management Plan","f":"SR","R":[],"S":[],"A":0,"B":false,"F":["KSI-SCR-MIT"]}
+{"id":"SR-2(1)","t":"Establish SCRM Team","f":"SR","R":[],"S":[],"A":0,"B":false,"F":["KSI-PIY-RIS"]}
+{"id":"SR-3","t":"Supply Chain Controls and Processes","f":"SR","R":[],"S":["PO.1.1","PO.1.2","PO.1.3","PS.3.2","PW.4.1","PW.4.4","RV.1.1"],"A":0,"B":false,"F":["KSI-SCR-MIT","KSI-SCR-MON"]}
 {"id":"SR-3(1)","t":"Diverse Supply Base","f":"SR","R":[],"S":[],"A":0,"B":false}
 {"id":"SR-3(2)","t":"Limitation of Harm","f":"SR","R":[],"S":[],"A":0,"B":false}
 {"id":"SR-3(3)","t":"Sub-tier Flow Down","f":"SR","R":[],"S":[],"A":0,"B":false}
@@ -997,18 +997,18 @@
 {"id":"SR-4(2)","t":"Track and Trace","f":"SR","R":[],"S":[],"A":0,"B":false}
 {"id":"SR-4(3)","t":"Validate as Genuine and Not Altered","f":"SR","R":[],"S":["PW.4.4"],"A":0,"B":false}
 {"id":"SR-4(4)","t":"Supply Chain Integrity — Pedigree","f":"SR","R":[],"S":["PW.4.4"],"A":0,"B":false}
-{"id":"SR-5","t":"Acquisition Strategies, Tools, and Methods","f":"SR","R":[],"S":["PO.1.3"],"A":15,"B":false}
+{"id":"SR-5","t":"Acquisition Strategies, Tools, and Methods","f":"SR","R":[],"S":["PO.1.3"],"A":15,"B":false,"F":["KSI-SCR-MIT","KSI-SCR-MON"]}
 {"id":"SR-5(1)","t":"Adequate Supply","f":"SR","R":[],"S":[],"A":0,"B":false}
 {"id":"SR-5(2)","t":"Assessments Prior to Selection, Acceptance, Modification, or Update","f":"SR","R":[],"S":[],"A":0,"B":false}
-{"id":"SR-6","t":"Supplier Assessments and Reviews","f":"SR","R":[],"S":[],"A":0,"B":false}
+{"id":"SR-6","t":"Supplier Assessments and Reviews","f":"SR","R":[],"S":[],"A":0,"B":false,"F":["KSI-SCR-MIT","KSI-SCR-MON"]}
 {"id":"SR-6(1)","t":"Testing and Analysis","f":"SR","R":[],"S":[],"A":0,"B":false}
 {"id":"SR-7","t":"Supply Chain Operations Security","f":"SR","R":[],"S":[],"A":0,"B":false}
-{"id":"SR-8","t":"Notification Agreements","f":"SR","R":[],"S":[],"A":0,"B":false}
+{"id":"SR-8","t":"Notification Agreements","f":"SR","R":[],"S":[],"A":0,"B":false,"F":["KSI-SCR-MON"]}
 {"id":"SR-9","t":"Tamper Resistance and Detection","f":"SR","R":[],"S":["PW.6.2"],"A":0,"B":false}
 {"id":"SR-9(1)","t":"Multiple Stages of System Development Life Cycle","f":"SR","R":[],"S":[],"A":0,"B":false}
-{"id":"SR-10","t":"Inspection of Systems or Components","f":"SR","R":[],"S":[],"A":0,"B":false}
-{"id":"SR-11","t":"Component Authenticity","f":"SR","R":[],"S":[],"A":15,"B":false}
-{"id":"SR-11(1)","t":"Anti-counterfeit Training","f":"SR","R":[],"S":[],"A":0,"B":false}
+{"id":"SR-10","t":"Inspection of Systems or Components","f":"SR","R":[],"S":[],"A":0,"B":false,"F":["KSI-SVC-ACM","KSI-SVC-EIS","KSI-SVC-VRI"]}
+{"id":"SR-11","t":"Component Authenticity","f":"SR","R":[],"S":[],"A":15,"B":false,"F":["KSI-SVC-VRI"]}
+{"id":"SR-11(1)","t":"Anti-counterfeit Training","f":"SR","R":[],"S":[],"A":0,"B":false,"F":["KSI-CED-RAT"]}
 {"id":"SR-11(2)","t":"Configuration Control for Component Service and Repair","f":"SR","R":[],"S":[],"A":0,"B":false}
 {"id":"SR-11(3)","t":"Anti-counterfeit Scanning","f":"SR","R":[],"S":[],"A":0,"B":false}
 {"id":"SR-12","t":"Component Disposal","f":"SR","R":[],"S":[],"A":0,"B":false}

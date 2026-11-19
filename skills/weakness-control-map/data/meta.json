@@ -1,13 +1,14 @@
 {
  "schema": "wcm-bundle-v2",
- "built_utc": "2026-11-18T06:20:05.299133+00:00",
+ "built_utc": "2026-11-19T16:08:34.933837+00:00",
  "sources": {
   "SP 800-53": "Rev 5 (5.2.0, OSCAL 2026-10-22)",
   "SSDF": "SP 800-218 v1.1 (2022)",
   "CWE": "5.0",
   "CAPEC": "3.9",
   "ATT&CK->800-53": "CTID Mappings Explorer, ATT&CK 16.1 (updated 04/16/2025)",
-  "CAPEC->ATT&CK": "CAPEC 3.9 taxonomy mappings (historical, ATT&CK 12.0)"
+  "CAPEC->ATT&CK": "CAPEC 3.9 taxonomy mappings (historical, ATT&CK 12.0)",
+  "FedRAMP": "FedRAMP Consolidated Rules for 2026 (2026.11.02.01, updated 2026-11-02)"
  },
  "rules_version": "rules-v2",
  "inferred_version": "inferred-v1",
@@ -18,7 +19,75 @@
   "cwe_inferred": 119,
   "capec": 558,
   "capec_with_attack": 140,
-  "capec_inferred": 49
+  "capec_inferred": 49,
+  "fedramp_items": 129,
+  "entities_with_fedramp": 188
+ },
+ "fedramp": {
+  "source": {
+   "repo": "FedRAMP/rules",
+   "release": "2026.11.02.01",
+   "url": "https://github.com/FedRAMP/rules/releases/download/2026.11.02.01/fedramp-consolidated-rules-2026.11.02.01.zip",
+   "sha256": "0453bfac1a43d2098ba22268f36c01a1ff07313e850f27bd63f5308fcdd2b345"
+  },
+  "dataset": {
+   "title": "FedRAMP Consolidated Rules for 2026",
+   "version": "2026.11.02.01",
+   "last_updated": "2026-11-02"
+  },
+  "snapshot_id": "3f9b52eb9b4c88e0",
+  "baseline_frr": [
+   "VDR-CSO-ADT",
+   "VDR-CSO-AKE",
+   "VDR-CSO-DAC",
+   "VDR-CSO-DET",
+   "VDR-CSO-DFR",
+   "VDR-CSO-FAV",
+   "VDR-CSO-MSP",
+   "VDR-CSO-RES",
+   "VDR-CSO-SIR",
+   "VDR-TFR-KEV",
+   "VDR-TFR-MVF",
+   "VDR-TFR-MVX",
+   "VDR-TFR-NMV",
+   "VDR-TFR-PCD",
+   "VDR-TFR-PDD",
+   "VDR-TFR-PSD",
+   "VDR-TFR-PVR",
+   "VDR-TFR-RMN",
+   "VER-AGM-MAP",
+   "VER-AGM-RVR",
+   "VER-EVA-AIA",
+   "VER-EVA-EFA",
+   "VER-EVA-EFP",
+   "VER-EVA-EIR",
+   "VER-EVA-ELX",
+   "VER-EVA-EPA",
+   "VER-EVA-GRV",
+   "VER-FRP-ADV",
+   "VER-FRP-ARP",
+   "VER-RPT-AVI",
+   "VER-RPT-HLO",
+   "VER-RPT-NID",
+   "VER-RPT-PER",
+   "VER-RPT-RPD",
+   "VER-RPT-VDT",
+   "VER-TFR-EVU",
+   "VER-TFR-IRI",
+   "VER-TFR-MAV",
+   "VER-TFR-MHR",
+   "VER-TFR-MRH",
+   "VER-TFR-NRI"
+  ],
+  "counts": {
+   "ksi": 46,
+   "frr": 83,
+   "items_with_cwe": 39,
+   "items_with_attack_path": 31,
+   "inferred_links": 266,
+   "derived_links": 37,
+   "entities_with_fedramp": 188
+  }
  },
  "legend": {
   "rel": {
@@ -34,7 +103,9 @@
    "x": "rule: mitigation text",
    "ia": "inferred, reviewer-accepted",
    "iu": "inferred, NOT yet reviewed",
-   "b": "baseline (all software weaknesses)"
+   "b": "baseline (all software weaknesses)",
+   "f": "official FedRAMP (KSI/FRR lists the SP 800-53 control)",
+   "dv": "derived through the KSI/FRR's official controls (ranked, capped)"
   }
  },
  "baseline": {

@@ -14,6 +14,8 @@ What is included from each source:
   converted to per-technique control lists.
 - **NIST SP 800-53 Rev 5** (via usnistgov/oscal-content): control ids and titles.
 - **NIST SP 800-218 (SSDF) v1.1:** practice and task ids and text, and the SSDF's references to SP 800-53.
+- **FedRAMP Consolidated Rules 2026:** KSI and rule ids, names, statements (with class variants), force,
+  applicability and their SP 800-53 control lists.
 
 ---
 
@@ -123,3 +125,13 @@ and related rights in the work worldwide through the CC0 1.0 Universal public do
 
 SP 800-218 is a publication of the U.S. National Institute of Standards and Technology, a work of the U.S. Government.
 NIST does not endorse this project.
+
+## FedRAMP Consolidated Rules for 2026 (CR26)
+
+Source: https://github.com/FedRAMP/rules, release 2026.11.02.01 (`fedramp-consolidated-rules-2026.11.02.01.zip`,
+SHA-256 `0453bfac1a43d2098ba22268f36c01a1ff07313e850f27bd63f5308fcdd2b345`).
+
+FedRAMP is a program of the U.S. General Services Administration. The FedRAMP/rules repository does not include a
+licence file or licence statement. This project includes the indicator and rule text as published, unmodified apart
+from selection and formatting. FedRAMP and GSA do not endorse this project.
+
